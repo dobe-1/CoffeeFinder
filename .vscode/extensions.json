@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "charliermarsh.ruff",
+        "donjayamanne.python-extension-pack",
+        "mhutchie.git-graph",
+        "esbenp.prettier-vscode"
+    ]
+}
