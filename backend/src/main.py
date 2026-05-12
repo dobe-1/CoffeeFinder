@@ -1,6 +1,14 @@
-def main():
-    print("Hello from coffeefinder!")
+from fastapi import FastAPI
+from model import CoffeeShop
+
+app = FastAPI()
 
 
-if __name__ == "__main__":
-    main()
+@app.get("/", response_model=CoffeeShop)
+def read_root():
+    return CoffeeShop(
+        name="Example Coffee Shop",
+        coordinates=(40.7128, -74.0060),
+        category="Cafe",
+        webiste_url="https://example.com",
+    )

@@ -1,0 +1,80 @@
+Aachen, Germany
+Augsburg, Germany
+Bad Bramstedt, Germany
+Bergisch Gladbach, Germany
+Berlin, Germany
+Bielefeld, Germany
+Bochum, Germany
+Bonn, Germany
+Bottrop, Germany
+Braunschweig, Germany
+Bremen, Germany
+Bremerhaven, Germany
+Chemnitz, Germany
+Darmstadt, Germany
+Dortmund, Germany
+Dresden, Germany
+Duisburg, Germany
+Düsseldorf, Germany
+Erfurt, Germany
+Erlangen, Germany
+Essen, Germany
+Frankfurt am Main, Germany
+Freiburg im Breisgau, Germany
+Fürth, Germany
+Gelsenkirchen, Germany
+Göttingen, Germany
+Gütersloh, Germany
+Hagen, Germany
+Halle (Saale), Germany
+Hamburg, Germany
+Hamm, Germany
+Hanau, Germany
+Hannover, Germany
+Heidelberg, Germany
+Heilbronn, Germany
+Herne, Germany
+Ingolstadt, Germany
+Jena, Germany
+Karlsruhe, Germany
+Kassel, Germany
+Kiel, Germany
+Koblenz, Germany
+Krefeld, Germany
+Köln, Germany
+Leipzig, Germany
+Leverkusen, Germany
+Ludwigshafen am Rhein, Germany
+Lübeck, Germany
+Magdeburg, Germany
+Mainz, Germany
+Mannheim, Germany
+Moers, Germany
+Mönchengladbach, Germany
+Mülheim an der Ruhr, Germany
+München, Germany
+Münster, Germany
+Neuss, Germany
+Nürnberg, Germany
+Oberhausen, Germany
+Offenbach am Main, Germany
+Oldenburg, Germany
+Osnabrück, Germany
+Paderborn, Germany
+Pforzheim, Germany
+Potsdam, Germany
+Recklinghausen, Germany
+Regensburg, Germany
+Remscheid, Germany
+Reutlingen, Germany
+Rostock, Germany
+Saarbrücken, Germany
+Salzgitter, Germany
+Solingen, Germany
+Stuttgart, Germany
+Trier, Germany
+Ulm, Germany
+Wiesbaden, Germany
+Wolfsburg, Germany
+Wuppertal, Germany
+Würzburg, Germany
