@@ -246,8 +246,11 @@ if __name__ == "__main__":
     #     for city in citites:
     #         f.write(f"{city}\n")
 
-    # city_name = "Hamburg, Germany"
+    city_name = "Bochum, Germany"
+    cafes = get_cafes_in_city(city_name)
+    cafes_with_website = filter_cafes_with_website(cafes)
+    print(cafes_with_website[["name", "website"]])
     # get_information_about_cafes(city_name)
-    analyze_cafes()
+    # analyze_cafes()
 
     # save_cafes_to_csv(cafes_with_website, "cafes_with_websites.csv")
