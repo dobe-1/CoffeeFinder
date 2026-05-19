@@ -1,0 +1,434 @@
+{
+  "cafes": [
+    {
+      "name": "City Café",
+      "coordinates": [
+        51.4817684,
+        7.2208411
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.citycafe-bochum.de/",
+      "menu_url": null
+    },
+    {
+      "name": "Starbucks",
+      "coordinates": [
+        51.4802137,
+        7.2191414
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.starbucks.de/store-locator/store/1018854/dr-ruer-platz-dr-ruer-platz-6-7-bochum-nw-44787-de",
+      "menu_url": null
+    },
+    {
+      "name": "Cafe Extrablatt",
+      "coordinates": [
+        51.477541,
+        7.2169129
+      ],
+      "category": "Cafe",
+      "website_url": "https://cafe-extrablatt.de/standorte/details/cafe-extrablatt-bochum",
+      "menu_url": null
+    },
+    {
+      "name": "Schmidtmeier",
+      "coordinates": [
+        51.4520748,
+        7.1921487
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.schmidtmeier.de/",
+      "menu_url": null
+    },
+    {
+      "name": "Lisas Palmengarten",
+      "coordinates": [
+        51.5080452,
+        7.2114171
+      ],
+      "category": "Cafe",
+      "website_url": "https://lisas-palmengarten.de",
+      "menu_url": null
+    },
+    {
+      "name": "Café Eden",
+      "coordinates": [
+        51.4866914,
+        7.2140698
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.edenev.de",
+      "menu_url": null
+    },
+    {
+      "name": "Pfingstblume-Cafe",
+      "coordinates": [
+        51.4180826,
+        7.2269056
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.hvb-stiepel.de/pfingstblume-cafe",
+      "menu_url": null
+    },
+    {
+      "name": "Cafeteria",
+      "coordinates": [
+        51.4851279,
+        7.2226284
+      ],
+      "category": "Cafe",
+      "website_url": "http://www.augusta-bochum.de/a-z.html#cafeteria",
+      "menu_url": null
+    },
+    {
+      "name": "Strack's Kaffee-Stube",
+      "coordinates": [
+        51.4572313,
+        7.1335573
+      ],
+      "category": "Cafe",
+      "website_url": "http://www.konditorei-strack.de",
+      "menu_url": null
+    },
+    {
+      "name": "Café MariNic",
+      "coordinates": [
+        51.4415649,
+        7.2136085
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.cafe-marinic.de",
+      "menu_url": null
+    },
+    {
+      "name": "Ruhrfeuer im Pumpenhaus",
+      "coordinates": [
+        51.4817436,
+        7.1977852
+      ],
+      "category": "Cafe",
+      "website_url": "https://ruhrfeuer.de/pumpenhaus-ruhrfeuer",
+      "menu_url": "https://ruhrfeuer.de/ruhrfeuer-speisekarte-getraenkekarte/"
+    },
+    {
+      "name": "Edwards",
+      "coordinates": [
+        51.4452085,
+        7.2605377
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.akafoe.de/edwards/",
+      "menu_url": null
+    },
+    {
+      "name": "Schmidtmeier",
+      "coordinates": [
+        51.4516089,
+        7.1924032
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.schmidtmeier.de/",
+      "menu_url": null
+    },
+    {
+      "name": "Caffèlito",
+      "coordinates": [
+        51.4804722,
+        7.2221035
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.caffelito.de/",
+      "menu_url": null
+    },
+    {
+      "name": "Teehaus Gerthe",
+      "coordinates": [
+        51.5204411,
+        7.279864
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.gerthe.ekvw.de/orte/teehaus",
+      "menu_url": null
+    },
+    {
+      "name": "Löscher",
+      "coordinates": [
+        51.499991,
+        7.2047063
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.baeckerei-loescher.de/filialen/bochum-hofstede-im-kaufland/",
+      "menu_url": null
+    },
+    {
+      "name": "A_KAFFEE",
+      "coordinates": [
+        51.4432977,
+        7.2622543
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.akafoe.de/gastronomie/speiseplaene-der-mensen/ruhr-universitaet-bochum/",
+      "menu_url": null
+    },
+    {
+      "name": "Kulturcafé",
+      "coordinates": [
+        51.4458619,
+        7.2595206
+      ],
+      "category": "Cafe",
+      "website_url": "https://asta-bochum.de/kulturcafe/",
+      "menu_url": null
+    },
+    {
+      "name": "Zlatanz Menami",
+      "coordinates": [
+        51.4796217,
+        7.2212122
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.zlatanz-menami.de",
+      "menu_url": null
+    },
+    {
+      "name": "Gastro Kanne Cafe",
+      "coordinates": [
+        51.4936618,
+        7.2282732
+      ],
+      "category": "Cafe",
+      "website_url": "https://gastrokanne.de/",
+      "menu_url": null
+    },
+    {
+      "name": "Café Ana",
+      "coordinates": [
+        51.4727295,
+        7.3235962
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.cafe-ana.de",
+      "menu_url": null
+    },
+    {
+      "name": "Schmidtmeier",
+      "coordinates": [
+        51.4800449,
+        7.2183307
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.schmidtmeier.de/",
+      "menu_url": null
+    },
+    {
+      "name": "Boulevardcafé Wiacker",
+      "coordinates": [
+        51.4815347,
+        7.2193982
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.wiacker.de/home/",
+      "menu_url": null
+    },
+    {
+      "name": "Kleine Zuckerbäckerei",
+      "coordinates": [
+        51.46291,
+        7.2280195
+      ],
+      "category": "Cafe",
+      "website_url": "https://kleine-zuckerbaeckerei.de/",
+      "menu_url": null
+    },
+    {
+      "name": "Baristoteles 'Kubus'",
+      "coordinates": [
+        51.4478039,
+        7.1892772
+      ],
+      "category": "Cafe",
+      "website_url": "https://baristoteles.de",
+      "menu_url": null
+    },
+    {
+      "name": "Patisserie Caya",
+      "coordinates": [
+        51.4860571,
+        7.2142148
+      ],
+      "category": "Cafe",
+      "website_url": "https://caya-bochum.de",
+      "menu_url": null
+    },
+    {
+      "name": "Omi backt!",
+      "coordinates": [
+        51.4654876,
+        7.2124574
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.omibackt.de",
+      "menu_url": null
+    },
+    {
+      "name": "Kuchen Kollektiv",
+      "coordinates": [
+        51.4743916,
+        7.2195284
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.kuchen-kollektiv.de/",
+      "menu_url": null
+    },
+    {
+      "name": "Oktober Café",
+      "coordinates": [
+        51.4816233,
+        7.2146405
+      ],
+      "category": "Cafe",
+      "website_url": "https://oktober.cafe/",
+      "menu_url": null
+    },
+    {
+      "name": "Café Caspi",
+      "coordinates": [
+        51.4793043,
+        7.2159791
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.cafecaspi.com",
+      "menu_url": "https://www.cafecaspi.com/speisen-getraenke.html"
+    },
+    {
+      "name": "Confiserie Ruth",
+      "coordinates": [
+        51.4705737,
+        7.1238494
+      ],
+      "category": "Cafe",
+      "website_url": "https://confiserie-ruth.de/schokoladenwerk-bochum",
+      "menu_url": null
+    },
+    {
+      "name": "Kümmel Kopp",
+      "coordinates": [
+        51.4565313,
+        7.131879
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.lieberts-im-kuemmel-kopp.de/",
+      "menu_url": null
+    },
+    {
+      "name": "Hi Kalle",
+      "coordinates": [
+        51.4856376,
+        7.2134954
+      ],
+      "category": "Cafe",
+      "website_url": "https://hi-kalle.de/",
+      "menu_url": null
+    },
+    {
+      "name": "Schololadenwerk Bochum",
+      "coordinates": [
+        51.4709834,
+        7.1249626
+      ],
+      "category": "Cafe",
+      "website_url": "https://confiserie-ruth.de",
+      "menu_url": null
+    },
+    {
+      "name": "Caffe Barbera",
+      "coordinates": [
+        51.4812578,
+        7.2206274
+      ],
+      "category": "Cafe",
+      "website_url": "https://caffebarbera.de/bochum/",
+      "menu_url": null
+    },
+    {
+      "name": "STÜH33 Café",
+      "coordinates": [
+        51.4849325,
+        7.2119295
+      ],
+      "category": "Cafe",
+      "website_url": "https://cafe.stueh33.de/",
+      "menu_url": null
+    },
+    {
+      "name": "Café Historias",
+      "coordinates": [
+        51.4779713,
+        7.2645062
+      ],
+      "category": "Cafe",
+      "website_url": "https://cafe-historias.de",
+      "menu_url": null
+    },
+    {
+      "name": "Kochskotten Café & Bistro",
+      "coordinates": [
+        51.4545027,
+        7.2697422
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.cafe-kochskotten.de/",
+      "menu_url": null
+    },
+    {
+      "name": "51 Grad Café",
+      "coordinates": [
+        51.4681891,
+        7.2600569
+      ],
+      "category": "Cafe",
+      "website_url": "https://51gradcafe.de/",
+      "menu_url": null
+    },
+    {
+      "name": "Starke Nachbarschaften",
+      "coordinates": [
+        51.488213388496064,
+        7.259252367156206
+      ],
+      "category": "Cafe",
+      "website_url": "https://bochum.asbnrw.de/index.php/soziale-dienste/starke-nachbarschaften",
+      "menu_url": null
+    },
+    {
+      "name": "Heroes – Der Jugendtreff",
+      "coordinates": [
+        51.4806801506213,
+        7.136718523980938
+      ],
+      "category": "Cafe",
+      "website_url": "http://www.steilhaus.de/heroes.html",
+      "menu_url": null
+    },
+    {
+      "name": "Finca & Bar Celona",
+      "coordinates": [
+        51.48569346126011,
+        7.194020108483067
+      ],
+      "category": "Cafe",
+      "website_url": "https://celona.de/mein-celona/details/finca-bar-celona-bochum/",
+      "menu_url": null
+    },
+    {
+      "name": "Adrianoʼs",
+      "coordinates": [
+        51.47548324163386,
+        7.3046498341342225
+      ],
+      "category": "Cafe",
+      "website_url": "https://www.cafe-am-stern.de",
+      "menu_url": null
+    }
+  ]
+}

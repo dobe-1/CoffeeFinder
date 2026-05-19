@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "id": "cafe_caspi",
+      "cafe": {
+        "name": "Café Caspi",
+        "coordinates": [
+          51.4793043,
+          7.2159791
+        ],
+        "category": "Cafe",
+        "website_url": "https://www.cafecaspi.com",
+        "menu_url": "https://www.cafecaspi.com/speisen-getraenke.html"
+      },
+      "expected_fixture": "cafe_caspi_expected.json"
+    },
+    {
+      "id": "oktober_cafe",
+      "cafe": {
+        "name": "Oktober Café",
+        "coordinates": [
+          51.4816233,
+          7.2146405
+        ],
+        "category": "Cafe",
+        "website_url": "https://oktober.cafe/",
+        "menu_url": null
+      },
+      "document_fixture": "oktober_cafe_menu.html",
+      "expected_fixture": "oktober_cafe_expected.json"
+    },
+    {
+      "id": "dummy1",
+      "cafe": {
+        "name": "Dummy Café One",
+        "coordinates": [
+          51.5,
+          7.2
+        ],
+        "category": "Cafe",
+        "website_url": "https://dummy.local/one",
+        "menu_url": null
+      },
+      "document_fixture": "dummy1.webp",
+      "expected_fixture": "dummy1_expected.json"
+    },
+    {
+      "id": "dummy2",
+      "cafe": {
+        "name": "Dummy Café Two",
+        "coordinates": [
+          51.51,
+          7.21
+        ],
+        "category": "Cafe",
+        "website_url": "https://dummy.local/two",
+        "menu_url": null
+      },
+      "document_fixture": "dummy2.webp",
+      "expected_fixture": "dummy2_expected.json"
+    }
+  ]
+}
