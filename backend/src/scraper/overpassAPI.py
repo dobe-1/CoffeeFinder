@@ -1,10 +1,13 @@
 import time
+from datetime import UTC, datetime
 
 import osmnx as ox
 import pandas as pd
 import pycountry
 import requests
 from geopandas import GeoDataFrame
+
+from src.models import CoffeeShop, Menu, Website
 
 #########################################################################
 ####### City retrieval logic ############################################
@@ -166,7 +169,7 @@ def filter_cafes_with_instagram(cafes: GeoDataFrame) -> GeoDataFrame:
     ]
 
 
-def get_information_about_cafes(city_name):
+def _get_information_about_cafes(city_name):
     cafes = get_cafes_in_city(city_name)
     cafes_with_website = filter_cafes_with_website(cafes)
     cafes_without_website = filter_cafes_without_website(cafes)
@@ -196,7 +199,7 @@ def get_information_about_cafes(city_name):
     }
 
 
-def analyze_cafes():
+def _analyze_cafes():
     with open("cities_in_germany.txt") as f:
         cities = [line.strip() for line in f.readlines()]
 
@@ -238,6 +241,49 @@ def save_cafes_to_csv(cafes: GeoDataFrame, filename) -> None:
         ],
         index=False,
     )
+
+
+def get_coffee_shops_in_city(city_name) -> list[CoffeeShop]:
+    cafes = get_cafes_in_city(city_name)
+    cafes_with_website = filter_cafes_with_website(cafes)
+
+    result = []
+    for _, cafe in cafes_with_website.iterrows():
+        name = cafe.get("name")
+        geometry = cafe.get("geometry")
+        if pd.isna(name) or geometry is None:
+            continue
+
+        # OSM cafes can be mapped as points or polygons; use the centroid for area geometries.
+        point = geometry if hasattr(geometry, "x") and hasattr(geometry, "y") else geometry.centroid
+
+        website_url = None
+        for key in ("website", "contact:website"):
+            value = cafe.get(key)
+            if pd.notna(value):
+                website_url = str(value).strip()
+                break
+
+        menu_url = None
+        menu_value = cafe.get("website:menu")
+        if pd.notna(menu_value):
+            menu_url = str(menu_value).strip()
+
+        result.append(
+            CoffeeShop(
+                name=str(name),
+                coordinates=(float(point.y), float(point.x)),
+                category="Cafe",
+                website=Website(
+                    url=website_url if website_url else None, extracted_at=datetime.now(tz=UTC)
+                ),
+                menu=Menu(
+                    menu_url=menu_url if menu_url else None,
+                    extracted_at=datetime.now(tz=UTC) if menu_url else None,
+                ),
+            )
+        )
+    return result
 
 
 if __name__ == "__main__":
