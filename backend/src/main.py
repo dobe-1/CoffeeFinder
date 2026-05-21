@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from model import CoffeeShop
+from models.coffee_shop import CoffeeShop
 
 app = FastAPI()
 

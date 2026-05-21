@@ -1,9 +1,12 @@
 from pydantic import BaseModel
 
+from .menu import Menu
+from .website import Website
+
 
 class CoffeeShop(BaseModel):
     name: str
     coordinates: tuple[float, float]
     category: str
-    webiste_url: str | None = None
-    menu_url: str | None = None
+    website: Website
+    menu: Menu
