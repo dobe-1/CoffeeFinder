@@ -5,7 +5,6 @@ import json
 from pathlib import Path
 
 import pandas as pd
-
 from scraper.overpassAPI import filter_cafes_with_website, get_cafes_in_city
 
 

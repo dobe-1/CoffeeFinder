@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from enum import Enum
 from hashlib import sha256
 from typing import Any
@@ -67,7 +67,7 @@ class DownloadedDocument(BaseModel):
     status_code: int | None = None
     headers: dict[str, str] = Field(default_factory=dict)
     content: bytes = Field(repr=False)
-    fetched_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    fetched_at: datetime = Field(default_factory=lambda: datetime.now(UTC))
 
     @computed_field
     @property
@@ -117,7 +117,7 @@ class SourceSummary(BaseModel):
 
 class CoffeeShopRecord(BaseModel):
     identity: CoffeeShopIdentity
-    analyzed_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    analyzed_at: datetime = Field(default_factory=lambda: datetime.now(UTC))
     offers: list[ExtractedOffer] = Field(default_factory=list)
     media: list[ImageInfo] = Field(default_factory=list)
     sources: list[SourceSummary] = Field(default_factory=list)

@@ -4,7 +4,13 @@ from io import BytesIO
 
 from analysis.analyzers.base import BaseAnalyzer
 from analysis.extractors import deduplicate_offers, extract_offers_from_text, extract_price_evidence
-from analysis.models import DocumentAnalysis, DocumentKind, DocumentMetadata, DownloadedDocument, ImageInfo
+from analysis.models import (
+    DocumentAnalysis,
+    DocumentKind,
+    DocumentMetadata,
+    DownloadedDocument,
+    ImageInfo,
+)
 
 try:
     import pytesseract
@@ -50,7 +56,13 @@ class ImageAnalyzer(BaseAnalyzer):
                 warnings.append("pytesseract is not installed; OCR skipped.")
             else:
                 try:
-                    extracted_text = pytesseract.image_to_string(image, lang="deu+eng")
+                    # Menu images are usually column-like layouts, so psm 4 tends to preserve
+                    # the item/price structure better than the default text-block mode.
+                    extracted_text = pytesseract.image_to_string(
+                        image,
+                        lang="deu+eng",
+                        config="--psm 4",
+                    )
                 except Exception as exc:  # pragma: no cover
                     warnings.append(f"OCR failed: {exc}")
 
@@ -66,11 +78,17 @@ class ImageAnalyzer(BaseAnalyzer):
             )
 
         offers = (
-            deduplicate_offers(extract_offers_from_text(extracted_text, document.url, confidence=0.65))
+            deduplicate_offers(
+                extract_offers_from_text(extracted_text, document.url, confidence=0.65)
+            )
             if extracted_text
             else []
         )
-        prices = extract_price_evidence(extracted_text, document.url, confidence=0.55) if extracted_text else []
+        prices = (
+            extract_price_evidence(extracted_text, document.url, confidence=0.55)
+            if extracted_text
+            else []
+        )
 
         return DocumentAnalysis(
             source_url=document.url,

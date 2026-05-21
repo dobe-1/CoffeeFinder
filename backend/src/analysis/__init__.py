@@ -1,5 +1,10 @@
 from analysis.component import AnalyzerComponent
-from analysis.models import AnalysisRequest, CoffeeShopIdentity, CoffeeShopRecord, DownloadedDocument
+from analysis.models import (
+    AnalysisRequest,
+    CoffeeShopIdentity,
+    CoffeeShopRecord,
+    DownloadedDocument,
+)
 from analysis.service import AnalyzerService
 
 __all__ = [

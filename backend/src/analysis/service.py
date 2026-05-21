@@ -2,7 +2,12 @@ from __future__ import annotations
 
 from analysis.aggregate import aggregate_shop
 from analysis.detector import detect_kind
-from analysis.models import AnalysisRequest, CoffeeShopIdentity, CoffeeShopRecord, DownloadedDocument
+from analysis.models import (
+    AnalysisRequest,
+    CoffeeShopIdentity,
+    CoffeeShopRecord,
+    DownloadedDocument,
+)
 from analysis.registry import AnalyzerRegistry
 
 

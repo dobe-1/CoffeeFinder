@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from analysis.models import DocumentAnalysis, DocumentKind, DocumentMetadata, DownloadedDocument
 from analysis.analyzers.base import BaseAnalyzer
+from analysis.models import DocumentAnalysis, DocumentKind, DocumentMetadata, DownloadedDocument
 
 
 class GenericAnalyzer(BaseAnalyzer):

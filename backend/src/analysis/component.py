@@ -3,7 +3,6 @@ from __future__ import annotations
 from collections.abc import Callable
 
 import requests
-
 from analysis.models import CoffeeShopIdentity, DownloadedDocument
 from analysis.service import AnalyzerService
 

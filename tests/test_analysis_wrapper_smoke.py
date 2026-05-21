@@ -4,13 +4,11 @@ import json
 import mimetypes
 import os
 from pathlib import Path
-import shutil
 
-from analysis.component import AnalyzerComponent, default_document_downloader
-from analysis.models import DownloadedDocument
 import pytest
 import requests
-
+from analysis.component import AnalyzerComponent, default_document_downloader
+from analysis.models import DownloadedDocument
 
 FIXTURES_DIR = Path(__file__).parent / "fixtures" / "analyzer"
 MANIFEST_PATH = FIXTURES_DIR / "manifest.json"

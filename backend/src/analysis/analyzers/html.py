@@ -1,16 +1,21 @@
 from __future__ import annotations
 
-from bs4 import BeautifulSoup
-
 from analysis.analyzers.base import BaseAnalyzer
 from analysis.extractors import (
     deduplicate_offers,
-    extract_offers_from_text,
     extract_multiple_structured_offers,
+    extract_offers_from_text,
     extract_price_evidence,
     extract_structured_offer,
 )
-from analysis.models import DocumentAnalysis, DocumentKind, DocumentMetadata, DownloadedDocument, ImageInfo
+from analysis.models import (
+    DocumentAnalysis,
+    DocumentKind,
+    DocumentMetadata,
+    DownloadedDocument,
+    ImageInfo,
+)
+from bs4 import BeautifulSoup
 
 
 class HtmlAnalyzer(BaseAnalyzer):
