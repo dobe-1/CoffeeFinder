@@ -2,8 +2,8 @@ import argparse
 import json
 from pathlib import Path
 
-from src.scraper.overpassAPI import get_coffee_shops_in_city
-from src.scraper.web_scraper import extract_menu_url_from_coffee_shop
+from backend.scraper.overpassAPI import get_coffee_shops_in_city
+from backend.scraper.web_scraper import extract_menu_url_from_coffee_shop
 
 
 def main() -> None:

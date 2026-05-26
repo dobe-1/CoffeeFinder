@@ -4,7 +4,7 @@ from urllib.parse import urlsplit
 
 from playwright.sync_api import sync_playwright
 
-from src.models import CoffeeShop, Menu
+from backend.models import CoffeeShop, Menu
 
 MENU_PATTERN = re.compile(
     r"(speisekarten?|men(?:ü|ue|u)s?|essen|getr(?:ä|ae|a)nke|drinks?|food)",

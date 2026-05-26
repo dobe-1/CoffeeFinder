@@ -7,7 +7,7 @@ import pycountry
 import requests
 from geopandas import GeoDataFrame
 
-from src.models import CoffeeShop, Menu, Website
+from backend.models import CoffeeShop, Menu, Website
 
 #########################################################################
 ####### City retrieval logic ############################################
