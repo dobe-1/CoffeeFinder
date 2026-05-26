@@ -43,7 +43,6 @@ def get_menu_urls_from_website(url) -> list:
             "screen": {"width": 1920, "height": 1080},  # emulate full hd screen
             "viewport": {"width": 1920, "height": 1080},  # emulate full hd viewport
             "headless": True,  # set true to not show browser window (invisible); set false to show browser window (visible)
-            # TODO: set navigator.webdriver to false to bypass bot detection
         }
         browser = p.chromium
         context = browser.launch_persistent_context("", **config)
@@ -179,6 +178,7 @@ def extract_menu_url_from_coffee_shop(coffee_shop: CoffeeShop):
             menu_urls = [coffee_shop.menu.menu_url]
 
         if menu_urls:
+            # TODO: implement logic to choose the best menu URL if there are multiple
             coffee_shop.menu.menu_url = menu_urls[0]
             retrieve_menu_data(coffee_shop.menu)
 
