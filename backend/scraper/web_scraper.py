@@ -7,7 +7,7 @@ from playwright.sync_api import sync_playwright
 from backend.models import CoffeeShop, Menu
 
 MENU_PATTERN = re.compile(
-    r"([a-z]*karte[n]?|[a-z]*men(?:ü|ue|u|%C3%BC)s?|essen|food|drink[s]|speisen|mittagstisch|fr(?:ü|ue|u|%C3%BC)hst(?:ü|ue|u|%C3%BC)ck|getr(?:ä|ae|a|%C3%A4)nke|drinks?|food)",
+    r"([a-z]*karte[n]?|[a-z]*men(?:ü|ue|u|%C3%BC)[s]?|essen|food|drink[s]|speisen|mittagstisch|fr(?:ü|ue|u|%C3%BC)hst(?:ü|ue|u|%C3%BC)ck|getr(?:ä|ae|a|%C3%A4)nke|drinks?|food)",
     re.IGNORECASE,
 )
 
@@ -151,7 +151,11 @@ def retrieve_menu_data(menu: Menu):
     if not menu.menu_url:
         print("No menu URL provided.")
         return
-
+    # TODO 
+    #  - remove playwright instead request
+    #  - get data
+    #  - exract content type (html /pdf /image)
+    #  - be ready to give data and content type to subfunction 
     with sync_playwright() as p:
         config = {
             "locale": "de-DE",  # emulate us english language settings
