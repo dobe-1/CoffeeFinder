@@ -14,6 +14,7 @@ export class MapComponent implements AfterViewInit {
   ngAfterViewInit() {
     this.getCoordinates('Bochum').then(({ lat, lon }) => {
       this.initMap(lat, lon);
+      this.getCoffeeShops();
     });
   }
 
@@ -36,4 +37,13 @@ export class MapComponent implements AfterViewInit {
   console.log(`Latitude: ${lat}, Longitude: ${lon}`);
   return { lat, lon };
 }
+
+  async getCoffeeShops() {
+    const response = await fetch('http://localhost:8080/coffe_shops?city=Bochum%2C%20Germany');
+    var coffeeShops = await response.json();
+    for (const shop of coffeeShops) {
+      const marker = L.marker(shop.coordinates).addTo(this.map);
+      marker.bindPopup(`<b>${shop.name}</b><br><a href="${shop.website.url}" target="_blank">${shop.website.url}</a>`)
+    }
+  }
 }

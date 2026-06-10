@@ -1,4 +1,9 @@
+:host {
+    display: block;
+    height: calc(100vh - 60px);
+}
+
 #map {
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
