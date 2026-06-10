@@ -22,9 +22,7 @@ def get_coffee_shops(city: str) -> list[CoffeeShop]:
     for coffee_shop in coffee_shops:
         if (
             coffee_shop.website.url
-            and coffee_shop.website.accessible
-            and coffee_shop.website.extracted_at
-            and (coffee_shop.website.extracted_at <= datetime.now(tz=UTC) - timedelta(days=30))
+            and coffee_shop.website.accessible != False
             and not coffee_shop.menu.extracted_at
             or (
                 coffee_shop.menu.extracted_at

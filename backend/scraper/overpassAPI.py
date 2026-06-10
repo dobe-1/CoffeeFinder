@@ -245,10 +245,10 @@ def save_cafes_to_csv(cafes: GeoDataFrame, filename) -> None:
 
 def get_coffee_shops_in_city(city_name) -> list[CoffeeShop]:
     cafes = get_cafes_in_city(city_name)
-    cafes_with_website = filter_cafes_with_website(cafes)
+    # cafes_with_website = filter_cafes_with_website(cafes)
 
     result = []
-    for _, cafe in cafes_with_website.iterrows():
+    for _, cafe in cafes.iterrows():
         name = cafe.get("name")
         geometry = cafe.get("geometry")
         if pd.isna(name) or geometry is None:
@@ -275,7 +275,8 @@ def get_coffee_shops_in_city(city_name) -> list[CoffeeShop]:
                 coordinates=(float(point.y), float(point.x)),
                 category="Cafe",
                 website=Website(
-                    url=website_url if website_url else None, extracted_at=datetime.now(tz=UTC)
+                    url=website_url if website_url else None,
+                    extracted_at=datetime.now(tz=UTC) if website_url else None,
                 ),
                 menu=Menu(
                     menu_url=menu_url if menu_url else None,
