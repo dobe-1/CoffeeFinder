@@ -21,3 +21,26 @@ def get_coffee_shops(
 ):
     coffee_shops = aggregator.get_coffee_shops(city)
     return coffee_shops
+
+# added multiple api functions for debugging purposes
+@app.get("/menu")
+def get_menu_for_url(
+    url: str = Query(..., description="Website URL to search for menu links"),
+):
+    return aggregator.get_menu_for_url(url)
+
+
+@app.post("/test_sets")
+def create_test_set(
+    city: CityName = Query(..., description="City name and country", examples=["Bochum, Germany"]),
+):
+    path = aggregator.create_test_set(city)
+    return {"city": city, "path": str(path)}
+
+
+@app.get("/test_sets/evaluate")
+def evaluate_test_set(
+    city: CityName = Query(..., description="City name and country", examples=["Bochum, Germany"]),
+):
+    return aggregator.evaluate_test_set(city)
+

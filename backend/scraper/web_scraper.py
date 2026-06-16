@@ -5,6 +5,7 @@ from urllib.parse import urlsplit, urlparse, urljoin
 from playwright.sync_api import sync_playwright
 
 from backend.models import CoffeeShop, Menu
+import requests
 
 MENU_PATTERN = re.compile(
     r"([a-z]*karte[n]?|[a-z]*men(?:ü|ue|u|%C3%BC)[s]?|essen|food|drink[s]|speisen|mittagstisch|fr(?:ü|ue|u|%C3%BC)hst(?:ü|ue|u|%C3%BC)ck|getr(?:ä|ae|a|%C3%A4)nke|drinks?|food)",
@@ -90,8 +91,8 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
         })
         """)
         while current_depth < max_depth:
-            if current_depth > 0:
-                print(f"search with depth {current_depth}")
+            #if current_depth > 0:
+                #print(f"search with depth {current_depth}")
             while queue and call_count < max_calls:
                 current_url = queue.pop()
                 # times.sleep(3) #maybe do this to not ddos the page
@@ -126,7 +127,7 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
                     if is_menu_link(locator.inner_text(), validated_url):
                         if validated_url not in menu_urls:
                             menu_urls.append(validated_url)
-                            print(f"Found menu URL: {validated_url}")
+                            print(f"Found menu URL: {locator.inner_text()}, {validated_url} (depth {current_depth})")
                     else:
                         # append to queue (for next depth) if it is from same domain
                         if urlparse(validated_url).netloc == base_domain and is_crawlable_page(
@@ -150,43 +151,46 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
 def retrieve_menu_data(menu: Menu):
     if not menu.menu_url:
         print("No menu URL provided.")
-        return
-    # TODO 
-    #  - remove playwright instead request
-    #  - get data
-    #  - exract content type (html /pdf /image)
-    #  - be ready to give data and content type to subfunction 
-    with sync_playwright() as p:
-        config = {
-            "locale": "de-DE",  # emulate us english language settings
-            "screen": {"width": 1920, "height": 1080},  # emulate full hd screen
-            "viewport": {"width": 1920, "height": 1080},  # emulate full hd viewport
-            "headless": True,  # set true to not show browser window (invisible); set false to show browser window (visible)
-        }
-        browser = p.chromium
-        context = browser.launch_persistent_context("", **config)
+        return 
+    
+    try:
+        response = requests.get(menu.menu_url)
+        #retrieve 
+    except Exception as e:
+        menu.menu_url_accessible = False
+        menu.menu_url_last_checked = datetime.now(tz=UTC)
+        return False
+    
+    # extract content type from headers
+    content_type = response.headers.get('Content-Type', '').lower().content_type.split(';')[0].strip()
+        
 
-        page = context.new_page()
-        page.add_init_script("""
-        navigator.webdriver = false
-        Object.defineProperty(navigator, 'webdriver', {
-        get: () => false
-        })
-        """)
-
-        try:
-            page.goto(menu.menu_url)
-        except Exception as e:
-            print(f"Error navigating to {menu.menu_url}: {e}")
-            context.close()
+    # evaluate menu depended on content type
+    # TODO: implement actual menu data extraction logic here
+    match content_type:
+        # images
+        case _ if content_type.startswith('image/'):
+            print("TODO menu image extraction here")
+            
+        # pdf
+        case 'application/pdf':
+            print("TODO menu pdf extraction here")
+            
+        # html TODO maybe just one case for everyhting not pdf images?
+        # what to do with (complex html) - url? 
+        case 'text/html' | 'application/xhtml+xml':
+            print("TODO menu html extraction here")
+            
+        # error/ maybe fallback TODO maybe use logger
+        case _:
+            print("ERROR: unkown media type")
             menu.menu_url_accessible = False
             menu.menu_url_last_checked = datetime.now(tz=UTC)
-            return
-
-        menu.menu_url_accessible = True
-        menu.menu_url_last_checked = datetime.now(tz=UTC)
-
-        # TODO: implement actual menu data extraction logic here
+            return False
+    
+    menu.menu_url_accessible = True
+    menu.menu_url_last_checked = datetime.now(tz=UTC)
+    return True
 
 
 # def _analyze_cafes(cafes: GeoDataFrame):
@@ -241,9 +245,14 @@ def extract_menu_url_from_coffee_shop(coffee_shop: CoffeeShop):
             menu_urls = [coffee_shop.menu.menu_url]
 
         if menu_urls:
-            # TODO: implement logic to choose the best menu URL if there are multiple
-            coffee_shop.menu.menu_url = menu_urls[0]
-            retrieve_menu_data(coffee_shop.menu)
+            # loop through menu urls till valid one found
+            i = 0
+            urls_l = len(menu_urls)
+            while(i<urls_l):
+                coffee_shop.menu.menu_url = menu_urls[i]
+                if retrieve_menu_data(coffee_shop.menu):
+                    break
+                i += 1
 
 
 # if __name__ == "__main__":
