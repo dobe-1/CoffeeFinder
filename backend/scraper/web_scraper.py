@@ -1,13 +1,14 @@
 import re
 from datetime import UTC, datetime
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, urlparse, urljoin
 
 from playwright.sync_api import sync_playwright
 
 from backend.models import CoffeeShop, Menu
+import requests
 
 MENU_PATTERN = re.compile(
-    r"(speisekarten?|men(?:ü|ue|u)s?|essen|getr(?:ä|ae|a)nke|drinks?|food)",
+    r"([a-z]*karte[n]?|[a-z]*men(?:ü|ue|u|%C3%BC)[s]?|essen|food|drink[s]|speisen|mittagstisch|fr(?:ü|ue|u|%C3%BC)hst(?:ü|ue|u|%C3%BC)ck|getr(?:ä|ae|a|%C3%A4)nke|drinks?|food)",
     re.IGNORECASE,
 )
 
@@ -28,14 +29,49 @@ def is_menu_link(text: str | None, href: str | None) -> bool:
     return False
 
 
-def build_full_url(url: str, relative_url: str) -> str:
-    if relative_url.startswith("/"):
-        base_url = urlsplit(url)._replace(path="", query="", fragment="").geturl()
-        return base_url + relative_url
-    return relative_url
+def is_menu_link_str(text: str | None) -> bool:
+    if text and MENU_PATTERN.search(text):
+        return True
+    return False
 
 
-def get_menu_urls_from_website(url) -> list:
+def is_crawlable_page(url: str) -> bool:
+    parsed = urlparse(url)
+    path = parsed.path.lower()
+
+    ignored_extensions = [
+        ".pdf",
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".gif",
+        ".svg",
+        ".zip",
+        ".tar",
+        ".gz",
+        ".mp4",
+        ".mp3",
+        ".doc",
+        ".docx",
+        ".xls",
+        ".xlsx",
+    ]
+
+    return not any(path.endswith(ext) for ext in ignored_extensions)
+
+
+def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
+
+    base_domain = urlparse(url).netloc
+
+    visited_urls = set()
+    menu_urls = []
+    call_count = 0
+    current_depth = 0
+
+    queue = [url]
+    queue_next = set()
+
     with sync_playwright() as p:
         config = {
             "accept_downloads": False,  # do not download stuff
@@ -51,79 +87,110 @@ def get_menu_urls_from_website(url) -> list:
         page.add_init_script("""
         navigator.webdriver = false
         Object.defineProperty(navigator, 'webdriver', {
-        get: () => false
+            get: () => false
         })
         """)
+        while current_depth < max_depth:
+            #if current_depth > 0:
+                #print(f"search with depth {current_depth}")
+            while queue and call_count < max_calls:
+                current_url = queue.pop()
+                # times.sleep(3) #maybe do this to not ddos the page
+                # check for duplicates
 
-        try:
-            page.goto(url)
-        except Exception as e:
-            print(f"Error navigating to {url}: {e}")
-            context.close()
-            raise e
-        frame = page.frames[0]
-        locators = frame.locator("a")
-
-        menu_urls = []
-
-        for i in range(locators.count()):
-            locator = locators.nth(i)
-            href = locator.get_attribute("href")
-            if not href:
-                continue
-
-            if is_menu_link(locator.inner_text(), href):
-                try:
-                    validated_url = validate_url(href)
-                    validated_url = build_full_url(url, validated_url)
-                    if validated_url not in menu_urls:
-                        menu_urls.append(validated_url)
-                        print(f"Found menu URL: {validated_url}")
-
-                except ValueError:
+                if current_url in visited_urls:
                     continue
+
+                visited_urls.add(current_url)
+                call_count += 1
+
+                try:
+                    page.goto(current_url, timeout=15000)
+                except Exception as e:
+                    print(f"Error navigating to {current_url}: {e}")
+                    continue
+                frame = page.frames[0]
+                locators = frame.locator("a")
+
+                for i in range(locators.count()):
+                    locator = locators.nth(i)
+                    href = locator.get_attribute("href")
+                    if not href:
+                        continue
+                    # handle relative urls
+                    href = urljoin(current_url, href)
+
+                    try:
+                        validated_url = validate_url(href)
+                    except ValueError:
+                        continue
+                    if is_menu_link(locator.inner_text(), validated_url):
+                        if validated_url not in menu_urls:
+                            menu_urls.append(validated_url)
+                            print(f"Found menu URL: {locator.inner_text()}, {validated_url} (depth {current_depth})")
+                    else:
+                        # append to queue (for next depth) if it is from same domain
+                        if urlparse(validated_url).netloc == base_domain and is_crawlable_page(
+                            validated_url
+                        ):
+                            queue_next.add(validated_url)
+
+            if menu_urls:
+                break
+            else:
+                current_depth += 1
+                queue = queue_next
+                queue_next = set()
 
         page.close()
         context.close()
+
         return menu_urls
 
 
 def retrieve_menu_data(menu: Menu):
     if not menu.menu_url:
         print("No menu URL provided.")
-        return
+        return 
+    
+    try:
+        response = requests.get(menu.menu_url)
+        #retrieve 
+    except Exception as e:
+        menu.menu_url_accessible = False
+        menu.menu_url_last_checked = datetime.now(tz=UTC)
+        return False
+    
+    # extract content type from headers
+    content_type = response.headers.get('Content-Type', '').lower().content_type.split(';')[0].strip()
+        
 
-    with sync_playwright() as p:
-        config = {
-            "locale": "de-DE",  # emulate us english language settings
-            "screen": {"width": 1920, "height": 1080},  # emulate full hd screen
-            "viewport": {"width": 1920, "height": 1080},  # emulate full hd viewport
-            "headless": True,  # set true to not show browser window (invisible); set false to show browser window (visible)
-        }
-        browser = p.chromium
-        context = browser.launch_persistent_context("", **config)
-
-        page = context.new_page()
-        page.add_init_script("""
-        navigator.webdriver = false
-        Object.defineProperty(navigator, 'webdriver', {
-        get: () => false
-        })
-        """)
-
-        try:
-            page.goto(menu.menu_url)
-        except Exception as e:
-            print(f"Error navigating to {menu.menu_url}: {e}")
-            context.close()
+    # evaluate menu depended on content type
+    # TODO: implement actual menu data extraction logic here
+    match content_type:
+        # images
+        case _ if content_type.startswith('image/'):
+            print("TODO menu image extraction here")
+            
+        # pdf
+        case 'application/pdf':
+            print("TODO menu pdf extraction here")
+            
+        # html TODO maybe just one case for everyhting not pdf images?
+        # what to do with (complex html) - url? 
+        case 'text/html' | 'application/xhtml+xml':
+            print("TODO menu html extraction here")
+            
+        # error/ maybe fallback TODO maybe use logger
+        case _:
+            print("ERROR: unkown media type")
             menu.menu_url_accessible = False
             menu.menu_url_last_checked = datetime.now(tz=UTC)
-            return
-
-        menu.menu_url_accessible = True
-        menu.menu_url_last_checked = datetime.now(tz=UTC)
-
-        # TODO: implement actual menu data extraction logic here
+            return False
+    
+    menu.menu_url_accessible = True
+    menu.menu_url_last_checked = datetime.now(tz=UTC)
+    return True
 
 
 # def _analyze_cafes(cafes: GeoDataFrame):
@@ -178,14 +245,19 @@ def extract_menu_url_from_coffee_shop(coffee_shop: CoffeeShop):
             menu_urls = [coffee_shop.menu.menu_url]
 
         if menu_urls:
-            # TODO: implement logic to choose the best menu URL if there are multiple
-            coffee_shop.menu.menu_url = menu_urls[0]
-            retrieve_menu_data(coffee_shop.menu)
+            # loop through menu urls till valid one found
+            i = 0
+            urls_l = len(menu_urls)
+            while(i<urls_l):
+                coffee_shop.menu.menu_url = menu_urls[i]
+                if retrieve_menu_data(coffee_shop.menu):
+                    break
+                i += 1
 
 
 # if __name__ == "__main__":
 #     # url = "https://51gradcafe.de/"
-#
+#    # essen 53.23% 62/ 33
 #     cafes = get_cafes_in_city("Bochum, Germany")
 #     cafes_with_website = filter_cafes_with_website(cafes)
 #     _analyze_cafes(cafes_with_website)
