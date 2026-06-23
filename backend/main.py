@@ -30,6 +30,11 @@ def get_menu_for_url(
     return aggregator.get_menu_for_url(url)
 
 
+@app.get("/cities", response_model=list[str])
+def get_cities():
+    return aggregator.get_available_cities()
+
+
 @app.post("/test_sets")
 def create_test_set(
     city: CityName = Query(..., description="City name and country", examples=["Bochum, Germany"]),

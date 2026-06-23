@@ -58,9 +58,19 @@ def get_menu_for_url(url: str) -> list:
     return get_menu_urls_from_website(url)
 
 
+def get_available_cities() -> list[str]:
+    # List cities for which we have cached coffee shops in the store directory
+    store_dir = Path("store")
+    if not store_dir.exists():
+        return []
+
+    cities = [path.stem.replace("_", ", ") for path in store_dir.glob("*.json")]
+    return sorted(cities)
+
+
 def get_coffee_shops(city: str) -> list[CoffeeShop]:
     # Check if we have a cached version of the coffee shops for the city
-    cache_file = Path(f"cache/{city.replace(', ', '_')}.json")
+    cache_file = Path(f"store/{city.replace(', ', '_')}.json")
     if not cache_file.exists():
         # If we don't have a valid cache, fetch the coffee shops from the API
         coffee_shops = get_coffee_shops_in_city(city)
@@ -68,6 +78,8 @@ def get_coffee_shops(city: str) -> list[CoffeeShop]:
         # If we have a valid cache, load the coffee shops from the cache file
         with cache_file.open() as f:
             coffee_shops = [CoffeeShop.model_validate(coffee_shop) for coffee_shop in json.load(f)]
+
+        return coffee_shops
 
     # Extract menu for shops that have a website and were not recently cached
     for coffee_shop in coffee_shops:

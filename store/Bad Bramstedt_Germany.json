@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Cafe Gripp",
+    "coordinates": [
+      53.9169985,
+      9.8838807
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Tackmann Coffee-House am Roland",
+    "coordinates": [
+      53.9181326,
+      9.8829325
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://baeckerei-tackmann.de/location/bad-bramstedt-coffee-house-am-roland/",
+      "extracted_at": "2026-06-23T12:16:50.701150Z",
+      "last_checked": "2026-06-23T12:17:22.614270Z",
+      "accessible": false
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Glücksmarie",
+    "coordinates": [
+      53.9035828,
+      9.891209
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.gluecksmarie-bb.de",
+      "extracted_at": "2026-06-23T12:16:50.701199Z",
+      "last_checked": "2026-06-23T12:17:23.946579Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.gluecksmarie-bb.de#menu",
+      "menu_url_last_checked": "2026-06-23T12:17:24.152815Z",
+      "menu_url_accessible": true,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Tilda",
+    "coordinates": [
+      53.9200185,
+      9.8813894
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Theatercafé & Bistro",
+    "coordinates": [
+      53.9042117,
+      9.8940589
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.restaurant-calabrese.de/theatercafe-and-bistro/",
+      "extracted_at": "2026-06-23T12:16:50.701265Z",
+      "last_checked": "2026-06-23T12:17:25.454722Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.restaurant-calabrese.de/menu/",
+      "menu_url_last_checked": "2026-06-23T12:17:25.721143Z",
+      "menu_url_accessible": true,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  }
+]
