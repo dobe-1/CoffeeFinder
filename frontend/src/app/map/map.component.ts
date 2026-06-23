@@ -15,11 +15,11 @@ export class MapComponent implements AfterViewInit {
 
   map:any;
   coffeeShops = signal<CoffeeShop[]>([]);
+  selectedIndex = signal<number | null>(null);
   markers: L.Marker[] = [];
   private mapReady = signal(false);
 
   constructor() {
-    // Lädt die Stadt initial und bei jedem Wechsel – aber erst, wenn die Karte steht
     effect(() => {
       const city = this.city();
       if (this.mapReady()) {
@@ -39,7 +39,6 @@ export class MapComponent implements AfterViewInit {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(this.map);
 
-    // Leaflet muss seine Container-Größe neu vermessen, sobald das Flex-Layout steht
     setTimeout(() => this.map.invalidateSize(), 0);
   }
 
@@ -80,24 +79,40 @@ export class MapComponent implements AfterViewInit {
     var coffeeShops = await response.json();
     this.coffeeShops.set(coffeeShops);
 
-    // Marker der vorherigen Stadt entfernen
     for (const marker of this.markers) {
       marker.remove();
     }
     this.markers = [];
 
-    for (const shop of coffeeShops) {
+    this.selectedIndex.set(null);
+
+    coffeeShops.forEach((shop: CoffeeShop, index: number) => {
       const marker = L.marker(shop.coordinates).addTo(this.map);
-      marker.bindPopup(`<b>${shop.name}</b><br><a href="${shop.website.url}" target="_blank">${shop.website.url}</a>`)
+      marker.bindPopup(`<b>${shop.name}</b><br><a href="${shop.website.url}" target="_blank">${shop.website.url}</a>`);
+      marker.on('popupopen', () => {
+        this.selectedIndex.set(index);
+        this.scrollCardIntoView(index);
+      });
+      marker.on('popupclose', () => {
+        if (this.selectedIndex() === index) {
+          this.selectedIndex.set(null);
+        }
+      });
       this.markers.push(marker);
-    }
+    });
   }
 
   selectShop(index: number) {
     const marker = this.markers[index];
     if (marker) {
+      this.selectedIndex.set(index);
       this.map.setView(marker.getLatLng(), 16);
       marker.openPopup();
     }
+  }
+
+  private scrollCardIntoView(index: number) {
+    const card = document.getElementById(`shop-card-${index}`);
+    card?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
 }
