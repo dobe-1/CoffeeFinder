@@ -1,6 +1,13 @@
 <mat-toolbar class="top-bar">
     <span class="app-title">CoffeeFinder</span>
 
+    <nav class="view-nav">
+        <a matButton routerLink="/map" routerLinkActive="active-view">Map</a>
+        <a matButton routerLink="/table" routerLinkActive="active-view">Table</a>
+    </nav>
+
+    <span class="spacer"></span>
+
     <div class="city-select">
         <mat-select [value]="selectedCity" (selectionChange)="onCityChange($event.value)">
             @for (city of cities; track city) {

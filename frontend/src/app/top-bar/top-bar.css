@@ -13,6 +13,23 @@
     font-weight: 500;
 }
 
+.view-nav {
+    display: flex;
+    gap: 8px;
+}
+
+.view-nav a {
+    color: #ffffff;
+}
+
+.view-nav a.active-view {
+    background-color: rgba(255, 255, 255, 0.22);
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
 .city-select {
     display: flex;
     flex-direction: column;

@@ -1,7 +1,8 @@
-import { AfterViewInit, Component, computed, effect, input, signal } from '@angular/core';
+import { AfterViewInit, Component, computed, effect, inject, signal } from '@angular/core';
 import {MatCardModule} from '@angular/material/card';
 import * as L from 'leaflet';
 import { CoffeeShop } from '../models/coffee-shop.model';
+import { CoffeeService } from '../coffee.service';
 
 @Component({
   selector: 'app-map',
@@ -11,13 +12,16 @@ import { CoffeeShop } from '../models/coffee-shop.model';
   styleUrl: './map.component.css'
 })
 export class MapComponent implements AfterViewInit {
-  city = input('Bochum, Germany');
+  private readonly coffeeService = inject(CoffeeService);
+
+  city = this.coffeeService.city;
+  coffeeShops = this.coffeeService.coffeeShops;
 
   map:any;
-  coffeeShops = signal<CoffeeShop[]>([]);
   selectedIndex = signal<number | null>(null);
   markers: L.Marker[] = [];
   private mapReady = signal(false);
+  private lastCenteredCity: string | null = null;
 
   private readonly defaultIcon = L.icon({
     iconUrl: '/media/marker-icon.png',
@@ -51,10 +55,20 @@ export class MapComponent implements AfterViewInit {
   );
 
   constructor() {
+    // Re-center when the city changes.
     effect(() => {
       const city = this.city();
+      if (this.mapReady() && city !== this.lastCenteredCity) {
+        this.lastCenteredCity = city;
+        this.centerOnCity(city);
+      }
+    });
+
+    // Re-draw markers whenever the shared coffee shop list changes.
+    effect(() => {
+      const shops = this.coffeeShops();
       if (this.mapReady()) {
-        this.loadCity(city);
+        this.renderMarkers(shops);
       }
     });
   }
@@ -62,6 +76,7 @@ export class MapComponent implements AfterViewInit {
   ngAfterViewInit() {
     this.initMap();
     this.mapReady.set(true);
+    this.coffeeService.ensureLoaded();
   }
 
   initMap() {
@@ -73,15 +88,14 @@ export class MapComponent implements AfterViewInit {
     setTimeout(() => this.map.invalidateSize(), 0);
   }
 
-  async loadCity(city: string) {
+  async centerOnCity(city: string) {
     try {
       const coords = await this.getCoordinates(city);
       if (coords) {
         this.map.setView([coords.lat, coords.lon], 13);
       }
-      await this.getCoffeeShops(city);
     } catch (err) {
-      console.error('Fehler beim Laden der Stadt', city, err);
+      console.error('Fehler beim Zentrieren auf Stadt', city, err);
     }
   }
 
@@ -105,16 +119,11 @@ export class MapComponent implements AfterViewInit {
     }
   }
 
-  async getCoffeeShops(city: string) {
-    const response = await fetch(`http://localhost:8080/coffe_shops?city=${encodeURIComponent(city)}`);
-    var coffeeShops = await response.json();
-    this.coffeeShops.set(coffeeShops);
-
+  private renderMarkers(coffeeShops: CoffeeShop[]) {
     for (const marker of this.markers) {
       marker.remove();
     }
     this.markers = [];
-
     this.selectedIndex.set(null);
 
     coffeeShops.forEach((shop: CoffeeShop, index: number) => {
