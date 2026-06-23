@@ -2,19 +2,34 @@
     <div id="map"></div>
     <div class="coffee-shop-list">
         <span class="shop-count">{{ coffeeShops().length }} Cafés found</span>
-        @for (shop of coffeeShops(); track $index) {
+
+        @for (entry of shopsWithWebsite(); track entry.index) {
         <mat-card appearance="outlined" class="shop-card"
-                  [id]="'shop-card-' + $index"
-                  [class.selected]="selectedIndex() === $index"
-                  (click)="selectShop($index)">
+                  [id]="'shop-card-' + entry.index"
+                  [class.selected]="selectedIndex() === entry.index"
+                  (click)="selectShop(entry.index)">
             <mat-card-header>
-                <mat-card-title> {{ shop.name }} </mat-card-title>
+                <mat-card-title> {{ entry.shop.name }} </mat-card-title>
             </mat-card-header>
             <mat-card-actions>
-                <button matButton [disabled]="!shop.website.url" (click)="openUrl(shop.website.url)">Website</button>
-                <button matButton [disabled]="!shop.menu.menu_url" (click)="openUrl(shop.menu.menu_url)">Menu</button>
+                <button matButton [disabled]="!entry.shop.website.url" (click)="openUrl(entry.shop.website.url)">Website</button>
+                <button matButton [disabled]="!entry.shop.menu.menu_url" (click)="openUrl(entry.shop.menu.menu_url)">Menu</button>
             </mat-card-actions>
         </mat-card>
+        }
+
+        @if (shopsWithoutWebsite().length) {
+        <span class="shop-section-label">Ohne Website</span>
+        @for (entry of shopsWithoutWebsite(); track entry.index) {
+        <mat-card appearance="outlined" class="shop-card shop-card-no-website"
+                  [id]="'shop-card-' + entry.index"
+                  [class.selected]="selectedIndex() === entry.index"
+                  (click)="selectShop(entry.index)">
+            <mat-card-header>
+                <mat-card-title> {{ entry.shop.name }} </mat-card-title>
+            </mat-card-header>
+        </mat-card>
+        }
         }
     </div>
 

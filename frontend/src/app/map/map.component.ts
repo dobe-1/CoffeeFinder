@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, effect, input, signal } from '@angular/core';
+import { AfterViewInit, Component, computed, effect, input, signal } from '@angular/core';
 import {MatCardModule} from '@angular/material/card';
 import * as L from 'leaflet';
 import { CoffeeShop } from '../models/coffee-shop.model';
@@ -18,6 +18,37 @@ export class MapComponent implements AfterViewInit {
   selectedIndex = signal<number | null>(null);
   markers: L.Marker[] = [];
   private mapReady = signal(false);
+
+  private readonly defaultIcon = L.icon({
+    iconUrl: '/media/marker-icon.png',
+    iconRetinaUrl: '/media/marker-icon-2x.png',
+    shadowUrl: '/media/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41],
+  });
+  private readonly grayIcon = L.icon({
+    iconUrl: '/media/marker-icon.png',
+    iconRetinaUrl: '/media/marker-icon-2x.png',
+    shadowUrl: '/media/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41],
+    className: 'marker-gray',
+  });
+
+  shopsWithWebsite = computed(() =>
+    this.coffeeShops()
+      .map((shop, index) => ({ shop, index }))
+      .filter(({ shop }) => !!shop.website.url),
+  );
+  shopsWithoutWebsite = computed(() =>
+    this.coffeeShops()
+      .map((shop, index) => ({ shop, index }))
+      .filter(({ shop }) => !shop.website.url),
+  );
 
   constructor() {
     effect(() => {
@@ -87,7 +118,9 @@ export class MapComponent implements AfterViewInit {
     this.selectedIndex.set(null);
 
     coffeeShops.forEach((shop: CoffeeShop, index: number) => {
-      const marker = L.marker(shop.coordinates).addTo(this.map);
+      const marker = L.marker(shop.coordinates, {
+        icon: shop.website.url ? this.defaultIcon : this.grayIcon,
+      }).addTo(this.map);
       marker.bindPopup(`<b>${shop.name}</b><br><a href="${shop.website.url}" target="_blank">${shop.website.url}</a>`);
       marker.on('popupopen', () => {
         this.selectedIndex.set(index);
