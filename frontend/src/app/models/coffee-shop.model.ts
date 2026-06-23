@@ -5,6 +5,9 @@ export interface CoffeeShop {
         url: string | null;
         accessible: boolean | null;
     };
+    menu: {
+        menu_url: string | null;
+    };
     menuItems: MenuItem[];
 }
 

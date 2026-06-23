@@ -1,3 +1,21 @@
-<p>map works!</p>
+<div class="map-container">
+    <div id="map"></div>
+    <div class="coffee-shop-list">
+        @for (shop of coffeeShops(); track $index) {
+        <mat-card appearance="outlined" class="shop-card" (click)="selectShop($index)">
+            <mat-card-header>
+                <mat-card-title> {{ shop.name }} </mat-card-title>
+            </mat-card-header>
+            <mat-card-actions>
+                <button matButton
+                        [disabled]="!shop.website.url"
+                        (click)="openUrl(shop.website.url)">Website</button>
+                <button matButton
+                        [disabled]="!shop.menu.menu_url"
+                        (click)="openUrl(shop.menu.menu_url)">Menu</button>
+            </mat-card-actions>
+        </mat-card>
+        }
+    </div>
 
-<div id="map"></div>
+</div>
