@@ -1,0 +1,11 @@
+<mat-toolbar class="top-bar">
+    <span class="app-title">CoffeeFinder</span>
+
+    <div class="city-select">
+        <mat-select [value]="selectedCity" (selectionChange)="onCityChange($event.value)">
+            @for (city of cities; track city) {
+            <mat-option [value]="city">{{ city }}</mat-option>
+            }
+        </mat-select>
+    </div>
+</mat-toolbar>

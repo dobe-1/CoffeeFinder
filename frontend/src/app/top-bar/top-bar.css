@@ -1,0 +1,32 @@
+.top-bar {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    height: 60px;
+    background-color: #af764d;
+    color: #ffffff;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.app-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.city-select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 220px;
+}
+
+.city-label {
+    font-size: 0.75rem;
+    line-height: 1;
+    margin-bottom: 4px;
+    opacity: 0.85;
+}
+
+.city-select mat-select {
+    color: #ffffff;
+}
