@@ -28,8 +28,11 @@ CoffeeFinder is a web application that helps users find nearby coffee shops with
 
 ## Usage
 
-Currently, the application is in the early stages of development, and there is no user interface yet. However, you can run the main script to see how it collects data about coffee shops:
+You can use the fastapi backend by running the following command in the terminal:
 
 ```bash
-python backend/src/main.py  
+uvicorn backend.main:app --port 8080 
 ```
+
+Then open your web browser and navigate to http://localhost:8080/docs to access the API documentation and test the endpoints. There is currently one enddpoint available:
+- `GET /coffee-shops`: This endpoint retrieves a list of coffee shops based on the city provided as a query parameter.
