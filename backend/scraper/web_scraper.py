@@ -106,7 +106,7 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
                 call_count += 1
 
                 try:
-                    page.goto(current_url, timeout=15000)
+                    page.goto(current_url, timeout=3000)
                 except Exception as e:
                     print(f"Error navigating to {current_url}: {e}")
                     continue
@@ -194,9 +194,9 @@ def retrieve_menu_data(coffee_shop: CoffeeShop):
             coffee_shop.menu.menu_url_accessible = False
             coffee_shop.menu.menu_url_last_checked = datetime.now(tz=UTC)
             return False
-    # This implies that the last menu url analyzed will remain in the app later on. 
-    # Otherwise we could unset it entirely, 
-    # but still linking to the website seems to be better choice.  
+    # This implies that the last menu url analyzed will remain in the app later on.
+    # Otherwise we could unset it entirely,
+    # but still linking to the website seems to be better choice.
     coffee_shop.menu.menu_url_accessible = True
     coffee_shop.menu.menu_url_last_checked = datetime.now(tz=UTC)
     return result.menu.extracted_at is not None
