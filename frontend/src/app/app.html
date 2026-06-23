@@ -1,2 +1,3 @@
-<app-map></app-map>
+<app-top-bar (cityChange)="city.set($event)"></app-top-bar>
+<app-map [city]="city()"></app-map>
 <router-outlet />
