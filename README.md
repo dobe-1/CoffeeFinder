@@ -21,6 +21,11 @@ CoffeeFinder is a web application that helps users find nearby coffee shops with
    uv sync
    ```
    This will create a [virtual environment](https://docs.python.org/3/library/venv.html) and install all the necessary packages.
+
+   Image OCR uses `pytesseract`, which also requires the native Tesseract binary. On Ubuntu/Debian:
+   ```bash
+   sudo apt install tesseract-ocr tesseract-ocr-deu
+   ```
 4. If not already done, activate the virtual environment:
    ```bash
    source .venv/bin/activate

@@ -1,0 +1,21 @@
+{
+  "name": "Oktober Café",
+  "coordinates": [
+    51.4816233,
+    7.2146405
+  ],
+  "category": "Cafe",
+  "website_url": "https://oktober.cafe/",
+  "menu_url": null,
+  "menu": {
+    "currency": "EUR",
+    "source_url": "https://oktober.cafe/speisekarte/",
+    "offers": [
+      { "name": "Espresso", "price": 2.2 },
+      { "name": "Americano", "price": 3.2 },
+      { "name": "Flat White", "price": 4.5 },
+      { "name": "Cappuccino", "price": 3.8 },
+      { "name": "Latte Macchiato", "price": 4.2 }
+    ]
+  }
+}
