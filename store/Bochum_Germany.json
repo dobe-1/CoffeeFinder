@@ -30,8 +30,8 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.citycafe-bochum.de/",
-      "extracted_at": "2026-06-02T11:38:24.244500Z",
-      "last_checked": "2026-06-23T09:25:02.172328Z",
+      "extracted_at": "2026-07-08T18:28:21.214314Z",
+      "last_checked": "2026-07-08T18:28:37.090266Z",
       "accessible": true
     },
     "menu": {
@@ -52,8 +52,8 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.starbucks.de/store-locator/store/1018854/dr-ruer-platz-dr-ruer-platz-6-7-bochum-nw-44787-de",
-      "extracted_at": "2026-06-02T11:38:24.244542Z",
-      "last_checked": "2026-06-23T09:25:02.664430Z",
+      "extracted_at": "2026-07-08T18:28:21.214357Z",
+      "last_checked": "2026-07-08T18:28:37.967912Z",
       "accessible": true
     },
     "menu": {
@@ -96,14 +96,14 @@
     "category": "Cafe",
     "website": {
       "url": "https://cafe-extrablatt.de/standorte/details/cafe-extrablatt-bochum",
-      "extracted_at": "2026-06-02T11:38:24.244600Z",
-      "last_checked": "2026-06-02T11:38:32.768949Z",
+      "extracted_at": "2026-07-08T18:28:21.214416Z",
+      "last_checked": "2026-07-08T18:28:53.437688Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": "https://cafe-extrablatt.de/fileadmin/pdf/Speisekarten/Cafe-Extrablatt-Bochum-Speisekarte-Web.pdf?1779093393",
-      "menu_url_last_checked": "2026-06-23T09:25:03.140304Z",
-      "menu_url_accessible": true,
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
       "currency": null,
       "extracted_at": null,
       "items": []
@@ -162,15 +162,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.schmidtmeier.de/",
-      "extracted_at": "2026-06-02T11:38:24.244679Z",
-      "last_checked": "2026-06-23T09:25:08.062940Z",
+      "extracted_at": "2026-07-08T18:28:21.214499Z",
+      "last_checked": "2026-07-08T18:28:56.445715Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": null,
-      "menu_url_last_checked": null,
-      "menu_url_accessible": null,
-      "currency": null,
+      "menu_url": "https://www.schmidtmeier.de/",
+      "menu_url_last_checked": "2026-07-08T18:28:57.977656Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -206,15 +206,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.akafoe.de/gastronomie/cafeterien-lang-de.html",
-      "extracted_at": "2026-06-02T11:38:24.244731Z",
-      "last_checked": "2026-06-02T11:38:37.280490Z",
+      "extracted_at": "2026-07-08T18:28:21.214552Z",
+      "last_checked": "2026-07-08T18:29:07.120078Z",
       "accessible": true
     },
     "menu": {
       "menu_url": "https://www.akafoe.de/essen",
-      "menu_url_last_checked": "2026-06-23T09:25:10.493421Z",
+      "menu_url_last_checked": "2026-07-08T18:29:07.347805Z",
       "menu_url_accessible": true,
-      "currency": null,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -294,15 +294,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://lisas-palmengarten.de",
-      "extracted_at": "2026-06-02T11:38:24.244856Z",
-      "last_checked": "2026-06-23T15:20:23.690085Z",
+      "extracted_at": "2026-07-08T18:28:21.214683Z",
+      "last_checked": "2026-07-08T18:29:09.226121Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": "https://lisas-palmengarten.de/restaurant-speisekarte-bochum.html",
-      "menu_url_last_checked": "2026-06-23T15:20:23.902491Z",
+      "menu_url": "https://lisas-palmengarten.de/impressionen-essen-gehen.html",
+      "menu_url_last_checked": "2026-07-08T18:29:09.964294Z",
       "menu_url_accessible": true,
-      "currency": null,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -338,8 +338,8 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.edenev.de",
-      "extracted_at": "2026-06-02T11:38:24.244906Z",
-      "last_checked": "2026-06-23T09:25:12.793037Z",
+      "extracted_at": "2026-07-08T18:28:21.214736Z",
+      "last_checked": "2026-07-08T18:29:12.204406Z",
       "accessible": true
     },
     "menu": {
@@ -448,14 +448,14 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.hvb-stiepel.de/pfingstblume-cafe",
-      "extracted_at": "2026-06-02T11:38:24.245030Z",
-      "last_checked": "2026-06-23T15:20:15.289466Z",
+      "extracted_at": "2026-07-08T18:28:21.214866Z",
+      "last_checked": "2026-07-08T18:29:12.880711Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": "https://www.hvb-stiepel.de/pfingstblume-cafe",
-      "menu_url_last_checked": "2026-06-23T15:20:17.434986Z",
-      "menu_url_accessible": true,
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
       "currency": null,
       "extracted_at": null,
       "items": []
@@ -470,15 +470,15 @@
     "category": "Cafe",
     "website": {
       "url": "http://www.augusta-bochum.de/a-z.html#cafeteria",
-      "extracted_at": "2026-06-02T11:38:24.245054Z",
-      "last_checked": "2026-06-23T09:25:17.748505Z",
+      "extracted_at": "2026-07-08T18:28:21.214892Z",
+      "last_checked": "2026-07-08T18:30:03.624581Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": null,
-      "menu_url_last_checked": null,
-      "menu_url_accessible": null,
-      "currency": null,
+      "menu_url": "https://www.uni-due.de/med/de/studium/praktischesjahr",
+      "menu_url_last_checked": "2026-07-08T18:30:05.580092Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -514,9 +514,9 @@
     "category": "Cafe",
     "website": {
       "url": "http://www.konditorei-strack.de",
-      "extracted_at": "2026-06-02T11:38:24.245103Z",
-      "last_checked": "2026-06-02T11:38:45.978654Z",
-      "accessible": false
+      "extracted_at": "2026-07-08T18:28:21.214943Z",
+      "last_checked": "2026-07-08T18:30:06.105415Z",
+      "accessible": true
     },
     "menu": {
       "menu_url": null,
@@ -558,15 +558,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.cafe-marinic.de",
-      "extracted_at": "2026-06-02T11:38:24.245154Z",
-      "last_checked": "2026-06-23T09:25:18.420734Z",
+      "extracted_at": "2026-07-08T18:28:21.214997Z",
+      "last_checked": "2026-07-08T18:30:06.964723Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": null,
-      "menu_url_last_checked": null,
-      "menu_url_accessible": null,
-      "currency": null,
+      "menu_url": "https://www.cafe-marinic.de/speisekarte.pdf",
+      "menu_url_last_checked": "2026-07-08T18:30:07.301581Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -580,17 +580,22 @@
     "category": "Cafe",
     "website": {
       "url": "https://ruhrfeuer.de/pumpenhaus-ruhrfeuer",
-      "extracted_at": "2026-06-02T11:38:24.245180Z",
-      "last_checked": null,
-      "accessible": null
+      "extracted_at": "2026-07-08T18:28:21.215024Z",
+      "last_checked": "2026-07-08T18:30:08.755013Z",
+      "accessible": true
     },
     "menu": {
       "menu_url": "https://ruhrfeuer.de/ruhrfeuer-speisekarte-getraenkekarte/",
-      "menu_url_last_checked": null,
-      "menu_url_accessible": null,
-      "currency": null,
-      "extracted_at": "2026-06-02T11:38:24.245182Z",
-      "items": []
+      "menu_url_last_checked": "2026-07-08T18:30:08.982336Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-08T18:30:08.982326Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 3.5
+        }
+      ]
     }
   },
   {
@@ -602,15 +607,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.akafoe.de/edwards/",
-      "extracted_at": "2026-06-02T11:38:24.245207Z",
-      "last_checked": "2026-06-02T11:38:47.689524Z",
+      "extracted_at": "2026-07-08T18:28:21.215051Z",
+      "last_checked": "2026-07-08T18:30:12.125166Z",
       "accessible": true
     },
     "menu": {
       "menu_url": "https://www.akafoe.de/essen",
-      "menu_url_last_checked": "2026-06-23T09:25:20.648516Z",
+      "menu_url_last_checked": "2026-07-08T18:30:12.336294Z",
       "menu_url_accessible": true,
-      "currency": null,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -668,15 +673,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.schmidtmeier.de/",
-      "extracted_at": "2026-06-02T11:38:24.245285Z",
-      "last_checked": "2026-06-23T09:25:22.688277Z",
+      "extracted_at": "2026-07-08T18:28:21.215281Z",
+      "last_checked": "2026-07-08T18:30:14.438135Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": null,
-      "menu_url_last_checked": null,
-      "menu_url_accessible": null,
-      "currency": null,
+      "menu_url": "https://www.schmidtmeier.de/",
+      "menu_url_last_checked": "2026-07-08T18:30:16.059704Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -712,15 +717,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.caffelito.de/",
-      "extracted_at": "2026-06-02T11:38:24.245335Z",
-      "last_checked": "2026-06-23T09:25:23.649302Z",
+      "extracted_at": "2026-07-08T18:28:21.215377Z",
+      "last_checked": "2026-07-08T18:30:17.172567Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": null,
-      "menu_url_last_checked": null,
-      "menu_url_accessible": null,
-      "currency": null,
+      "menu_url": "https://www.caffelito.de/#imGoToMenu",
+      "menu_url_last_checked": "2026-07-08T18:30:17.356063Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -734,9 +739,9 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.gerthe.ekvw.de/orte/teehaus",
-      "extracted_at": "2026-06-02T11:38:24.245360Z",
-      "last_checked": "2026-06-02T11:38:53.778916Z",
-      "accessible": false
+      "extracted_at": "2026-07-08T18:28:21.215449Z",
+      "last_checked": "2026-07-08T18:30:17.919786Z",
+      "accessible": true
     },
     "menu": {
       "menu_url": null,
@@ -756,15 +761,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.baeckerei-loescher.de/filialen/bochum-hofstede-im-kaufland/",
-      "extracted_at": "2026-06-02T11:38:24.245385Z",
-      "last_checked": "2026-06-23T09:25:25.726998Z",
+      "extracted_at": "2026-07-08T18:28:21.215495Z",
+      "last_checked": "2026-07-08T18:30:20.708687Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": null,
-      "menu_url_last_checked": null,
-      "menu_url_accessible": null,
-      "currency": null,
+      "menu_url": "https://www.baeckerei-loescher.de/gastronomie/fruehstuecke/",
+      "menu_url_last_checked": "2026-07-08T18:30:21.035288Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -888,15 +893,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.akafoe.de/gastronomie/speiseplaene-der-mensen/ruhr-universitaet-bochum/",
-      "extracted_at": "2026-06-02T11:38:24.245536Z",
-      "last_checked": "2026-06-02T11:39:02.640514Z",
+      "extracted_at": "2026-07-08T18:28:21.215668Z",
+      "last_checked": "2026-07-08T18:30:24.190434Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": "https://www.akafoe.de/essen",
-      "menu_url_last_checked": "2026-06-23T09:25:27.777911Z",
+      "menu_url": "https://www.akafoe.de/essen/mensen-und-cafeterien",
+      "menu_url_last_checked": "2026-07-08T18:30:24.521413Z",
       "menu_url_accessible": true,
-      "currency": null,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -932,17 +937,22 @@
     "category": "Cafe",
     "website": {
       "url": "https://asta-bochum.de/kulturcafe/",
-      "extracted_at": "2026-06-02T11:38:24.245587Z",
-      "last_checked": "2026-06-02T11:39:09.342103Z",
+      "extracted_at": "2026-07-08T18:28:21.215723Z",
+      "last_checked": "2026-07-08T18:30:28.968153Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": "https://asta-bochum.de/en/essensmarken-fuer-beduerftige-studierende/",
-      "menu_url_last_checked": "2026-07-08T13:11:08.140812Z",
+      "menu_url": "https://asta-bochum.de/kulturcafe-preise/",
+      "menu_url_last_checked": "2026-07-08T18:30:33.278589Z",
       "menu_url_accessible": true,
-      "currency": null,
-      "extracted_at": null,
-      "items": []
+      "currency": "EUR",
+      "extracted_at": "2026-07-08T18:30:33.278575Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 2.4
+        }
+      ]
     }
   },
   {
@@ -998,17 +1008,22 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.zlatanz-menami.de",
-      "extracted_at": "2026-06-02T11:38:24.245665Z",
-      "last_checked": "2026-06-02T11:39:15.861991Z",
+      "extracted_at": "2026-07-08T18:28:21.215801Z",
+      "last_checked": "2026-07-08T18:30:34.155351Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": "https://www.zlatanz-menami.de/menu",
-      "menu_url_last_checked": "2026-06-23T09:25:32.622503Z",
+      "menu_url": "https://www.waz.de/lokales/bochum/article408627535/draussen-fruehstuecken-in-bochum-acht-cafe-tipps-mit-terrasse.html",
+      "menu_url_last_checked": "2026-07-08T18:30:34.497421Z",
       "menu_url_accessible": true,
-      "currency": null,
-      "extracted_at": null,
-      "items": []
+      "currency": "EUR",
+      "extracted_at": "2026-07-08T18:30:34.497412Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 10.0
+        }
+      ]
     }
   },
   {
@@ -1152,8 +1167,8 @@
     "category": "Cafe",
     "website": {
       "url": "http://gastrokanne.de/",
-      "extracted_at": "2026-06-02T11:38:24.245894Z",
-      "last_checked": "2026-06-23T09:25:33.694335Z",
+      "extracted_at": "2026-07-08T18:28:21.216140Z",
+      "last_checked": "2026-07-08T18:30:36.256655Z",
       "accessible": true
     },
     "menu": {
@@ -1174,15 +1189,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.cafe-ana.de",
-      "extracted_at": "2026-06-02T11:38:24.245920Z",
-      "last_checked": "2026-06-02T11:39:19.513106Z",
+      "extracted_at": "2026-07-08T18:28:21.216166Z",
+      "last_checked": "2026-07-08T18:30:39.291533Z",
       "accessible": true
     },
     "menu": {
       "menu_url": "https://www.cafe-ana.de/speisekarte/",
-      "menu_url_last_checked": "2026-06-23T09:25:35.825799Z",
+      "menu_url_last_checked": "2026-07-08T18:30:39.530222Z",
       "menu_url_accessible": true,
-      "currency": null,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -1350,15 +1365,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.schmidtmeier.de/",
-      "extracted_at": "2026-06-02T11:38:24.246127Z",
-      "last_checked": "2026-06-23T09:25:37.729167Z",
+      "extracted_at": "2026-07-08T18:28:21.216375Z",
+      "last_checked": "2026-07-08T18:30:42.282890Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": null,
-      "menu_url_last_checked": null,
-      "menu_url_accessible": null,
-      "currency": null,
+      "menu_url": "https://www.schmidtmeier.de/",
+      "menu_url_last_checked": "2026-07-08T18:30:43.850272Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -1460,15 +1475,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.wiacker.de/home/",
-      "extracted_at": "2026-06-02T11:38:24.246258Z",
-      "last_checked": "2026-06-02T11:39:24.891243Z",
+      "extracted_at": "2026-07-08T18:28:21.216513Z",
+      "last_checked": "2026-07-08T18:30:44.993228Z",
       "accessible": true
     },
     "menu": {
       "menu_url": "https://www.wiacker.de/aktuelle-angebote/gaenseessen/",
-      "menu_url_last_checked": "2026-06-23T09:25:38.396461Z",
+      "menu_url_last_checked": "2026-07-08T18:30:45.392045Z",
       "menu_url_accessible": true,
-      "currency": null,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -1526,15 +1541,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://kleine-zuckerbaeckerei.de/",
-      "extracted_at": "2026-06-02T11:38:24.246336Z",
-      "last_checked": "2026-06-02T11:39:30.450156Z",
+      "extracted_at": "2026-07-08T18:28:21.216603Z",
+      "last_checked": "2026-07-08T18:30:47.885022Z",
       "accessible": true
     },
     "menu": {
       "menu_url": "https://kleine-zuckerbaeckerei.de/Passwort-vergessen",
-      "menu_url_last_checked": "2026-06-23T09:25:40.221467Z",
+      "menu_url_last_checked": "2026-07-08T18:30:50.018852Z",
       "menu_url_accessible": true,
-      "currency": null,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -1570,8 +1585,8 @@
     "category": "Cafe",
     "website": {
       "url": "https://baristoteles.de",
-      "extracted_at": "2026-06-02T11:38:24.246385Z",
-      "last_checked": "2026-06-23T09:25:41.295947Z",
+      "extracted_at": "2026-07-08T18:28:21.216660Z",
+      "last_checked": "2026-07-08T18:30:57.154561Z",
       "accessible": true
     },
     "menu": {
@@ -1592,8 +1607,8 @@
     "category": "Cafe",
     "website": {
       "url": "https://caya-bochum.de",
-      "extracted_at": "2026-06-02T11:38:24.246410Z",
-      "last_checked": "2026-06-23T09:25:42.702551Z",
+      "extracted_at": "2026-07-08T18:28:21.216690Z",
+      "last_checked": "2026-07-08T18:31:09.633074Z",
       "accessible": true
     },
     "menu": {
@@ -1702,8 +1717,8 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.omibackt.de",
-      "extracted_at": "2026-06-02T11:38:24.246532Z",
-      "last_checked": "2026-06-23T09:25:43.967176Z",
+      "extracted_at": "2026-07-08T18:28:21.216833Z",
+      "last_checked": "2026-07-08T18:31:13.564559Z",
       "accessible": true
     },
     "menu": {
@@ -1746,15 +1761,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.kuchen-kollektiv.de/",
-      "extracted_at": "2026-06-02T11:38:24.246579Z",
-      "last_checked": "2026-06-23T09:25:45.165824Z",
+      "extracted_at": "2026-07-08T18:28:21.216889Z",
+      "last_checked": "2026-07-08T18:31:14.825446Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": null,
-      "menu_url_last_checked": null,
-      "menu_url_accessible": null,
-      "currency": null,
+      "menu_url": "https://www.kuchen-kollektiv.de/_files/ugd/5d8bf9_9445f7cd56a24ebeaf4191913f3d32cf.pdf",
+      "menu_url_last_checked": "2026-07-08T18:31:15.441864Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -1790,17 +1805,22 @@
     "category": "Cafe",
     "website": {
       "url": "https://oktober.cafe/",
-      "extracted_at": "2026-06-02T11:38:24.246628Z",
-      "last_checked": "2026-06-02T11:39:39.494211Z",
+      "extracted_at": "2026-07-08T18:28:21.216942Z",
+      "last_checked": "2026-07-08T18:31:17.789178Z",
       "accessible": true
     },
     "menu": {
       "menu_url": "https://oktober.cafe/essen/",
-      "menu_url_last_checked": "2026-06-23T09:25:46.418255Z",
+      "menu_url_last_checked": "2026-07-08T18:31:18.403622Z",
       "menu_url_accessible": true,
-      "currency": null,
-      "extracted_at": null,
-      "items": []
+      "currency": "EUR",
+      "extracted_at": "2026-07-08T18:31:18.403604Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 14.0
+        }
+      ]
     }
   },
   {
@@ -1812,17 +1832,22 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.cafecaspi.com",
-      "extracted_at": "2026-06-02T11:38:24.246653Z",
-      "last_checked": null,
-      "accessible": null
+      "extracted_at": "2026-07-08T18:28:21.216968Z",
+      "last_checked": "2026-07-08T18:31:25.401994Z",
+      "accessible": true
     },
     "menu": {
       "menu_url": "https://www.cafecaspi.com/speisen-getraenke.html",
-      "menu_url_last_checked": null,
-      "menu_url_accessible": null,
-      "currency": null,
-      "extracted_at": "2026-06-02T11:38:24.246654Z",
-      "items": []
+      "menu_url_last_checked": "2026-07-08T18:31:26.553331Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-08T18:31:26.553321Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 3.4
+        }
+      ]
     }
   },
   {
@@ -1834,9 +1859,9 @@
     "category": "Cafe",
     "website": {
       "url": "https://confiserie-ruth.de/schokoladenwerk-bochum",
-      "extracted_at": "2026-06-02T11:38:24.246678Z",
-      "last_checked": "2026-06-02T11:39:41.582358Z",
-      "accessible": false
+      "extracted_at": "2026-07-08T18:28:21.216993Z",
+      "last_checked": "2026-07-08T18:31:27.156860Z",
+      "accessible": true
     },
     "menu": {
       "menu_url": null,
@@ -1922,17 +1947,22 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.lieberts-im-kuemmel-kopp.de/",
-      "extracted_at": "2026-06-02T11:38:24.246773Z",
-      "last_checked": "2026-06-02T11:39:43.745441Z",
+      "extracted_at": "2026-07-08T18:28:21.217094Z",
+      "last_checked": "2026-07-08T18:31:29.621489Z",
       "accessible": true
     },
     "menu": {
       "menu_url": "https://lieberts-im-kuemmel-kopp.de/speisekarte/",
-      "menu_url_last_checked": "2026-06-23T09:25:48.079164Z",
+      "menu_url_last_checked": "2026-07-08T18:31:30.433408Z",
       "menu_url_accessible": true,
-      "currency": null,
-      "extracted_at": null,
-      "items": []
+      "currency": "EUR",
+      "extracted_at": "2026-07-08T18:31:30.433393Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 3.5
+        }
+      ]
     }
   },
   {
@@ -1944,8 +1974,8 @@
     "category": "Cafe",
     "website": {
       "url": "https://hi-kalle.de/",
-      "extracted_at": "2026-06-02T11:38:24.246797Z",
-      "last_checked": "2026-06-23T09:25:48.958538Z",
+      "extracted_at": "2026-07-08T18:28:21.217119Z",
+      "last_checked": "2026-07-08T18:31:33.401302Z",
       "accessible": true
     },
     "menu": {
@@ -1966,9 +1996,9 @@
     "category": "Cafe",
     "website": {
       "url": "https://confiserie-ruth.de",
-      "extracted_at": "2026-06-02T11:38:24.246821Z",
-      "last_checked": "2026-06-02T11:39:50.213821Z",
-      "accessible": false
+      "extracted_at": "2026-07-08T18:28:21.217144Z",
+      "last_checked": "2026-07-08T18:31:34.096575Z",
+      "accessible": true
     },
     "menu": {
       "menu_url": null,
@@ -1988,8 +2018,8 @@
     "category": "Cafe",
     "website": {
       "url": "https://caffebarbera.de/bochum/",
-      "extracted_at": "2026-06-02T11:38:24.246844Z",
-      "last_checked": "2026-06-23T09:25:50.358565Z",
+      "extracted_at": "2026-07-08T18:28:21.217168Z",
+      "last_checked": "2026-07-08T18:31:50.106079Z",
       "accessible": true
     },
     "menu": {
@@ -2032,17 +2062,22 @@
     "category": "Cafe",
     "website": {
       "url": "https://cafe.stueh33.de/",
-      "extracted_at": "2026-06-02T11:38:24.246892Z",
-      "last_checked": "2026-06-02T11:39:56.183050Z",
+      "extracted_at": "2026-07-08T18:28:21.217219Z",
+      "last_checked": "2026-07-08T18:31:52.874971Z",
       "accessible": true
     },
     "menu": {
       "menu_url": "https://stueh33.de/stueh33-cafe-menu.pdf",
-      "menu_url_last_checked": "2026-06-23T09:25:50.790024Z",
-      "menu_url_accessible": false,
-      "currency": null,
-      "extracted_at": null,
-      "items": []
+      "menu_url_last_checked": "2026-07-08T18:31:53.208339Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-08T18:31:53.208332Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 3.6
+        }
+      ]
     }
   },
   {
@@ -2164,15 +2199,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://cafe-historias.de",
-      "extracted_at": "2026-06-02T11:38:24.247048Z",
-      "last_checked": "2026-06-02T11:39:58.293515Z",
+      "extracted_at": "2026-07-08T18:28:21.217480Z",
+      "last_checked": "2026-07-08T18:31:55.332670Z",
       "accessible": true
     },
     "menu": {
       "menu_url": "https://cafe-historias.de/speisekarte/",
-      "menu_url_last_checked": "2026-06-23T09:25:52.031805Z",
+      "menu_url_last_checked": "2026-07-08T18:31:55.528291Z",
       "menu_url_accessible": true,
-      "currency": null,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -2230,8 +2265,8 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.cafe-kochskotten.de/",
-      "extracted_at": "2026-06-02T11:38:24.247120Z",
-      "last_checked": "2026-06-23T09:25:52.691329Z",
+      "extracted_at": "2026-07-08T18:28:21.217575Z",
+      "last_checked": "2026-07-08T18:32:02.180216Z",
       "accessible": true
     },
     "menu": {
@@ -2252,17 +2287,22 @@
     "category": "Cafe",
     "website": {
       "url": "https://51gradcafe.de/",
-      "extracted_at": "2026-06-02T11:38:24.247144Z",
-      "last_checked": "2026-06-02T11:40:10.403964Z",
+      "extracted_at": "2026-07-08T18:28:21.217606Z",
+      "last_checked": "2026-07-08T18:32:06.849667Z",
       "accessible": true
     },
     "menu": {
       "menu_url": "https://51gradcafe.de/wp-content/uploads/2025/11/51-cafe-speisekarte.pdf",
-      "menu_url_last_checked": "2026-06-23T09:25:53.096870Z",
-      "menu_url_accessible": false,
-      "currency": null,
-      "extracted_at": null,
-      "items": []
+      "menu_url_last_checked": "2026-07-08T18:32:07.556680Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-08T18:32:07.556667Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 3.6
+        }
+      ]
     }
   },
   {
@@ -2296,8 +2336,8 @@
     "category": "Cafe",
     "website": {
       "url": "https://bochum.asbnrw.de/index.php/soziale-dienste/starke-nachbarschaften",
-      "extracted_at": "2026-06-02T11:38:24.247196Z",
-      "last_checked": "2026-06-23T09:25:54.082828Z",
+      "extracted_at": "2026-07-08T18:28:21.217678Z",
+      "last_checked": "2026-07-08T18:32:19.441602Z",
       "accessible": true
     },
     "menu": {
@@ -2318,8 +2358,8 @@
     "category": "Cafe",
     "website": {
       "url": "http://www.steilhaus.de/heroes.html",
-      "extracted_at": "2026-06-02T11:38:24.247221Z",
-      "last_checked": "2026-06-23T09:25:54.630473Z",
+      "extracted_at": "2026-07-08T18:28:21.217708Z",
+      "last_checked": "2026-07-08T18:32:36.049228Z",
       "accessible": true
     },
     "menu": {
@@ -2362,15 +2402,15 @@
     "category": "Cafe",
     "website": {
       "url": "https://celona.de/mein-celona/details/finca-bar-celona-bochum/",
-      "extracted_at": "2026-06-02T11:38:24.247270Z",
-      "last_checked": "2026-06-02T11:40:17.257708Z",
+      "extracted_at": "2026-07-08T18:28:21.217773Z",
+      "last_checked": "2026-07-08T18:32:39.638767Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": "https://celona.de/finca-bar-celona-bochum#speisekarten",
-      "menu_url_last_checked": "2026-06-23T09:25:56.387043Z",
+      "menu_url": "https://celona.de/finca-bar-celona-bochum?tx_celona_locationselector%5Baction%5D=link&tx_celona_locationselector%5Bcontroller%5D=Location&tx_celona_locationselector%5Blocation%5D=110&cHash=b892ff7bbb15f1a741bc103f31d48087",
+      "menu_url_last_checked": "2026-07-08T18:32:44.152053Z",
       "menu_url_accessible": true,
-      "currency": null,
+      "currency": "EUR",
       "extracted_at": null,
       "items": []
     }
@@ -2384,8 +2424,8 @@
     "category": "Cafe",
     "website": {
       "url": "https://www.cafe-am-stern.de",
-      "extracted_at": "2026-06-02T11:38:24.247294Z",
-      "last_checked": "2026-06-23T09:25:59.886874Z",
+      "extracted_at": "2026-07-08T18:28:21.217801Z",
+      "last_checked": "2026-07-08T18:32:46.773674Z",
       "accessible": true
     },
     "menu": {
