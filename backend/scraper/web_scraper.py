@@ -106,7 +106,7 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
                 call_count += 1
 
                 try:
-                    page.goto(current_url, timeout=3000)
+                    page.goto(current_url, timeout=15000)
                 except Exception as e:
                     print(f"Error navigating to {current_url}: {e}")
                     continue
@@ -240,18 +240,15 @@ def retrieve_menu_data(coffee_shop: CoffeeShop):
 
 def extract_menu_url_from_coffee_shop(coffee_shop: CoffeeShop):
     if coffee_shop.website.url:
-        if not coffee_shop.menu.menu_url:
-            try:
-                menu_urls = get_menu_urls_from_website(coffee_shop.website.url)
-                coffee_shop.website.accessible = True
-                coffee_shop.website.last_checked = datetime.now(tz=UTC)
-            except Exception as e:
-                coffee_shop.website.accessible = False
-                coffee_shop.website.last_checked = datetime.now(tz=UTC)
-                print(f"Error accessing website for {coffee_shop.name}: {e}")
-                return
-        else:
-            menu_urls = [coffee_shop.menu.menu_url]
+        try:
+            menu_urls = get_menu_urls_from_website(coffee_shop.website.url)
+            coffee_shop.website.accessible = True
+            coffee_shop.website.last_checked = datetime.now(tz=UTC)
+        except Exception as e:
+            coffee_shop.website.accessible = False
+            coffee_shop.website.last_checked = datetime.now(tz=UTC)
+            print(f"Error accessing website for {coffee_shop.name}: {e}")
+            return
 
         if menu_urls:
             # loop through menu urls till valid one found
