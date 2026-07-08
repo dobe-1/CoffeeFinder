@@ -3,21 +3,7 @@ import re
 from backend.models.menu import MenuItem
 
 COFFEE_KEYWORDS = (
-    "Americano",
-    "Cafe Crema",
-    "Caffe Crema",
     "Cappuccino",
-    "Coffee",
-    "Espresso",
-    "Espresso Macchiato",
-    "Flat White",
-    "Kaffee",
-    "Latte",
-    "Latte Macchiato",
-    "Macchiato",
-    "Milchkaffee",
-    "Mocha",
-    "White Mocha",
 )
 COFFEE_KEYWORD_PATTERNS = tuple(
     (
