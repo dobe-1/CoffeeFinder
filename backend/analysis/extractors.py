@@ -3,22 +3,28 @@ import re
 from backend.models.menu import MenuItem
 
 COFFEE_KEYWORDS = (
-    "americano",
-    "cafe crema",
-    "caffe crema",
-    "cappuccino",
-    "coffee",
-    "espresso",
-    "flat white",
-    "kaffee",
-    "latte",
-    "macchiato",
-    "milchkaffee",
-    "mocha",
+    "Americano",
+    "Cafe Crema",
+    "Caffe Crema",
+    "Cappuccino",
+    "Coffee",
+    "Espresso",
+    "Espresso Macchiato",
+    "Flat White",
+    "Kaffee",
+    "Latte",
+    "Latte Macchiato",
+    "Macchiato",
+    "Milchkaffee",
+    "Mocha",
+    "White Mocha",
 )
 COFFEE_KEYWORD_PATTERNS = tuple(
-    re.compile(r"(?<!\w)" + re.escape(keyword).replace(r"\ ", r"\s+") + r"(?!\w)", re.I)
-    for keyword in COFFEE_KEYWORDS
+    (
+        keyword,
+        re.compile(r"(?<!\w)" + re.escape(keyword).replace(r"\ ", r"\s+") + r"(?!\w)", re.I),
+    )
+    for keyword in sorted(COFFEE_KEYWORDS, key=len, reverse=True)
 )
 
 PRICE_RE = re.compile(
@@ -27,16 +33,17 @@ PRICE_RE = re.compile(
 )
 PRICE_ONLY_RE = re.compile(r"^(?:€|eur)?\s*(?P<price>\d{1,2}(?:[,.]\d{1,2})?)\s*(?:€|eur)?$", re.I)
 TAG_RE = re.compile(r"</?[A-Za-z][^>]*>")
-NAME_WORD_RE = re.compile(r"[^\W\d_]+", re.UNICODE)
 
 
 def is_coffee_text(text: str) -> bool:
-    return any(pattern.search(text) for pattern in COFFEE_KEYWORD_PATTERNS)
+    return matched_coffee_keyword(text) is not None
 
 
-def normalize_menu_item_name(name: str) -> str:
-    cleaned = " ".join(name.split()).strip(" -:|")
-    return NAME_WORD_RE.sub(lambda match: match.group(0).capitalize(), cleaned)
+def matched_coffee_keyword(text: str) -> str | None:
+    for keyword, pattern in COFFEE_KEYWORD_PATTERNS:
+        if pattern.search(text):
+            return keyword
+    return None
 
 
 def extract_menu_items_from_text(text: str) -> list[MenuItem]:
@@ -50,7 +57,7 @@ def extract_menu_items_from_text(text: str) -> list[MenuItem]:
         if not line or not is_coffee_text(line):
             price_match = PRICE_ONLY_RE.search(line)
             if price_match is not None and pending_name:
-                name = normalize_menu_item_name(pending_name)
+                name = matched_coffee_keyword(pending_name)
                 price = float(price_match.group("price").replace(",", "."))
                 if name and 0.5 <= price <= 30:
                     key = (name.lower(), price)
@@ -65,7 +72,7 @@ def extract_menu_items_from_text(text: str) -> list[MenuItem]:
             pending_name = line
             continue
 
-        name = normalize_menu_item_name(match.group("name"))
+        name = matched_coffee_keyword(match.group("name"))
         price = float(match.group("price").replace(",", "."))
         if not name or not 0.5 <= price <= 30:
             continue

@@ -280,7 +280,6 @@ def get_coffee_shops_in_city(city_name) -> list[CoffeeShop]:
                 ),
                 menu=Menu(
                     menu_url=menu_url if menu_url else None,
-                    extracted_at=datetime.now(tz=UTC) if menu_url else None,
                 ),
             )
         )

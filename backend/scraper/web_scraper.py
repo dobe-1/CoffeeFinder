@@ -194,11 +194,12 @@ def retrieve_menu_data(coffee_shop: CoffeeShop):
             coffee_shop.menu.menu_url_accessible = False
             coffee_shop.menu.menu_url_last_checked = datetime.now(tz=UTC)
             return False
-
+    # This implies that the last menu url analyzed will remain in the app later on. 
+    # Otherwise we could unset it entirely, 
+    # but still linking to the website seems to be better choice.  
     coffee_shop.menu.menu_url_accessible = True
     coffee_shop.menu.menu_url_last_checked = datetime.now(tz=UTC)
-    coffee_shop = result
-    return True
+    return result.menu.extracted_at is not None
 
 
 # def _analyze_cafes(cafes: GeoDataFrame):
