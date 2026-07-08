@@ -23,7 +23,7 @@ class Analyzer:
         )
         coffee_shop.menu.items = analysis.menu.items
         coffee_shop.menu.currency = analysis.menu.currency or "EUR"
-        coffee_shop.menu.extracted_at = datetime.now(tz=UTC)
+        coffee_shop.menu.extracted_at = datetime.now(tz=UTC) if coffee_shop.menu.items else None
         return coffee_shop
 
     def _analyzer_for_content_type(self, content_type: str) -> BaseAnalyzer:
