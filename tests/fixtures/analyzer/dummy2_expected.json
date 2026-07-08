@@ -1,0 +1,21 @@
+{
+  "name": "Dummy Café Two",
+  "coordinates": [
+    51.51,
+    7.21
+  ],
+  "category": "Cafe",
+  "website_url": "https://dummy.local/two",
+  "menu_url": null,
+  "menu": {
+    "currency": "EUR",
+    "source_url": "https://dummy.local/documents/dummy2.webp",
+    "offers": [
+      { "name": "Espresso", "price": 2.5 },
+      { "name": "Americano", "price": 2.8 },
+      { "name": "Cappuccino", "price": 3.2 },
+      { "name": "Latte Macchiato", "price": 3.5 },
+      { "name": "Flat White", "price": 3.5 }
+    ]
+  }
+}

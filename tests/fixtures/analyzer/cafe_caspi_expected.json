@@ -1,0 +1,20 @@
+{
+  "name": "Café Caspi",
+  "coordinates": [
+    51.4793043,
+    7.2159791
+  ],
+  "category": "Cafe",
+  "website_url": "https://www.cafecaspi.com",
+  "menu_url": "https://www.cafecaspi.com/speisen-getraenke.html",
+  "menu": {
+    "currency": "EUR",
+    "source_url": "https://www.cafecaspi.com/speisen-getraenke.html",
+    "offers": [
+      { "name": "Cappuccino", "price": 3.4 },
+      { "name": "Latte Macchiato", "price": 4.2 },
+      { "name": "Espresso", "price": 2.2 },
+      { "name": "Flat White", "price": 4.1 }
+    ]
+  }
+}
