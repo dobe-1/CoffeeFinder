@@ -1,11 +1,12 @@
 import re
 from datetime import UTC, datetime
-from urllib.parse import urlsplit, urlparse, urljoin
+from urllib.parse import urljoin, urlparse
 
+import requests
 from playwright.sync_api import sync_playwright
 
-from backend.models import CoffeeShop, Menu
-import requests
+from backend.analysis.analyzer import Analyzer
+from backend.models import CoffeeShop
 
 MENU_PATTERN = re.compile(
     r"([a-z]*karte[n]?|[a-z]*men(?:ü|ue|u|%C3%BC)[s]?|essen|food|drink[s]|speisen|mittagstisch|fr(?:ü|ue|u|%C3%BC)hst(?:ü|ue|u|%C3%BC)ck|getr(?:ä|ae|a|%C3%A4)nke|drinks?|food)",
@@ -91,8 +92,8 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
         })
         """)
         while current_depth < max_depth:
-            #if current_depth > 0:
-                #print(f"search with depth {current_depth}")
+            # if current_depth > 0:
+            # print(f"search with depth {current_depth}")
             while queue and call_count < max_calls:
                 current_url = queue.pop()
                 # times.sleep(3) #maybe do this to not ddos the page
@@ -127,7 +128,9 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
                     if is_menu_link(locator.inner_text(), validated_url):
                         if validated_url not in menu_urls:
                             menu_urls.append(validated_url)
-                            print(f"Found menu URL: {locator.inner_text()}, {validated_url} (depth {current_depth})")
+                            print(
+                                f"Found menu URL: {locator.inner_text()}, {validated_url} (depth {current_depth})"
+                            )
                     else:
                         # append to queue (for next depth) if it is from same domain
                         if urlparse(validated_url).netloc == base_domain and is_crawlable_page(
@@ -148,48 +151,53 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
         return menu_urls
 
 
-def retrieve_menu_data(menu: Menu):
-    if not menu.menu_url:
+def retrieve_menu_data(coffee_shop: CoffeeShop):
+    if not coffee_shop.menu.menu_url:
         print("No menu URL provided.")
-        return 
-    
+        return
+
     try:
-        response = requests.get(menu.menu_url)
-        #retrieve 
-    except Exception as e:
-        menu.menu_url_accessible = False
-        menu.menu_url_last_checked = datetime.now(tz=UTC)
+        response = requests.get(coffee_shop.menu.menu_url)
+        # retrieve
+    except Exception:
+        coffee_shop.menu.menu_url_accessible = False
+        coffee_shop.menu.menu_url_last_checked = datetime.now(tz=UTC)
         return False
-    
+
     # extract content type from headers
-    content_type = response.headers.get('Content-Type', '').lower().content_type.split(';')[0].strip()
-        
+    content_type = response.headers.get("Content-Type", "").lower().split(";")[0].strip()
 
     # evaluate menu depended on content type
     # TODO: implement actual menu data extraction logic here
     match content_type:
         # images
-        case _ if content_type.startswith('image/'):
-            print("TODO menu image extraction here")
-            
+        case _ if content_type.startswith("image/"):
+            result = Analyzer().analyze(
+                coffee_shop, data=response.content, content_type=content_type
+            )
         # pdf
-        case 'application/pdf':
-            print("TODO menu pdf extraction here")
-            
+        case "application/pdf":
+            result = Analyzer().analyze(
+                coffee_shop, data=response.content, content_type=content_type
+            )
+
         # html TODO maybe just one case for everyhting not pdf images?
-        # what to do with (complex html) - url? 
-        case 'text/html' | 'application/xhtml+xml':
-            print("TODO menu html extraction here")
-            
+        # what to do with (complex html) - url?
+        case "text/html" | "application/xhtml+xml":
+            result = Analyzer().analyze(
+                coffee_shop, data=response.content, content_type=content_type
+            )
+
         # error/ maybe fallback TODO maybe use logger
         case _:
             print("ERROR: unkown media type")
-            menu.menu_url_accessible = False
-            menu.menu_url_last_checked = datetime.now(tz=UTC)
+            coffee_shop.menu.menu_url_accessible = False
+            coffee_shop.menu.menu_url_last_checked = datetime.now(tz=UTC)
             return False
-    
-    menu.menu_url_accessible = True
-    menu.menu_url_last_checked = datetime.now(tz=UTC)
+
+    coffee_shop.menu.menu_url_accessible = True
+    coffee_shop.menu.menu_url_last_checked = datetime.now(tz=UTC)
+    coffee_shop = result
     return True
 
 
@@ -248,9 +256,9 @@ def extract_menu_url_from_coffee_shop(coffee_shop: CoffeeShop):
             # loop through menu urls till valid one found
             i = 0
             urls_l = len(menu_urls)
-            while(i<urls_l):
+            while i < urls_l:
                 coffee_shop.menu.menu_url = menu_urls[i]
-                if retrieve_menu_data(coffee_shop.menu):
+                if retrieve_menu_data(coffee_shop):
                     break
                 i += 1
 
