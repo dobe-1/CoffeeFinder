@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "beautifulsoup4>=4.15.0",
     "fastapi[all,standard]>=0.136.1",
+    "ollama>=0.6.2",
     "osmnx>=2.1.0",
     "pdfplumber>=0.11.10",
     "pillow>=12.2.0",
@@ -13,11 +15,9 @@ dependencies = [
     "pycountry>=26.2.16",
     "pydantic>=2.13.3",
     "pytesseract>=0.3.13",
+    "pymupdf>=1.27.2.3",
     "requests>=2.33.1",
 ]
 
 [dependency-groups]
-dev = [
-    "pytest>=9.1.1",
-    "ruff>=0.15.20",
-]
+dev = ["pytest>=9.1.1", "ruff>=0.15.20"]

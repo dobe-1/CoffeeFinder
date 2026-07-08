@@ -295,13 +295,13 @@
     "website": {
       "url": "https://lisas-palmengarten.de",
       "extracted_at": "2026-06-02T11:38:24.244856Z",
-      "last_checked": "2026-06-23T09:25:11.547797Z",
+      "last_checked": "2026-06-23T15:20:23.690085Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": null,
-      "menu_url_last_checked": null,
-      "menu_url_accessible": null,
+      "menu_url": "https://lisas-palmengarten.de/restaurant-speisekarte-bochum.html",
+      "menu_url_last_checked": "2026-06-23T15:20:23.902491Z",
+      "menu_url_accessible": true,
       "currency": null,
       "extracted_at": null,
       "items": []
@@ -449,13 +449,13 @@
     "website": {
       "url": "https://www.hvb-stiepel.de/pfingstblume-cafe",
       "extracted_at": "2026-06-02T11:38:24.245030Z",
-      "last_checked": "2026-06-23T09:25:15.886306Z",
+      "last_checked": "2026-06-23T15:20:15.289466Z",
       "accessible": true
     },
     "menu": {
-      "menu_url": null,
-      "menu_url_last_checked": null,
-      "menu_url_accessible": null,
+      "menu_url": "https://www.hvb-stiepel.de/pfingstblume-cafe",
+      "menu_url_last_checked": "2026-06-23T15:20:17.434986Z",
+      "menu_url_accessible": true,
       "currency": null,
       "extracted_at": null,
       "items": []
@@ -938,7 +938,7 @@
     },
     "menu": {
       "menu_url": "https://asta-bochum.de/en/essensmarken-fuer-beduerftige-studierende/",
-      "menu_url_last_checked": "2026-06-23T09:25:31.509583Z",
+      "menu_url_last_checked": "2026-07-08T13:11:08.140812Z",
       "menu_url_accessible": true,
       "currency": null,
       "extracted_at": null,

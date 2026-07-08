@@ -11,9 +11,9 @@
       <th mat-header-cell *matHeaderCellDef>Website</th>
       <td mat-cell *matCellDef="let shop">
         @if (shop.website.url) {
-          <button matButton (click)="openUrl(shop.website.url)">Website</button>
+        <button matButton (click)="openUrl(shop.website.url)">Website</button>
         } @else {
-          <span class="muted">—</span>
+        <span class="muted">—</span>
         }
       </td>
     </ng-container>
@@ -22,19 +22,33 @@
       <th mat-header-cell *matHeaderCellDef>Menu</th>
       <td mat-cell *matCellDef="let shop">
         @if (shop.menu.menu_url) {
-          <button matButton (click)="openUrl(shop.menu.menu_url)">Menu</button>
+        <button matButton (click)="openUrl(shop.menu.menu_url)">Menu</button>
+        <button matButton="outlined" (click)="extractMenu(shop)" [disabled]="isExtracting(shop)">
+          @if (isExtracting(shop)) {
+          Extracting…
+          } @else {
+          Re-Extract
+          }
+        </button>
+        } @else if (shop.website.url) {
+        <button matButton (click)="extractMenu(shop)" [disabled]="isExtracting(shop)">
+          @if (isExtracting(shop)) {
+          Extracting…
+          } @else {
+          Extract
+          }
+        </button>
         } @else {
-          <span class="muted">—</span>
+        <span class="muted">—</span>
         }
       </td>
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-    <tr mat-row *matRowDef="let row; columns: displayedColumns;"
-        [class.row-inaccessible]="isInaccessible(row)"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;" [class.row-inaccessible]="isInaccessible(row)"></tr>
   </table>
 
   @if (!loading() && coffeeShops().length === 0) {
-    <p class="empty">Keine Cafés gefunden.</p>
+  <p class="empty">Keine Cafés gefunden.</p>
   }
 </div>

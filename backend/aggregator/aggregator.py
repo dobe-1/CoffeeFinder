@@ -58,6 +58,37 @@ def get_menu_for_url(url: str) -> list:
     return get_menu_urls_from_website(url)
 
 
+def extract_menu_for_shop(city: str, website_url: str) -> CoffeeShop:
+    """Trigger menu-url extraction for a single cached coffee shop.
+
+    The shop is identified by its (unique) website url within the city's cache.
+    The extracted result is written back to the cache so it stays persistent.
+    """
+    cache_file = Path(f"store/{city.replace(', ', '_')}.json")
+    if not cache_file.exists():
+        raise FileNotFoundError(f"No cached coffee shops found for {city}.")
+
+    with cache_file.open() as f:
+        coffee_shops = [CoffeeShop.model_validate(shop) for shop in json.load(f)]
+
+    target = next((shop for shop in coffee_shops if shop.website.url == website_url), None)
+    if target is None:
+        raise ValueError(f"No coffee shop with website {website_url} found in {city}.")
+
+    extract_menu_url_from_coffee_shop(target)
+
+    data = json.dumps(
+        [shop.model_dump(mode="json") for shop in coffee_shops],
+        indent=2,
+        ensure_ascii=False,
+    )
+    cache_file.parent.mkdir(exist_ok=True)
+    with cache_file.open("w") as f:
+        f.write(data)
+
+    return target
+
+
 def get_available_cities() -> list[str]:
     # List cities for which we have cached coffee shops in the store directory
     store_dir = Path("store")

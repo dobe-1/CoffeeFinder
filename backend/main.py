@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
 from .aggregator import aggregator
@@ -28,6 +28,19 @@ def get_menu_for_url(
     url: str = Query(..., description="Website URL to search for menu links"),
 ):
     return aggregator.get_menu_for_url(url)
+
+
+@app.post("/coffe_shops/extract_menu", response_model=CoffeeShop)
+def extract_menu_for_shop(
+    city: CityName = Query(..., description="City name and country", examples=["Bochum, Germany"]),
+    website_url: str = Query(..., description="Website URL identifying the coffee shop"),
+):
+    try:
+        return aggregator.extract_menu_for_shop(city, website_url)
+    except FileNotFoundError as e:
+        raise HTTPException(status_code=404, detail=str(e)) from e
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e)) from e
 
 
 @app.get("/cities", response_model=list[str])

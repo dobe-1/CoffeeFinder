@@ -38,6 +38,10 @@ export class TableComponent implements OnInit {
     return shop.website.accessible === false;
   }
 
+  isExtracting(shop: CoffeeShop): boolean {
+    return this.coffeeService.isExtracting(shop.website.url);
+  }
+
   ngOnInit() {
     this.coffeeService.ensureLoaded();
   }
@@ -46,5 +50,9 @@ export class TableComponent implements OnInit {
     if (url) {
       window.open(url, '_blank', 'noopener');
     }
+  }
+
+  extractMenu(shop: CoffeeShop) {
+    this.coffeeService.extractMenu(shop);
   }
 }

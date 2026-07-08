@@ -9,6 +9,8 @@ export class CoffeeService {
   readonly city = signal('Bochum, Germany');
   readonly coffeeShops = signal<CoffeeShop[]>([]);
   readonly loading = signal(false);
+  // website urls of shops whose menu extraction is currently running
+  readonly extracting = signal<Set<string>>(new Set());
 
   private loadedCity: string | null = null;
 
@@ -39,6 +41,45 @@ export class CoffeeService {
   ensureLoaded() {
     if (this.loadedCity !== this.city()) {
       this.loadCoffeeShops(this.city());
+    }
+  }
+
+  isExtracting(websiteUrl: string | null): boolean {
+    return websiteUrl !== null && this.extracting().has(websiteUrl);
+  }
+
+  // Trigger menu-url extraction for a single shop (identified by its website url)
+  // and replace it in the loaded list once the backend responds.
+  async extractMenu(shop: CoffeeShop) {
+    const websiteUrl = shop.website.url;
+    if (!websiteUrl || this.isExtracting(websiteUrl)) {
+      return;
+    }
+
+    this.extracting.update((set) => new Set(set).add(websiteUrl));
+    try {
+      const params = new URLSearchParams({
+        city: this.city(),
+        website_url: websiteUrl,
+      });
+      const response = await fetch(`${API_BASE}/coffe_shops/extract_menu?${params}`, {
+        method: 'POST',
+      });
+      if (!response.ok) {
+        throw new Error(`Extraction failed (${response.status})`);
+      }
+      const updated: CoffeeShop = await response.json();
+      this.coffeeShops.update((shops) =>
+        shops.map((s) => (s.website.url === websiteUrl ? updated : s)),
+      );
+    } catch (err) {
+      console.error('Fehler beim Extrahieren des Menüs', websiteUrl, err);
+    } finally {
+      this.extracting.update((set) => {
+        const next = new Set(set);
+        next.delete(websiteUrl);
+        return next;
+      });
     }
   }
 }
