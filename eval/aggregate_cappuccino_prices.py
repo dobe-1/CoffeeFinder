@@ -2,7 +2,6 @@ import json
 from pathlib import Path
 from statistics import fmean
 
-
 BASE_DIR = Path(__file__).resolve().parents[1]
 CITY_LIST_PATH = BASE_DIR / "cities_in_germany.txt"
 STORE_DIR = BASE_DIR / "store"

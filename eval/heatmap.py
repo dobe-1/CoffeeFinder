@@ -1,7 +1,7 @@
-import os
-import json
 import csv
+import json
 import math
+import os
 from importlib.util import find_spec
 from pathlib import Path
 
@@ -11,14 +11,12 @@ os.environ.setdefault(
 )
 
 import geopandas as gpd
+import matplotlib.pyplot as plt
 import pandas as pd
 from matplotlib.colors import TwoSlopeNorm
 from matplotlib.lines import Line2D
-from sklearn.linear_model import LinearRegression
 from shapely.geometry import Polygon
-
-import matplotlib.pyplot as plt
-
+from sklearn.linear_model import LinearRegression
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 CORRELATION_DATA_PATH = BASE_DIR / "Grossstädte-Korrelation.csv"
