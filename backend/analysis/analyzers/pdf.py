@@ -21,7 +21,7 @@ class PdfAnalyzer(BaseAnalyzer):
                 extracted_pages = []
 
                 for page in pdf.pages:
-                    page_text = page.extract_text()
+                    page_text = page.extract_text(layout=True)
                     if page_text:
                         extracted_pages.append(page_text)
 
