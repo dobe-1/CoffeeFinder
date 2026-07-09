@@ -201,7 +201,11 @@ def _get_information_about_cafes(city_name):
 
 def _analyze_cafes():
     with open("cities_in_germany.txt") as f:
-        cities = [line.strip() for line in f.readlines()]
+        cities = [
+            ", ".join(part.strip() for part in line.split(",")[:2])
+            for line in f.readlines()
+            if line.strip()
+        ]
 
     total_cafes = 0
     cafes_with_websites = 0
