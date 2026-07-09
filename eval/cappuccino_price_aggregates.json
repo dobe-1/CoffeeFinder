@@ -13,7 +13,7 @@
       10.8978
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.06
   },
   "Bad Bramstedt": {
     "coordinates": [
@@ -29,7 +29,7 @@
       7.1277
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.36
   },
   "Berlin": {
     "coordinates": [
@@ -37,7 +37,7 @@
       13.405
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.42
   },
   "Bielefeld": {
     "coordinates": [
@@ -45,7 +45,7 @@
       8.5325
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.2
   },
   "Bochum": {
     "coordinates": [
@@ -61,7 +61,7 @@
       7.0982
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.54
   },
   "Bottrop": {
     "coordinates": [
@@ -69,7 +69,7 @@
       6.9447
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.61
   },
   "Braunschweig": {
     "coordinates": [
@@ -77,7 +77,7 @@
       10.5268
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.14
   },
   "Bremen": {
     "coordinates": [
@@ -85,7 +85,7 @@
       8.8017
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.05
   },
   "Bremerhaven": {
     "coordinates": [
@@ -93,7 +93,7 @@
       8.5809
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.93
   },
   "Chemnitz": {
     "coordinates": [
@@ -101,7 +101,7 @@
       12.9214
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.89
   },
   "Darmstadt": {
     "coordinates": [
@@ -109,7 +109,7 @@
       8.6512
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.81
   },
   "Dortmund": {
     "coordinates": [
@@ -117,7 +117,7 @@
       7.4653
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.87
   },
   "Dresden": {
     "coordinates": [
@@ -125,7 +125,7 @@
       13.7373
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.85
   },
   "Duisburg": {
     "coordinates": [
@@ -133,7 +133,7 @@
       6.7623
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.35
   },
   "Düsseldorf": {
     "coordinates": [
@@ -141,7 +141,7 @@
       6.7735
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.45
   },
   "Erfurt": {
     "coordinates": [
@@ -149,7 +149,7 @@
       11.0299
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.57
   },
   "Erlangen": {
     "coordinates": [
@@ -157,7 +157,7 @@
       11.0119
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.2
   },
   "Essen": {
     "coordinates": [
@@ -165,7 +165,7 @@
       7.0116
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.11
   },
   "Frankfurt am Main": {
     "coordinates": [
@@ -173,7 +173,7 @@
       8.6821
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.35
   },
   "Freiburg im Breisgau": {
     "coordinates": [
@@ -181,7 +181,7 @@
       7.8421
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.54
   },
   "Fürth": {
     "coordinates": [
@@ -189,7 +189,7 @@
       10.9887
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.03
   },
   "Gelsenkirchen": {
     "coordinates": [
@@ -197,7 +197,7 @@
       7.0857
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.7
   },
   "Göttingen": {
     "coordinates": [
@@ -205,7 +205,7 @@
       9.9158
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.07
   },
   "Gütersloh": {
     "coordinates": [
@@ -213,7 +213,7 @@
       8.3858
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.1
   },
   "Hagen": {
     "coordinates": [
@@ -221,7 +221,7 @@
       7.4633
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.61
   },
   "Halle (Saale)": {
     "coordinates": [
@@ -229,7 +229,7 @@
       11.9705
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.43
   },
   "Hamburg": {
     "coordinates": [
@@ -237,7 +237,7 @@
       9.9937
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.35
   },
   "Hamm": {
     "coordinates": [
@@ -245,7 +245,7 @@
       7.815
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.8
   },
   "Hanau": {
     "coordinates": [
@@ -261,7 +261,7 @@
       9.732
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.13
   },
   "Heidelberg": {
     "coordinates": [
@@ -269,7 +269,7 @@
       8.6724
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.5
   },
   "Heilbronn": {
     "coordinates": [
@@ -277,7 +277,7 @@
       9.2109
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.18
   },
   "Herne": {
     "coordinates": [
@@ -285,7 +285,7 @@
       7.2009
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.47
   },
   "Ingolstadt": {
     "coordinates": [
@@ -293,7 +293,7 @@
       11.4258
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.91
   },
   "Jena": {
     "coordinates": [
@@ -301,7 +301,7 @@
       11.5892
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.73
   },
   "Karlsruhe": {
     "coordinates": [
@@ -309,7 +309,7 @@
       8.4037
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.15
   },
   "Kassel": {
     "coordinates": [
@@ -317,7 +317,7 @@
       9.4797
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.73
   },
   "Kiel": {
     "coordinates": [
@@ -325,7 +325,7 @@
       10.1228
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.89
   },
   "Koblenz": {
     "coordinates": [
@@ -333,7 +333,7 @@
       7.589
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.79
   },
   "Krefeld": {
     "coordinates": [
@@ -341,7 +341,7 @@
       6.5853
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.15
   },
   "Köln": {
     "coordinates": [
@@ -349,7 +349,7 @@
       6.9603
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.28
   },
   "Leipzig": {
     "coordinates": [
@@ -357,7 +357,7 @@
       12.3731
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.68
   },
   "Leverkusen": {
     "coordinates": [
@@ -365,7 +365,7 @@
       7.0192
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.12
   },
   "Ludwigshafen am Rhein": {
     "coordinates": [
@@ -373,7 +373,7 @@
       8.4452
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.83
   },
   "Lübeck": {
     "coordinates": [
@@ -381,7 +381,7 @@
       10.6866
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.97
   },
   "Magdeburg": {
     "coordinates": [
@@ -389,7 +389,7 @@
       11.6276
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.85
   },
   "Mainz": {
     "coordinates": [
@@ -397,7 +397,7 @@
       8.2473
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.5
   },
   "Mannheim": {
     "coordinates": [
@@ -405,7 +405,7 @@
       8.466
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.14
   },
   "Moers": {
     "coordinates": [
@@ -413,7 +413,7 @@
       6.6408
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.9
   },
   "Mönchengladbach": {
     "coordinates": [
@@ -421,7 +421,7 @@
       6.4428
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.71
   },
   "Mülheim an der Ruhr": {
     "coordinates": [
@@ -429,7 +429,7 @@
       6.8845
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.05
   },
   "München": {
     "coordinates": [
@@ -437,7 +437,7 @@
       11.582
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.9
   },
   "Münster": {
     "coordinates": [
@@ -445,7 +445,7 @@
       7.6261
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.08
   },
   "Neuss": {
     "coordinates": [
@@ -453,7 +453,7 @@
       6.6879
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.2
   },
   "Nürnberg": {
     "coordinates": [
@@ -461,7 +461,7 @@
       11.0767
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.78
   },
   "Oberhausen": {
     "coordinates": [
@@ -469,7 +469,7 @@
       6.8638
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.65
   },
   "Offenbach am Main": {
     "coordinates": [
@@ -477,7 +477,7 @@
       8.7761
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.89
   },
   "Oldenburg": {
     "coordinates": [
@@ -485,7 +485,7 @@
       8.2146
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.14
   },
   "Osnabrück": {
     "coordinates": [
@@ -493,7 +493,7 @@
       8.0472
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.89
   },
   "Paderborn": {
     "coordinates": [
@@ -501,7 +501,7 @@
       8.7575
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.09
   },
   "Pforzheim": {
     "coordinates": [
@@ -509,7 +509,7 @@
       8.6946
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.15
   },
   "Potsdam": {
     "coordinates": [
@@ -517,7 +517,7 @@
       13.0645
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.88
   },
   "Recklinghausen": {
     "coordinates": [
@@ -525,7 +525,7 @@
       7.1979
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.86
   },
   "Regensburg": {
     "coordinates": [
@@ -533,7 +533,7 @@
       12.1016
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.26
   },
   "Remscheid": {
     "coordinates": [
@@ -541,7 +541,7 @@
       7.1897
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.83
   },
   "Reutlingen": {
     "coordinates": [
@@ -549,7 +549,7 @@
       9.2038
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.05
   },
   "Rostock": {
     "coordinates": [
@@ -557,7 +557,7 @@
       12.0991
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.43
   },
   "Saarbrücken": {
     "coordinates": [
@@ -565,7 +565,7 @@
       6.9969
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.9
   },
   "Salzgitter": {
     "coordinates": [
@@ -573,7 +573,7 @@
       10.3899
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.66
   },
   "Solingen": {
     "coordinates": [
@@ -581,7 +581,7 @@
       7.0671
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.13
   },
   "Stuttgart": {
     "coordinates": [
@@ -589,7 +589,7 @@
       9.1829
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.47
   },
   "Trier": {
     "coordinates": [
@@ -597,7 +597,7 @@
       6.6371
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.85
   },
   "Ulm": {
     "coordinates": [
@@ -605,7 +605,7 @@
       9.9876
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.38
   },
   "Wiesbaden": {
     "coordinates": [
@@ -613,7 +613,7 @@
       8.2398
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.18
   },
   "Wolfsburg": {
     "coordinates": [
@@ -621,7 +621,7 @@
       10.7865
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.95
   },
   "Wuppertal": {
     "coordinates": [
@@ -629,7 +629,7 @@
       7.1508
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 3.03
   },
   "Würzburg": {
     "coordinates": [
@@ -637,6 +637,6 @@
       9.9534
     ],
     "sample_size": 0,
-    "aggregated_value": null
+    "aggregated_value": 2.8
   }
 }
