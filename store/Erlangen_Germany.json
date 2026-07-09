@@ -1,0 +1,1993 @@
+[
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.5674088,
+      10.9617267
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.948750Z",
+      "last_checked": "2026-07-08T20:30:00.485190Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:30:01.196352Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.5733503,
+      11.0160244
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.948896Z",
+      "last_checked": "2026-07-08T20:30:04.787110Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:30:05.663762Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.544265,
+      11.0240413
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.949011Z",
+      "last_checked": "2026-07-08T20:30:09.231711Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:30:10.049988Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Bistro bareva",
+    "coordinates": [
+      49.5761222,
+      11.0087296
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Starbucks",
+    "coordinates": [
+      49.5822584,
+      10.9264923
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.starbucks.co.uk/store-locator/81193-310508/aurach-sued-a3-herzogenaurach",
+      "extracted_at": "2026-07-08T20:29:56.949219Z",
+      "last_checked": "2026-07-08T20:30:15.947554Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://solutions.starbucks.co.uk/",
+      "menu_url_last_checked": "2026-07-08T20:32:56.009723Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kalchreuther Bäcker",
+    "coordinates": [
+      49.5905867,
+      11.0065183
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-kalchreuther-baecker.de/hp617/Erlangen.htm",
+      "extracted_at": "2026-07-08T20:29:56.949319Z",
+      "last_checked": "2026-07-08T20:32:59.024808Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Casa Laura",
+    "coordinates": [
+      49.5935904,
+      11.0219808
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://pizzeria-casalaura.de",
+      "extracted_at": "2026-07-08T20:29:56.949421Z",
+      "last_checked": "2026-07-08T20:33:00.414718Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://pizzeria-casalaura.de/app-order",
+      "menu_url_last_checked": "2026-07-08T20:33:01.649763Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Mr. Bleck",
+    "coordinates": [
+      49.5917556,
+      11.0329209
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://mrbleck.de/shops/erlangen-marie-curie-strasse-1/",
+      "extracted_at": "2026-07-08T20:29:56.949519Z",
+      "last_checked": "2026-07-08T20:33:16.058802Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://mrbleck.de/produkte#juices",
+      "menu_url_last_checked": "2026-07-08T20:33:17.730704Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Krempl",
+    "coordinates": [
+      49.5981259,
+      11.0159798
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.cafe-krempl.de/",
+      "extracted_at": "2026-07-08T20:29:56.949615Z",
+      "last_checked": "2026-07-08T20:33:21.299338Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://hp.cafe-krempl.de/wp-content/uploads/Speisekarte-neu.pdf",
+      "menu_url_last_checked": "2026-07-08T20:33:21.732711Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.5961511,
+      11.0277761
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.949728Z",
+      "last_checked": "2026-07-08T20:33:25.298782Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:33:26.144125Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Mr. Bleck",
+    "coordinates": [
+      49.5961954,
+      11.0050349
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://mrbleck.de/shops/erlangen-untere-karlstrasse-1",
+      "extracted_at": "2026-07-08T20:29:56.949825Z",
+      "last_checked": "2026-07-08T20:33:41.650354Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://mrbleck.de/produkte#juices",
+      "menu_url_last_checked": "2026-07-08T20:33:43.349356Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Erlanger Teehaus",
+    "coordinates": [
+      49.5958444,
+      11.0078161
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.erlangerteehaus.de",
+      "extracted_at": "2026-07-08T20:29:56.949923Z",
+      "last_checked": "2026-07-08T20:33:49.892720Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.erlangerteehaus.de/speisekarte-getränkekarte/",
+      "menu_url_last_checked": "2026-07-08T20:33:50.059565Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Melori",
+    "coordinates": [
+      49.5970701,
+      11.0080276
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://melori.de/",
+      "extracted_at": "2026-07-08T20:29:56.950034Z",
+      "last_checked": "2026-07-08T20:33:51.528810Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://melori.de/speisekarte/",
+      "menu_url_last_checked": "2026-07-08T20:33:51.678420Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Feine Kurve",
+    "coordinates": [
+      49.5971752,
+      11.008684
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.5902534,
+      11.0170339
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.950258Z",
+      "last_checked": "2026-07-08T20:33:55.215075Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:33:55.931838Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Mengin",
+    "coordinates": [
+      49.5982821,
+      11.0042907
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.mengin.de/",
+      "extracted_at": "2026-07-08T20:29:56.950357Z",
+      "last_checked": "2026-07-08T20:33:57.529857Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "http://www.mengin.de/speisekarte/nürnberger-und-baguettes/",
+      "menu_url_last_checked": "2026-07-08T20:33:58.157316Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Stefanias Cafe",
+    "coordinates": [
+      49.6001737,
+      11.0041221
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://stefaniascafe.metro.bar/",
+      "extracted_at": "2026-07-08T20:29:56.950451Z",
+      "last_checked": "2026-07-08T20:34:00.759276Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://stefaniascafe.metro.bar/",
+      "menu_url_last_checked": "2026-07-08T20:34:01.156557Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Black Rose",
+    "coordinates": [
+      49.5914479,
+      11.0075225
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.cafeblackrose.de/",
+      "extracted_at": "2026-07-08T20:29:56.950545Z",
+      "last_checked": "2026-07-08T20:34:03.162510Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.cafeblackrose.de/menu.pdf",
+      "menu_url_last_checked": "2026-07-08T20:34:11.679830Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-08T20:34:11.679821Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 3.4
+        },
+        {
+          "name": "Cappuccino",
+          "price": 4.8
+        }
+      ]
+    }
+  },
+  {
+    "name": "Esscafe Valley",
+    "coordinates": [
+      49.594269,
+      11.0188814
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.instagram.com/esscafe_valley/",
+      "extracted_at": "2026-07-08T20:29:56.950661Z",
+      "last_checked": "2026-07-08T20:34:13.362379Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Coffini",
+    "coordinates": [
+      49.5938263,
+      11.0048942
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.coffini-erlangen.de/",
+      "extracted_at": "2026-07-08T20:29:56.950760Z",
+      "last_checked": "2026-07-08T20:34:28.985951Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Enoteca",
+    "coordinates": [
+      49.5994106,
+      11.0043919
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.enoteca-erlangen.de/",
+      "extracted_at": "2026-07-08T20:29:56.950855Z",
+      "last_checked": "2026-07-08T20:34:29.692719Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Theatercafe",
+    "coordinates": [
+      49.599648,
+      11.0046428
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Beisl (Cafe und Bistro)",
+    "coordinates": [
+      49.5997593,
+      11.0029341
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.5715193,
+      11.0031914
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.951148Z",
+      "last_checked": "2026-07-08T20:34:33.280952Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:34:34.003431Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.5958497,
+      11.00263
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.951245Z",
+      "last_checked": "2026-07-08T20:34:37.508970Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:34:38.285563Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.5938631,
+      11.0256634
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.951344Z",
+      "last_checked": "2026-07-08T20:34:41.769949Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:34:42.582062Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café am Bohlenplatz",
+    "coordinates": [
+      49.5966542,
+      11.0098491
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Bassanese",
+    "coordinates": [
+      49.5970307,
+      11.0039218
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.bassanese-erlangen.de/",
+      "extracted_at": "2026-07-08T20:29:56.951536Z",
+      "last_checked": "2026-07-08T20:34:57.878115Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Manhattan Café",
+    "coordinates": [
+      49.594288,
+      11.0043107
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Dolce Crema",
+    "coordinates": [
+      49.5905167,
+      11.0061559
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "La Lune",
+    "coordinates": [
+      49.6003779,
+      11.0027029
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.instagram.com/lalune.erlangen",
+      "extracted_at": "2026-07-08T20:29:56.951828Z",
+      "last_checked": "2026-07-08T20:34:59.529206Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Zum weißen Lamm - Weinbar & Cafe",
+    "coordinates": [
+      49.6011909,
+      11.0028856
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Espressolab",
+    "coordinates": [
+      49.5982949,
+      11.0037163
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://espresso-lab.de/",
+      "extracted_at": "2026-07-08T20:29:56.952029Z",
+      "last_checked": "2026-07-08T20:35:02.598254Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://espresso-lab.de/pages/speisekarte",
+      "menu_url_last_checked": "2026-07-08T20:35:03.197731Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Mo Manakisch",
+    "coordinates": [
+      49.597181,
+      11.0041483
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://mo-manakisch.gasma.de",
+      "extracted_at": "2026-07-08T20:29:56.952123Z",
+      "last_checked": "2026-07-08T20:35:19.608381Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafeteria Universitätsbibliothek",
+    "coordinates": [
+      49.5965661,
+      11.0075506
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.werkswelt.de/index.php?id=cafeteria-ub",
+      "extracted_at": "2026-07-08T20:29:56.952221Z",
+      "last_checked": "2026-07-08T20:35:21.712399Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://werkswelt.de/data/uploads/gastronomie/angebot_cafeterien/2026/644-speisen-2026.pdf",
+      "menu_url_last_checked": "2026-07-08T20:35:22.488336Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "ebl Café",
+    "coordinates": [
+      49.5921828,
+      11.027509
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.ebl-naturkost.de/maerkte/unsere-ebl-cafes/",
+      "extracted_at": "2026-07-08T20:29:56.952316Z",
+      "last_checked": "2026-07-08T20:35:26.128122Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.ebl-naturkost.de/widgets/menu/offcanvas?navigationId=51198a596cef4426ab018ca42df7e2c4",
+      "menu_url_last_checked": "2026-07-08T20:35:26.587245Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Venezia",
+    "coordinates": [
+      49.60541,
+      11.0046125
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://eiscafe-venezia-da-davide.metro.biz",
+      "extracted_at": "2026-07-08T20:29:56.952410Z",
+      "last_checked": "2026-07-08T20:35:33.371644Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://eiscafe-venezia-da-davide.metro.biz",
+      "menu_url_last_checked": "2026-07-08T20:35:33.536308Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Roncalli",
+    "coordinates": [
+      49.5720501,
+      11.0158797
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "mela",
+    "coordinates": [
+      49.5985519,
+      11.0158935
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.mela-erlangen.de",
+      "extracted_at": "2026-07-08T20:29:56.952597Z",
+      "last_checked": "2026-07-08T20:35:39.943156Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.mela-erlangen.com/menu",
+      "menu_url_last_checked": "2026-07-08T20:35:40.228582Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Zeitlounge",
+    "coordinates": [
+      49.5968393,
+      11.0146664
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kunst-Cafe",
+    "coordinates": [
+      49.5986922,
+      11.0021947
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kunstcafe-erlangen.de/",
+      "extracted_at": "2026-07-08T20:29:56.952847Z",
+      "last_checked": "2026-07-08T20:35:41.734486Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.kunstcafe-erlangen.de/speisen/",
+      "menu_url_last_checked": "2026-07-08T20:35:41.924226Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-08T20:35:41.924208Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bubble for you",
+    "coordinates": [
+      49.5968989,
+      11.005843
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.bubbleforyou.de/",
+      "extracted_at": "2026-07-08T20:29:56.952943Z",
+      "last_checked": "2026-07-08T20:35:42.609013Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Gelatissimo",
+    "coordinates": [
+      49.5526454,
+      11.0221126
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Break & Snacks Cafe",
+    "coordinates": [
+      49.5992087,
+      11.0173148
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Rösttrommel",
+    "coordinates": [
+      49.5984031,
+      11.0034224
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.roesttrommel.de/",
+      "extracted_at": "2026-07-08T20:29:56.953229Z",
+      "last_checked": "2026-07-08T20:35:45.316943Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.roesttrommel.de/#close-categories-menu",
+      "menu_url_last_checked": "2026-07-08T20:35:45.557382Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Königsmanns Kaffeerösterei",
+    "coordinates": [
+      49.5961685,
+      11.0063475
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kaffeekoenigin.de/",
+      "extracted_at": "2026-07-08T20:29:56.953323Z",
+      "last_checked": "2026-07-08T20:35:46.477761Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "WaldCafé",
+    "coordinates": [
+      49.5557329,
+      11.0277788
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafeteria - Klinikum am Europakanal",
+    "coordinates": [
+      49.6059042,
+      10.9691455
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Süß & Würzig",
+    "coordinates": [
+      49.5964829,
+      11.006719
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.suw-erlangen.de/",
+      "extracted_at": "2026-07-08T20:29:56.953605Z",
+      "last_checked": "2026-07-08T20:35:47.161371Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "wabene - Begegnungen im Zentrum",
+    "coordinates": [
+      49.5943399,
+      11.0136268
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.wabe-erlangen.de",
+      "extracted_at": "2026-07-08T20:29:56.953741Z",
+      "last_checked": "2026-07-08T20:35:53.856893Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.wabe-erlangen.com/wabene/bistro-speisekarte/",
+      "menu_url_last_checked": "2026-07-08T20:35:53.987499Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Museumscafé",
+    "coordinates": [
+      49.5966634,
+      11.0185961
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafeteria Chemikum",
+    "coordinates": [
+      49.5785767,
+      11.0288912
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Margareta",
+    "coordinates": [
+      49.5980967,
+      11.0031471
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.59672,
+      11.0045947
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.954263Z",
+      "last_checked": "2026-07-08T20:35:57.442789Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:35:58.181977Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.5958155,
+      10.9761116
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.954423Z",
+      "last_checked": "2026-07-08T20:36:01.791122Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:36:02.917156Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.5990288,
+      11.0422282
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.954571Z",
+      "last_checked": "2026-07-08T20:36:06.623348Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:36:07.272359Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.5899867,
+      10.9998296
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.954679Z",
+      "last_checked": "2026-07-08T20:36:10.671410Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:36:11.436811Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Brezen Kolb",
+    "coordinates": [
+      49.5961381,
+      11.0279926
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lorlebäck",
+    "coordinates": [
+      49.5969421,
+      11.016179
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.das-lorleberg.de/",
+      "extracted_at": "2026-07-08T20:29:56.954874Z",
+      "last_checked": "2026-07-08T20:36:13.122176Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Sax",
+    "coordinates": [
+      49.5982456,
+      11.0040596
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.das-sax.de/",
+      "extracted_at": "2026-07-08T20:29:56.954970Z",
+      "last_checked": "2026-07-08T20:36:15.567611Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.das-sax.de/speisekarte.pdf",
+      "menu_url_last_checked": "2026-07-08T20:36:18.802941Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-08T20:36:18.802931Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 4.4
+        }
+      ]
+    }
+  },
+  {
+    "name": "vino",
+    "coordinates": [
+      49.5959322,
+      11.0053336
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Amir Der KaffeeMann",
+    "coordinates": [
+      49.5969866,
+      11.0084519
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lavazza",
+    "coordinates": [
+      49.5925869,
+      11.0231073
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kaffeebar atrio",
+    "coordinates": [
+      49.5896981,
+      11.0084937
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Hergricht",
+    "coordinates": [
+      49.59486,
+      11.002412
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://hergricht.de/",
+      "extracted_at": "2026-07-08T20:29:56.955498Z",
+      "last_checked": "2026-07-08T20:36:30.042084Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cosy Morning",
+    "coordinates": [
+      49.5993612,
+      11.0151016
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cosymorning.de/",
+      "extracted_at": "2026-07-08T20:29:56.955596Z",
+      "last_checked": "2026-07-08T20:36:32.047509Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://cosymorning.de/sub/speisekarte.pdf",
+      "menu_url_last_checked": "2026-07-08T20:36:32.618459Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-08T20:36:32.618450Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 4.2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Primo Cafebar",
+    "coordinates": [
+      49.5772684,
+      11.0012398
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Primo Cafebar",
+    "coordinates": [
+      49.577549,
+      11.002018
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://primo.cafe/unsere-cafebars/",
+      "extracted_at": "2026-07-08T20:29:56.955798Z",
+      "last_checked": "2026-07-08T20:36:46.040397Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.5909671,
+      11.0056472
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.955896Z",
+      "last_checked": "2026-07-08T20:36:49.538201Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:36:50.272055Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.5780985,
+      11.0039482
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.955994Z",
+      "last_checked": "2026-07-08T20:36:53.885018Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:36:54.829591Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "My break",
+    "coordinates": [
+      49.5761069,
+      11.0047806
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Base Coffee",
+    "coordinates": [
+      49.5794232,
+      11.0172183
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.basecoffee.love/",
+      "extracted_at": "2026-07-08T20:29:56.956184Z",
+      "last_checked": "2026-07-08T20:37:02.588496Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://basecoffee.love/speisekarte/",
+      "menu_url_last_checked": "2026-07-08T20:37:05.404191Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-08T20:37:05.404183Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 4.9
+        },
+        {
+          "name": "Cappuccino",
+          "price": 5.9
+        }
+      ]
+    }
+  },
+  {
+    "name": "[fee-ka] Café",
+    "coordinates": [
+      49.5945504,
+      11.0043162
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://fee-ka.de/",
+      "extracted_at": "2026-07-08T20:29:56.956278Z",
+      "last_checked": "2026-07-08T20:37:07.790839Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://fee-ka.de/",
+      "menu_url_last_checked": "2026-07-08T20:37:09.021651Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafebar Langemarckplatz",
+    "coordinates": [
+      49.5934652,
+      11.0106108
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.werkswelt.de/index.php?id=cafebar-langemarckplatz",
+      "extracted_at": "2026-07-08T20:29:56.956372Z",
+      "last_checked": "2026-07-08T20:37:11.082569Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.werkswelt.de/index.php?id=kartensystem",
+      "menu_url_last_checked": "2026-07-08T20:37:11.351494Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Umweltcafé Hühnerstall",
+    "coordinates": [
+      49.6081548,
+      11.0342933
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kaffee Fleck",
+    "coordinates": [
+      49.5959814,
+      11.0048712
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Gambrinus",
+    "coordinates": [
+      49.6024399,
+      11.0051487
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.gambrinus-erlangen.de/",
+      "extracted_at": "2026-07-08T20:29:56.956659Z",
+      "last_checked": "2026-07-08T20:37:22.276007Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://gambrinus-erlangen.de/gambrinus-drinks/",
+      "menu_url_last_checked": "2026-07-08T20:37:22.562532Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Healthineers Bistro ERL EDC (öffentlich)",
+    "coordinates": [
+      49.5923468,
+      11.025614
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.siemens.com/de/de/unternehmen/ueber-uns/unternehmensstruktur/real-estate/gastronomie/standorte/erlangen/erlangen-erl-r1.html",
+      "extracted_at": "2026-07-08T20:29:56.956757Z",
+      "last_checked": "2026-07-08T20:37:23.830061Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Segafredo",
+    "coordinates": [
+      49.5806622,
+      10.9297992
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café im Rückerthof Hardtherzlich",
+    "coordinates": [
+      49.5954704,
+      11.0073665
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://hardtherzlich.de/",
+      "extracted_at": "2026-07-08T20:29:56.956949Z",
+      "last_checked": "2026-07-08T20:37:27.293536Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Mr. Bleck",
+    "coordinates": [
+      49.5904194,
+      11.0110448
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Panorama",
+    "coordinates": [
+      49.6119799,
+      11.0202503
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.cafe-panorama-erlangen.de/",
+      "extracted_at": "2026-07-08T20:29:56.957140Z",
+      "last_checked": "2026-07-08T20:37:33.821284Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.cafe-panorama-erlangen.de/frühstücksbuffet-sonntag-cafe-panorama-erlangen#ReservierungFB",
+      "menu_url_last_checked": "2026-07-08T20:37:34.293832Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Dimsumtea & espressno café bar",
+    "coordinates": [
+      49.591774,
+      11.0071223
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.5776750306617,
+      10.967035250865155
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.957342Z",
+      "last_checked": "2026-07-08T20:37:37.790109Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:37:38.500093Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.55340125202783,
+      11.021431748872736
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.957442Z",
+      "last_checked": "2026-07-08T20:37:42.086608Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:37:42.836677Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Brezen Meyer",
+    "coordinates": [
+      49.59844330307653,
+      10.998949440073273
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.brezen-meyer.de/wo-wir-sind/index.html",
+      "extracted_at": "2026-07-08T20:29:56.957538Z",
+      "last_checked": "2026-07-08T20:37:44.678845Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.brezen-meyer.de/wo-wir-sind/index.html#mm-1",
+      "menu_url_last_checked": "2026-07-08T20:37:46.690368Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.59262923403914,
+      11.00525630410119
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.957644Z",
+      "last_checked": "2026-07-08T20:37:50.125410Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:37:50.913811Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Starbucks",
+    "coordinates": [
+      49.593689295964424,
+      11.004429200826587
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Der Beck",
+    "coordinates": [
+      49.59484837557973,
+      10.950323868441258
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.der-beck.de",
+      "extracted_at": "2026-07-08T20:29:56.957839Z",
+      "last_checked": "2026-07-08T20:37:54.348175Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.der-beck.de/service/geschenk-gutscheinkarten",
+      "menu_url_last_checked": "2026-07-08T20:37:55.089565Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  }
+]
