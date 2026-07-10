@@ -106,13 +106,14 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
                 call_count += 1
 
                 try:
+                    print(f"Navigating to {current_url} (depth {current_depth})")
                     page.goto(current_url, timeout=15000)
                 except Exception as e:
                     print(f"Error navigating to {current_url}: {e}")
                     continue
                 frame = page.frames[0]
                 locators = frame.locator("a")
-
+                print(f"Found {locators.count()} links on {current_url}")
                 for i in range(locators.count()):
                     locator = locators.nth(i)
                     href = locator.get_attribute("href")
@@ -141,6 +142,8 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
             if menu_urls:
                 break
             else:
+                print(f"No menu URLs found at depth {current_depth}. Moving to next depth.")
+                print(f"Queue for next depth: {queue_next}")
                 current_depth += 1
                 queue = queue_next
                 queue_next = set()
@@ -155,6 +158,9 @@ def retrieve_menu_data(coffee_shop: CoffeeShop):
     if not coffee_shop.menu.menu_url:
         print("No menu URL provided.")
         return
+
+    print("------------------------------------------------")
+    print(f"Retrieving menu data for coffee menu URL: {coffee_shop.menu.menu_url}")
 
     try:
         response = requests.get(coffee_shop.menu.menu_url)
@@ -239,6 +245,8 @@ def retrieve_menu_data(coffee_shop: CoffeeShop):
 
 
 def extract_menu_url_from_coffee_shop(coffee_shop: CoffeeShop):
+    print("------------------------------------------------")
+    print(f"Extracting menu URL for coffee shop: {coffee_shop.name}")
     if coffee_shop.website.url:
         try:
             menu_urls = get_menu_urls_from_website(coffee_shop.website.url)
@@ -251,13 +259,18 @@ def extract_menu_url_from_coffee_shop(coffee_shop: CoffeeShop):
             return
 
         if menu_urls:
+            print(f"Found {len(menu_urls)} menu URLs for {coffee_shop.name}")
             # loop through menu urls till valid one found
             i = 0
             urls_l = len(menu_urls)
             while i < urls_l:
                 coffee_shop.menu.menu_url = menu_urls[i]
                 if retrieve_menu_data(coffee_shop):
+                    print(
+                        f"Successfully retrieved menu data for {coffee_shop.name} from {menu_urls[i]}"
+                    )
                     break
+
                 i += 1
 
 
