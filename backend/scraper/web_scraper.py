@@ -248,6 +248,12 @@ def extract_menu_url_from_coffee_shop(coffee_shop: CoffeeShop):
     print("------------------------------------------------")
     print(f"Extracting menu URL for coffee shop: {coffee_shop.name}")
     if coffee_shop.website.url:
+        print(f"Website URL: {coffee_shop.website.url}")
+        print("------------------------------------------------")
+        if "instagram" in coffee_shop.website.url or "facebook" in coffee_shop.website.url:
+            print(f"Skipping Instagram URL for {coffee_shop.name}: {coffee_shop.website.url}")
+            coffee_shop.website.url = None
+            return
         try:
             menu_urls = get_menu_urls_from_website(coffee_shop.website.url)
             coffee_shop.website.accessible = True
