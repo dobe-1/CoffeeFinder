@@ -114,8 +114,11 @@ def get_coffee_shops(city: str) -> list[CoffeeShop]:
 
     # Extract menu for shops that have a website and were not recently cached
     start_time = datetime.now(tz=UTC)
-    for i, coffee_shop in enumerate(coffee_shops):
-        if i % 10 == 0:
+    with_website = len([shop for shop in coffee_shops if shop.website.url])
+    print(f"Extracting menu for {with_website}/{len(coffee_shops)} coffee shops with a website.")
+    i = 0
+    for coffee_shop in coffee_shops:
+        if (i + 1) % 10 == 0:
             print("------------------------------------------------")
             print(f"{i + 1}/{len(coffee_shops)} coffee shops processed.")
             time_in_progress = datetime.now(tz=UTC) - start_time
@@ -134,6 +137,7 @@ def get_coffee_shops(city: str) -> list[CoffeeShop]:
                 or coffee_shop.menu.extracted_at <= datetime.now(tz=UTC) - timedelta(days=30)
             )
         ):
+            i += 1
             extract_menu_url_from_coffee_shop(coffee_shop)
 
     data = json.dumps(

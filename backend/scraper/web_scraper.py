@@ -1,12 +1,41 @@
 import re
+import time
 from datetime import UTC, datetime
 from urllib.parse import urljoin, urlparse
+from urllib.robotparser import RobotFileParser
 
 import requests
 from playwright.sync_api import sync_playwright
 
 from backend.analysis.analyzer import Analyzer
 from backend.models import CoffeeShop
+
+USER_AGENT = "CoffeeFinderBot"
+
+
+_robots_cache: dict[str, RobotFileParser] = {}
+
+
+def get_robots_parser(url: str) -> RobotFileParser:
+    parsed = urlparse(url)
+    domain = parsed.netloc
+    if domain in _robots_cache:
+        return _robots_cache[domain]
+
+    rp = RobotFileParser()
+    rp.set_url(f"{parsed.scheme}://{domain}/robots.txt")
+    try:
+        rp.read()
+    except Exception as e:
+        print(f"Could not read robots.txt for {domain}: {e}")
+        rp.allow_all = True
+    _robots_cache[domain] = rp
+    return rp
+
+
+def can_fetch(url: str) -> bool:
+    return get_robots_parser(url).can_fetch(USER_AGENT, url)
+
 
 MENU_PATTERN = re.compile(
     r"([a-z]*karte[n]?|[a-z]*men(?:ü|ue|u|%C3%BC)[s]?|essen|food|drink[s]|speisen|mittagstisch|fr(?:ü|ue|u|%C3%BC)hst(?:ü|ue|u|%C3%BC)ck|getr(?:ä|ae|a|%C3%A4)nke|drinks?|food)",
@@ -61,9 +90,12 @@ def is_crawlable_page(url: str) -> bool:
     return not any(path.endswith(ext) for ext in ignored_extensions)
 
 
-def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
+def get_menu_urls_from_website(url, max_depth=2, max_calls=20) -> list:
 
     base_domain = urlparse(url).netloc
+
+    robots = get_robots_parser(url)
+    crawl_delay = robots.crawl_delay(USER_AGENT)
 
     visited_urls = set()
     menu_urls = []
@@ -79,6 +111,7 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
             "locale": "de-DE",  # emulate us english language settings
             "screen": {"width": 1920, "height": 1080},  # emulate full hd screen
             "viewport": {"width": 1920, "height": 1080},  # emulate full hd viewport
+            "user_agent": USER_AGENT,
             "headless": True,  # set true to not show browser window (invisible); set false to show browser window (visible)
         }
         browser = p.chromium
@@ -96,14 +129,19 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
             # print(f"search with depth {current_depth}")
             while queue and call_count < max_calls:
                 current_url = queue.pop()
-                # times.sleep(3) #maybe do this to not ddos the page
                 # check for duplicates
-
                 if current_url in visited_urls:
+                    continue
+
+                if not robots.can_fetch(USER_AGENT, current_url):
+                    print(f"Skipping (disallowed by robots.txt): {current_url}")
+                    visited_urls.add(current_url)
                     continue
 
                 visited_urls.add(current_url)
                 call_count += 1
+
+                time.sleep(crawl_delay if crawl_delay else 1)
 
                 try:
                     print(f"Navigating to {current_url} (depth {current_depth})")
@@ -134,8 +172,11 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
                             )
                     else:
                         # append to queue (for next depth) if it is from same domain
-                        if urlparse(validated_url).netloc == base_domain and is_crawlable_page(
-                            validated_url
+                        # and allowed by robots.txt
+                        if (
+                            urlparse(validated_url).netloc == base_domain
+                            and is_crawlable_page(validated_url)
+                            and robots.can_fetch(USER_AGENT, validated_url)
                         ):
                             queue_next.add(validated_url)
 
@@ -162,8 +203,18 @@ def retrieve_menu_data(coffee_shop: CoffeeShop):
     print("------------------------------------------------")
     print(f"Retrieving menu data for coffee menu URL: {coffee_shop.menu.menu_url}")
 
+    if not can_fetch(coffee_shop.menu.menu_url):
+        print(f"Menu URL disallowed by robots.txt: {coffee_shop.menu.menu_url}")
+        coffee_shop.menu.menu_url_accessible = False
+        coffee_shop.menu.menu_url_last_checked = datetime.now(tz=UTC)
+        return False
+
     try:
-        response = requests.get(coffee_shop.menu.menu_url)
+        response = requests.get(
+            coffee_shop.menu.menu_url,
+            headers={"User-Agent": USER_AGENT},
+            timeout=15,
+        )
         # retrieve
     except Exception:
         coffee_shop.menu.menu_url_accessible = False
