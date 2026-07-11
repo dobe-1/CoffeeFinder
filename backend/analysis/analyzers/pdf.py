@@ -1,5 +1,7 @@
 import io
+
 import pdfplumber
+
 from backend.analysis.extractors import deduplicate_menu_items, extract_menu_items_from_text
 from backend.analysis.models import DocumentAnalysis
 from backend.models.menu import Menu
