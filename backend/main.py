@@ -1,6 +1,8 @@
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
+from backend.models.aggregation import AggregationResult
+
 from .aggregator import aggregator
 from .models.city import CityName
 from .models.coffee_shop import CoffeeShop
@@ -21,6 +23,7 @@ def get_coffee_shops(
 ):
     coffee_shops = aggregator.get_coffee_shops(city)
     return coffee_shops
+
 
 # added multiple api functions for debugging purposes
 @app.get("/menu")
@@ -62,3 +65,9 @@ def evaluate_test_set(
 ):
     return aggregator.evaluate_test_set(city)
 
+
+@app.get("/aggregates", response_model=dict[str, AggregationResult])
+def get_aggregates():
+    aggregates = aggregator.get_aggregates()
+
+    return aggregates

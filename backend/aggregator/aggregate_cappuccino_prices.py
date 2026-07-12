@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 from statistics import fmean
 
+from backend.models.aggregation import AggregationResult
 from backend.models.coffee_shop import CoffeeShop
 
 CITY_LIST_PATH = Path("cities_in_germany.txt")
@@ -127,16 +128,14 @@ def build_aggregates() -> dict[str, dict[str, object]]:
     for city_info in read_city_list(CITY_LIST_PATH):
         city = str(city_info["city"])
         shop_prices = prices_by_city.get(city, [])
-        aggregates[city] = {
-            "coordinates": [city_info["lat"], city_info["lon"]],
-            "sample_size": len(shop_prices),
-            "aggregated_value": round(fmean(shop_prices), 2) if shop_prices else None,
-            "total_shops": city_metadata.get(city, {}).get("total_shops", 0),
-            "shops_with_website": city_metadata.get(city, {}).get("shops_with_website", 0),
-            "shops_with_possible_menu": city_metadata.get(city, {}).get(
-                "shops_with_possible_menu", 0
-            ),
-        }
+        aggregates[city] = AggregationResult(
+            coordinates=(city_info["lat"], city_info["lon"]),
+            sample_size=len(shop_prices),
+            aggregated_value=round(fmean(shop_prices), 2) if shop_prices else None,
+            total_shops=city_metadata.get(city, {}).get("total_shops", 0),
+            shops_with_website=city_metadata.get(city, {}).get("shops_with_website", 0),
+            shops_with_possible_menu=city_metadata.get(city, {}).get("shops_with_possible_menu", 0),
+        )
 
     return aggregates
 

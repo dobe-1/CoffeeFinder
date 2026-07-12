@@ -3,6 +3,7 @@ from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 from backend.models import CoffeeShop
+from backend.models.aggregation import AggregationResult
 from backend.scraper.overpassAPI import get_coffee_shops_in_city
 from backend.scraper.web_scraper import (
     extract_menu_url_from_coffee_shop,
@@ -150,3 +151,17 @@ def get_coffee_shops(city: str) -> list[CoffeeShop]:
     with cache_file.open("w") as f:
         f.write(data)
     return coffee_shops
+
+
+def get_aggregates() -> dict[str, AggregationResult]:
+    """Get the aggregated cappuccino prices for all cities."""
+    aggregates_file = Path("store/aggregates.json")
+    if not aggregates_file.exists():
+        raise FileNotFoundError("No aggregates found. Please run the aggregation script first.")
+
+    with aggregates_file.open() as f:
+        aggregates = json.load(f)
+
+    for city, data in aggregates.items():
+        aggregates[city] = AggregationResult.model_validate(data)
+    return aggregates
