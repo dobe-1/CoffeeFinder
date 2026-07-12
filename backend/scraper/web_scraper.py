@@ -215,8 +215,15 @@ def retrieve_menu_data(coffee_shop: CoffeeShop):
             headers={"User-Agent": USER_AGENT},
             timeout=15,
         )
+        response.raise_for_status()  # Raise an exception for HTTP errors
         # retrieve
-    except Exception:
+    except HTTPError as e:
+        print(f"HTTP error occurred while retrieving menu data: {e}")
+        coffee_shop.menu.menu_url_accessible = False
+        coffee_shop.menu.menu_url_last_checked = datetime.now(tz=UTC)
+        return False
+    except Exception as e:
+        print(f"Unexpected error occurred: {e}")
         coffee_shop.menu.menu_url_accessible = False
         coffee_shop.menu.menu_url_last_checked = datetime.now(tz=UTC)
         return False
@@ -229,18 +236,22 @@ def retrieve_menu_data(coffee_shop: CoffeeShop):
     match content_type:
         # images
         case _ if content_type.startswith("image/"):
+            print(f"Image content type detected: {content_type}.")
             result = Analyzer().analyze(
                 coffee_shop, data=response.content, content_type=content_type
             )
         # pdf
         case "application/pdf":
+            print(f"PDF content type detected: {content_type}.")
             result = Analyzer().analyze(
                 coffee_shop, data=response.content, content_type=content_type
             )
+            print(result.menu.items)
 
         # html TODO maybe just one case for everyhting not pdf images?
         # what to do with (complex html) - url?
         case "text/html" | "application/xhtml+xml":
+            print(f"HTML content type detected: {content_type}.")
             result = Analyzer().analyze(
                 coffee_shop, data=response.content, content_type=content_type
             )
