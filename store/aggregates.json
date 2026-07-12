@@ -1,0 +1,882 @@
+{
+  "Aachen": {
+    "coordinates": [
+      50.7753,
+      6.0839
+    ],
+    "sample_size": 12,
+    "aggregated_value": 3.9,
+    "total_shops": 118,
+    "shops_with_website": 72,
+    "shops_with_possible_menu": 55
+  },
+  "Augsburg": {
+    "coordinates": [
+      48.3705,
+      10.8978
+    ],
+    "sample_size": 8,
+    "aggregated_value": 4.29,
+    "total_shops": 138,
+    "shops_with_website": 60,
+    "shops_with_possible_menu": 36
+  },
+  "Bad Bramstedt": {
+    "coordinates": [
+      53.9183,
+      9.8844
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 5,
+    "shops_with_website": 3,
+    "shops_with_possible_menu": 3
+  },
+  "Bergisch Gladbach": {
+    "coordinates": [
+      50.9923,
+      7.1277
+    ],
+    "sample_size": 2,
+    "aggregated_value": 3.3,
+    "total_shops": 25,
+    "shops_with_website": 8,
+    "shops_with_possible_menu": 5
+  },
+  "Berlin": {
+    "coordinates": [
+      52.52,
+      13.405
+    ],
+    "sample_size": 88,
+    "aggregated_value": 3.69,
+    "total_shops": 2546,
+    "shops_with_website": 958,
+    "shops_with_possible_menu": 528
+  },
+  "Bielefeld": {
+    "coordinates": [
+      52.0302,
+      8.5325
+    ],
+    "sample_size": 4,
+    "aggregated_value": 4.36,
+    "total_shops": 122,
+    "shops_with_website": 39,
+    "shops_with_possible_menu": 28
+  },
+  "Bochum": {
+    "coordinates": [
+      51.4818,
+      7.2162
+    ],
+    "sample_size": 9,
+    "aggregated_value": 3.72,
+    "total_shops": 110,
+    "shops_with_website": 43,
+    "shops_with_possible_menu": 25
+  },
+  "Bonn": {
+    "coordinates": [
+      50.7374,
+      7.0982
+    ],
+    "sample_size": 6,
+    "aggregated_value": 3.87,
+    "total_shops": 178,
+    "shops_with_website": 92,
+    "shops_with_possible_menu": 56
+  },
+  "Bottrop": {
+    "coordinates": [
+      51.5291,
+      6.9447
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 21,
+    "shops_with_website": 5,
+    "shops_with_possible_menu": 2
+  },
+  "Braunschweig": {
+    "coordinates": [
+      52.2689,
+      10.5268
+    ],
+    "sample_size": 11,
+    "aggregated_value": 3.85,
+    "total_shops": 106,
+    "shops_with_website": 60,
+    "shops_with_possible_menu": 35
+  },
+  "Bremen": {
+    "coordinates": [
+      53.0793,
+      8.8017
+    ],
+    "sample_size": 15,
+    "aggregated_value": 4.05,
+    "total_shops": 251,
+    "shops_with_website": 111,
+    "shops_with_possible_menu": 60
+  },
+  "Bremerhaven": {
+    "coordinates": [
+      53.5396,
+      8.5809
+    ],
+    "sample_size": 2,
+    "aggregated_value": 3.55,
+    "total_shops": 37,
+    "shops_with_website": 13,
+    "shops_with_possible_menu": 8
+  },
+  "Chemnitz": {
+    "coordinates": [
+      50.8278,
+      12.9214
+    ],
+    "sample_size": 1,
+    "aggregated_value": 3.6,
+    "total_shops": 62,
+    "shops_with_website": 30,
+    "shops_with_possible_menu": 14
+  },
+  "Darmstadt": {
+    "coordinates": [
+      49.8728,
+      8.6512
+    ],
+    "sample_size": 6,
+    "aggregated_value": 3.98,
+    "total_shops": 96,
+    "shops_with_website": 52,
+    "shops_with_possible_menu": 32
+  },
+  "Dortmund": {
+    "coordinates": [
+      51.5136,
+      7.4653
+    ],
+    "sample_size": 4,
+    "aggregated_value": 3.95,
+    "total_shops": 163,
+    "shops_with_website": 63,
+    "shops_with_possible_menu": 39
+  },
+  "Dresden": {
+    "coordinates": [
+      51.0504,
+      13.7373
+    ],
+    "sample_size": 7,
+    "aggregated_value": 4.69,
+    "total_shops": 253,
+    "shops_with_website": 132,
+    "shops_with_possible_menu": 79
+  },
+  "Duisburg": {
+    "coordinates": [
+      51.4344,
+      6.7623
+    ],
+    "sample_size": 2,
+    "aggregated_value": 3.67,
+    "total_shops": 96,
+    "shops_with_website": 32,
+    "shops_with_possible_menu": 22
+  },
+  "Düsseldorf": {
+    "coordinates": [
+      51.2277,
+      6.7735
+    ],
+    "sample_size": 18,
+    "aggregated_value": 4.12,
+    "total_shops": 382,
+    "shops_with_website": 149,
+    "shops_with_possible_menu": 90
+  },
+  "Erfurt": {
+    "coordinates": [
+      50.9848,
+      11.0299
+    ],
+    "sample_size": 7,
+    "aggregated_value": 4.41,
+    "total_shops": 87,
+    "shops_with_website": 44,
+    "shops_with_possible_menu": 27
+  },
+  "Erlangen": {
+    "coordinates": [
+      49.5897,
+      11.0119
+    ],
+    "sample_size": 6,
+    "aggregated_value": 4.13,
+    "total_shops": 89,
+    "shops_with_website": 59,
+    "shops_with_possible_menu": 46
+  },
+  "Essen": {
+    "coordinates": [
+      51.4556,
+      7.0116
+    ],
+    "sample_size": 8,
+    "aggregated_value": 3.77,
+    "total_shops": 173,
+    "shops_with_website": 61,
+    "shops_with_possible_menu": 41
+  },
+  "Frankfurt am Main": {
+    "coordinates": [
+      50.1109,
+      8.6821
+    ],
+    "sample_size": 13,
+    "aggregated_value": 3.96,
+    "total_shops": 519,
+    "shops_with_website": 173,
+    "shops_with_possible_menu": 108
+  },
+  "Freiburg im Breisgau": {
+    "coordinates": [
+      47.999,
+      7.8421
+    ],
+    "sample_size": 17,
+    "aggregated_value": 4.31,
+    "total_shops": 195,
+    "shops_with_website": 106,
+    "shops_with_possible_menu": 67
+  },
+  "Fürth": {
+    "coordinates": [
+      49.4771,
+      10.9887
+    ],
+    "sample_size": 1,
+    "aggregated_value": 4.83,
+    "total_shops": 68,
+    "shops_with_website": 39,
+    "shops_with_possible_menu": 26
+  },
+  "Gelsenkirchen": {
+    "coordinates": [
+      51.5177,
+      7.0857
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 50,
+    "shops_with_website": 13,
+    "shops_with_possible_menu": 4
+  },
+  "Göttingen": {
+    "coordinates": [
+      51.5413,
+      9.9158
+    ],
+    "sample_size": 5,
+    "aggregated_value": 3.48,
+    "total_shops": 85,
+    "shops_with_website": 51,
+    "shops_with_possible_menu": 33
+  },
+  "Gütersloh": {
+    "coordinates": [
+      51.9032,
+      8.3858
+    ],
+    "sample_size": 1,
+    "aggregated_value": 3.5,
+    "total_shops": 36,
+    "shops_with_website": 3,
+    "shops_with_possible_menu": 1
+  },
+  "Hagen": {
+    "coordinates": [
+      51.3671,
+      7.4633
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 65,
+    "shops_with_website": 14,
+    "shops_with_possible_menu": 9
+  },
+  "Halle (Saale)": {
+    "coordinates": [
+      51.4825,
+      11.9705
+    ],
+    "sample_size": 5,
+    "aggregated_value": 3.64,
+    "total_shops": 84,
+    "shops_with_website": 32,
+    "shops_with_possible_menu": 20
+  },
+  "Hamburg": {
+    "coordinates": [
+      53.5511,
+      9.9937
+    ],
+    "sample_size": 67,
+    "aggregated_value": 4.11,
+    "total_shops": 1006,
+    "shops_with_website": 475,
+    "shops_with_possible_menu": 317
+  },
+  "Hamm": {
+    "coordinates": [
+      51.6739,
+      7.815
+    ],
+    "sample_size": 2,
+    "aggregated_value": 4.35,
+    "total_shops": 29,
+    "shops_with_website": 8,
+    "shops_with_possible_menu": 5
+  },
+  "Hanau": {
+    "coordinates": [
+      50.1264,
+      8.9283
+    ],
+    "sample_size": 3,
+    "aggregated_value": 3.6,
+    "total_shops": 47,
+    "shops_with_website": 24,
+    "shops_with_possible_menu": 12
+  },
+  "Hannover": {
+    "coordinates": [
+      52.3759,
+      9.732
+    ],
+    "sample_size": 15,
+    "aggregated_value": 4.21,
+    "total_shops": 233,
+    "shops_with_website": 100,
+    "shops_with_possible_menu": 67
+  },
+  "Heidelberg": {
+    "coordinates": [
+      49.3988,
+      8.6724
+    ],
+    "sample_size": 6,
+    "aggregated_value": 3.93,
+    "total_shops": 151,
+    "shops_with_website": 84,
+    "shops_with_possible_menu": 45
+  },
+  "Heilbronn": {
+    "coordinates": [
+      49.1427,
+      9.2109
+    ],
+    "sample_size": 2,
+    "aggregated_value": 4.62,
+    "total_shops": 47,
+    "shops_with_website": 18,
+    "shops_with_possible_menu": 9
+  },
+  "Herne": {
+    "coordinates": [
+      51.5369,
+      7.2009
+    ],
+    "sample_size": 2,
+    "aggregated_value": 4.0,
+    "total_shops": 26,
+    "shops_with_website": 11,
+    "shops_with_possible_menu": 10
+  },
+  "Ingolstadt": {
+    "coordinates": [
+      48.7665,
+      11.4258
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 62,
+    "shops_with_website": 20,
+    "shops_with_possible_menu": 9
+  },
+  "Jena": {
+    "coordinates": [
+      50.9271,
+      11.5892
+    ],
+    "sample_size": 1,
+    "aggregated_value": 3.5,
+    "total_shops": 47,
+    "shops_with_website": 24,
+    "shops_with_possible_menu": 15
+  },
+  "Karlsruhe": {
+    "coordinates": [
+      49.0069,
+      8.4037
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Kassel": {
+    "coordinates": [
+      51.3127,
+      9.4797
+    ],
+    "sample_size": 6,
+    "aggregated_value": 4.14,
+    "total_shops": 115,
+    "shops_with_website": 41,
+    "shops_with_possible_menu": 22
+  },
+  "Kiel": {
+    "coordinates": [
+      54.3233,
+      10.1228
+    ],
+    "sample_size": 2,
+    "aggregated_value": 4.15,
+    "total_shops": 107,
+    "shops_with_website": 45,
+    "shops_with_possible_menu": 28
+  },
+  "Koblenz": {
+    "coordinates": [
+      50.3569,
+      7.589
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 62,
+    "shops_with_website": 22,
+    "shops_with_possible_menu": 13
+  },
+  "Krefeld": {
+    "coordinates": [
+      51.3388,
+      6.5853
+    ],
+    "sample_size": 4,
+    "aggregated_value": 3.41,
+    "total_shops": 60,
+    "shops_with_website": 28,
+    "shops_with_possible_menu": 18
+  },
+  "Köln": {
+    "coordinates": [
+      50.9375,
+      6.9603
+    ],
+    "sample_size": 32,
+    "aggregated_value": 3.96,
+    "total_shops": 600,
+    "shops_with_website": 217,
+    "shops_with_possible_menu": 126
+  },
+  "Leipzig": {
+    "coordinates": [
+      51.3397,
+      12.3731
+    ],
+    "sample_size": 19,
+    "aggregated_value": 4.05,
+    "total_shops": 283,
+    "shops_with_website": 147,
+    "shops_with_possible_menu": 87
+  },
+  "Leverkusen": {
+    "coordinates": [
+      51.0459,
+      7.0192
+    ],
+    "sample_size": 7,
+    "aggregated_value": 3.58,
+    "total_shops": 35,
+    "shops_with_website": 19,
+    "shops_with_possible_menu": 14
+  },
+  "Ludwigshafen am Rhein": {
+    "coordinates": [
+      49.4774,
+      8.4452
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 70,
+    "shops_with_website": 12,
+    "shops_with_possible_menu": 6
+  },
+  "Lübeck": {
+    "coordinates": [
+      53.8655,
+      10.6866
+    ],
+    "sample_size": 7,
+    "aggregated_value": 4.01,
+    "total_shops": 106,
+    "shops_with_website": 47,
+    "shops_with_possible_menu": 35
+  },
+  "Magdeburg": {
+    "coordinates": [
+      52.1205,
+      11.6276
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Mainz": {
+    "coordinates": [
+      49.9929,
+      8.2473
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Mannheim": {
+    "coordinates": [
+      49.4875,
+      8.466
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Moers": {
+    "coordinates": [
+      51.4516,
+      6.6408
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Mönchengladbach": {
+    "coordinates": [
+      51.1805,
+      6.4428
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Mülheim an der Ruhr": {
+    "coordinates": [
+      51.4186,
+      6.8845
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "München": {
+    "coordinates": [
+      48.1351,
+      11.582
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Münster": {
+    "coordinates": [
+      51.9607,
+      7.6261
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Neuss": {
+    "coordinates": [
+      51.2042,
+      6.6879
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Nürnberg": {
+    "coordinates": [
+      49.4521,
+      11.0767
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Oberhausen": {
+    "coordinates": [
+      51.4963,
+      6.8638
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Offenbach am Main": {
+    "coordinates": [
+      50.0956,
+      8.7761
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Oldenburg": {
+    "coordinates": [
+      53.1435,
+      8.2146
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Osnabrück": {
+    "coordinates": [
+      52.2799,
+      8.0472
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Paderborn": {
+    "coordinates": [
+      51.7189,
+      8.7575
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Pforzheim": {
+    "coordinates": [
+      48.8922,
+      8.6946
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Potsdam": {
+    "coordinates": [
+      52.3906,
+      13.0645
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Recklinghausen": {
+    "coordinates": [
+      51.6141,
+      7.1979
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Regensburg": {
+    "coordinates": [
+      49.0134,
+      12.1016
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Remscheid": {
+    "coordinates": [
+      51.1787,
+      7.1897
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Reutlingen": {
+    "coordinates": [
+      48.5069,
+      9.2038
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Rostock": {
+    "coordinates": [
+      54.0924,
+      12.0991
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Saarbrücken": {
+    "coordinates": [
+      49.2402,
+      6.9969
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Salzgitter": {
+    "coordinates": [
+      52.1379,
+      10.3899
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Solingen": {
+    "coordinates": [
+      51.1652,
+      7.0671
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Stuttgart": {
+    "coordinates": [
+      48.7758,
+      9.1829
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Trier": {
+    "coordinates": [
+      49.7499,
+      6.6371
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Ulm": {
+    "coordinates": [
+      48.4011,
+      9.9876
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Wiesbaden": {
+    "coordinates": [
+      50.0782,
+      8.2398
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Wolfsburg": {
+    "coordinates": [
+      52.4227,
+      10.7865
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Wuppertal": {
+    "coordinates": [
+      51.2562,
+      7.1508
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  },
+  "Würzburg": {
+    "coordinates": [
+      49.7913,
+      9.9534
+    ],
+    "sample_size": 0,
+    "aggregated_value": null,
+    "total_shops": 0,
+    "shops_with_website": 0,
+    "shops_with_possible_menu": 0
+  }
+}
