@@ -11,11 +11,10 @@
     "currency": "EUR",
     "source_url": "https://oktober.cafe/speisekarte/",
     "offers": [
-      { "name": "Espresso", "price": 2.2 },
-      { "name": "Americano", "price": 3.2 },
-      { "name": "Flat White", "price": 4.5 },
-      { "name": "Cappuccino", "price": 3.8 },
-      { "name": "Latte Macchiato", "price": 4.2 }
+      {
+        "name": "Cappuccino",
+        "price": 3.8
+      }
     ]
   }
 }
