@@ -35,8 +35,8 @@ The document:
 class LlmAnalyzer(BaseAnalyzer):
     def __init__(self, analyzer_type: str):
         api_key = os.environ.get("OPENAI_API_KEY")
-        base_url = os.environ.get("OPENAI_API_BASE")
-        self.model = os.environ.get("OPENAI_MODEL")
+        base_url = os.environ.get("OPENAI_API_BASE", "https://generativelanguage.googleapis.com/v1beta/openai/")
+        self.model = os.environ.get("OPENAI_MODEL", "gemma-4-31b-it")
         self.client = OpenAI(
             api_key=api_key,
             base_url=base_url,
