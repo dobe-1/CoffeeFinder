@@ -1,0 +1,562 @@
+[
+  {
+    "name": "Cafe Kroppenberg",
+    "coordinates": [
+      50.9642384,
+      7.159329
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kamps",
+    "coordinates": [
+      50.9576894,
+      7.1154102
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Dolomiti Eiscafe",
+    "coordinates": [
+      50.987139,
+      7.1914381
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Leonardo",
+    "coordinates": [
+      50.9911292,
+      7.1258969
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Leichtsinn",
+    "coordinates": [
+      50.9924266,
+      7.129333
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.cafe-leichtsinn.de",
+      "extracted_at": "2026-07-10T07:46:02.121163Z",
+      "last_checked": "2026-07-10T07:46:32.632798Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Espresso-Haus",
+    "coordinates": [
+      50.9922263,
+      7.1274853
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Parkcafe",
+    "coordinates": [
+      50.9680022,
+      7.1633844
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Amelie Cafe",
+    "coordinates": [
+      50.9664601,
+      7.1568885
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Alte Dombach",
+    "coordinates": [
+      50.9954453,
+      7.1539305
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Conditorei Café Andrä",
+    "coordinates": [
+      50.9557061,
+      7.1152293
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Forum",
+    "coordinates": [
+      50.9658117,
+      7.1603471
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Pieper",
+    "coordinates": [
+      51.0125916,
+      7.0781552
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Tchibo",
+    "coordinates": [
+      50.957366,
+      7.1158808
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Bäckerei Klappenbach",
+    "coordinates": [
+      50.9815253,
+      7.1374496
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Waldcafé Steinhaus",
+    "coordinates": [
+      50.9551659,
+      7.1830791
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.waldcafe-steinhaus.de/",
+      "extracted_at": "2026-07-10T07:46:02.122494Z",
+      "last_checked": "2026-07-10T07:46:34.830157Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.waldcafe-steinhaus.de/speisekarte/",
+      "menu_url_last_checked": "2026-07-10T07:46:35.758699Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-10T07:46:35.758690Z",
+      "items": [
+        {
+          "name": "Cappuccino klein",
+          "price": 2.8
+        }
+      ]
+    }
+  },
+  {
+    "name": "Kaffee & Teehaus",
+    "coordinates": [
+      50.9575084,
+      7.114605
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Extrablatt",
+    "coordinates": [
+      50.9910224,
+      7.1277982
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cafe-extrablatt.de/standorte/details/cafe-extrablatt-bergisch-gladbach",
+      "extracted_at": "2026-07-10T07:46:02.122609Z",
+      "last_checked": "2026-07-10T07:46:37.219765Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://cafe-extrablatt.de/extras/fruehstuecksbuffet",
+      "menu_url_last_checked": "2026-07-10T07:48:31.541254Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Extrablatt",
+    "coordinates": [
+      50.9908904,
+      7.1276772
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cafe-extrablatt.de/standorte/details/cafe-extrablatt-bergisch-gladbach",
+      "extracted_at": "2026-07-10T07:46:02.122656Z",
+      "last_checked": "2026-07-10T07:48:34.592214Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://cafe-extrablatt.de/extras/fruehstuecksbuffet",
+      "menu_url_last_checked": "2026-07-10T07:51:58.274170Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Almondie",
+    "coordinates": [
+      50.9929338,
+      7.1314845
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cafealmondie.de/",
+      "extracted_at": "2026-07-10T07:46:02.122784Z",
+      "last_checked": "2026-07-10T07:52:00.413429Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://cafealmondie.de/wp-content/uploads/Almondie-Karte_05-2026.pdf",
+      "menu_url_last_checked": "2026-07-10T07:52:03.978263Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-10T07:52:03.978255Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 3.8
+        }
+      ]
+    }
+  },
+  {
+    "name": "Café Credo",
+    "coordinates": [
+      50.9580772,
+      7.1166979
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Espresso Perfetto",
+    "coordinates": [
+      50.9909063,
+      7.1260573
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Torten Service Tollkühn",
+    "coordinates": [
+      51.0062568,
+      7.1800799
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.torten-service-tollkuehn.de/",
+      "extracted_at": "2026-07-10T07:46:02.123172Z",
+      "last_checked": "2026-07-10T07:52:21.751708Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Refrather Café",
+    "coordinates": [
+      50.9575592,
+      7.1156091
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.refrather-cafe.com/",
+      "extracted_at": "2026-07-10T07:46:02.123278Z",
+      "last_checked": "2026-07-10T07:52:23.067978Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.refrather-cafe.com/getränke/",
+      "menu_url_last_checked": "2026-07-10T07:52:24.550362Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Don Gelati",
+    "coordinates": [
+      50.98271885436184,
+      7.1369008587890015
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Richtig",
+    "coordinates": [
+      50.96407564100792,
+      7.16380679133658
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cafe-richtig.de/",
+      "extracted_at": "2026-07-10T07:46:02.123571Z",
+      "last_checked": "2026-07-10T07:54:28.828330Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  }
+]

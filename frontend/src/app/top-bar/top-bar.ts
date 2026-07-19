@@ -44,8 +44,11 @@ export class TopBar implements OnInit {
 
   async loadCities() {
     try {
-      const response = await fetch('http://localhost:8080/cities');
-      const cities: string[] = await response.json();
+      const response = await fetch('data/aggregates.json');
+      const aggregates: Record<string, unknown> = await response.json();
+      const cities = Object.keys(aggregates)
+        .map((city) => `${city}, Germany`)
+        .sort((a, b) => a.localeCompare(b, 'de'));
       this.cities = cities;
       if (cities.length && !cities.includes(this.selectedCity)) {
         this.onCityChange(cities[0]);

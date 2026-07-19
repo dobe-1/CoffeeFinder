@@ -1,0 +1,2377 @@
+[
+  {
+    "name": "Café Brazil",
+    "coordinates": [
+      53.8698631,
+      10.6772522
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.cafe-brazil.net/",
+      "extracted_at": "2026-07-11T07:43:43.268081Z",
+      "last_checked": "2026-07-11T07:43:45.565926Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.cafe-brazil.net/#mobile-header-left-nav",
+      "menu_url_last_checked": "2026-07-11T07:43:47.837918Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Junge",
+    "coordinates": [
+      53.8782307,
+      10.6709394
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.jb.de/",
+      "extracted_at": "2026-07-11T07:43:43.268215Z",
+      "last_checked": "2026-07-11T07:43:53.680763Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.jb.de/praesente/",
+      "menu_url_last_checked": "2026-07-11T07:43:55.334170Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Sankt Lorenz",
+    "coordinates": [
+      53.8685387,
+      10.6695058
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Wiener Cafehaus",
+    "coordinates": [
+      53.8678972,
+      10.6860742
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.wienercafe-lübeck.de",
+      "extracted_at": "2026-07-11T07:43:43.268381Z",
+      "last_checked": "2026-07-11T07:43:57.120871Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "http://www.wienercafe-lübeck.de",
+      "menu_url_last_checked": "2026-07-11T07:43:59.960008Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Calma",
+    "coordinates": [
+      53.8656653,
+      10.6899303
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Affenbrot",
+    "coordinates": [
+      53.8691752,
+      10.695113
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cafeaffenbrot.de/",
+      "extracted_at": "2026-07-11T07:43:43.268553Z",
+      "last_checked": "2026-07-11T07:44:02.387716Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://cafeaffenbrot.de/",
+      "menu_url_last_checked": "2026-07-11T07:44:04.860920Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Niederegger Arkadencafé",
+    "coordinates": [
+      53.8665814,
+      10.6853132
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.niederegger.de",
+      "extracted_at": "2026-07-11T07:43:43.268634Z",
+      "last_checked": "2026-07-11T07:44:25.208612Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.niederegger.de/fileadmin/media/user_upload/Kulinarisch_Cafe__Wochenkarte_Kinder_17_04_26.pdf",
+      "menu_url_last_checked": "2026-07-11T07:44:31.002931Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Marleen",
+    "coordinates": [
+      53.9592664,
+      10.8740195
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Czudaj",
+    "coordinates": [
+      53.8644872,
+      10.6856559
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.czudaj-cafe.de/",
+      "extracted_at": "2026-07-11T07:43:43.268792Z",
+      "last_checked": "2026-07-11T07:44:35.868454Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Ramos Café",
+    "coordinates": [
+      53.8686109,
+      10.6615559
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Freundlich",
+    "coordinates": [
+      53.8695846,
+      10.6883922
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Cappuccino",
+    "coordinates": [
+      53.870966,
+      10.6690298
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Junge",
+    "coordinates": [
+      53.8674384,
+      10.6700417
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.jb.de",
+      "extracted_at": "2026-07-11T07:43:43.269197Z",
+      "last_checked": "2026-07-11T07:44:40.164602Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.jb.de/praesente/",
+      "menu_url_last_checked": "2026-07-11T07:44:41.732620Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Junge",
+    "coordinates": [
+      53.8656403,
+      10.6705824
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.jb.de",
+      "extracted_at": "2026-07-11T07:43:43.269281Z",
+      "last_checked": "2026-07-11T07:44:45.936428Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.jb.de/praesente/",
+      "menu_url_last_checked": "2026-07-11T07:44:47.649202Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lübecker Marzipan-Speicher",
+    "coordinates": [
+      53.8685108,
+      10.6805215
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.marzipanland.de/",
+      "extracted_at": "2026-07-11T07:43:43.269359Z",
+      "last_checked": "2026-07-11T07:44:53.316992Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.marzipanland.de/",
+      "menu_url_last_checked": "2026-07-11T07:45:02.861522Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Mühlenstübchen Café",
+    "coordinates": [
+      53.8641981,
+      10.6855101
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Niederegger",
+    "coordinates": [
+      53.9585304,
+      10.8723288
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.niederegger.de/",
+      "extracted_at": "2026-07-11T07:43:43.269526Z",
+      "last_checked": "2026-07-11T07:45:22.591243Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.niederegger.de/fileadmin/media/user_upload/Kulinarisch_Cafe__Wochenkarte_Kinder_17_04_26.pdf",
+      "menu_url_last_checked": "2026-07-11T07:45:27.677671Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Bar",
+    "coordinates": [
+      53.8651764,
+      10.691152
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cafebar-hl.de/",
+      "extracted_at": "2026-07-11T07:43:43.269605Z",
+      "last_checked": "2026-07-11T07:45:31.434302Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://cafebar-hl.de/speisekarte.pdf",
+      "menu_url_last_checked": "2026-07-11T07:45:48.839115Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-11T07:45:48.839104Z",
+      "items": [
+        {
+          "name": "CAPPUCCINO",
+          "price": 3.9
+        }
+      ]
+    }
+  },
+  {
+    "name": "Junge",
+    "coordinates": [
+      53.8589369,
+      10.6279331
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.jb.de",
+      "extracted_at": "2026-07-11T07:43:43.269683Z",
+      "last_checked": "2026-07-11T07:45:54.449784Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.jb.de/praesente/",
+      "menu_url_last_checked": "2026-07-11T07:45:56.201477Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Konvent Café am Dom",
+    "coordinates": [
+      53.8603902,
+      10.685846
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://konvent-luebeck.de/cafe-konvent-am-dom-luebeck/",
+      "extracted_at": "2026-07-11T07:43:43.269761Z",
+      "last_checked": "2026-07-11T07:46:00.094508Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://konvent-luebeck.de/cafe-konvent-am-dom-luebeck/getraenke/",
+      "menu_url_last_checked": "2026-07-11T07:46:03.074529Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-11T07:46:03.074505Z",
+      "items": [
+        {
+          "name": "CAPPUCCINO",
+          "price": 3.7
+        }
+      ]
+    }
+  },
+  {
+    "name": "Café Stübchen am Kaufhof",
+    "coordinates": [
+      53.8646227,
+      10.7208775
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Traffico",
+    "coordinates": [
+      53.8694614,
+      10.6885553
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafeteria",
+    "coordinates": [
+      53.8353586,
+      10.7001285
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Le Théatre",
+    "coordinates": [
+      53.8694018,
+      10.6860677
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Double Coffee",
+    "coordinates": [
+      53.8705347,
+      10.6878226
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.doublecoffee.de/",
+      "extracted_at": "2026-07-11T07:43:43.270162Z",
+      "last_checked": "2026-07-11T07:46:03.847896Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Spirit Space",
+    "coordinates": [
+      53.8660162,
+      10.6869635
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Altstadtliebe",
+    "coordinates": [
+      53.8628169,
+      10.6872801
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Junge",
+    "coordinates": [
+      53.8490234,
+      10.6865212
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.jb.de",
+      "extracted_at": "2026-07-11T07:43:43.270399Z",
+      "last_checked": "2026-07-11T07:46:08.114541Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.jb.de/praesente/",
+      "menu_url_last_checked": "2026-07-11T07:46:09.727476Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Dart-Café",
+    "coordinates": [
+      53.8608899,
+      10.6500348
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Marli-Laden",
+    "coordinates": [
+      53.8721247,
+      10.7421513
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.marli.de/rs/gastronomie_und_begegnung/hofcafe/index.html",
+      "extracted_at": "2026-07-11T07:43:43.270563Z",
+      "last_checked": "2026-07-11T07:46:12.295264Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.marli.de/files/2026-01-19-Speisekarte.pdf",
+      "menu_url_last_checked": "2026-07-11T07:46:14.768525Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-11T07:46:14.768515Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 3.5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Café Bohne",
+    "coordinates": [
+      53.8671252,
+      10.701
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.cafebohne-luebeck.de",
+      "extracted_at": "2026-07-11T07:43:43.270641Z",
+      "last_checked": "2026-07-11T07:46:18.350278Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.cafebohne-luebeck.de/speisekarte",
+      "menu_url_last_checked": "2026-07-11T07:46:22.355076Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lorenz.Café",
+    "coordinates": [
+      53.8545123,
+      10.6660396
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.lorenz.cafe",
+      "extracted_at": "2026-07-11T07:43:43.270722Z",
+      "last_checked": "2026-07-11T07:46:25.057078Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "http://www.lorenz.cafe/karte",
+      "menu_url_last_checked": "2026-07-11T07:46:25.093699Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Campus Taste",
+    "coordinates": [
+      53.8348801,
+      10.6977668
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Junge",
+    "coordinates": [
+      53.8646754,
+      10.7216948
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.jb.de",
+      "extracted_at": "2026-07-11T07:43:43.270878Z",
+      "last_checked": "2026-07-11T07:46:29.540253Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.jb.de/praesente/",
+      "menu_url_last_checked": "2026-07-11T07:46:31.159810Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Gäbel",
+    "coordinates": [
+      53.8391225,
+      10.6388261
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Mietercafe",
+    "coordinates": [
+      53.851503,
+      10.6334485
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Stadtteilcafe",
+    "coordinates": [
+      53.8324435,
+      10.6942462
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafè Credo",
+    "coordinates": [
+      53.9140495,
+      10.806758
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Zweihandvoll Bakery",
+    "coordinates": [
+      53.8640473,
+      10.7204715
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Alexis - Café Bistro",
+    "coordinates": [
+      53.8877292,
+      10.7962844
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "all cafe",
+    "coordinates": [
+      53.8540416,
+      10.6361095
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Niederegger",
+    "coordinates": [
+      53.866539,
+      10.6858426
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.niederegger.de/",
+      "extracted_at": "2026-07-11T07:43:43.271606Z",
+      "last_checked": "2026-07-11T07:46:51.825742Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.niederegger.de/fileadmin/media/user_upload/Kulinarisch_Cafe__Wochenkarte_Kinder_17_04_26.pdf",
+      "menu_url_last_checked": "2026-07-11T07:46:57.831811Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "BLAUPAUSE",
+    "coordinates": [
+      53.8653085,
+      10.6813754
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.blaupausecafebar.de",
+      "extracted_at": "2026-07-11T07:43:43.271685Z",
+      "last_checked": "2026-07-11T07:46:58.687264Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Jugendcafe \"t.olle bude\"",
+    "coordinates": [
+      53.8638975,
+      10.6865537
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Nachbarschaftscafe",
+    "coordinates": [
+      53.8550555,
+      10.6612264
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Muddi's Cafe",
+    "coordinates": [
+      53.9167837,
+      10.8137737
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "enjoy",
+    "coordinates": [
+      53.9110144,
+      10.8047062
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Il Fresco",
+    "coordinates": [
+      53.8586123,
+      10.6278743
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafè Moni",
+    "coordinates": [
+      53.889916,
+      10.7120257
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Petri Cafe",
+    "coordinates": [
+      53.8659315,
+      10.6829486
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.st-petri-luebeck.de/index.php/de/st-petri-cafe",
+      "extracted_at": "2026-07-11T07:43:43.272377Z",
+      "last_checked": "2026-07-11T07:47:04.903852Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Barjo",
+    "coordinates": [
+      53.8700125,
+      10.6896642
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.barjo.cafe/",
+      "extracted_at": "2026-07-11T07:43:43.272456Z",
+      "last_checked": "2026-07-11T07:47:08.869207Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.barjo.cafe/#awb-open-oc__242",
+      "menu_url_last_checked": "2026-07-11T07:47:09.808693Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-11T07:47:09.808683Z",
+      "items": [
+        {
+          "name": "Capuccino",
+          "price": 4.4
+        }
+      ]
+    }
+  },
+  {
+    "name": "Kaffeehäuschen",
+    "coordinates": [
+      53.8690698,
+      10.7036096
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kaffeehaeuschen-luebeck.de",
+      "extracted_at": "2026-07-11T07:43:43.272541Z",
+      "last_checked": "2026-07-11T07:47:12.306727Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.kaffeehaeuschen-luebeck.de/menü/",
+      "menu_url_last_checked": "2026-07-11T07:47:12.662708Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-11T07:47:12.662698Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 3.3
+        },
+        {
+          "name": "Cappuccino auf Eis",
+          "price": 4.1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Kaffeehaus",
+    "coordinates": [
+      53.866085,
+      10.6882197
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kaffeehaus-luebeck.de/",
+      "extracted_at": "2026-07-11T07:43:43.272620Z",
+      "last_checked": "2026-07-11T07:47:15.129450Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://cdn.shopify.com/s/files/1/0651/6958/8416/files/Fruehstuecksbuffet.png?v=1720184619",
+      "menu_url_last_checked": "2026-07-11T07:47:16.029440Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kunst-Café",
+    "coordinates": [
+      53.8628817,
+      10.6886105
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kaffeebar Lichtblick",
+    "coordinates": [
+      53.9566711,
+      10.8683949
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Le Café",
+    "coordinates": [
+      53.9565981,
+      10.868149
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Schiff Ahoi",
+    "coordinates": [
+      53.9565495,
+      10.8685546
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Chez Corinne",
+    "coordinates": [
+      53.8655461,
+      10.6903945
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://chez-corinne.eatbu.com/?lang=de#journals",
+      "extracted_at": "2026-07-11T07:43:43.273137Z",
+      "last_checked": "2026-07-11T07:47:18.025053Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://chez-corinne.eatbu.com/?lang=de",
+      "menu_url_last_checked": "2026-07-11T07:47:18.237074Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Marae",
+    "coordinates": [
+      53.8718157,
+      10.6852378
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://marae.de/",
+      "extracted_at": "2026-07-11T07:43:43.273227Z",
+      "last_checked": "2026-07-11T07:47:22.747090Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://marae.de/getraenke/",
+      "menu_url_last_checked": "2026-07-11T07:47:25.959168Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-11T07:47:25.959157Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 4.1
+        },
+        {
+          "name": "Biologisch angebaut und direkt gehandelt (Cappuchino mit doppeltem Espressoshot)",
+          "price": 4.6
+        }
+      ]
+    }
+  },
+  {
+    "name": "CoCo Fresh Tea & Juice",
+    "coordinates": [
+      53.8582517,
+      10.6270237
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Berkentienhaus",
+    "coordinates": [
+      53.8686908,
+      10.6814427
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kaffeehelden",
+    "coordinates": [
+      53.8626119,
+      10.6868696
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://kaffeehelden-luebeck.de/",
+      "extracted_at": "2026-07-11T07:43:43.273501Z",
+      "last_checked": "2026-07-11T07:47:36.259782Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Klein & Fein",
+    "coordinates": [
+      53.8661027,
+      10.6913063
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Magic Waffel",
+    "coordinates": [
+      53.864688,
+      10.6843652
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kaffee International",
+    "coordinates": [
+      53.8426116,
+      10.6348207
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Mio",
+    "coordinates": [
+      53.8428006,
+      10.6357597
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lübecker Marzipan-Speicher",
+    "coordinates": [
+      53.8696061,
+      10.6803317
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Landschätzchen",
+    "coordinates": [
+      53.9010096,
+      10.7404793
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Les Téméraires - Crêperie & Café",
+    "coordinates": [
+      53.8694669,
+      10.6842195
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe im Torhaus",
+    "coordinates": [
+      53.8817698,
+      10.6311953
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cycle Roasters",
+    "coordinates": [
+      53.8665264,
+      10.6892105
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cycleroasters.com/",
+      "extracted_at": "2026-07-11T07:43:43.274221Z",
+      "last_checked": "2026-07-11T07:48:07.376707Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "schickSAAL",
+    "coordinates": [
+      53.8702677,
+      10.6807565
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://schicksaal.net/",
+      "extracted_at": "2026-07-11T07:43:43.274302Z",
+      "last_checked": "2026-07-11T07:48:10.513788Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://schicksaal.net/",
+      "menu_url_last_checked": "2026-07-11T07:48:11.692380Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Ulrich's",
+    "coordinates": [
+      53.8680271,
+      10.6839661
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.diakonie-nordnordost.de/triff-uns/cafes",
+      "extracted_at": "2026-07-11T07:43:43.274378Z",
+      "last_checked": "2026-07-11T07:48:13.686591Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.diakonie-nordnordost.de/fileadmin/pdf/Cafe_Ulrich_Passage/Speiseplan_KW_27.pdf",
+      "menu_url_last_checked": "2026-07-11T07:48:13.943163Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Zwillinge Cafe Bar",
+    "coordinates": [
+      53.8575705,
+      10.6642064
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Camino",
+    "coordinates": [
+      53.8712057,
+      10.6890174
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.cafecamino.de/",
+      "extracted_at": "2026-07-11T07:43:43.274538Z",
+      "last_checked": "2026-07-11T07:48:18.075103Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.cafecamino.de/speisen-getränke/",
+      "menu_url_last_checked": "2026-07-11T07:48:18.242703Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Finder's Café",
+    "coordinates": [
+      53.8686908,
+      10.6803937
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.finders-cafe.de/",
+      "extracted_at": "2026-07-11T07:43:43.274623Z",
+      "last_checked": "2026-07-11T07:48:19.499348Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Fisch & Meer",
+    "coordinates": [
+      53.9565032,
+      10.8662335
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "UTER Konditoreibar",
+    "coordinates": [
+      53.8662828,
+      10.6902802
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://uter.cafe/",
+      "extracted_at": "2026-07-11T07:43:43.274779Z",
+      "last_checked": "2026-07-11T07:48:21.810275Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://uter.cafe/menu/",
+      "menu_url_last_checked": "2026-07-11T07:48:24.608101Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-11T07:48:24.608091Z",
+      "items": [
+        {
+          "name": "CAPPUCCINO",
+          "price": 4.5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Junge",
+    "coordinates": [
+      53.8484422,
+      10.6768713
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.jb.de",
+      "extracted_at": "2026-07-11T07:43:43.274856Z",
+      "last_checked": "2026-07-11T07:48:28.889651Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.jb.de/praesente/",
+      "menu_url_last_checked": "2026-07-11T07:48:30.573576Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Junge",
+    "coordinates": [
+      53.9604102,
+      10.8816683
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.jb.de",
+      "extracted_at": "2026-07-11T07:43:43.274938Z",
+      "last_checked": "2026-07-11T07:48:34.851122Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.jb.de/praesente/",
+      "menu_url_last_checked": "2026-07-11T07:48:36.560319Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Junge",
+    "coordinates": [
+      53.8698653,
+      10.6984407
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.jb.de",
+      "extracted_at": "2026-07-11T07:43:43.275050Z",
+      "last_checked": "2026-07-11T07:48:40.688386Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.jb.de/praesente/",
+      "menu_url_last_checked": "2026-07-11T07:48:42.398995Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kaffee und Maschine",
+    "coordinates": [
+      53.8659898,
+      10.6879977
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kleines Waffelhaus",
+    "coordinates": [
+      53.866091,
+      10.6914222
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://kleineswaffelhausluebeck.eatbu.com/?lang=de",
+      "extracted_at": "2026-07-11T07:43:43.275239Z",
+      "last_checked": "2026-07-11T07:48:44.229052Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://kleineswaffelhausluebeck.eatbu.com/?lang=de",
+      "menu_url_last_checked": "2026-07-11T07:48:44.464052Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Fräulein Brömse",
+    "coordinates": [
+      53.8735488,
+      10.6892044
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cafe-fraeuleinbroemse.de/",
+      "extracted_at": "2026-07-11T07:43:43.275317Z",
+      "last_checked": "2026-07-11T07:48:45.678593Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://cafe-fraeuleinbroemse.de/menue.html",
+      "menu_url_last_checked": "2026-07-11T07:48:45.806541Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "ONE Fairtrade Altstadtrösterei",
+    "coordinates": [
+      53.8662561,
+      10.6913764
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://onefairtradeshop.de",
+      "extracted_at": "2026-07-11T07:43:43.275395Z",
+      "last_checked": "2026-07-11T07:49:25.666607Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "BoBoQ",
+    "coordinates": [
+      53.8662166,
+      10.6833282
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Schatz-Café",
+    "coordinates": [
+      53.8619428,
+      10.6975515
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Double Coffee",
+    "coordinates": [
+      53.8637004,
+      10.6848407
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Brink",
+    "coordinates": [
+      53.8554636,
+      10.6975377
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://brink-kaffeeroesterei.de/",
+      "extracted_at": "2026-07-11T07:43:43.275720Z",
+      "last_checked": "2026-07-11T07:49:45.311066Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Hofcafé Falkenhagen",
+    "coordinates": [
+      53.8027583,
+      10.6241794
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://hofcafe-falkenhagen.de",
+      "extracted_at": "2026-07-11T07:43:43.275797Z",
+      "last_checked": "2026-07-11T07:50:05.023830Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Junge",
+    "coordinates": [
+      53.8807592,
+      10.6590217
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Curie",
+    "coordinates": [
+      53.8352104,
+      10.7033664
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "CoCo Fresh Tea & Juice",
+    "coordinates": [
+      53.8648477,
+      10.6928475
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Espresso House",
+    "coordinates": [
+      53.8677411,
+      10.6696867
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Maria's Cafe",
+    "coordinates": [
+      53.8663882,
+      10.6814733
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Bits + Bytes",
+    "coordinates": [
+      53.8375516,
+      10.6986059
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://studentenwerk.sh/de/mensen-in-luebeck",
+      "extracted_at": "2026-07-11T07:43:43.276314Z",
+      "last_checked": "2026-07-11T07:50:07.600345Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://studentenwerk.sh/de/ernaehrung",
+      "menu_url_last_checked": "2026-07-11T07:50:09.725820Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Süße Seebrücke",
+    "coordinates": [
+      53.9702503,
+      10.8818302
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "KaffeeWerk58",
+    "coordinates": [
+      53.8667683,
+      10.687192
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "REMO Cafébar",
+    "coordinates": [
+      53.865622,
+      10.6813161
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.remo-cafebar.de/",
+      "extracted_at": "2026-07-11T07:43:43.276546Z",
+      "last_checked": "2026-07-11T07:50:12.478617Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.remo-cafebar.de/speisekarte/",
+      "menu_url_last_checked": "2026-07-11T07:50:16.042981Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Niederegger Kaffee Bar",
+    "coordinates": [
+      53.8464156,
+      10.6704858
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Union",
+    "coordinates": [
+      53.8670726,
+      10.684736
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cycle Roasters – Café & Taqueria",
+    "coordinates": [
+      53.8662252,
+      10.6824672
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cycleroasters.com/blogs/news/neues-cafe-in-der-holstenstrasse-21-cycle-roasters-startet-durch",
+      "extracted_at": "2026-07-11T07:43:43.276796Z",
+      "last_checked": "2026-07-11T07:50:50.987396Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "TASTE",
+    "coordinates": [
+      53.8657986,
+      10.6860376
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": "2026-07-11T07:43:43.276875Z",
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Schneckenhaus",
+    "coordinates": [
+      53.8658559,
+      10.677871
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.luebeck-tourismus.de/service/schneckenhaus",
+      "extracted_at": "2026-07-11T07:43:43.276953Z",
+      "last_checked": "2026-07-11T07:51:18.060559Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.luebeck-tourismus.de/fileadmin/medien_alle/Luebeck/Dokumente/Vermittlungsbedingungen_Kongresse_2021.pdf",
+      "menu_url_last_checked": "2026-07-11T07:51:19.166502Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Steinhusen",
+    "coordinates": [
+      53.87675527522019,
+      10.695430603768962
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.condi.de/",
+      "extracted_at": "2026-07-11T07:43:43.277079Z",
+      "last_checked": "2026-07-11T07:51:25.729115Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Konditorei Junge GmbH",
+    "coordinates": [
+      53.9566822265147,
+      10.869477014875502
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  }
+]

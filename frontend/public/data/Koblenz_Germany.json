@@ -1,0 +1,1366 @@
+[
+  {
+    "name": "Hoefer",
+    "coordinates": [
+      50.3690053,
+      7.5616546
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Hahn",
+    "coordinates": [
+      50.3446717,
+      7.5496735
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Rheinanlagen",
+    "coordinates": [
+      50.3486642,
+      7.5981312
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Da Gino",
+    "coordinates": [
+      50.3670033,
+      7.5974281
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Artuso",
+    "coordinates": [
+      50.3603469,
+      7.5808751
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Baristaz Coffee Heroes",
+    "coordinates": [
+      50.3567871,
+      7.593995
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baristaz.de/",
+      "extracted_at": "2026-07-11T05:40:47.313051Z",
+      "last_checked": "2026-07-11T05:40:49.693352Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baristaz.de/fruehstuecken-bei-baristaz-koblenz/",
+      "menu_url_last_checked": "2026-07-11T05:40:53.362204Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Guglhupf",
+    "coordinates": [
+      50.3522677,
+      7.5915142
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.guglhupf-koblenz.de/",
+      "extracted_at": "2026-07-11T05:40:47.313136Z",
+      "last_checked": "2026-07-11T05:41:20.434950Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Brustolon",
+    "coordinates": [
+      50.3516016,
+      7.5898754
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Baumann",
+    "coordinates": [
+      50.3556915,
+      7.5909891
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.cafe-baumann.de/",
+      "extracted_at": "2026-07-11T05:40:47.313298Z",
+      "last_checked": "2026-07-11T05:41:22.584950Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.cafe-baumann.de/pages/fruhstucksangebot",
+      "menu_url_last_checked": "2026-07-11T05:41:23.324586Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Hoefer Schloßcafé",
+    "coordinates": [
+      50.3568875,
+      7.5949253
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kaffeejunge",
+    "coordinates": [
+      50.356667,
+      7.5965778
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://kaffeejunge.com/",
+      "extracted_at": "2026-07-11T05:40:47.313505Z",
+      "last_checked": "2026-07-11T05:41:37.258030Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kaffeerösterei Nero",
+    "coordinates": [
+      50.3612003,
+      7.5979392
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kaffeeroesterei-nero.de",
+      "extracted_at": "2026-07-11T05:40:47.313614Z",
+      "last_checked": "2026-07-11T05:41:40.476258Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.kaffeeroesterei-nero.de/nerokaffee-im-cafe-geniessen/",
+      "menu_url_last_checked": "2026-07-11T05:42:04.259894Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Baristaz Coffee Heroes",
+    "coordinates": [
+      50.3500777,
+      7.5891189
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baristaz.de/",
+      "extracted_at": "2026-07-11T05:40:47.313694Z",
+      "last_checked": "2026-07-11T05:42:06.454217Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baristaz.de/fruehstuecken-bei-baristaz-koblenz/",
+      "menu_url_last_checked": "2026-07-11T05:42:09.315317Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Stadtflair",
+    "coordinates": [
+      50.3613427,
+      7.5959298
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://stadtflair-koblenz.eatbu.com",
+      "extracted_at": "2026-07-11T05:40:47.313773Z",
+      "last_checked": "2026-07-11T05:42:11.278882Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.google.com/maps/search/?api=1&query=Gemüsegasse 8, 56068 Koblenz",
+      "menu_url_last_checked": "2026-07-11T05:45:20.475247Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Havanna",
+    "coordinates": [
+      50.3611007,
+      7.5978399
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Menseria",
+    "coordinates": [
+      50.3630191,
+      7.559331
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.studierendenwerk-koblenz.de/de/essen/mensa/universitaet-koblenz",
+      "extracted_at": "2026-07-11T05:40:47.313957Z",
+      "last_checked": "2026-07-11T05:45:24.449106Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.studierendenwerk-koblenz.de/de/essen/mensa/universitaet-koblenz#contentSlider",
+      "menu_url_last_checked": "2026-07-11T05:45:28.007796Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafeteria",
+    "coordinates": [
+      50.3634243,
+      7.5596211
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kaffeewirtschaft",
+    "coordinates": [
+      50.3617737,
+      7.5947391
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kaffeewirtschaft.de/",
+      "extracted_at": "2026-07-11T05:40:47.314145Z",
+      "last_checked": "2026-07-11T05:45:30.358193Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://issuu.com/kulturinfo/docs/screen_kaffeewirtschaft_speise-und_getra_nkekarte_d?fr=xKAE9_wwcPA",
+      "menu_url_last_checked": "2026-07-11T05:45:30.417268Z",
+      "menu_url_accessible": false,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Extrablatt",
+    "coordinates": [
+      50.3607144,
+      7.5945303
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cafe-extrablatt.de/standorte/details/cafe-extrablatt-koblenz",
+      "extracted_at": "2026-07-11T05:40:47.314225Z",
+      "last_checked": "2026-07-11T05:45:32.200820Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://cafe-extrablatt.de/extras/fruehstuecksbuffet",
+      "menu_url_last_checked": "2026-07-11T05:49:14.893354Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Dolce Vita",
+    "coordinates": [
+      50.3576104,
+      7.5917713
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Pfefferminzje",
+    "coordinates": [
+      50.3613764,
+      7.596417
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Lebensart",
+    "coordinates": [
+      50.3456987,
+      7.588585
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café am Kapuzinerplatz",
+    "coordinates": [
+      50.3590117,
+      7.6108436
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Werrmann",
+    "coordinates": [
+      50.361001,
+      7.5945191
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.cafe-werrmann.de/",
+      "extracted_at": "2026-07-11T05:40:47.314696Z",
+      "last_checked": "2026-07-11T05:49:16.876899Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://bop-live-docs.s3.eu-central-1.amazonaws.com/public/operators/96c84078-2f80-4dcb-8ae4-387dc27b5613/sites/1ef0d09e-26b1-4242-908c-a79b2d0d6605/menus/1ef0d09e-26b1-4242-908c-a79b2d0d6605.pdf",
+      "menu_url_last_checked": "2026-07-11T05:49:17.270422Z",
+      "menu_url_accessible": false,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Medina Shisha Palast Koblenz",
+    "coordinates": [
+      50.361688,
+      7.596967
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Hoefer Entenpfuhl",
+    "coordinates": [
+      50.3602927,
+      7.5964325
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-hoefer.de/",
+      "extracted_at": "2026-07-11T05:40:47.314857Z",
+      "last_checked": "2026-07-11T05:49:19.675911Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-hoefer.de/",
+      "menu_url_last_checked": "2026-07-11T05:49:19.778904Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "BoBoQ",
+    "coordinates": [
+      50.3599105,
+      7.5960274
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://boboq-koblenz.de/",
+      "extracted_at": "2026-07-11T05:40:47.314937Z",
+      "last_checked": "2026-07-11T05:49:20.624848Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Baristaz",
+    "coordinates": [
+      50.3611222,
+      7.5988677
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Antica Gelateria Brustolon",
+    "coordinates": [
+      50.3607023,
+      7.5987502
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Galestro",
+    "coordinates": [
+      50.3607257,
+      7.5986015
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.apotheke-am-jesuitenplatz.de/leistungen/gesundheitssuche/",
+      "extracted_at": "2026-07-11T05:40:47.315235Z",
+      "last_checked": "2026-07-11T05:49:21.367517Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Zucker & Rüben",
+    "coordinates": [
+      50.3521354,
+      7.5895983
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Klein's Kulturbistro",
+    "coordinates": [
+      50.3587449,
+      7.5960979
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Konditorei Café Kialka",
+    "coordinates": [
+      50.3607437,
+      7.5535624
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Bäckerei Cafe Alsbach",
+    "coordinates": [
+      50.3525347,
+      7.5619849
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-alsbach.de/filiale-moselweiss",
+      "extracted_at": "2026-07-11T05:40:47.315619Z",
+      "last_checked": "2026-07-11T05:49:22.238885Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Herby's Coffee Bar",
+    "coordinates": [
+      50.3449777,
+      7.5478319
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Luis Tapasbar Koblenz",
+    "coordinates": [
+      50.3486031,
+      7.5903484
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Tante Lotte",
+    "coordinates": [
+      50.3613149,
+      7.5963843
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe-Bistro Hessler",
+    "coordinates": [
+      50.3315587,
+      7.5530268
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kaffeerösterei Nero",
+    "coordinates": [
+      50.3818369,
+      7.5849274
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://kaffeeroesterei-nero.de",
+      "extracted_at": "2026-07-11T05:40:47.316072Z",
+      "last_checked": "2026-07-11T05:49:25.500717Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "http://kaffeeroesterei-nero.de/nerokaffee-im-cafe-geniessen/",
+      "menu_url_last_checked": "2026-07-11T05:49:49.713806Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Laibgenuss",
+    "coordinates": [
+      50.3603089,
+      7.5940234
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://laibgenuss.business.site/",
+      "extracted_at": "2026-07-11T05:40:47.316304Z",
+      "last_checked": "2026-07-11T05:49:50.708689Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Die Lohner's",
+    "coordinates": [
+      50.3710836,
+      7.6408096
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Hoefer Altlöhrtor",
+    "coordinates": [
+      50.358636,
+      7.5935721
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Diar",
+    "coordinates": [
+      50.3604325,
+      7.5938277
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Hoefer Zwo Obere Löhr",
+    "coordinates": [
+      50.3548421,
+      7.590016
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Flow",
+    "coordinates": [
+      50.3606136,
+      7.5942349
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Oh là là",
+    "coordinates": [
+      50.3603371,
+      7.5971161
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.ohlala-cafebistro-koblenz.de/",
+      "extracted_at": "2026-07-11T05:40:47.316887Z",
+      "last_checked": "2026-07-11T05:49:52.760791Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://drive.google.com/file/d/1Uirbq0IHDhIKFayyOGZkQ__diLcz6Y_z/view?usp=sharing",
+      "menu_url_last_checked": "2026-07-11T05:49:57.238173Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Bistro Pistazie",
+    "coordinates": [
+      50.3506294,
+      7.5583475
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafeteria Bundeswehrzentralkrankenhaus",
+    "coordinates": [
+      50.3689437,
+      7.5416224
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Reuffel",
+    "coordinates": [
+      50.3550596,
+      7.5901666
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Jenny's Coffee",
+    "coordinates": [
+      50.3598353,
+      7.6023731
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Luy",
+    "coordinates": [
+      50.3548794,
+      7.5660801
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café am Markt",
+    "coordinates": [
+      50.3601135,
+      7.6105367
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Bistro Zaatar und Zait",
+    "coordinates": [
+      50.3570643,
+      7.593785
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "STOA Café",
+    "coordinates": [
+      50.3598769,
+      7.5957844
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Hoefer Forum Mittelrhein",
+    "coordinates": [
+      50.35828759973346,
+      7.596705287027661
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://baeckerei-hoefer.de/cafes/340-forum-mittelrhein",
+      "extracted_at": "2026-07-11T05:40:47.318105Z",
+      "last_checked": "2026-07-11T05:49:59.039983Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://maps.apple.com/?q=Baeckerei+Hoefer+Zentralplatz+2+Koblenz+Deutschland",
+      "menu_url_last_checked": "2026-07-11T05:49:59.955294Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafe am Deutschen Eck",
+    "coordinates": [
+      50.36361766106904,
+      7.604207724060605
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Straborn Coffee",
+    "coordinates": [
+      50.350715675604086,
+      7.589377245985945
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Gelatì Eiscafé",
+    "coordinates": [
+      50.35815370607827,
+      7.5956215351922935
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://gelatisrl.it",
+      "extracted_at": "2026-07-11T05:40:47.318374Z",
+      "last_checked": "2026-07-11T05:50:09.335063Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Starbucks",
+    "coordinates": [
+      50.3581920998399,
+      7.59648360708376
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://starbucks.com/store-locator/store/1018798/forum-mittelrhein-goergenstrasse-koblenz-rp-56068-de",
+      "extracted_at": "2026-07-11T05:40:47.318457Z",
+      "last_checked": "2026-07-11T05:50:14.024350Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://starbucks.com/menu",
+      "menu_url_last_checked": "2026-07-11T05:50:18.120586Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Yo.Tea",
+    "coordinates": [
+      50.35786992324544,
+      7.596485222499427
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://yo-tea-koblenz.de",
+      "extracted_at": "2026-07-11T05:40:47.318543Z",
+      "last_checked": "2026-07-11T05:50:22.362887Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://yo-tea-koblenz.de/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-08-at-18.50.57.jpeg",
+      "menu_url_last_checked": "2026-07-11T05:50:26.349449Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Hoefer Löhr-Center",
+    "coordinates": [
+      50.359439322430845,
+      7.591526886476789
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "LaLuna",
+    "coordinates": [
+      50.35798753536643,
+      7.590565962688531
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  }
+]

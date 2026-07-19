@@ -1,0 +1,14 @@
+The JSON files in this directory are a Derivative Database of OpenStreetMap.
+
+Café locations, names, coordinates and website URLs:
+
+  [© OpenStreetMap contributors](https://www.openstreetmap.org/copyright)
+  
+  [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/)
+
+Menu URLs, menu item names and prices were collected from publicly accessible
+café websites. They are not part of the OpenStreetMap data, are not covered by
+ODbL, and are provided for academic research only, without warranty.
+
+This license applies to the data only. The source code is licensed under
+GPL-3.0, see ../LICENSE.

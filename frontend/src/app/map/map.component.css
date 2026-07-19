@@ -23,7 +23,9 @@
 
 .map-page {
     display: flex;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 60px - 50px);
+    /* 60px for header, 50px for footer */
+
 }
 
 .coffee-shop-list {

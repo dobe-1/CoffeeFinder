@@ -6,7 +6,7 @@ import { Scatterplot, ScatterPoint } from '../diagrams/scatterplot/scatterplot';
 import { Geomap, GeoScatterPoint } from '../diagrams/geomap/geomap';
 
 const GERMANY_MAP_NAME = 'germany';
-const GERMANY_GEOJSON_URL = '/germany.geo.json';
+const GERMANY_GEOJSON_URL = 'germany.geo.json';
 
 // Minimum sample size relative to a city's shop count for its price to be
 // considered reliable (derived from Berlin).

@@ -29,23 +29,22 @@ export class MapComponent implements AfterViewInit {
   selectedIndex = signal<number | null>(null);
   markers: L.Marker[] = [];
   private mapReady = signal(false);
-  private lastCenteredCity: string | null = null;
 
   readonly showWithoutPrices = signal(true);
 
   private readonly defaultIcon = L.icon({
-    iconUrl: '/media/marker-icon.png',
-    iconRetinaUrl: '/media/marker-icon-2x.png',
-    shadowUrl: '/media/marker-shadow.png',
+    iconUrl: 'media/marker-icon.png',
+    iconRetinaUrl: 'media/marker-icon-2x.png',
+    shadowUrl: 'media/marker-shadow.png',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
     shadowSize: [41, 41],
   });
   private readonly grayIcon = L.icon({
-    iconUrl: '/media/marker-icon.png',
-    iconRetinaUrl: '/media/marker-icon-2x.png',
-    shadowUrl: '/media/marker-shadow.png',
+    iconUrl: 'media/marker-icon.png',
+    iconRetinaUrl: 'media/marker-icon-2x.png',
+    shadowUrl: 'media/marker-shadow.png',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
@@ -64,7 +63,6 @@ export class MapComponent implements AfterViewInit {
       .filter(({ shop }) => !shop.menu.items?.length),
   );
 
-  // Index (into coffeeShops) of the shop with the lowest cappuccino price, if any.
   readonly cheapestIndex = computed(() => {
     let best: { index: number; price: number } | null = null;
     for (const { shop, index } of this.shopsWithMenu()) {
@@ -99,16 +97,6 @@ export class MapComponent implements AfterViewInit {
   readonly hasAggregate = computed(() => this.cityAggregate() !== null);
 
   constructor() {
-    // Re-center when the city changes.
-    effect(() => {
-      const city = this.city();
-      if (this.mapReady() && city !== this.lastCenteredCity) {
-        this.lastCenteredCity = city;
-        this.centerOnCity(city);
-      }
-    });
-
-    // Re-draw markers whenever the shared coffee shop list changes.
     effect(() => {
       const shops = this.coffeeShops();
       if (this.mapReady()) {
@@ -131,31 +119,6 @@ export class MapComponent implements AfterViewInit {
     }).addTo(this.map);
 
     setTimeout(() => this.map.invalidateSize(), 0);
-  }
-
-  async centerOnCity(city: string) {
-    try {
-      const coords = await this.getCoordinates(city);
-      if (coords) {
-        this.map.setView([coords.lat, coords.lon], 13);
-      }
-    } catch (err) {
-      console.error('Fehler beim Zentrieren auf Stadt', city, err);
-    }
-  }
-
-  async getCoordinates(city: string) {
-    const response = await fetch(
-      `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(city)}&format=json`
-    );
-    const data = await response.json();
-
-    if (!data.length) {
-      console.warn('Keine Koordinaten gefunden für', city);
-      return null;
-    }
-
-    return { lat: Number(data[0].lat), lon: Number(data[0].lon) };
   }
 
   openUrl(url: string | null) {
@@ -193,6 +156,12 @@ export class MapComponent implements AfterViewInit {
       });
       this.markers[index] = marker;
     });
+
+    if (coffeeShops.length) {
+      this.map.fitBounds(L.latLngBounds(coffeeShops.map((shop) => shop.coordinates)), {
+        padding: [30, 30],
+      });
+    }
   }
 
   selectShop(index: number) {
@@ -204,7 +173,6 @@ export class MapComponent implements AfterViewInit {
     }
   }
 
-  // Average price of all cappuccino menu items of a shop, or null if none.
   cappuccinoPrice(shop: CoffeeShop): number | null {
     const prices = (shop.menu.items ?? [])
       .filter((item) => item.name.toLowerCase().includes('cappuccino'))
