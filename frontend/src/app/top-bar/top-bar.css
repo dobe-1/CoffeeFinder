@@ -3,14 +3,17 @@
     align-items: center;
     gap: 24px;
     height: 60px;
-    background-color: #af764d;
-    color: #ffffff;
+    background-color: #1F150C;
+    color: #E1DCC9;
     border-radius: 0 0 1rem 1rem;
 }
 
 .app-title {
     font-size: 1.3rem;
     font-weight: 500;
+    color: #E1DCC9;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .view-nav {
@@ -19,7 +22,7 @@
 }
 
 .view-nav a {
-    color: #ffffff;
+    color: #E1DCC9;
 }
 
 .view-nav a.active-view {
@@ -45,5 +48,5 @@
 }
 
 .city-select mat-select {
-    color: #ffffff;
+    color: #E1DCC9;
 }

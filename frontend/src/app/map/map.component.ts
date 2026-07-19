@@ -3,11 +3,19 @@ import {MatCardModule} from '@angular/material/card';
 import * as L from 'leaflet';
 import { CoffeeShop } from '../models/coffee-shop.model';
 import { CoffeeService } from '../coffee.service';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import {
+  SankeyChart,
+  SankeyLink,
+  SankeyNode,
+} from '../diagrams/sankey-chart/sankey-chart';
+import { buildPriceFunnel } from '../diagrams/sankey-chart/price-funnel';
 
 @Component({
   selector: 'app-map',
   standalone: true,
-  imports: [MatCardModule],
+  imports: [MatCardModule, MatExpansionModule, MatSlideToggleModule, SankeyChart],
   templateUrl: './map.component.html',
   styleUrl: './map.component.css'
 })
@@ -22,6 +30,8 @@ export class MapComponent implements AfterViewInit {
   markers: L.Marker[] = [];
   private mapReady = signal(false);
   private lastCenteredCity: string | null = null;
+
+  readonly showWithoutPrices = signal(true);
 
   private readonly defaultIcon = L.icon({
     iconUrl: '/media/marker-icon.png',
@@ -43,16 +53,50 @@ export class MapComponent implements AfterViewInit {
     className: 'marker-gray',
   });
 
-  shopsWithWebsite = computed(() =>
+  shopsWithMenu = computed(() =>
     this.coffeeShops()
       .map((shop, index) => ({ shop, index }))
-      .filter(({ shop }) => !!shop.website.url),
+      .filter(({ shop }) => !!shop.menu.items?.length),
   );
-  shopsWithoutWebsite = computed(() =>
+  shopsWithoutMenu = computed(() =>
     this.coffeeShops()
       .map((shop, index) => ({ shop, index }))
-      .filter(({ shop }) => !shop.website.url),
+      .filter(({ shop }) => !shop.menu.items?.length),
   );
+
+  // Index (into coffeeShops) of the shop with the lowest cappuccino price, if any.
+  readonly cheapestIndex = computed(() => {
+    let best: { index: number; price: number } | null = null;
+    for (const { shop, index } of this.shopsWithMenu()) {
+      const price = this.cappuccinoPrice(shop);
+      if (price !== null && (best === null || price < best.price)) {
+        best = { index, price };
+      }
+    }
+    return best?.index ?? null;
+  });
+
+  private readonly cityAggregate = computed(() => {
+    const key = this.city().split(',')[0].trim();
+    return this.coffeeService.aggregates()[key] ?? null;
+  });
+
+  private readonly funnel = computed(() => {
+    const agg = this.cityAggregate();
+    if (!agg) {
+      return { nodes: [], links: [] };
+    }
+    return buildPriceFunnel({
+      totalShops: agg.total_shops,
+      shopsWithWebsite: agg.shops_with_website,
+      shopsWithPrices: agg.sample_size,
+    });
+  });
+
+  readonly sankeyNodes = computed<SankeyNode[]>(() => this.funnel().nodes);
+  readonly sankeyLinks = computed<SankeyLink[]>(() => this.funnel().links);
+
+  readonly hasAggregate = computed(() => this.cityAggregate() !== null);
 
   constructor() {
     // Re-center when the city changes.
@@ -77,6 +121,7 @@ export class MapComponent implements AfterViewInit {
     this.initMap();
     this.mapReady.set(true);
     this.coffeeService.ensureLoaded();
+    this.coffeeService.ensureAggregatesLoaded();
   }
 
   initMap() {
@@ -121,16 +166,22 @@ export class MapComponent implements AfterViewInit {
 
   private renderMarkers(coffeeShops: CoffeeShop[]) {
     for (const marker of this.markers) {
-      marker.remove();
+      marker?.remove();
     }
     this.markers = [];
     this.selectedIndex.set(null);
 
+    const showWithoutPrices = this.showWithoutPrices();
+
     coffeeShops.forEach((shop: CoffeeShop, index: number) => {
+      const hasMenu = !!shop.menu.items?.length;
+      if (!hasMenu && !showWithoutPrices) {
+        return; // leave a hole at this index so markers stay index-aligned
+      }
       const marker = L.marker(shop.coordinates, {
-        icon: shop.website.url ? this.defaultIcon : this.grayIcon,
+        icon: hasMenu ? this.defaultIcon : this.grayIcon,
       }).addTo(this.map);
-      marker.bindPopup(`<b>${shop.name}</b><br><a href="${shop.website.url}" target="_blank">${shop.website.url}</a>`);
+      marker.bindPopup(`<b>${shop.name}</b><br>${this.buildPopupContent(shop)}`);
       marker.on('popupopen', () => {
         this.selectedIndex.set(index);
         this.scrollCardIntoView(index);
@@ -140,7 +191,7 @@ export class MapComponent implements AfterViewInit {
           this.selectedIndex.set(null);
         }
       });
-      this.markers.push(marker);
+      this.markers[index] = marker;
     });
   }
 
@@ -151,6 +202,40 @@ export class MapComponent implements AfterViewInit {
       this.map.setView(marker.getLatLng(), 16);
       marker.openPopup();
     }
+  }
+
+  // Average price of all cappuccino menu items of a shop, or null if none.
+  cappuccinoPrice(shop: CoffeeShop): number | null {
+    const prices = (shop.menu.items ?? [])
+      .filter((item) => item.name.toLowerCase().includes('cappuccino'))
+      .map((item) => item.price);
+    if (!prices.length) {
+      return null;
+    }
+    return prices.reduce((sum, price) => sum + price, 0) / prices.length;
+  }
+
+  private buildPopupContent(shop: CoffeeShop): string {
+    const items = shop.menu.items ?? [];
+
+    if (items.length) {
+      const price = this.cappuccinoPrice(shop);
+
+      const parts: string[] = [];
+      if (price !== null) {
+        parts.push(`Extracted Cappuccino Price: ${price.toFixed(2)} €`);
+      }
+      if (shop.menu.menu_url) {
+        parts.push(`<a href="${shop.menu.menu_url}" target="_blank">See Menu</a>`);
+      }
+      return parts.join('<br>');
+    }
+
+    if (shop.website.accessible && shop.website.url) {
+      return `Price extraction not possible, check <a href="${shop.website.url}" target="_blank">website</a>`;
+    }
+
+    return 'Price extraction not possible, no website found';
   }
 
   private scrollCardIntoView(index: number) {

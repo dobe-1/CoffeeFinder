@@ -3,6 +3,17 @@ import { CoffeeShop } from './models/coffee-shop.model';
 
 const API_BASE = 'http://localhost:8080';
 
+export interface AggregationResult {
+  coordinates: [number, number];
+  sample_size: number;
+  aggregated_value: number | null;
+  total_shops: number;
+  shops_with_website: number;
+  shops_with_possible_menu: number;
+  disposable_income_per_person: number | null;
+  overnight_stays_per_inhabitant: number | null;
+}
+
 @Injectable({ providedIn: 'root' })
 export class CoffeeService {
   // Shared selected city + loaded coffee shops, consumed by both the map and table view.
@@ -12,7 +23,10 @@ export class CoffeeService {
   // website urls of shops whose menu extraction is currently running
   readonly extracting = signal<Set<string>>(new Set());
 
+  readonly aggregates = signal<Record<string, AggregationResult>>({});
+
   private loadedCity: string | null = null;
+  private aggregatesLoaded = false;
 
   setCity(city: string) {
     if (city === this.city()) {
@@ -30,7 +44,7 @@ export class CoffeeService {
       this.coffeeShops.set(coffeeShops);
       this.loadedCity = city;
     } catch (err) {
-      console.error('Fehler beim Laden der Cafés', city, err);
+      console.error('Error loading coffee shops', city, err);
       this.coffeeShops.set([]);
     } finally {
       this.loading.set(false);
@@ -73,13 +87,33 @@ export class CoffeeService {
         shops.map((s) => (s.website.url === websiteUrl ? updated : s)),
       );
     } catch (err) {
-      console.error('Fehler beim Extrahieren des Menüs', websiteUrl, err);
+      console.error('Error extracting menu', websiteUrl, err);
     } finally {
       this.extracting.update((set) => {
         const next = new Set(set);
         next.delete(websiteUrl);
         return next;
       });
+    }
+  }
+
+  async loadAggregates(): Promise<Record<string, AggregationResult>> {
+    try {
+      const response = await fetch(`${API_BASE}/aggregates`);
+      const aggregates: Record<string, AggregationResult> = await response.json();
+      this.aggregates.set(aggregates);
+      return aggregates;
+    } catch (err) {
+      console.error('Error loading aggregates', err);
+      return {};
+    }
+  }
+
+  // Load aggregates once (used when a view that visualises them mounts).
+  ensureAggregatesLoaded() {
+    if (!this.aggregatesLoaded) {
+      this.aggregatesLoaded = true;
+      this.loadAggregates();
     }
   }
 }

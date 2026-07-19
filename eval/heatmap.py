@@ -20,7 +20,7 @@ from sklearn.linear_model import LinearRegression
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 CORRELATION_DATA_PATH = BASE_DIR / "Grossstädte-Korrelation.csv"
-AGGREGATES_PATH = Path(__file__).with_name("cappuccino_price_aggregates.json")
+AGGREGATES_PATH = Path("store") / "aggregates.json"
 OUTPUT_PATH = Path(__file__).with_name("heatmap.png")
 INCOME_COLUMN = "Verfügbares Einkommen pro Person in Euro"
 MARKER_SIZE = 180
@@ -50,8 +50,7 @@ def load_income_data() -> dict[str, float]:
 def load_cappuccino_aggregates() -> dict[str, dict[str, object]]:
     if not AGGREGATES_PATH.exists():
         raise FileNotFoundError(
-            f"{AGGREGATES_PATH} is missing. Run "
-            "`python eval/aggregate_cappuccino_prices.py` first."
+            f"{AGGREGATES_PATH} is missing. Run `python eval/aggregate_cappuccino_prices.py` first."
         )
     return json.loads(AGGREGATES_PATH.read_text(encoding="utf-8"))
 
@@ -116,9 +115,7 @@ def add_correlation_metrics(df: pd.DataFrame) -> pd.DataFrame:
     model.fit(priced[["income"]], priced["cappuccino_price"])
 
     priced["expected_cappuccino_price"] = model.predict(priced[["income"]])
-    priced["price_deviation"] = (
-        priced["cappuccino_price"] - priced["expected_cappuccino_price"]
-    )
+    priced["price_deviation"] = priced["cappuccino_price"] - priced["expected_cappuccino_price"]
     priced["affordability_ratio"] = priced["cappuccino_price"] / priced["income"] * 1000
 
     df.update(
@@ -139,7 +136,22 @@ def build_city_points() -> tuple[gpd.GeoDataFrame, list[str]]:
     aggregates = load_cappuccino_aggregates()
     income_data = load_income_data()
 
+    # Filter out cafes low on sample size
+    required_sample_size_rel = 88 / 2546  # This is the ratio extracted from Berlin
+    skipped = 0
+
     for city, aggregate in aggregates.items():
+        if aggregate.get("total_shops", 0) == 0:
+            continue
+        if aggregate.get("sample_size", 0) < required_sample_size_rel * aggregate.get(
+            "total_shops", 0
+        ):
+            print(
+                f"Skipping {city} due to insufficient sample size: {aggregate.get('sample_size', 0)} < {required_sample_size_rel * aggregate.get('total_shops', 0)}"
+            )
+            skipped += 1
+            continue
+
         coordinates = aggregate.get("coordinates")
         lat = None
         lon = None
@@ -167,6 +179,10 @@ def build_city_points() -> tuple[gpd.GeoDataFrame, list[str]]:
                 "price_source": price_source,
             }
         )
+
+    print(
+        f"Skipped {skipped} cities due to insufficient sample size. ({skipped / len(aggregates) * 100:.2f}%)"
+    )
 
     df = add_correlation_metrics(pd.DataFrame(rows))
     gdf = gpd.GeoDataFrame(
@@ -220,7 +236,7 @@ def plot_map(germany: gpd.GeoDataFrame, cities: gpd.GeoDataFrame) -> None:
             row.geometry.x + x_offset,
             row.geometry.y + y_offset,
             row["city"],
-            fontsize=5.8,
+            fontsize=9,
             color="#25313d",
             ha=ha,
             va="center",
@@ -254,17 +270,19 @@ def plot_map(germany: gpd.GeoDataFrame, cities: gpd.GeoDataFrame) -> None:
         fontsize=16,
         pad=12,
     )
-    ax.set_xlim(5.3, 15.6)
-    ax.set_ylim(47.0, 55.3)
-    ax.set_xticks(range(6, 16, 2))
-    ax.set_yticks(range(48, 56, 2))
-    ax.set_xlabel("Longitude")
-    ax.set_ylabel("Latitude")
-    ax.grid(color="#d8dee4", linestyle="--", linewidth=0.45, alpha=0.75)
+    # ax.set_xlim(5.3, 15.6)
+    # ax.set_ylim(47.0, 55.3)
+    # ax.set_xticks(range(6, 16, 2))
+    # ax.set_yticks(range(48, 56, 2))
+    # ax.set_xlabel("Longitude")
+    # ax.set_ylabel("Latitude")
+    # ax.grid(color="#d8dee4", linestyle="--", linewidth=0.45, alpha=0.75)
+    ax.set_xticks([])
+    ax.set_yticks([])
     mean_latitude = sum(ax.get_ylim()) / 2
     ax.set_aspect(1 / math.cos(math.radians(mean_latitude)))
     fig.tight_layout()
-    fig.savefig(OUTPUT_PATH, dpi=180)
+    fig.savefig(OUTPUT_PATH, dpi=300, bbox_inches="tight", pad_inches=0.1)
     plt.close(fig)
 
 

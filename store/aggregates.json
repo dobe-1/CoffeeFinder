@@ -8,7 +8,9 @@
     "aggregated_value": 3.9,
     "total_shops": 118,
     "shops_with_website": 72,
-    "shops_with_possible_menu": 55
+    "shops_with_possible_menu": 55,
+    "disposable_income_per_person": 23201.0,
+    "overnight_stays_per_inhabitant": 3.0
   },
   "Augsburg": {
     "coordinates": [
@@ -19,7 +21,9 @@
     "aggregated_value": 4.29,
     "total_shops": 138,
     "shops_with_website": 60,
-    "shops_with_possible_menu": 36
+    "shops_with_possible_menu": 36,
+    "disposable_income_per_person": 23063.0,
+    "overnight_stays_per_inhabitant": 4.0
   },
   "Bad Bramstedt": {
     "coordinates": [
@@ -30,7 +34,9 @@
     "aggregated_value": null,
     "total_shops": 5,
     "shops_with_website": 3,
-    "shops_with_possible_menu": 3
+    "shops_with_possible_menu": 3,
+    "disposable_income_per_person": null,
+    "overnight_stays_per_inhabitant": null
   },
   "Bergisch Gladbach": {
     "coordinates": [
@@ -41,7 +47,9 @@
     "aggregated_value": 3.3,
     "total_shops": 25,
     "shops_with_website": 8,
-    "shops_with_possible_menu": 5
+    "shops_with_possible_menu": 5,
+    "disposable_income_per_person": 29471.0,
+    "overnight_stays_per_inhabitant": 1.7
   },
   "Berlin": {
     "coordinates": [
@@ -52,7 +60,9 @@
     "aggregated_value": 3.69,
     "total_shops": 2546,
     "shops_with_website": 958,
-    "shops_with_possible_menu": 528
+    "shops_with_possible_menu": 528,
+    "disposable_income_per_person": 23952.0,
+    "overnight_stays_per_inhabitant": 8.3
   },
   "Bielefeld": {
     "coordinates": [
@@ -63,7 +73,9 @@
     "aggregated_value": 4.36,
     "total_shops": 122,
     "shops_with_website": 39,
-    "shops_with_possible_menu": 28
+    "shops_with_possible_menu": 28,
+    "disposable_income_per_person": 24699.0,
+    "overnight_stays_per_inhabitant": 1.9
   },
   "Bochum": {
     "coordinates": [
@@ -74,7 +86,9 @@
     "aggregated_value": 3.72,
     "total_shops": 110,
     "shops_with_website": 43,
-    "shops_with_possible_menu": 25
+    "shops_with_possible_menu": 25,
+    "disposable_income_per_person": 22419.0,
+    "overnight_stays_per_inhabitant": 2.2
   },
   "Bonn": {
     "coordinates": [
@@ -85,7 +99,9 @@
     "aggregated_value": 3.87,
     "total_shops": 178,
     "shops_with_website": 92,
-    "shops_with_possible_menu": 56
+    "shops_with_possible_menu": 56,
+    "disposable_income_per_person": 25852.0,
+    "overnight_stays_per_inhabitant": 5.1
   },
   "Bottrop": {
     "coordinates": [
@@ -96,7 +112,9 @@
     "aggregated_value": null,
     "total_shops": 21,
     "shops_with_website": 5,
-    "shops_with_possible_menu": 2
+    "shops_with_possible_menu": 2,
+    "disposable_income_per_person": 23555.0,
+    "overnight_stays_per_inhabitant": 0.7
   },
   "Braunschweig": {
     "coordinates": [
@@ -107,7 +125,9 @@
     "aggregated_value": 3.85,
     "total_shops": 106,
     "shops_with_website": 60,
-    "shops_with_possible_menu": 35
+    "shops_with_possible_menu": 35,
+    "disposable_income_per_person": 25180.0,
+    "overnight_stays_per_inhabitant": 2.8
   },
   "Bremen": {
     "coordinates": [
@@ -118,7 +138,9 @@
     "aggregated_value": 4.05,
     "total_shops": 251,
     "shops_with_website": 111,
-    "shops_with_possible_menu": 60
+    "shops_with_possible_menu": 60,
+    "disposable_income_per_person": 24562.0,
+    "overnight_stays_per_inhabitant": 4.3
   },
   "Bremerhaven": {
     "coordinates": [
@@ -129,7 +151,9 @@
     "aggregated_value": 3.55,
     "total_shops": 37,
     "shops_with_website": 13,
-    "shops_with_possible_menu": 8
+    "shops_with_possible_menu": 8,
+    "disposable_income_per_person": 20059.0,
+    "overnight_stays_per_inhabitant": 3.6
   },
   "Chemnitz": {
     "coordinates": [
@@ -140,7 +164,9 @@
     "aggregated_value": 3.6,
     "total_shops": 62,
     "shops_with_website": 30,
-    "shops_with_possible_menu": 14
+    "shops_with_possible_menu": 14,
+    "disposable_income_per_person": 22910.0,
+    "overnight_stays_per_inhabitant": 2.0
   },
   "Darmstadt": {
     "coordinates": [
@@ -151,7 +177,9 @@
     "aggregated_value": 3.98,
     "total_shops": 96,
     "shops_with_website": 52,
-    "shops_with_possible_menu": 32
+    "shops_with_possible_menu": 32,
+    "disposable_income_per_person": 25604.0,
+    "overnight_stays_per_inhabitant": 4.7
   },
   "Dortmund": {
     "coordinates": [
@@ -162,7 +190,9 @@
     "aggregated_value": 3.95,
     "total_shops": 163,
     "shops_with_website": 63,
-    "shops_with_possible_menu": 39
+    "shops_with_possible_menu": 39,
+    "disposable_income_per_person": 21921.0,
+    "overnight_stays_per_inhabitant": 2.6
   },
   "Dresden": {
     "coordinates": [
@@ -173,7 +203,9 @@
     "aggregated_value": 4.69,
     "total_shops": 253,
     "shops_with_website": 132,
-    "shops_with_possible_menu": 79
+    "shops_with_possible_menu": 79,
+    "disposable_income_per_person": 23319.0,
+    "overnight_stays_per_inhabitant": 8.2
   },
   "Duisburg": {
     "coordinates": [
@@ -184,7 +216,9 @@
     "aggregated_value": 3.67,
     "total_shops": 96,
     "shops_with_website": 32,
-    "shops_with_possible_menu": 22
+    "shops_with_possible_menu": 22,
+    "disposable_income_per_person": 19325.0,
+    "overnight_stays_per_inhabitant": 1.2
   },
   "Düsseldorf": {
     "coordinates": [
@@ -195,7 +229,9 @@
     "aggregated_value": 4.12,
     "total_shops": 382,
     "shops_with_website": 149,
-    "shops_with_possible_menu": 90
+    "shops_with_possible_menu": 90,
+    "disposable_income_per_person": 29355.0,
+    "overnight_stays_per_inhabitant": 9.0
   },
   "Erfurt": {
     "coordinates": [
@@ -206,7 +242,9 @@
     "aggregated_value": 4.41,
     "total_shops": 87,
     "shops_with_website": 44,
-    "shops_with_possible_menu": 27
+    "shops_with_possible_menu": 27,
+    "disposable_income_per_person": 22527.0,
+    "overnight_stays_per_inhabitant": 4.9
   },
   "Erlangen": {
     "coordinates": [
@@ -217,7 +255,9 @@
     "aggregated_value": 4.13,
     "total_shops": 89,
     "shops_with_website": 59,
-    "shops_with_possible_menu": 46
+    "shops_with_possible_menu": 46,
+    "disposable_income_per_person": 27320.0,
+    "overnight_stays_per_inhabitant": 5.9
   },
   "Essen": {
     "coordinates": [
@@ -228,7 +268,9 @@
     "aggregated_value": 3.77,
     "total_shops": 173,
     "shops_with_website": 61,
-    "shops_with_possible_menu": 41
+    "shops_with_possible_menu": 41,
+    "disposable_income_per_person": 23503.0,
+    "overnight_stays_per_inhabitant": 3.2
   },
   "Frankfurt am Main": {
     "coordinates": [
@@ -239,7 +281,9 @@
     "aggregated_value": 3.96,
     "total_shops": 519,
     "shops_with_website": 173,
-    "shops_with_possible_menu": 108
+    "shops_with_possible_menu": 108,
+    "disposable_income_per_person": 25394.0,
+    "overnight_stays_per_inhabitant": 14.8
   },
   "Freiburg im Breisgau": {
     "coordinates": [
@@ -250,7 +294,9 @@
     "aggregated_value": 4.31,
     "total_shops": 195,
     "shops_with_website": 106,
-    "shops_with_possible_menu": 67
+    "shops_with_possible_menu": 67,
+    "disposable_income_per_person": 25292.0,
+    "overnight_stays_per_inhabitant": 9.2
   },
   "Fürth": {
     "coordinates": [
@@ -261,7 +307,9 @@
     "aggregated_value": 4.83,
     "total_shops": 68,
     "shops_with_website": 39,
-    "shops_with_possible_menu": 26
+    "shops_with_possible_menu": 26,
+    "disposable_income_per_person": 25568.0,
+    "overnight_stays_per_inhabitant": 2.5
   },
   "Gelsenkirchen": {
     "coordinates": [
@@ -272,7 +320,9 @@
     "aggregated_value": null,
     "total_shops": 50,
     "shops_with_website": 13,
-    "shops_with_possible_menu": 4
+    "shops_with_possible_menu": 4,
+    "disposable_income_per_person": 18522.0,
+    "overnight_stays_per_inhabitant": 1.3
   },
   "Göttingen": {
     "coordinates": [
@@ -283,7 +333,9 @@
     "aggregated_value": 3.48,
     "total_shops": 85,
     "shops_with_website": 51,
-    "shops_with_possible_menu": 33
+    "shops_with_possible_menu": 33,
+    "disposable_income_per_person": 23868.0,
+    "overnight_stays_per_inhabitant": 5.9
   },
   "Gütersloh": {
     "coordinates": [
@@ -294,7 +346,9 @@
     "aggregated_value": 3.5,
     "total_shops": 36,
     "shops_with_website": 3,
-    "shops_with_possible_menu": 1
+    "shops_with_possible_menu": 1,
+    "disposable_income_per_person": 28092.0,
+    "overnight_stays_per_inhabitant": 1.5
   },
   "Hagen": {
     "coordinates": [
@@ -305,7 +359,9 @@
     "aggregated_value": null,
     "total_shops": 65,
     "shops_with_website": 14,
-    "shops_with_possible_menu": 9
+    "shops_with_possible_menu": 9,
+    "disposable_income_per_person": 21488.0,
+    "overnight_stays_per_inhabitant": 1.5
   },
   "Halle (Saale)": {
     "coordinates": [
@@ -316,7 +372,9 @@
     "aggregated_value": 3.64,
     "total_shops": 84,
     "shops_with_website": 32,
-    "shops_with_possible_menu": 20
+    "shops_with_possible_menu": 20,
+    "disposable_income_per_person": 20632.0,
+    "overnight_stays_per_inhabitant": 1.9
   },
   "Hamburg": {
     "coordinates": [
@@ -327,7 +385,9 @@
     "aggregated_value": 4.11,
     "total_shops": 1006,
     "shops_with_website": 475,
-    "shops_with_possible_menu": 317
+    "shops_with_possible_menu": 317,
+    "disposable_income_per_person": 27498.0,
+    "overnight_stays_per_inhabitant": 8.6
   },
   "Hamm": {
     "coordinates": [
@@ -338,7 +398,9 @@
     "aggregated_value": 4.35,
     "total_shops": 29,
     "shops_with_website": 8,
-    "shops_with_possible_menu": 5
+    "shops_with_possible_menu": 5,
+    "disposable_income_per_person": 21230.0,
+    "overnight_stays_per_inhabitant": 1.1
   },
   "Hanau": {
     "coordinates": [
@@ -349,7 +411,9 @@
     "aggregated_value": 3.6,
     "total_shops": 47,
     "shops_with_website": 24,
-    "shops_with_possible_menu": 12
+    "shops_with_possible_menu": 12,
+    "disposable_income_per_person": null,
+    "overnight_stays_per_inhabitant": null
   },
   "Hannover": {
     "coordinates": [
@@ -360,7 +424,9 @@
     "aggregated_value": 4.21,
     "total_shops": 233,
     "shops_with_website": 100,
-    "shops_with_possible_menu": 67
+    "shops_with_possible_menu": 67,
+    "disposable_income_per_person": 24094.0,
+    "overnight_stays_per_inhabitant": 3.5
   },
   "Heidelberg": {
     "coordinates": [
@@ -371,7 +437,9 @@
     "aggregated_value": 3.93,
     "total_shops": 151,
     "shops_with_website": 84,
-    "shops_with_possible_menu": 45
+    "shops_with_possible_menu": 45,
+    "disposable_income_per_person": 26184.0,
+    "overnight_stays_per_inhabitant": 11.8
   },
   "Heilbronn": {
     "coordinates": [
@@ -382,7 +450,9 @@
     "aggregated_value": 4.62,
     "total_shops": 47,
     "shops_with_website": 18,
-    "shops_with_possible_menu": 9
+    "shops_with_possible_menu": 9,
+    "disposable_income_per_person": 24862.0,
+    "overnight_stays_per_inhabitant": 4.2
   },
   "Herne": {
     "coordinates": [
@@ -393,7 +463,9 @@
     "aggregated_value": 4.0,
     "total_shops": 26,
     "shops_with_website": 11,
-    "shops_with_possible_menu": 10
+    "shops_with_possible_menu": 10,
+    "disposable_income_per_person": 20282.0,
+    "overnight_stays_per_inhabitant": 0.5
   },
   "Ingolstadt": {
     "coordinates": [
@@ -404,7 +476,9 @@
     "aggregated_value": null,
     "total_shops": 62,
     "shops_with_website": 20,
-    "shops_with_possible_menu": 9
+    "shops_with_possible_menu": 9,
+    "disposable_income_per_person": 26336.0,
+    "overnight_stays_per_inhabitant": 4.6
   },
   "Jena": {
     "coordinates": [
@@ -415,7 +489,9 @@
     "aggregated_value": 3.5,
     "total_shops": 47,
     "shops_with_website": 24,
-    "shops_with_possible_menu": 15
+    "shops_with_possible_menu": 15,
+    "disposable_income_per_person": 22860.0,
+    "overnight_stays_per_inhabitant": 3.5
   },
   "Karlsruhe": {
     "coordinates": [
@@ -426,7 +502,9 @@
     "aggregated_value": null,
     "total_shops": 0,
     "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "shops_with_possible_menu": 0,
+    "disposable_income_per_person": 26104.0,
+    "overnight_stays_per_inhabitant": 4.2
   },
   "Kassel": {
     "coordinates": [
@@ -437,7 +515,9 @@
     "aggregated_value": 4.14,
     "total_shops": 115,
     "shops_with_website": 41,
-    "shops_with_possible_menu": 22
+    "shops_with_possible_menu": 22,
+    "disposable_income_per_person": 22142.0,
+    "overnight_stays_per_inhabitant": 4.7
   },
   "Kiel": {
     "coordinates": [
@@ -448,7 +528,9 @@
     "aggregated_value": 4.15,
     "total_shops": 107,
     "shops_with_website": 45,
-    "shops_with_possible_menu": 28
+    "shops_with_possible_menu": 28,
+    "disposable_income_per_person": 22476.0,
+    "overnight_stays_per_inhabitant": 4.3
   },
   "Koblenz": {
     "coordinates": [
@@ -459,7 +541,9 @@
     "aggregated_value": null,
     "total_shops": 62,
     "shops_with_website": 22,
-    "shops_with_possible_menu": 13
+    "shops_with_possible_menu": 13,
+    "disposable_income_per_person": 23727.0,
+    "overnight_stays_per_inhabitant": 7.9
   },
   "Krefeld": {
     "coordinates": [
@@ -470,7 +554,9 @@
     "aggregated_value": 3.41,
     "total_shops": 60,
     "shops_with_website": 28,
-    "shops_with_possible_menu": 18
+    "shops_with_possible_menu": 18,
+    "disposable_income_per_person": 23914.0,
+    "overnight_stays_per_inhabitant": 1.2
   },
   "Köln": {
     "coordinates": [
@@ -481,7 +567,9 @@
     "aggregated_value": 3.96,
     "total_shops": 600,
     "shops_with_website": 217,
-    "shops_with_possible_menu": 126
+    "shops_with_possible_menu": 126,
+    "disposable_income_per_person": 25657.0,
+    "overnight_stays_per_inhabitant": 6.9
   },
   "Leipzig": {
     "coordinates": [
@@ -492,7 +580,9 @@
     "aggregated_value": 4.05,
     "total_shops": 283,
     "shops_with_website": 147,
-    "shops_with_possible_menu": 87
+    "shops_with_possible_menu": 87,
+    "disposable_income_per_person": 21460.0,
+    "overnight_stays_per_inhabitant": 6.3
   },
   "Leverkusen": {
     "coordinates": [
@@ -503,7 +593,9 @@
     "aggregated_value": 3.58,
     "total_shops": 35,
     "shops_with_website": 19,
-    "shops_with_possible_menu": 14
+    "shops_with_possible_menu": 14,
+    "disposable_income_per_person": 24477.0,
+    "overnight_stays_per_inhabitant": 1.2
   },
   "Ludwigshafen am Rhein": {
     "coordinates": [
@@ -514,7 +606,9 @@
     "aggregated_value": null,
     "total_shops": 70,
     "shops_with_website": 12,
-    "shops_with_possible_menu": 6
+    "shops_with_possible_menu": 6,
+    "disposable_income_per_person": 22138.0,
+    "overnight_stays_per_inhabitant": 1.9
   },
   "Lübeck": {
     "coordinates": [
@@ -525,40 +619,48 @@
     "aggregated_value": 4.01,
     "total_shops": 106,
     "shops_with_website": 47,
-    "shops_with_possible_menu": 35
+    "shops_with_possible_menu": 35,
+    "disposable_income_per_person": 23265.0,
+    "overnight_stays_per_inhabitant": 10.5
   },
   "Magdeburg": {
     "coordinates": [
       52.1205,
       11.6276
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 5,
+    "aggregated_value": 3.85,
+    "total_shops": 89,
+    "shops_with_website": 43,
+    "shops_with_possible_menu": 25,
+    "disposable_income_per_person": 21865.0,
+    "overnight_stays_per_inhabitant": 3.2
   },
   "Mainz": {
     "coordinates": [
       49.9929,
       8.2473
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 6,
+    "aggregated_value": 4.22,
+    "total_shops": 91,
+    "shops_with_website": 43,
+    "shops_with_possible_menu": 28,
+    "disposable_income_per_person": 24690.0,
+    "overnight_stays_per_inhabitant": 5.2
   },
   "Mannheim": {
     "coordinates": [
       49.4875,
       8.466
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 8,
+    "aggregated_value": 3.87,
+    "total_shops": 214,
+    "shops_with_website": 95,
+    "shops_with_possible_menu": 62,
+    "disposable_income_per_person": 25166.0,
+    "overnight_stays_per_inhabitant": 5.3
   },
   "Moers": {
     "coordinates": [
@@ -567,20 +669,24 @@
     ],
     "sample_size": 0,
     "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "total_shops": 16,
+    "shops_with_website": 5,
+    "shops_with_possible_menu": 3,
+    "disposable_income_per_person": 25299.0,
+    "overnight_stays_per_inhabitant": 1.8
   },
   "Mönchengladbach": {
     "coordinates": [
       51.1805,
       6.4428
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 5,
+    "aggregated_value": 3.96,
+    "total_shops": 60,
+    "shops_with_website": 27,
+    "shops_with_possible_menu": 12,
+    "disposable_income_per_person": 23511.0,
+    "overnight_stays_per_inhabitant": 1.4
   },
   "Mülheim an der Ruhr": {
     "coordinates": [
@@ -589,53 +695,63 @@
     ],
     "sample_size": 0,
     "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "total_shops": 39,
+    "shops_with_website": 17,
+    "shops_with_possible_menu": 10,
+    "disposable_income_per_person": 25874.0,
+    "overnight_stays_per_inhabitant": 1.0
   },
   "München": {
     "coordinates": [
       48.1351,
       11.582
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 51,
+    "aggregated_value": 3.92,
+    "total_shops": 823,
+    "shops_with_website": 373,
+    "shops_with_possible_menu": 240,
+    "disposable_income_per_person": 35467.0,
+    "overnight_stays_per_inhabitant": 13.2
   },
   "Münster": {
     "coordinates": [
       51.9607,
       7.6261
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 12,
+    "aggregated_value": 4.0,
+    "total_shops": 159,
+    "shops_with_website": 78,
+    "shops_with_possible_menu": 44,
+    "disposable_income_per_person": 26079.0,
+    "overnight_stays_per_inhabitant": 6.2
   },
   "Neuss": {
     "coordinates": [
       51.2042,
       6.6879
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 2,
+    "aggregated_value": 3.5,
+    "total_shops": 46,
+    "shops_with_website": 11,
+    "shops_with_possible_menu": 6,
+    "disposable_income_per_person": 27956.0,
+    "overnight_stays_per_inhabitant": 2.0
   },
   "Nürnberg": {
     "coordinates": [
       49.4521,
       11.0767
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 11,
+    "aggregated_value": 4.17,
+    "total_shops": 362,
+    "shops_with_website": 155,
+    "shops_with_possible_menu": 115,
+    "disposable_income_per_person": 24891.0,
+    "overnight_stays_per_inhabitant": 7.3
   },
   "Oberhausen": {
     "coordinates": [
@@ -644,174 +760,206 @@
     ],
     "sample_size": 0,
     "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "total_shops": 45,
+    "shops_with_website": 10,
+    "shops_with_possible_menu": 5,
+    "disposable_income_per_person": 21257.0,
+    "overnight_stays_per_inhabitant": 2.8
   },
   "Offenbach am Main": {
     "coordinates": [
       50.0956,
       8.7761
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 1,
+    "aggregated_value": 4.15,
+    "total_shops": 67,
+    "shops_with_website": 15,
+    "shops_with_possible_menu": 7,
+    "disposable_income_per_person": 20277.0,
+    "overnight_stays_per_inhabitant": 4.7
   },
   "Oldenburg": {
     "coordinates": [
       53.1435,
       8.2146
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 3,
+    "aggregated_value": 4.26,
+    "total_shops": 68,
+    "shops_with_website": 27,
+    "shops_with_possible_menu": 16,
+    "disposable_income_per_person": 22970.0,
+    "overnight_stays_per_inhabitant": 2.2
   },
   "Osnabrück": {
     "coordinates": [
       52.2799,
       8.0472
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 6,
+    "aggregated_value": 3.76,
+    "total_shops": 84,
+    "shops_with_website": 25,
+    "shops_with_possible_menu": 16,
+    "disposable_income_per_person": 23851.0,
+    "overnight_stays_per_inhabitant": 3.1
   },
   "Paderborn": {
     "coordinates": [
       51.7189,
       8.7575
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 4,
+    "aggregated_value": 3.47,
+    "total_shops": 71,
+    "shops_with_website": 48,
+    "shops_with_possible_menu": 34,
+    "disposable_income_per_person": 25097.0,
+    "overnight_stays_per_inhabitant": 3.4
   },
   "Pforzheim": {
     "coordinates": [
       48.8922,
       8.6946
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 1,
+    "aggregated_value": 3.7,
+    "total_shops": 33,
+    "shops_with_website": 12,
+    "shops_with_possible_menu": 8,
+    "disposable_income_per_person": 23895.0,
+    "overnight_stays_per_inhabitant": 1.8
   },
   "Potsdam": {
     "coordinates": [
       52.3906,
       13.0645
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 8,
+    "aggregated_value": 3.47,
+    "total_shops": 113,
+    "shops_with_website": 63,
+    "shops_with_possible_menu": 41,
+    "disposable_income_per_person": 24002.0,
+    "overnight_stays_per_inhabitant": 7.7
   },
   "Recklinghausen": {
     "coordinates": [
       51.6141,
       7.1979
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 1,
+    "aggregated_value": 2.6,
+    "total_shops": 33,
+    "shops_with_website": 14,
+    "shops_with_possible_menu": 8,
+    "disposable_income_per_person": 23341.0,
+    "overnight_stays_per_inhabitant": 1.2
   },
   "Regensburg": {
     "coordinates": [
       49.0134,
       12.1016
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 5,
+    "aggregated_value": 4.39,
+    "total_shops": 113,
+    "shops_with_website": 45,
+    "shops_with_possible_menu": 30,
+    "disposable_income_per_person": 26174.0,
+    "overnight_stays_per_inhabitant": 9.1
   },
   "Remscheid": {
     "coordinates": [
       51.1787,
       7.1897
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 1,
+    "aggregated_value": 3.3,
+    "total_shops": 40,
+    "shops_with_website": 4,
+    "shops_with_possible_menu": 2,
+    "disposable_income_per_person": 24082.0,
+    "overnight_stays_per_inhabitant": 0.7
   },
   "Reutlingen": {
     "coordinates": [
       48.5069,
       9.2038
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 4,
+    "aggregated_value": 4.36,
+    "total_shops": 60,
+    "shops_with_website": 19,
+    "shops_with_possible_menu": 10,
+    "disposable_income_per_person": 27276.0,
+    "overnight_stays_per_inhabitant": 4.0
   },
   "Rostock": {
     "coordinates": [
       54.0924,
       12.0991
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 3,
+    "aggregated_value": 3.9,
+    "total_shops": 104,
+    "shops_with_website": 43,
+    "shops_with_possible_menu": 23,
+    "disposable_income_per_person": 22025.0,
+    "overnight_stays_per_inhabitant": 10.9
   },
   "Saarbrücken": {
     "coordinates": [
       49.2402,
       6.9969
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 6,
+    "aggregated_value": 3.97,
+    "total_shops": 116,
+    "shops_with_website": 37,
+    "shops_with_possible_menu": 20,
+    "disposable_income_per_person": 22598.0,
+    "overnight_stays_per_inhabitant": 2.4
   },
   "Salzgitter": {
     "coordinates": [
       52.1379,
       10.3899
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 1,
+    "aggregated_value": 4.85,
+    "total_shops": 24,
+    "shops_with_website": 8,
+    "shops_with_possible_menu": 2,
+    "disposable_income_per_person": 21613.0,
+    "overnight_stays_per_inhabitant": 2.0
   },
   "Solingen": {
     "coordinates": [
       51.1652,
       7.0671
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 1,
+    "aggregated_value": 2.5,
+    "total_shops": 44,
+    "shops_with_website": 13,
+    "shops_with_possible_menu": 5,
+    "disposable_income_per_person": 25530.0,
+    "overnight_stays_per_inhabitant": 0.6
   },
   "Stuttgart": {
     "coordinates": [
       48.7758,
       9.1829
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 13,
+    "aggregated_value": 3.88,
+    "total_shops": 317,
+    "shops_with_website": 141,
+    "shops_with_possible_menu": 82,
+    "disposable_income_per_person": 29202.0,
+    "overnight_stays_per_inhabitant": 7.6
   },
   "Trier": {
     "coordinates": [
@@ -820,63 +968,75 @@
     ],
     "sample_size": 0,
     "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "total_shops": 51,
+    "shops_with_website": 19,
+    "shops_with_possible_menu": 10,
+    "disposable_income_per_person": 24064.0,
+    "overnight_stays_per_inhabitant": 8.4
   },
   "Ulm": {
     "coordinates": [
       48.4011,
       9.9876
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 6,
+    "aggregated_value": 4.17,
+    "total_shops": 88,
+    "shops_with_website": 40,
+    "shops_with_possible_menu": 20,
+    "disposable_income_per_person": 30216.0,
+    "overnight_stays_per_inhabitant": 6.6
   },
   "Wiesbaden": {
     "coordinates": [
       50.0782,
       8.2398
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 5,
+    "aggregated_value": 4.15,
+    "total_shops": 127,
+    "shops_with_website": 51,
+    "shops_with_possible_menu": 32,
+    "disposable_income_per_person": 26369.0,
+    "overnight_stays_per_inhabitant": 4.7
   },
   "Wolfsburg": {
     "coordinates": [
       52.4227,
       10.7865
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 1,
+    "aggregated_value": 3.6,
+    "total_shops": 44,
+    "shops_with_website": 6,
+    "shops_with_possible_menu": 4,
+    "disposable_income_per_person": 26669.0,
+    "overnight_stays_per_inhabitant": 4.8
   },
   "Wuppertal": {
     "coordinates": [
       51.2562,
       7.1508
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 3,
+    "aggregated_value": 4.7,
+    "total_shops": 102,
+    "shops_with_website": 36,
+    "shops_with_possible_menu": 15,
+    "disposable_income_per_person": 22829.0,
+    "overnight_stays_per_inhabitant": 1.8
   },
   "Würzburg": {
     "coordinates": [
       49.7913,
       9.9534
     ],
-    "sample_size": 0,
-    "aggregated_value": null,
-    "total_shops": 0,
-    "shops_with_website": 0,
-    "shops_with_possible_menu": 0
+    "sample_size": 4,
+    "aggregated_value": 4.33,
+    "total_shops": 93,
+    "shops_with_website": 47,
+    "shops_with_possible_menu": 24,
+    "disposable_income_per_person": 25974.0,
+    "overnight_stays_per_inhabitant": 8.1
   }
 }
