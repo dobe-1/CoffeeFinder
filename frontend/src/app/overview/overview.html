@@ -1,5 +1,7 @@
 <section class="overview">
   <h1>Germany Overview</h1>
+
+  <h2>Limitations</h2>
   <p class="placeholder">
     This is an overview of the coffee prices in Germany based on the cappuccino prices extracted from the coffee shops'
     menus. The data is aggregated to provide insights if the coffee prices correlate with income and tourism.
@@ -18,6 +20,20 @@
     our process.
   </p>
 
+  <!-- Nick -->
+
+  <h2>Results</h2>
+
+  <div class="map-chart">
+    <app-geomap [geoJson]="germanyGeoJson()" [mapName]="germanyMapName" [points]="geoPoints()" valueName="EUR"
+      title="Cappuccino price by city" />
+  </div>
+
+  <p class="placeholder">
+    The map above visualizes the average cappuccino prices in different cities across Germany. Cities with unreliable
+    price data are shown in a dimmed color.
+  </p>
+
   <div class="scatter-row">
     <div class="scatter-cell">
       <app-scatterplot [points]="incomePoints()" xName="Disposable income per person (EUR)"
@@ -34,13 +50,10 @@
     tourism.
   </p>
 
-  <div class="map-chart">
-    <app-geomap [geoJson]="germanyGeoJson()" [mapName]="germanyMapName" [points]="geoPoints()" valueName="EUR"
-      title="Cappuccino price by city" />
-  </div>
+  <!-- Hendrik -->
+  <!-- Answer RQ -->
 
-  <p class="placeholder">
-    The map above visualizes the average cappuccino prices in different cities across Germany. Cities with unreliable
-    price data are shown in a dimmed color.
-  </p>
+  <h2>Future Work</h2>
+
+  <!-- Jonas -->
 </section>
