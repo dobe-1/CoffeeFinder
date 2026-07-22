@@ -157,6 +157,10 @@
         {
           "name": "Cappuccino",
           "price": 3.9
+        },
+        {
+          "name": "Cappuccino",
+          "price": 5.1
         }
       ]
     },
@@ -498,7 +502,7 @@
       "accessible": true
     },
     "menu": {
-      "menu_url": "https://www.marshall-street.de/menue/",
+      "menu_url": null,
       "menu_url_last_checked": "2026-07-10T12:03:56.326651Z",
       "menu_url_accessible": true,
       "currency": "EUR",
