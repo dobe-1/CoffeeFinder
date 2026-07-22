@@ -55,6 +55,16 @@ export class Overview implements OnInit {
   readonly germanyGeoJson = signal<object | null>(null);
 
 
+  // Deviation of the measured price from the price predicted by a linear fit,
+  // mirroring eval/heatmap.py. Only reliable cities enter the fit.
+  readonly incomeDeviationPoints = computed(() =>
+    this.deviationPoints((agg) => agg.disposable_income_per_person),
+  );
+
+  readonly overnightDeviationPoints = computed(() =>
+    this.deviationPoints((agg) => agg.overnight_stays_per_inhabitant),
+  );
+
   readonly geoPoints = computed<GeoScatterPoint[]>(() =>
     Object.entries(this.coffeeService.aggregates()).flatMap(([city, agg]) => {
       if (agg.aggregated_value == null) {
@@ -77,6 +87,38 @@ export class Overview implements OnInit {
   // Unreliable cities are still plotted, just dimmed.
   private isReliable(agg: AggregationResult): boolean {
     return agg.total_shops > 0 && agg.sample_size >= RELIABLE_SAMPLE_RATIO * agg.total_shops;
+  }
+
+  private deviationPoints(
+    getX: (agg: AggregationResult) => number | null,
+  ): GeoScatterPoint[] {
+    const cities = Object.entries(this.coffeeService.aggregates()).flatMap(([city, agg]) => {
+      const x = getX(agg);
+      const y = agg.aggregated_value;
+      if (x == null || y == null || !this.isReliable(agg)) {
+        return [];
+      }
+      const [lat, lon] = agg.coordinates;
+      return [{ city, x, y, lat, lon }];
+    });
+
+    if (cities.length < 2) {
+      return [];
+    }
+
+    const meanX = cities.reduce((sum, c) => sum + c.x, 0) / cities.length;
+    const meanY = cities.reduce((sum, c) => sum + c.y, 0) / cities.length;
+    const covariance = cities.reduce((sum, c) => sum + (c.x - meanX) * (c.y - meanY), 0);
+    const variance = cities.reduce((sum, c) => sum + (c.x - meanX) ** 2, 0);
+    const slope = variance === 0 ? 0 : covariance / variance;
+    const intercept = meanY - slope * meanX;
+
+    return cities.map((c) => ({
+      name: c.city,
+      lon: c.lon,
+      lat: c.lat,
+      value: c.y - (slope * c.x + intercept),
+    }));
   }
 
   private scatterPoints(getX: (agg: AggregationResult) => number | null): ScatterPoint[] {

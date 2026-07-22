@@ -46,6 +46,9 @@ export class Geomap implements AfterViewInit, OnDestroy {
   readonly points = input.required<GeoScatterPoint[]>();
   readonly valueName = input<string>('');
   readonly title = input<string>('');
+  // Diverging scale centered at zero, e.g. for deviations from a trend line.
+  readonly diverging = input<boolean>(false);
+  readonly height = input<number>(680);
 
   private readonly container = viewChild.required<ElementRef<HTMLDivElement>>('chart');
   private chart?: echarts.ECharts;
@@ -58,11 +61,12 @@ export class Geomap implements AfterViewInit, OnDestroy {
       const mapName = this.mapName();
       const valueName = this.valueName();
       const title = this.title();
+      const diverging = this.diverging();
       if (!this.chart || !geoJson) {
         return;
       }
       echarts.registerMap(mapName, geoJson as Parameters<typeof echarts.registerMap>[1]);
-      this.chart.setOption(this.buildOption(mapName, points, valueName, title), true);
+      this.chart.setOption(this.buildOption(mapName, points, valueName, title, diverging), true);
     });
   }
 
@@ -84,13 +88,19 @@ export class Geomap implements AfterViewInit, OnDestroy {
     points: GeoScatterPoint[],
     valueName: string,
     title: string,
+    diverging: boolean,
   ): echarts.EChartsCoreOption {
     const reliable = points.filter((point) => !point.dimmed && point.value !== null);
     const dimmed = points.filter((point) => point.dimmed);
 
     const values = reliable.map((point) => point.value as number);
-    const min = values.length ? Math.min(...values) : 0;
-    const max = values.length ? Math.max(...values) : 1;
+    let min = values.length ? Math.min(...values) : 0;
+    let max = values.length ? Math.max(...values) : 1;
+    if (diverging) {
+      const bound = Math.max(Math.abs(min), Math.abs(max)) || 1;
+      min = -bound;
+      max = bound;
+    }
 
     const toData = (list: GeoScatterPoint[]) =>
       list.map((point) => ({ name: point.name, value: [point.lon, point.lat, point.value] }));
@@ -101,7 +111,8 @@ export class Geomap implements AfterViewInit, OnDestroy {
         trigger: 'item',
         formatter: (params: { name: string; value: [number, number, number | null] }) => {
           const value = params.value?.[2];
-          const shown = value == null ? '—' : `${value} ${valueName}`.trim();
+          const formatted = value == null ? null : `${diverging && value > 0 ? '+' : ''}${value.toFixed(2)}`;
+          const shown = formatted == null ? '—' : `${formatted} ${valueName}`.trim();
           return `${params.name}<br/>${shown}`;
         },
       },
@@ -120,8 +131,15 @@ export class Geomap implements AfterViewInit, OnDestroy {
         calculable: true,
         left: 'left',
         bottom: 12,
-        text: [`${max.toFixed(2)}`, `${min.toFixed(2)}`],
-        inRange: { color: ['#e6d9c8', '#c8a06a', '#6f4e37'] },
+        text: [
+          `${diverging && max > 0 ? '+' : ''}${max.toFixed(2)}`,
+          `${min.toFixed(2)}`,
+        ],
+        inRange: {
+          color: diverging
+            ? ['#3b4cc0', '#8db0fe', '#dddddd', '#f49a7b', '#b40426']
+            : ['#e6d9c8', '#c8a06a', '#6f4e37'],
+        },
       },
       series: [
         {
@@ -129,6 +147,8 @@ export class Geomap implements AfterViewInit, OnDestroy {
           type: 'scatter',
           coordinateSystem: 'geo',
           symbolSize: 10,
+          // Neutral deviations are close to the land colour, so outline them.
+          itemStyle: diverging ? { borderColor: '#ffffff', borderWidth: 1 } : undefined,
           data: toData(reliable),
         },
         {

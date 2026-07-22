@@ -51,6 +51,22 @@
       tourism.
     </p>
 
+    <div class="map-row">
+      <div class="map-cell">
+        <app-geomap [geoJson]="germanyGeoJson()" [mapName]="germanyMapName" [points]="incomeDeviationPoints()"
+          [diverging]="true" [height]="520" valueName="EUR" title="Price deviation from the income trend" />
+      </div>
+      <div class="map-cell">
+        <app-geomap [geoJson]="germanyGeoJson()" [mapName]="germanyMapName" [points]="overnightDeviationPoints()"
+          [diverging]="true" [height]="520" valueName="EUR" title="Price deviation from the tourism trend" />
+      </div>
+    </div>
+
+    <p class="placeholder">
+      Both maps show how far each city's cappuccino price lies above (red) or below (blue) the price predicted by a
+      linear fit on disposable income and on overnight stays. Only cities with a reliable sample size are included.
+    </p>
+
     <!-- Hendrik -->
     <!-- Answer RQ -->
 
