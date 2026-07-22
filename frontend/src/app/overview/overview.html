@@ -4,12 +4,14 @@
 
     <h2 id="limitations">Limitations</h2>
     <p class="placeholder">
-      This is an overview of the coffee prices in Germany based on the cappuccino prices extracted from the coffee shops'
+      This is an overview of the coffee prices in Germany based on the cappuccino prices extracted from the coffee
+      shops'
       menus. The data is aggregated to provide insights if the coffee prices correlate with income and tourism.
     </p>
     @if (hasData()) {
     <div class="overview-chart">
-      <app-sankey-chart [nodes]="sankeyNodes()" [links]="sankeyLinks()" chartTitle="Price extraction funnel (Germany)" />
+      <app-sankey-chart [nodes]="sankeyNodes()" [links]="sankeyLinks()"
+        chartTitle="Price extraction funnel (Germany)" />
     </div>
     } @else {
     <p class="placeholder">No aggregate data available yet.</p>
@@ -78,9 +80,9 @@
   <aside class="table-of-contents">
     <h2>Table of Contents</h2>
     <nav>
-      <a href="#limitations">Limitations</a>
-      <a href="#results">Results</a>
-      <a href="#future-work">Future Work</a>
+      <a href="germany-overview#limitations">Limitations</a>
+      <a href="germany-overview#results">Results</a>
+      <a href="germany-overview#future-work">Future Work</a>
     </nav>
   </aside>
 </div>
