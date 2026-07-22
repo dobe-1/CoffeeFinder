@@ -1,9 +1,62 @@
+.overview-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  align-items: start;
+}
+
 .overview {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
-  padding: 2rem;
+}
+
+.overview h2 {
+  align-self: flex-start;
+}
+
+.table-of-contents {
+  position: sticky;
+  top: 76px;
+  background: #eee;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.table-of-contents h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #412D15;
+}
+
+.table-of-contents nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.table-of-contents a {
+  color: #412D15;
+  text-decoration: none;
+}
+
+.table-of-contents a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .overview-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .table-of-contents {
+    position: static;
+    order: -1;
+  }
 }
 
 .overview h1 {

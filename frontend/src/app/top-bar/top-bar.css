@@ -1,11 +1,12 @@
 .top-bar {
-    display: flex;
-    align-items: center;
     gap: 24px;
     height: 60px;
     background-color: #1F150C;
     color: #E1DCC9;
     border-radius: 0 0 1rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 .app-title {
