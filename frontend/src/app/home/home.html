@@ -27,10 +27,121 @@
         <!-- Hendrik & Jonas -->
 
         <h2 id="methodology">Methodology</h2>
-        <p class="placeholder">
-            This is a placeholder text for Section 3. You can replace this text with actual content related to
-            Section 3.
+        <p>Our architecture for the CoffeeFinder project pipeline primarly consists of three substages as outlined in
+            the <a href="home#coffeefinder-diagram">CoffeeFinder architecture diagram</a>. Inititally, we retrieve our
+            coffee shops
+            from the overpass API.
+            After the parsing the retrieved cofeeshops into a list of our internal <strong><a
+                    href="https://github.com/dobe-1/CoffeeFinder/blob/main/backend/models/coffee_shop.py"
+                    target="_blank" rel="noopener">Coffeeshop model</a></strong> holding all coffeshops of a
+            certain
+            city, we run an iteration on each of the coffeshops with provided website URL. Each iteration round of a
+            fixed
+            coffeeshop, can be divided into 2 subcomponents: webscraper and price extractor.
+            The webscraper uses the given website URL of a coffeeshop to collect a set of possible menu URLs. The
+            collection of
+            potential menu URLs is then given to the price extractor which handles different file formats and tries to
+            extract
+            the <code>Cappucino</code> price. </p>
+
+        <figure id="coffeefinder-diagram" class="architecture-figure">
+            <img src="images/CoffeeFinder-Overview.svg" alt="CoffeeFinder architecture diagram" />
+            <figcaption>CoffeeFinder architecture diagram</figcaption>
+        </figure>
+
+        <h3 id="overpass-api">Overpass API</h3>
+        <p><a href="https://github.com/dobe-1/CoffeeFinder/blob/main/backend/scraper/overpassAPI.py#L250"
+                target="_blank" rel="noopener"><code>get_coffee_shops_in_city()</code></a> does load the initial data
+            of each
+            coffeeshop as a <code>GeoDataFrame</code> with OSM tags as columns and normalizes it to use the internal
+            <strong>Coffeeshop model</strong> instead, directly enforcing a structured data format which persist during
+            the
+            entire pipeline execution. So after the first stage, we hold a list of <strong>Coffeeshop Models</strong>
+            for each
+            coffeeshop, which initialized the fields served by the overpassAPI and leaves the webscraper and price
+            extractor
+            fields undefined for later addition.
         </p>
+
+        <h3 id="webscraper">Webscraper</h3>
+        <p>Each coffeeshop that directly provides the menu URL from overpass API is directly forwarded to the price
+            extraction.
+            Otherwise, for each coffeeshop with a given website URL, the webscraper opens the website and searches for
+            links
+            that look like menu pages.<br>For opening the pages we use <a
+                href="https://playwright.dev/python/">Playwright</a>,
+            which is a browser automation library. This allows the webscraper to load websites like a normal browser, so
+            links
+            that are created or changed by JavaScript will also be found.
+            It checks the visible link text and the link URL for words like menu, food, drinks, Speisekarte or Getränke.
+            If no
+            menu link is found on the first page, the webscraper follows internal links of the same website and repeats
+            the
+            search with a limited depth of up to 3 levels and a maximum of 20 page requests. Each page navigation also
+            has a 15
+            second timeout, so slow or unresponsive pages are skipped instead of blocking the whole pipeline. These
+            limits keep
+            the crawl bounded and prevent the scraper from spending too much time on large or deeply nested websites.
+            All
+            possible menu URLs are collected as candidates and then tested one after another. During this testing, the
+            current
+            candidate is stored in the <strong>Coffeeshop model</strong> and forwarded to the extractor, which tries to
+            read the
+            menu content and extract the Cappuccino price.</p>
+
+        <h3 id="price-extractor--analyzer">Price Extractor / Analyzer</h3>
+        <p>The price extraction is called by the webscraper after a possible menu URL was found and stored as the
+            current
+            <code>menu_url</code> candidate in the <strong>Coffeeshop model</strong>. The webscraper requests this
+            candidate
+            URL, reads the returned <code>Content-Type</code>, and forwards the downloaded data to the <a
+                href="https://github.com/dobe-1/CoffeeFinder/blob/main/backend/analysis/analyzer.py" target="_blank"
+                rel="noopener">Analyzer</a>, which selects the matching extraction
+            strategy.<br>Currently supported formats are image files, PDF documents, <code>text/html</code> pages and
+            <code>application/xhtml+xml</code> pages, so menus can be processed when they are published as normal
+            webpages,
+            downloadable PDFs or images.<br>For image menus we use <a
+                href="https://pypi.org/project/pytesseract/">pytesseract</a> as the OCR library, which reads the image
+            with
+            Pillow and converts the visible menu content into text using German and English language settings. For PDF
+            menus we
+            use <code>pdfplumber</code> to extract the page text directly, while HTML and XHTML menus are decoded as
+            text and
+            then handled by the same price parsing logic. After a text representation was created, the extractor
+            searches the
+            lines for the <code>Cappuccino</code> keyword and a nearby price pattern, also supporting the case where the
+            name
+            and price are split over following lines.<br>If the extraction is succesful, the found menu item, price,
+            currency
+            and extraction timestamp are written into the <strong>Coffeeshop model</strong>, and the code flow is
+            returning back
+            to the coffeeshop iteration logic to continue with the next coffeshop.
+        </p>
+        <h3 id="coffeeshop-model">Coffeeshop Model</h3>
+        <p>All information extracted during the pipeline execution of each stage enriches our internal <strong><a
+                    href="https://github.com/dobe-1/CoffeeFinder/blob/main/backend/models/coffee_shop.py"
+                    target="_blank" rel="noopener">Coffeeshop model</a></strong> in place. Keeping this
+            <strong>Coffeeshop model</strong> as the central data state in our pipeline, allows us to enforce working on
+            structured data during each step, allowing to keep the interfaces of each of the subcomponents well-defined,
+            but
+            independent of each other during development.
+        </p>
+        <p>At the end of the pipeline, we result in a final list of all <strong>Coffeeshop Models</strong> of the
+            queried city
+            with the added, extracted information for each of the coffeeshops.
+            Finally, the list of <strong>Coffeeshop models</strong> is converted into a JSON structure with
+            <code>model_dump(mode=&quot;json&quot;)</code> and then written as JSON store of the queried city, allowing
+            for a
+            JSON-based frontend design. Because the <strong>Coffeeshop model</strong> is based on Pydantic, this
+            conversion can
+            also be done at any earlier point in the pipeline whenever an intermediate JSON representation is needed.
+        </p>
+        <pre class="language-json"><code class="language-json" [innerHTML]="coffeeShopExample"></code></pre>
+        <p><em>Example: <strong>Coffeeshop model</strong> for <code>Kulturcafé</code>. The code embedding further
+                comments where
+                each of the fields are set in our 3 staged pipeline to give you an understanding of the state under the
+                hood.</em></p>
+
 
         <!-- Jakob -->
 
@@ -56,11 +167,15 @@
     <aside class="table-of-contents">
         <h2>Table of Contents</h2>
         <nav>
-            <a href="#research-question">Research Question</a>
-            <a href="#data-sources">Data Sources</a>
-            <a href="#methodology">Methodology</a>
-            <a href="#data-cleaning">Data Cleaning</a>
-            <a href="#ethics">Ethics</a>
+            <a href="home#research-question">Research Question</a>
+            <a href="home#data-sources">Data Sources</a>
+            <a href="home#methodology">Methodology</a>
+            <a class="toc-sub" href="home#overpass-api">Overpass API</a>
+            <a class="toc-sub" href="home#webscraper">Webscraper</a>
+            <a class="toc-sub" href="home#price-extractor--analyzer">Price Extractor / Analyzer</a>
+            <a class="toc-sub" href="home#coffeeshop-model">Coffeeshop Model</a>
+            <a href="home#data-cleaning">Data Cleaning</a>
+            <a href="home#ethics">Ethics</a>
         </nav>
     </aside>
 </div>
