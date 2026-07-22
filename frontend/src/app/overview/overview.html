@@ -3,7 +3,7 @@
     <h1>Germany Overview</h1>
 
     <h2 id="limitations">Limitations</h2>
-    <p class="placeholder">
+    <p>
       This is an overview of the coffee prices in Germany based on the cappuccino prices extracted from the coffee
       shops'
       menus. The data is aggregated to provide insights if the coffee prices correlate with income and tourism.
@@ -14,10 +14,10 @@
         chartTitle="Price extraction funnel (Germany)" />
     </div>
     } @else {
-    <p class="placeholder">No aggregate data available yet.</p>
+    <p>No aggregate data available yet.</p>
     }
 
-    <p class="placeholder">
+    <p>
       The Sankey chart above illustrates the flow of coffee shops from the total number of shops to those with websites
       and finally to those with extractable prices. This visualization helps identify where price extraction is lost in
       our process.
@@ -29,12 +29,28 @@
 
     <div class="map-chart">
       <app-geomap [geoJson]="germanyGeoJson()" [mapName]="germanyMapName" [points]="geoPoints()" valueName="EUR"
-        chartTitle="Cappuccino price by city" />
+        chartTitle="Cappuccino Price by City" />
     </div>
 
-    <p class="placeholder">
+    <p>
       The map above visualizes the average cappuccino prices in different cities across Germany. Cities with unreliable
       price data are shown in a dimmed color.
+    </p>
+
+    <div class="map-row">
+      <div class="map-cell">
+        <app-geomap [geoJson]="germanyGeoJson()" [mapName]="germanyMapName" [points]="incomeGeoPoints()" [height]="520"
+          valueName="EUR" chartTitle="Disposable income per person by city" />
+      </div>
+      <div class="map-cell">
+        <app-geomap [geoJson]="germanyGeoJson()" [mapName]="germanyMapName" [points]="overnightGeoPoints()"
+          [height]="520" valueName="stays per inhabitant" chartTitle="Overnight stays per inhabitant by city" />
+      </div>
+    </div>
+
+    <p>
+      The two maps above show the explanatory variables themselves: disposable income per person and overnight stays per
+      inhabitant. Both come from the official city statistics, so every city with a published value is included.
     </p>
 
     <div class="scatter-row">
@@ -48,7 +64,7 @@
       </div>
     </div>
 
-    <p class="placeholder">
+    <p>
       The scatter plots above show that there is no clear correlation between cappuccino prices and disposable income or
       tourism.
     </p>
@@ -64,9 +80,21 @@
       </div>
     </div>
 
-    <p class="placeholder">
+    <p>
       Both maps show how far each city's cappuccino price lies above (red) or below (blue) the price predicted by a
       linear fit on disposable income and on overnight stays. Only cities with a reliable sample size are included.
+    </p>
+
+    <div class="map-chart">
+      <app-geomap [geoJson]="germanyGeoJson()" [mapName]="germanyMapName" [points]="affordabilityPoints()"
+        valueName="cappuccinos" chartTitle="Cappuccinos affordable per year by city" />
+    </div>
+
+    <p>
+      This map divides the yearly disposable income per person by the local cappuccino price, so each city shows how
+      many cappuccinos an average inhabitant could buy from one year of disposable income. It combines both effects:
+      a city is dark either because coffee is cheap or because incomes are high. Cities with unreliable price data are
+      shown in a dimmed color.
     </p>
 
     <!-- Hendrik -->

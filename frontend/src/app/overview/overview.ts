@@ -65,6 +65,34 @@ export class Overview implements OnInit {
     this.deviationPoints((agg) => agg.overnight_stays_per_inhabitant),
   );
 
+  readonly incomeGeoPoints = computed(() =>
+    this.geoValuePoints((agg) => agg.disposable_income_per_person),
+  );
+
+  readonly overnightGeoPoints = computed(() =>
+    this.geoValuePoints((agg) => agg.overnight_stays_per_inhabitant),
+  );
+
+  readonly affordabilityPoints = computed<GeoScatterPoint[]>(() =>
+    Object.entries(this.coffeeService.aggregates()).flatMap(([city, agg]) => {
+      const income = agg.disposable_income_per_person;
+      const price = agg.aggregated_value;
+      if (income == null || price == null || price === 0) {
+        return [];
+      }
+      const [lat, lon] = agg.coordinates;
+      return [
+        {
+          name: city,
+          lon,
+          lat,
+          value: income / price,
+          dimmed: !this.isReliable(agg),
+        },
+      ];
+    }),
+  );
+
   readonly geoPoints = computed<GeoScatterPoint[]>(() =>
     Object.entries(this.coffeeService.aggregates()).flatMap(([city, agg]) => {
       if (agg.aggregated_value == null) {
@@ -87,6 +115,19 @@ export class Overview implements OnInit {
   // Unreliable cities are still plotted, just dimmed.
   private isReliable(agg: AggregationResult): boolean {
     return agg.total_shops > 0 && agg.sample_size >= RELIABLE_SAMPLE_RATIO * agg.total_shops;
+  }
+
+  private geoValuePoints(
+    getValue: (agg: AggregationResult) => number | null,
+  ): GeoScatterPoint[] {
+    return Object.entries(this.coffeeService.aggregates()).flatMap(([city, agg]) => {
+      const value = getValue(agg);
+      if (value == null) {
+        return [];
+      }
+      const [lat, lon] = agg.coordinates;
+      return [{ name: city, lon, lat, value }];
+    });
   }
 
   private deviationPoints(
