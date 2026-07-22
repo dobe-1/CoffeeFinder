@@ -45,7 +45,7 @@ export class Geomap implements AfterViewInit, OnDestroy {
   readonly mapName = input<string>('map');
   readonly points = input.required<GeoScatterPoint[]>();
   readonly valueName = input<string>('');
-  readonly title = input<string>('');
+  readonly chartTitle = input<string>('');
   // Diverging scale centered at zero, e.g. for deviations from a trend line.
   readonly diverging = input<boolean>(false);
   readonly height = input<number>(680);
@@ -60,7 +60,7 @@ export class Geomap implements AfterViewInit, OnDestroy {
       const points = this.points();
       const mapName = this.mapName();
       const valueName = this.valueName();
-      const title = this.title();
+      const title = this.chartTitle();
       const diverging = this.diverging();
       if (!this.chart || !geoJson) {
         return;

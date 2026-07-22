@@ -32,7 +32,7 @@ export class Scatterplot implements AfterViewInit, OnDestroy {
   readonly points = input.required<ScatterPoint[]>();
   readonly xName = input<string>('');
   readonly yName = input<string>('');
-  readonly title = input<string>('');
+  readonly chartTitle = input<string>('');
 
   private readonly container = viewChild.required<ElementRef<HTMLDivElement>>('chart');
   private chart?: echarts.ECharts;
@@ -44,7 +44,7 @@ export class Scatterplot implements AfterViewInit, OnDestroy {
         this.points(),
         this.xName(),
         this.yName(),
-        this.title(),
+        this.chartTitle(),
       );
       this.chart?.setOption(option, true);
     });
@@ -54,7 +54,7 @@ export class Scatterplot implements AfterViewInit, OnDestroy {
     const element = this.container().nativeElement;
     this.chart = echarts.init(element);
     this.chart.setOption(
-      this.buildOption(this.points(), this.xName(), this.yName(), this.title()),
+      this.buildOption(this.points(), this.xName(), this.yName(), this.chartTitle()),
       true,
     );
 

@@ -14,7 +14,7 @@
 
                 @if (hasAggregate()) {
                 <app-sankey-chart [nodes]="sankeyNodes()" [links]="sankeyLinks()"
-                    title="Price extraction funnel" />
+                    chartTitle="Price extraction funnel" />
                 } @else {
                 <p class="sankey-empty">No aggregate data available for this city.</p>
                 }

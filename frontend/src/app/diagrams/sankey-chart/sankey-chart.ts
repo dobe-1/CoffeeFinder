@@ -38,7 +38,7 @@ export interface SankeyLink {
 export class SankeyChart implements AfterViewInit, OnDestroy {
   readonly nodes = input.required<SankeyNode[]>();
   readonly links = input.required<SankeyLink[]>();
-  readonly title = input<string>('');
+  readonly chartTitle = input<string>('');
 
   private readonly container = viewChild.required<ElementRef<HTMLDivElement>>('chart');
   private chart?: echarts.ECharts;
@@ -46,7 +46,7 @@ export class SankeyChart implements AfterViewInit, OnDestroy {
 
   constructor() {
     effect(() => {
-      const option = this.buildOption(this.nodes(), this.links(), this.title());
+      const option = this.buildOption(this.nodes(), this.links(), this.chartTitle());
       this.chart?.setOption(option, true);
     });
   }
@@ -54,7 +54,7 @@ export class SankeyChart implements AfterViewInit, OnDestroy {
   ngAfterViewInit() {
     const element = this.container().nativeElement;
     this.chart = echarts.init(element);
-    this.chart.setOption(this.buildOption(this.nodes(), this.links(), this.title()), true);
+    this.chart.setOption(this.buildOption(this.nodes(), this.links(), this.chartTitle()), true);
 
     this.resizeObserver = new ResizeObserver(() => this.chart?.resize());
     this.resizeObserver.observe(element);
