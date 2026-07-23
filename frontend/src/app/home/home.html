@@ -146,11 +146,23 @@
         <!-- Jakob -->
 
         <h2 id="data-cleaning">Data Cleaning</h2>
-        <p class="placeholder">
-            This is a placeholder text for Section 4. You can replace this text with actual content related to
-            Section 4.
+
+        <p>
+            Our initial data consisted of prices extracted from different formats:<br>
+            HTML, PDFs and images. These data were inconsistently structured, making the automated extraction of the prices very challenging. In order to make our final data correct and trustworthy, we implemented some data cleaning procedures.
         </p>
 
+        <p>
+            One of the challenges inclusded cafés mistyping Cappuccino. This resulted in data loss. To address this issue we adjusted our regex to also extract from menus that mistyped the word. 
+        </p>
+
+        <p>
+            Another challenge was the detection of prices in a menu as those varied from menu to menu. Some included Euro signs, some used dots instead of commas. Therefore we had to adjust our script to be able to catch all of these variations.
+        </p>
+
+        <p>
+            Lastly we had to make sure that the prices extracted were within a certain boundary for a cappuccino price. To achieve this we set the threshold between 2 and 7 Euros. If a price would exceed or be below that value, the price would be ignored.
+        </p>
         <!-- Nick -->
 
 

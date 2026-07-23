@@ -2,12 +2,13 @@
   <section class="overview">
     <h1>Germany Overview</h1>
 
-    <h2 id="limitations">Limitations</h2>
+
     <p>
       This is an overview of the coffee prices in Germany based on the cappuccino prices extracted from the coffee
       shops'
       menus. The data is aggregated to provide insights if the coffee prices correlate with income and tourism.
     </p>
+    <h2 id="limitations">Limitations</h2>
     @if (hasData()) {
     <div class="overview-chart">
       <app-sankey-chart [nodes]="sankeyNodes()" [links]="sankeyLinks()"
@@ -22,7 +23,17 @@
       and finally to those with extractable prices. This visualization helps identify where price extraction is lost in
       our process.
     </p>
-
+    <h3 id="issues-encountered">Issues Encountered</h3>
+    <p> 
+      In the funnel diagram you can see that out of 12,982 initial coffeeshops, more than half were filtered out since they had no website listed on OSM. Of the 5,429 coffeeshops that did have a website, we extracted prices for only 610. This big drop was caused by multiple issues:
+    </p>
+    
+    <ul>
+      <li><strong>Social Media Blacklist:</strong> Many coffeeshops link to their social media page rather than their own website. To avoid login walls and conform to ToS, our web-scraper skipped these websites completely.</li>
+      <li><strong>Menu Finder:</strong> Many websites simply did not publish their menu online, or our scraper was unable to find it. </li>
+      <li><strong>Price Extraction:</strong> Even when a menu was found, these were inconsitently structured and extracting the prices automatically is challenging as adjusting the script for one menu could break it for others. There was also no reliable way of telling whether the price extracted was actually correct. For validation we made use of Data Cleaning.</li>
+      <li><strong>OSM Crowdsourcing:</strong> Since OpenStreetMap relies on user contributions, not every coffee shop is listed there. Another issue is the incorrect labeling of businesses that are not coffee shops but are tagged as such.</li>
+    </ul>
     <!-- Nick -->
 
     <h2 id="results">Results</h2>
