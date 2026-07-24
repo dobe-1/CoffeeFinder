@@ -4,9 +4,8 @@
 
 
     <p>
-      This is an overview of the coffee prices in Germany based on the cappuccino prices extracted from the coffee
-      shops' menus.<br>
-      The data is aggregated to provide insights if the coffee prices correlate with income and tourism, how 
+      This is an overview of the coffee prices in the 80 Germany cities with a population of more than 100.000 based on the cappuccino prices extracted from the coffee shops' menus with out extraction pipeline.<br>
+      The data is aggregated to provide insights if the coffee prices correlate with disposable income and tourism.
     </p>
     <h2 id="limitations">Limitations</h2>
     @if (hasData()) {
@@ -20,7 +19,7 @@
 
     <p>
       The Sankey chart above illustrates the flow of coffee shops from the total number of shops to those with websites
-      and finally to those with extractable prices. This visualization helps identify where price extraction is lost in
+      and finally to those with extractable prices. The visualization helps identify where price extraction is lost in
       our process.
     </p>
     <h3 id="issues-encountered">Issues Encountered</h3>
@@ -31,13 +30,14 @@
     <ul>
       <li><strong>Social Media Blacklist:</strong> Many coffeeshops link to their social media page rather than their own website. To avoid login walls and conform to ToS, our web-scraper skipped these websites completely.</li>
       <li><strong>Menu Finder:</strong> Many websites simply did not publish their menu online, or our scraper was unable to find it. </li>
-      <li><strong>Cappucino Availability:</strong> Our index is based on cappucino prices due to it's consistent naming and its common offering. Though this eliminates cafes that do not offer Cappucinos or list it under another name from our data set.</li>
+      <li><strong>Cappucino Availability:</strong> Our index is based on cappucino prices due to it's consistent naming and its common offering. Though this eliminates cafes that do not offer Cappucinos or list them under another name from our data set.</li>
       <li><strong>Price Extraction:</strong> Even when a menu was found, these were inconsitently structured and extracting the prices automatically is challenging as adjusting the script for one menu could break it for others. There was also no reliable way of telling whether the price extracted was actually correct. For validation we made use of Data Cleaning.</li>
       <li><strong>OSM Crowdsourcing:</strong> Since OpenStreetMap relies on user contributions, not every coffee shop is listed there. Another issue is the incorrect labeling of businesses that are not coffee shops but are tagged as such.</li>
     </ul>
     <!-- Nick -->
 
     <h2 id="results">Results</h2>
+    <p>The following section will discuss some of the results we tried to derive from our extracted coffee prices.</p>
 
     <div class="map-chart">
       <app-geomap [geoJson]="germanyGeoJson()" [mapName]="germanyMapName" [points]="geoPoints()" valueName="EUR"
