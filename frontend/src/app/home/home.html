@@ -43,31 +43,33 @@
 
         <h2 id="data-sources">Data Sources</h2>
         <h3>Café Database Data</h3>
-        <p >
+        <p>
             For finding the coffee prices of the cafés, a comprehensive data source is needed. Our first idea was to use <a href="https://www.google.com/maps/">Google Maps</a>. Google Maps is one of the most widely used map databases by usage and heavily incorporates user-submitted data for points of interest. These points of interest includes places, like stores, restaurants, and, for our use case, cafés. Google Maps stores additional information for many of these places, such as opening times, websites, reviews, and pictures of menus. This makes it an interesting data source. However, for our project, Google Maps was not usable because of ethical and legal concerns, since the Google Maps Terms of Service do forbid any usage for scraping, API usage, and web scraping.
             As a solution, we decided on <a href="https://www.openstreetmap.org/">OpenStreetMap</a> as an alternative. Similary to Google Maps, OpenStreetMap is a map database that also stores information to many points of interest, such as cafés. However, OpenStreetMap is free and open source and is mostly built by voluntary users, differently to Google Maps, which is a commercial closed source product by Alphabet. Additionally, the OpenStreetMap Project already provides an API for data access of the Map Database called <a href="https://overpass-api.de/">Overpass API</a>. Unfortunately, menu pictures are not available in OpenStreetMap. However, websites are often linked for the cafés. As a result, our main idea for sourcing the coffee price data is to get the websites for the cafés in OpenStreetMap, then scrape the websites for the menus, and at the end, extract the prices from the menus.
 
 
         </p>
         <h3>Economic Data</h3>
-        <p >
+        <p>
             Our Economic data is sourced from the german federal and regional statistical bureaus.<br>
             Via their <a href="https://regionalatlas.statistikportal.de/">Regional Atlas</a> portal they provide access to a variety of different data sets sourced from the different regional statistical agencies. <br>
             The demographic data is offered down to a municipal level through their OpenData portal as CSVs. Municipalities are uniquely identified by their bureaucratic <a href="https://www.dcat-ap.de/def/politicalGeocoding/regionalKey/">regional keys</a> used for accurately mapping them between data sets. For the large cities (above 100.000 Inhabitants) we investigated these municipalities correlate well to the actual cities they are named after and thus the ones used for querying the coffee shops.<br>
             The list of cities above 100.00 Inhabitants was sourced from the data of the <a href="https://www.regionalstatistik.de/genesis//online?operation=table&code=12211-Z-03&bypass=true&levelindex=0&levelid=1784889768355#abreadcrumb"> 2022 Mikrozensus</a> yielding 80 such cities.
             We will look in particular at the following metrics:
+            </p>
             <ul>
                 <li><a  href="https://www.regionalstatistik.de/genesis//online?operation=table&code=82000-07-01-4&bypass=true&levelindex=1&levelid=1784889140477#abreadcrumb"><strong>Disposable Income per capita:</strong></a> Expressed in Euros this metric is a good representation of the money available monthly to people of that city after taxes. It does not consider factors such as rent which we considered to be part of the cost of living, we want to proxy via the coffee prices. The latest available statistic is from 2023. </li>
                 <li><a  href="https://www.regionalstatistik.de/genesis//online?operation=table&code=45412-01-03-4&bypass=true&levelindex=0&levelid=1784889573928#abreadcrumb"><strong>Tourism in monthly overnight stays per 100.000 inhabitants:</strong></a> This metric is an indicator of a regions touristic appeal. It is based on hotels and hostels of nine or more beds. While this excludes stays a relatives, friends or single day trips it serves as a good predictor of overall tourism. Though it can not distinguish between touristic trips and stays related to business or other non tourism purposes. The used statistic is from 2024. </li>
             </ul>
+            <p>
             For both of these data sets little further processing was needed as they are complete for our examined cities and can simply be truncated to exclude the smaller municipalities. The data is already in a uniform integer/float format for further usage.
-            
         </p>
 
         <!-- Hendrik & Jonas -->
 
         <h2 id="methodology">Methodology</h2>
-        <p>Our architecture for the CoffeeFinder project pipeline primarly consists of three substages as outlined in
+        <p>
+            Our architecture for the CoffeeFinder project pipeline primarly consists of three substages as outlined in
             the <a href="home#coffeefinder-diagram">CoffeeFinder architecture diagram</a>. Inititally, we retrieve our
             coffee shops
             from the overpass API.
@@ -82,7 +84,8 @@
             collection of
             potential menu URLs is then given to the price extractor which handles different file formats and tries to
             extract
-            the <code>Cappucino</code> price. </p>
+            the <code>Cappucino</code> price.
+        </p>
 
         <figure id="coffeefinder-diagram" class="architecture-figure">
             <img src="images/CoffeeFinder-Overview.svg" alt="CoffeeFinder architecture diagram" />
@@ -193,7 +196,7 @@
         </p>
 
         <p>
-            One of the challenges inclusded cafés mistyping Cappuccino. This resulted in data loss. To address this issue we adjusted our regex to also extract from menus that mistyped the word. 
+            One of the challenges included cafés mistyping Cappuccino. This resulted in data loss. To address this issue we adjusted our regex to also extract from menus that mistyped the word. 
         </p>
 
         <p>
@@ -209,7 +212,7 @@
         <h2 id="ethics">Ethics</h2>
         <!-- Jonas Coffeeprice data -->
         <h3>Coffee Price Extraction</h3>
-        <p >
+        <p>
             As we already discussed in our Data Sources section, in order to design the website and menu scraping ethically, we considered a few things. 
             First, we pay attention to the robots.txt file of the café websites and only scrape the website if the website owner allows it in their robots.txt. 
             Furthermore, we designed our web scraper in such a way that it limits the access to a single website with a hard limit in the scraping logic. 
@@ -218,7 +221,7 @@
         </p>
         <!-- Jonas cafe data -->
         <h3>Café Database Data</h3>
-        <p >
+        <p>
             Using OpenStreetMap as a source of café data, instead of Google Maps, which would bring legal and ethical concerns, simplifies our ethical consideration. 
             As OpenStreetMap is an open data project and is licensed under the Open Data Commons Open Database License, its data is already public and free to use for the scope of this project.
         </p>
