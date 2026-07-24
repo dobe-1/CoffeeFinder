@@ -42,6 +42,13 @@
         <!-- Hendrik -->
 
         <h2 id="data-sources">Data Sources</h2>
+        <h3>Café Database Data</h3>
+        <p >
+            For finding the coffee prices of the cafés, a comprehensive data source is needed. Our first idea was to use <a href="https://www.google.com/maps/">Google Maps</a>. Google Maps is one of the most widely used map databases by usage and heavily incorporates user-submitted data for points of interest. These points of interest includes places, like stores, restaurants, and, for our use case, cafés. Google Maps stores additional information for many of these places, such as opening times, websites, reviews, and pictures of menus. This makes it an interesting data source. However, for our project, Google Maps was not usable because of ethical and legal concerns, since the Google Maps Terms of Service do forbid any usage for scraping, API usage, and web scraping.
+            As a solution, we decided on <a href="https://www.openstreetmap.org/">OpenStreetMap</a> as an alternative. Similary to Google Maps, OpenStreetMap is a map database that also stores information to many points of interest, such as cafés. However, OpenStreetMap is free and open source and is mostly built by voluntary users, differently to Google Maps, which is a commercial closed source product by Alphabet. Additionally, the OpenStreetMap Project already provides an API for data access of the Map Database called <a href="https://overpass-api.de/">Overpass API</a>. Unfortunately, menu pictures are not available in OpenStreetMap. However, websites are often linked for the cafés. As a result, our main idea for sourcing the coffee price data is to get the websites for the cafés in OpenStreetMap, then scrape the websites for the menus, and at the end, extract the prices from the menus.
+
+
+        </p>
         <h3>Economic Data</h3>
         <p >
             Our Economic data is sourced from the german federal and regional statistical bureaus.<br>
@@ -194,12 +201,21 @@
 
 
         <h2 id="ethics">Ethics</h2>
-        <h3>CoffeePrice Extraction</h3>
-        <p >
-            This is a placeholder text for Section 5. You can replace this text with actual content related to
-            Section 5.
-        </p>
         <!-- Jonas Coffeeprice data -->
+        <h3>Coffee Price Extraction</h3>
+        <p >
+            As we already discussed in our Data Sources section, in order to design the website and menu scraping ethically, we considered a few things. 
+            First, we pay attention to the robots.txt file of the café websites and only scrape the website if the website owner allows it in their robots.txt. 
+            Furthermore, we designed our web scraper in such a way that it limits the access to a single website with a hard limit in the scraping logic. 
+            Due to the speed of the entire pipeline, especially due to the time it takes for the whole website to load and to search for the menu, 
+            there is more than enough time between accesses to prevent accidentally executing a denial-of-service attack.
+        </p>
+        <!-- Jonas cafe data -->
+        <h3>Café Database Data</h3>
+        <p >
+            Using OpenStreetMap as a source of café data, instead of Google Maps, which would bring legal and ethical concerns, simplifies our ethical consideration. 
+            As OpenStreetMap is an open data project and is licensed under the Open Data Commons Open Database License, its data is already public and free to use for the scope of this project.
+        </p>
          
         <h3>Municipalities Economic Data</h3>
         <p>The used economic data is publically available information readily available through reports, download options and maps.
