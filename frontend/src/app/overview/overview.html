@@ -4,8 +4,8 @@
 
 
     <p>
-      This is an overview of the coffee prices in the 80 Germany cities with a population of more than 100.000 based on the cappuccino prices extracted from the coffee shops' menus with out extraction pipeline.<br>
-      The data is aggregated to provide insights if the coffee prices correlate with disposable income and tourism.
+      This is an overview of the coffee prices in the 80 Germany cities with a population of more than 100.000 based on the cappuccino prices extracted from the coffee shops' menus with our extraction pipeline.<br>
+      The data is aggregated to provide insights into correlatation with disposable income and tourism.
     </p>
     <h2 id="limitations">Limitations</h2>
     @if (hasData()) {
@@ -31,7 +31,7 @@
       <li><strong>Social Media Blacklist:</strong> Many coffeeshops link to their social media page rather than their own website. To avoid login walls and conform to ToS, our web-scraper skipped these websites completely.</li>
       <li><strong>Menu Finder:</strong> Many websites simply did not publish their menu online, or our scraper was unable to find it. </li>
       <li><strong>Cappucino Availability:</strong> Our index is based on cappucino prices due to it's consistent naming and its common offering. Though this eliminates cafes that do not offer Cappucinos or list them under another name from our data set.</li>
-      <li><strong>Price Extraction:</strong> Even when a menu was found, these were inconsitently structured and extracting the prices automatically is challenging as adjusting the script for one menu could break it for others. There was also no reliable way of telling whether the price extracted was actually correct. For validation we made use of Data Cleaning.</li>
+      <li><strong>Price Extraction:</strong> Even when a menu was found, these were inconsitently structured and extracting the prices automatically is challenging as adjusting the script for one menu could break it for others. There was also no reliable way of telling whether the price extracted was actually correct. For validation we made use of Data Cleaning and iterative spot checking.</li>
       <li><strong>OSM Crowdsourcing:</strong> Since OpenStreetMap relies on user contributions, not every coffee shop is listed there. Another issue is the incorrect labeling of businesses that are not coffee shops but are tagged as such.</li>
     </ul>
     <!-- Nick -->
@@ -46,9 +46,9 @@
 
     <p>
       The map above visualizes the average cappuccino prices in different cities across Germany. Cities with unreliable
-      price data are shown in a dimmed color.<br>For <strong>Unreliable cities</strong> we used two thresholds: Firstly the ratio of extracted coffee shops in Berlin, our largest single city data set at 88 extracted prices of 2546 cafes. If a city has less than 0.7 of that ratio, so 2,4% extractable prices, we consider that city to be particularily hard to scrape and eliminate it as an outlier. The second threshold requires atleast 3 coffee shops to have an extractable coffee price. This eliminates many of the smaller cities where the one or two extractable coffee prices could hardly be considered a statistically significant representation of average coffee prices.<br>
-      This reliability threshold excludes around 23 cities from our metric.<br><br>
-      Average Cappucino prices of these range from 3,41€ in Krefeld to 4,69€ in Dresden. The capital Berlin with an average of 3,69€ falls towards the lower end.<br>
+      price data are shown in a dimmed color.<br>For <strong>Unreliable cities</strong> we used two thresholds: <br>Firstly the ratio of extracted coffee shops in Berlin, our largest single city data set at 88 extracted prices of 2546 cafes. If a city has less than 0.7 of that ratio, so 2,4% extractable prices, we consider that city to be particularily hard to scrape and eliminate it as an outlier. <br>The second threshold requires atleast 3 coffee shops to have an extractable coffee price. This eliminates many of the smaller cities where the one or two extractable coffee prices could hardly be considered a statistically significant representation of average coffee prices.<br>
+      This reliability threshold excludes around 23 cities from our analysis.<br><br>
+      Average Cappucino prices of these range from 3,41€ in Krefeld to 4,69€ in Dresden. The capital Berlin with an average of 3,69€ falls towards the lower end. Checking the map tab, Dresden in particular appears to have rather pricy cappuccinos and in conjunction with a large offering of both large cappucinos and ones with added Bailey, driving up the average price.<br>
     </p>
 
     <div class="map-row">
@@ -63,10 +63,10 @@
     </div>
 
     <p>
-      The two maps above show the economic metrics themselves: disposable income per person and overnight stays per
-      inhabitant. Both come from the official statistics, so every city with a published value is included.<br>
+      The two maps above show the economic metrics themselves: disposable income per person and monthly overnight stays per
+      inhabitant. Both come from the official statistics, so for these statistics all 80 cities are included.<br>
       Here we see a spread of 35467€ disposable income in Munich compared to Gelsenkirchen at just 18522€.<br>
-      Our tourism metric measured in overnight stays per 100.000 inhabitants is lead by the finance and travel hub Frankfurt at 14,8 stays while our neighbor, Herne, comes in at just 0,5 stays.
+      Our tourism metric measured in overnight stays per 100.000 inhabitants is lead by the finance and travel hub Frankfurt (am Main) at 14,8 stays while Herne, comes in at just 0,5 stays.
     </p>
     <h3>CoffeeIndex Correlation</h3>
 
@@ -84,7 +84,7 @@
     <p>
       Next up we will have a look at the correlation between the extracted average coffee prices and our economic metrics.
       A first look at the scatter plots above suggest that there is no clear correlation between cappuccino prices and disposable income or
-      tourism, which we will examine closer later on.
+      tourism, which we will examine closer later on. For the price vs. income metric the clear outlier is munich, while for the tourism metric many of the smaller cities are dropped as unreliable, while the Frankfurt and Munich represent outliers in regards to overnight stays.
     </p>
 
     <div class="map-row">
@@ -111,7 +111,7 @@
             <figcaption>CoffeeIndex for cities above 500.000 inhabitants plotted against disposable income. The red line shows a linear fit on the distribution.</figcaption>
     </figure>
 
-    As we can see the result is heavily impacted by the outliers with Dresden of an average coffee price of 4,96 € and Munichs average income of 35467€. <br>
+    As we can see the result is heavily impacted by the outliers with Dresden of an average coffee price of 4,96€ and Munichs average income of 35467€. <br>
     The calculated Pearson coefficient of -0.0034, is close to zero and within the 95 percent confidence interval of -0.51 to 0.51, showing no correlation. The p-value is at 0.99.
 
     <figure id="PearsonCoeff2">
@@ -132,7 +132,7 @@
       This map divides the monthly disposable income per person by the local cappuccino price, so each city shows how
       many cappuccinos an average inhabitant could buy from one year of disposable income. <br> It combines both effects:
       a city is dark either because coffee is cheap or because incomes are high. Cities with unreliable price data are
-      shown in a dimmed color. For example Munich with the maximum of 9047 coffees per year is largely swayed by the exceptionally high average income. Where as Bergisch Gladbach in turn with 8930 coffees per year is dependant on the overall lowest coffee price.
+      shown in a dimmed color. For example Munich with the maximum of 9047 coffees per year is largely swayed by the exceptionally high average income. Where as Dresden in turn with 4972 coffees per year is dependent on the overall highest coffee price.
     </p>
 
     <!-- Hendrik -->
@@ -140,7 +140,7 @@
     <h3>RQ1: Can a representative CoffeeIndex be created based on publically available information?</h3>
     <p>
         The success in constructing the CoffeeIndex is rather limited. Mainly constrained by data sources to the webpresences of the coffee shops themselves and barred from using commercial and data rich ressources like Google maps we only achieved around 5% percent coverage of coffeeshops. <br>
-        For big cities like Berlin with 88 extracted cappucino prices, this may be a statistically significant subset resilient to outliers and extraction errors. Many smaller cities like Bottrop, where our pipeline isn't able to extract any results, allow for little dependable results. A single cafes peculiar pricing decision or extraction error is bound to sway the results beyond reliability. As discussed in <a href="future-work"> Further Work</a> this could be remedied in principle by data sources like Google Maps.
+        For big cities like Berlin with 88 extracted cappucino prices, this may be a statistically significant subset resilient to outliers and extraction errors. Many smaller cities like Bottrop, where our pipeline isn't able to extract any results or below a reasonable threshold, allow for little dependable results. A single cafes peculiar pricing decision or extraction error is bound to sway the results beyond reliability. As discussed in <a href="future-work"> Further Work</a> this could be remedied in principle by data sources like Google Maps.
       </p>
     <h3>Sidegoal: Where can we find the cheapest coffee in a city of our choosing?</h3>
     <p>
@@ -168,7 +168,7 @@
     
     <h3>Alternative data source</h3>
     <p>
-    Another point of improvement would be the data sources. While we consciously excluded Google Maps from our project, we are relatively certain that this data would significantly improve the project. If someone were, for example, able to reach an agreement for research purposes with Google or there were another way to solve the ethical concerns, the data of the project could be greatly improved. 
+    Another point of improvement would be the data sources. While we consciously excluded Google Maps from our project, we are relatively certain that this data would significantly improve the project. If someone were, for example, able to reach an agreement for research purposes with Google or there were another way to solve the legal concerns presented by the ToS, the data of the project could be greatly improved. 
     </p>
   </section>
 
