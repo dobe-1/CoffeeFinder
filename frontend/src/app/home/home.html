@@ -3,14 +3,14 @@
         <h1>CoffeeFinder</h1>
         <h2>or Creating a CoffeeIndex for Germany</h2>
         <p>
-            Be it from dubious instagram info posts or from actual academic discussion, most of us are familiar with the so called <a href="https://www.economist.com/interactive/big-mac-index"> BigMac Index</a>.<br>
-            Introduced by The Economist in 1986, it compares the prices of BigMacs converted to US dollars in different countries. As McDonalds is operating in numerous countries around the globe with a fairly consistent menu, especially for brand staples like the BigMac, it serves as a convinient point of comparison. The difference in BigMac prices is meant to highlight differences in <a href="https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/purchasing-power-parity-ppp">power parity (ppp)</a> of the countries currencies.<br>
+            Be it from dubious Instagram info posts or from actual academic discussion, most of us are familiar with the so called <a href="https://www.economist.com/interactive/big-mac-index"> BigMac Index</a>.<br>
+            It was introduced by The Economist in 1986 and compares the prices of BigMacs converted to US dollars in different countries. Since McDonalds is operating in numerous countries around the globe with a fairly consistent menu, especially for brand staples like the BigMac, it serves as a convenient point of comparison. The difference in BigMac prices is meant to highlight differences in <a href="https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/purchasing-power-parity-ppp">power parity (ppp)</a> of the countries currencies.<br>
             Purchasing power parity is a metric to determine the valuation of currencies compared to one another in exchange rates. <br>
 
             <br>
             In constructing the BigMac Index, the considered prices are those in the capital city of their respective country. For this the data is sourced from McDonalds official website as well as some delivery apps. This results in a fairly straightforward data acquisition process.<br>
             Where a simple median wage converted to US dollars often tells little about how that relates to cost of living, the BigMac as a single, widely distributed and consumed product serves as an intuitive proxy for ppp.<br>
-            It is impacted in accuracy by the fact that it is based on a single companies (or it's franchisees) marketing decisions. A particular supply chain difficulty or marketing push may sway the result one way or the other.<br>
+            It is impacted in accuracy by the fact that it is based on a single company (or its franchisees) marketing decisions. A particular supply chain difficulty or marketing push may sway the result one way or the other.<br>
             Other approaches to the idea of a price index have similarily looked at singular branded items like a <a href="https://bigmacindex.com/redbull">250ml can of redbull</a> or the iconic <a href="https://bigmacindex.com/data/billy"> IKEA Billy shelf</a>.
             <figure>
             <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/McDonalds-Big-Mac-Price-World-Map-2022.png" alt ="World map of the BigMac Index in 2022." style="width:80%">
@@ -24,8 +24,8 @@
 
         <h2 id="research-question">RQ1: Can a representative CoffeeIndex be created based on publically available information?</h2>
         <p>
-            After all, coffee prices at the thousands of coffees across germany are up to the discretion of the respective coffee shop owners. And, more crucially, how easily accessible do they make this information? Can we find a centralized source for that information or do we need to go to the coffeeshops web presences themselves. And then, from the orderly PDF with the charme of an excel sheet linked on the home page, with clearly associated items and prices, to a grainy image of the trusty old chalkboard with a few prices scribbled on it - how easy is it to extract these coffee prices?<br>
-            Inbetween there all manners of fun, weird and sometimes absurd choices people make to display prices on their websites. If they display their prices at all online. Or even more, if they even have an online presence.
+            After all, coffee prices at the thousands of coffee shops across germany are up to the discretion of the respective coffee shop owners. And, more crucially, how easily accessible do they make this information? Can we find a centralized source for that information or do we need to go to the coffeeshops web presences themselves. And then, from the orderly PDF with the charme of an excel sheet linked on the home page, with clearly associated items and prices, to a grainy image of the trusty old chalkboard with a few prices scribbled on it - how easy is it to extract these coffee prices?<br>
+            Inbetween there are all manners of fun, weird and sometimes absurd choices people make to display prices on their websites. If they display their prices at all or if they even have an online presence to begin with.
             <br><br>
             Tired from wrangling that jungle of web design, we might feel inspired to persue our side goal of:
         </p>
@@ -37,15 +37,15 @@
 
         <h2 id="research-question">RQ2: How reliable is the CoffeeIndex as a proxy for economic metrics?</h2>  
         <p>Such a CoffeeIndex could provide an intuitive gage for cost of living relative to median wage. Where the median citizen from Munich may have 35,467€ in expendable income compared to the 23,952 € of the median Berliner, what does that actually mean in everyday life for them?<br>
-            For example, how many coffees are in the monthly wage of the ordinary citizen of Berlin compared to one from Munich? Such a metric would be less easily swayed by a single corporations business decisions and proxy the cost of living via the joint business decision of dozens of coffee shop owners. <br>
+            For example, how many coffees are in the monthly wage of the ordinary citizen of Berlin compared to one from Munich? Such a metric would be less easily swayed by a single corporation's business decisions and proxy the cost of living via the joint business decision of dozens of coffee shop owners. <br>
             Is there a significant correlation between the coffee prices and economic metrics meassuring income? Can we aggregate enough coffee prices per city to distinguish the dwindling post boom town from the affluent technological hubs?</p>  
         <!-- Hendrik -->
 
         <h2 id="data-sources">Data Sources</h2>
         <h3>Café Database Data</h3>
-        <p>
-            For finding the coffee prices of the cafés, a comprehensive data source is needed. Our first idea was to use <a href="https://www.google.com/maps/">Google Maps</a>. Google Maps is one of the most widely used map databases by usage and heavily incorporates user-submitted data for points of interest. These points of interest includes places, like stores, restaurants, and, for our use case, cafés. Google Maps stores additional information for many of these places, such as opening times, websites, reviews, and pictures of menus. This makes it an interesting data source. However, for our project, Google Maps was not usable because of ethical and legal concerns, since the Google Maps Terms of Service do forbid any usage for scraping, API usage, and web scraping.
-            As a solution, we decided on <a href="https://www.openstreetmap.org/">OpenStreetMap</a> as an alternative. Similary to Google Maps, OpenStreetMap is a map database that also stores information to many points of interest, such as cafés. However, OpenStreetMap is free and open source and is mostly built by voluntary users, differently to Google Maps, which is a commercial closed source product by Alphabet. Additionally, the OpenStreetMap Project already provides an API for data access of the Map Database called <a href="https://overpass-api.de/">Overpass API</a>. Unfortunately, menu pictures are not available in OpenStreetMap. However, websites are often linked for the cafés. As a result, our main idea for sourcing the coffee price data is to get the websites for the cafés in OpenStreetMap, then scrape the websites for the menus, and at the end, extract the prices from the menus.
+        <p >
+            For finding the coffee prices of the cafés, a comprehensive data source is needed. Our first idea was to use <a href="https://www.google.com/maps/">Google Maps</a>. Google Maps is one of the most widely used map databases by usage and heavily incorporates user-submitted data for points of interest. These points of interest include places, like stores, restaurants, and, for our use case, cafés. Google Maps stores additional information for many of these places, such as opening times, websites, reviews, and pictures of menus. This makes it an interesting data source. However, for our project, Google Maps was not usable because of ethical and legal concerns, since the Google Maps Terms of Service do forbid any usage for scraping, API usage, and web scraping.
+            As a solution, we decided on <a href="https://www.openstreetmap.org/">OpenStreetMap</a> as an alternative. Similary to Google Maps, OpenStreetMap is a map database that also stores information to many points of interest, such as cafés. However, OpenStreetMap is free and open source and is mostly built by voluntary users, unlike Google Maps, which is a commercial closed source product by Alphabet. Additionally, the OpenStreetMap Project already provides an API for data access of the Map Database called <a href="https://overpass-api.de/">Overpass API</a>. Unfortunately, menu pictures are not available in OpenStreetMap. However, websites are often linked for the cafés. As a result, our main idea for sourcing the coffee price data is to get the websites for the cafés in OpenStreetMap, then scrape the websites for the menus, and at the end, extract the prices from the menus.
 
 
         </p>
@@ -56,20 +56,19 @@
             The demographic data is offered down to a municipal level through their OpenData portal as CSVs. Municipalities are uniquely identified by their bureaucratic <a href="https://www.dcat-ap.de/def/politicalGeocoding/regionalKey/">regional keys</a> used for accurately mapping them between data sets. For the large cities (above 100.000 Inhabitants) we investigated these municipalities correlate well to the actual cities they are named after and thus the ones used for querying the coffee shops.<br>
             The list of cities above 100.00 Inhabitants was sourced from the data of the <a href="https://www.regionalstatistik.de/genesis//online?operation=table&code=12211-Z-03&bypass=true&levelindex=0&levelid=1784889768355#abreadcrumb"> 2022 Mikrozensus</a> yielding 80 such cities.
             We will look in particular at the following metrics:
-            </p>
+        </p>
             <ul>
                 <li><a  href="https://www.regionalstatistik.de/genesis//online?operation=table&code=82000-07-01-4&bypass=true&levelindex=1&levelid=1784889140477#abreadcrumb"><strong>Disposable Income per capita:</strong></a> Expressed in Euros this metric is a good representation of the money available monthly to people of that city after taxes. It does not consider factors such as rent which we considered to be part of the cost of living, we want to proxy via the coffee prices. The latest available statistic is from 2023. </li>
-                <li><a  href="https://www.regionalstatistik.de/genesis//online?operation=table&code=45412-01-03-4&bypass=true&levelindex=0&levelid=1784889573928#abreadcrumb"><strong>Tourism in monthly overnight stays per 100.000 inhabitants:</strong></a> This metric is an indicator of a regions touristic appeal. It is based on hotels and hostels of nine or more beds. While this excludes stays a relatives, friends or single day trips it serves as a good predictor of overall tourism. Though it can not distinguish between touristic trips and stays related to business or other non tourism purposes. The used statistic is from 2024. </li>
+                <li><a  href="https://www.regionalstatistik.de/genesis//online?operation=table&code=45412-01-03-4&bypass=true&levelindex=0&levelid=1784889573928#abreadcrumb"><strong>Tourism in monthly overnight stays per 100.000 inhabitants:</strong></a> This metric is an indicator of a regions touristic appeal. It is based on hotels and hostels of nine or more beds. While this excludes stays at relatives' or friends' places, or single day trips it serves as a good predictor of overall tourism. Though it can not distinguish between touristic trips and stays related to business or other non tourism purposes. The used statistic is from 2024. </li>
             </ul>
-            <p>
             For both of these data sets little further processing was needed as they are complete for our examined cities and can simply be truncated to exclude the smaller municipalities. The data is already in a uniform integer/float format for further usage.
-        </p>
+            
+
 
         <!-- Hendrik & Jonas -->
 
         <h2 id="methodology">Methodology</h2>
-        <p>
-            Our architecture for the CoffeeFinder project pipeline primarly consists of three substages as outlined in
+        <p>Our architecture for the CoffeeFinder project pipeline primarly consists of three substages as outlined in
             the <a href="home#coffeefinder-diagram">CoffeeFinder architecture diagram</a>. Inititally, we retrieve our
             coffee shops
             from the overpass API.
@@ -84,8 +83,7 @@
             collection of
             potential menu URLs is then given to the price extractor which handles different file formats and tries to
             extract
-            the <code>Cappucino</code> price.
-        </p>
+            the <code>Cappuccino</code> price. </p>
 
         <figure id="coffeefinder-diagram" class="architecture-figure">
             <img src="images/CoffeeFinder-Overview.svg" alt="CoffeeFinder architecture diagram" />
@@ -97,7 +95,7 @@
                 target="_blank" rel="noopener"><code>get_coffee_shops_in_city()</code></a> does load the initial data
             of each
             coffeeshop as a <code>GeoDataFrame</code> with OSM tags as columns and normalizes it to use the internal
-            <strong>Coffeeshop model</strong> instead, directly enforcing a structured data format which persist during
+            <strong>Coffeeshop model</strong> instead, directly enforcing a structured data format which persists during
             the
             entire pipeline execution. So after the first stage, we hold a list of <strong>Coffeeshop Models</strong>
             for each
@@ -169,7 +167,7 @@
             but
             independent of each other during development.
         </p>
-        <p>At the end of the pipeline, we result in a final list of all <strong>Coffeeshop Models</strong> of the
+        <p>At the end of the pipeline, this resulted in a final list of all <strong>Coffeeshop Models</strong> of the
             queried city
             with the added, extracted information for each of the coffeeshops.
             Finally, the list of <strong>Coffeeshop models</strong> is converted into a JSON structure with
@@ -180,7 +178,7 @@
             also be done at any earlier point in the pipeline whenever an intermediate JSON representation is needed.
         </p>
         <pre class="language-json"><code class="language-json" [innerHTML]="coffeeShopExample"></code></pre>
-        <p><em>Example: <strong>Coffeeshop model</strong> for <code>Kulturcafé</code>. The code embedding further
+        <p><em>Example: <strong>Coffeeshop model</strong> for <code>Kulturcafé</code>. The code embedding includes further
                 comments where
                 each of the fields are set in our 3 staged pipeline to give you an understanding of the state under the
                 hood.</em></p>
@@ -196,7 +194,7 @@
         </p>
 
         <p>
-            One of the challenges included cafés mistyping Cappuccino. This resulted in data loss. To address this issue we adjusted our regex to also extract from menus that mistyped the word. 
+            One of the challenges inclusded cafés mistyping Cappuccino. This resulted in data loss. To address this issue we adjusted our regex to also extract from menus that mistyped the word. 
         </p>
 
         <p>
@@ -212,7 +210,7 @@
         <h2 id="ethics">Ethics</h2>
         <!-- Jonas Coffeeprice data -->
         <h3>Coffee Price Extraction</h3>
-        <p>
+        <p >
             As we already discussed in our Data Sources section, in order to design the website and menu scraping ethically, we considered a few things. 
             First, we pay attention to the robots.txt file of the café websites and only scrape the website if the website owner allows it in their robots.txt. 
             Furthermore, we designed our web scraper in such a way that it limits the access to a single website with a hard limit in the scraping logic. 
@@ -221,7 +219,7 @@
         </p>
         <!-- Jonas cafe data -->
         <h3>Café Database Data</h3>
-        <p>
+        <p >
             Using OpenStreetMap as a source of café data, instead of Google Maps, which would bring legal and ethical concerns, simplifies our ethical consideration. 
             As OpenStreetMap is an open data project and is licensed under the Open Data Commons Open Database License, its data is already public and free to use for the scope of this project.
         </p>
@@ -234,7 +232,12 @@
         
 
         <!-- Hendrik Economic Data-->
-
+        <h2 id="ai-usage">AI Usage</h2>
+        <p>
+            We used AI for some parts of this project. 
+            It helped us solve a few small frontend bugs, like getting the table of contents to work, and assisted with building the visualizations. 
+            We also used it to expand our dataset. It helped us improve our regex so we could find menu links more reliably and extract prices that we were previously missing.        
+        </p>
     </section>
 
     <aside class="table-of-contents">
