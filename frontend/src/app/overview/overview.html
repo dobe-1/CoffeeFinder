@@ -110,6 +110,7 @@
             <img src="images/PearsonCorr_untrimmed.png"/>
             <figcaption>CoffeeIndex for cities above 500.000 inhabitants plotted against disposable income. The red line shows a linear fit on the distribution.</figcaption>
     </figure>
+
     As we can see the result is heavily impacted by the outliers with Dresden of an average coffee price of 4,96 € and Munichs average income of 35467€. <br>
     The calculated Pearson coefficient of -0.0034, is close to zero and within the 95 percent confidence interval of -0.51 to 0.51, showing no correlation. The p-value is at 0.99.
 
@@ -129,39 +130,45 @@
 
     <p>
       This map divides the monthly disposable income per person by the local cappuccino price, so each city shows how
-      many cappuccinos an average inhabitant could buy from one month of disposable income. <br> It combines both effects:
+      many cappuccinos an average inhabitant could buy from one year of disposable income. <br> It combines both effects:
       a city is dark either because coffee is cheap or because incomes are high. Cities with unreliable price data are
-      shown in a dimmed color. For example Munich with the maximum of 9047 coffees per month is largely swayed by the exceptionally high average income. Where as Bergisch Gladbach in turn with 8930 coffees per month is dependant on the overall lowest coffee price.
+      shown in a dimmed color. For example Munich with the maximum of 9047 coffees per year is largely swayed by the exceptionally high average income. Where as Bergisch Gladbach in turn with 8930 coffees per year is dependant on the overall lowest coffee price.
     </p>
 
     <!-- Hendrik -->
     <h2>Conclusion</h2>
     <h3>RQ1: Can a representative CoffeeIndex be created based on publically available information?</h3>
+    <p>
         The success in constructing the CoffeeIndex is rather limited. Mainly constrained by data sources to the webpresences of the coffee shops themselves and barred from using commercial and data rich ressources like Google maps we only achieved around 5% percent coverage of coffeeshops. <br>
         For big cities like Berlin with 88 extracted cappucino prices, this may be a statistically significant subset resilient to outliers and extraction errors. Many smaller cities like Bottrop, where our pipeline isn't able to extract any results, allow for little dependable results. A single cafes peculiar pricing decision or extraction error is bound to sway the results beyond reliability. As discussed in <a href="future-work"> Further Work</a> this could be remedied in principle by data sources like Google Maps.
-
+      </p>
     <h3>Sidegoal: Where can we find the cheapest coffee in a city of our choosing?</h3>
-
+    <p>
         Our (secondary) research question regarding a useful overview of coffee pricing within a single city is similarily impaired by the legal restraints described above. <br>While the generated maps in the city map tab, may point one to a neat new coffee shop with a handy map, for an extended coworking session with many a cheap coffee, it is likely to not be the cheapest.
-
+    </p>
 
     <h3>RQ2: How reliable is the CoffeeIndex as a proxy for economic metrics?</h3>
-
+    <p>
       In answering our last research question we are aided by the fact, that we can reduce our analysis to those cities that had enough coffee shops with an extractable price and look for a correlation among these.
       Even for the 15 largest cities with removed outliers, we can not see a clear correlation between cappucino prices and metrics like average disposable income or the tourism metric. A more high quality data set might be able to tease out the subtle differences between german cities. Our results are for the most part to noisy to make any definitive statements on the expressivity of the CoffeeIndex.
-
+</p>
     <!-- Answer RQ -->
 
     <h2 id="future-work">Future Work</h2>
 
     <!-- Jonas -->
+    <p>
     Given our results and their limitations, the question arises of what future work can be done to improve this work and further improve the answer to our research question. 
+    </p>
     <h3>LLM based price extraction</h3>
+    <p>
     One idea would be to improve the price extraction through the usage of large language models. As seen in our evaluation, a better extraction of the coffee prices could further improve our data, and with our current pipeline, we see no easy way to greatly improve it. Given the improvements of large language models in recent years, this could be a possible way to significantly improve the price extraction. However, also new issues would arise with this idea. For example, hallucinations are still a problem with large language models. While we could evaluate the rate of failure with a test set, there would still be an uncertainty that the given price for a specific cafe was just guessed by the large language model and is incorrect. Additionally, in our current pipeline, we are having thousands of cafes with websites, where on each website, our web scraper potentially finds multiple links to possible menus. This quickly adds up to a lot of tokens and thus money needed for processing, especially if we were to try to use a larger model that might give better results for our first problem. Furthermore, ethical questions need to be noticed when sending the data to a model provider, depending on their data policy. 
-    <!-- TODO We already implemented most of the price extractor code, but decided -->
+    </p>
     
     <h3>Alternative data source</h3>
+    <p>
     Another point of improvement would be the data sources. While we consciously excluded Google Maps from our project, we are relatively certain that this data would significantly improve the project. If someone were, for example, able to reach an agreement for research purposes with Google or there were another way to solve the ethical concerns, the data of the project could be greatly improved. 
+    </p>
   </section>
 
   <aside class="table-of-contents">
