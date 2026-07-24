@@ -114,7 +114,7 @@ export class Overview implements OnInit {
   // Whether a city's extracted price is reliable enough
   // Unreliable cities are still plotted, just dimmed.
   private isReliable(agg: AggregationResult): boolean {
-    return agg.total_shops > 0 && agg.sample_size >= RELIABLE_SAMPLE_RATIO * agg.total_shops;
+    return agg.total_shops > 3 && agg.sample_size >= RELIABLE_SAMPLE_RATIO * agg.total_shops * 0.7;
   }
 
   private geoValuePoints(
