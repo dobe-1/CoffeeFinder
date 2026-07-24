@@ -52,10 +52,16 @@
         <h3>Economic Data</h3>
         <p >
             Our Economic data is sourced from the german federal and regional statistical bureaus.<br>
-            Via their <a href="https://regionalatlas.statistikportal.de/">Regional Atlas</a> portal they provide access to a variety of different data sets sourced from the different regional statistical agencies. 
-            They provide demographic data down to a municipal level through their OpenData portal.
-
-
+            Via their <a href="https://regionalatlas.statistikportal.de/">Regional Atlas</a> portal they provide access to a variety of different data sets sourced from the different regional statistical agencies. <br>
+            The demographic data is offered down to a municipal level through their OpenData portal as CSVs. Municipalities are uniquely identified by their bureaucratic <a href="https://www.dcat-ap.de/def/politicalGeocoding/regionalKey/">regional keys</a> used for accurately mapping them between data sets. For the large cities (above 100.000 Inhabitants) these municipalities correlate well to the actual cities they are named after and thus the once used for querying the coffee shops.<br>
+            The list of cities above 100.00 Inhabitants was sourced from the Data of the <a href="https://www.regionalstatistik.de/genesis//online?operation=table&code=12211-Z-03&bypass=true&levelindex=0&levelid=1784889768355#abreadcrumb"> 2019 Mikrozensus</a> yielding 80 such cities.
+            We will look in particular at the following metrics:
+            <ul>
+                <li><a  href="https://www.regionalstatistik.de/genesis//online?operation=table&code=82000-07-01-4&bypass=true&levelindex=1&levelid=1784889140477#abreadcrumb"><strong>Disposable Income per capita:</strong></a> Expressed in Euros this metric is a good representation of the money available monthly to people of that city after taxes. It does not consider factors such as rent which we considered to be part of the cost of living overall we want to proxy via the coffee prices. The latest available statistic is from 2023. </li>
+                <li><a  href="https://www.regionalstatistik.de/genesis//online?operation=table&code=45412-01-03-4&bypass=true&levelindex=0&levelid=1784889573928#abreadcrumb"><strong>Tourism in monthly overnight stays per 100.000 inhabitants:</strong></a> This metric is an indicator of a regions touristic appeal. It is based on hotels and hostels of nine or more beds. While this excludes stays a relatives, friends or single day trips it serves as a good predictor of overall tourism. Though it can not distinguish between touristic trips and stays related to business or other non tourism purposes. The used statistic is from 2024. </li>
+            </ul>
+            For both of these data sets little further processing was needed as they are complete for our examined cities and can simply be truncated to exclude the smaller municipalities. The data is already in a uniform integer/float format for further usage.
+            
         </p>
 
         <!-- Hendrik & Jonas -->
@@ -219,7 +225,7 @@
          
         <h3>Municipalities Economic Data</h3>
         <p>The used economic data is publically available information readily available through reports, download options and maps.
-            The used data is at a municipal level of the 80 german cities with more than 100.000 inhabitants, with no ties to individual people. Thus at worst for this subset of our data we have to consider the impact on these municipalities.<br>
+            The used data is at a municipal level of the 80 german cities with more than 100.000 inhabitants, with no ties to individual people. Thus at worst, for this subset of our data, we have to consider the impact on these municipalities.<br>
             Our use of the data has neither the relevance nor implications to harm the reputation of these municipalities and cities in any meaningful way.
             We appropriately hedge the accuracy of our results to not overstate their meaning.</p>
         

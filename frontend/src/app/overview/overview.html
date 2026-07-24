@@ -31,6 +31,7 @@
     <ul>
       <li><strong>Social Media Blacklist:</strong> Many coffeeshops link to their social media page rather than their own website. To avoid login walls and conform to ToS, our web-scraper skipped these websites completely.</li>
       <li><strong>Menu Finder:</strong> Many websites simply did not publish their menu online, or our scraper was unable to find it. </li>
+      <li><strong>Cappucino Availability:</strong> Our index is based on cappucino prices due to it's consistent naming and its common offering. Though this eliminates cafes that do not offer Cappucinos or list it under another name from our data set.</li>
       <li><strong>Price Extraction:</strong> Even when a menu was found, these were inconsitently structured and extracting the prices automatically is challenging as adjusting the script for one menu could break it for others. There was also no reliable way of telling whether the price extracted was actually correct. For validation we made use of Data Cleaning.</li>
       <li><strong>OSM Crowdsourcing:</strong> Since OpenStreetMap relies on user contributions, not every coffee shop is listed there. Another issue is the incorrect labeling of businesses that are not coffee shops but are tagged as such.</li>
     </ul>
@@ -45,7 +46,9 @@
 
     <p>
       The map above visualizes the average cappuccino prices in different cities across Germany. Cities with unreliable
-      price data are shown in a dimmed color.
+      price data are shown in a dimmed color. Unreliable cities are those with a lower ratio of extracted coffee shops than berlin, our largest single city data set at 88 extracted prices of 2546 cafes.<br>
+      This reliability threshold excludes around 20 cities from our metric.
+      Average Cappucino prices of these range from 3,30€ Bergisch Gladbach to 4,85€ in Salzgitter.
     </p>
 
     <div class="map-row">
@@ -60,8 +63,10 @@
     </div>
 
     <p>
-      The two maps above show the explanatory variables themselves: disposable income per person and overnight stays per
-      inhabitant. Both come from the official city statistics, so every city with a published value is included.
+      The two maps above show the economic metrics themselves: disposable income per person and overnight stays per
+      inhabitant. Both come from the official statistics, so every city with a published value is included.<br>
+      Here we see a spread of 35467€ disposable income in Munich compared to Gelsenkirchen at just 18522€.<br>
+      Our tourism metric measured in overnight stays per 100.000 inhabitants is lead by the financial- and travelhub Frankfurt at 14,8 stays while our Neighbor, Herne, comes in at just 0,5 stays.
     </p>
 
     <div class="scatter-row">
@@ -76,6 +81,7 @@
     </div>
 
     <p>
+      Next up we will have a look at the correlation between the
       The scatter plots above show that there is no clear correlation between cappuccino prices and disposable income or
       tourism.
     </p>
