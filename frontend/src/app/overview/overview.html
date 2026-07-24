@@ -46,9 +46,9 @@
 
     <p>
       The map above visualizes the average cappuccino prices in different cities across Germany. Cities with unreliable
-      price data are shown in a dimmed color. <br>Unreliable cities are those with a lower ratio of extracted coffee shops than berlin, our largest single city data set at 88 extracted prices of 2546 cafes. We used the same proportional threshold for later visualizations, to retain a workable data set. A lower cap on extractable coffee shops may have helped eliminate the outliers we will see later.<br>
-      This reliability threshold excludes around 20 cities from our metric.<br>
-      Average Cappucino prices of these range from 3,30€ Bergisch Gladbach to 4,85€ in Salzgitter.<br> Looking at the extracted coffee prices the Salzgitter price is based on a single coffee shop with rather expensive listings for cappucinos. The Bergisch Gladbach price is more representative with three coffee shops on of them offering a small cappucino at just 2,80€.
+      price data are shown in a dimmed color. <br><strong>Unreliable cities</strong> are those with a lower ratio of extracted coffee shops than berlin, our largest single city data set at 88 extracted prices of 2546 cafes. We used the same proportional threshold for later visualizations, to retain a workable data set. A lower cap on extractable coffee shops may have helped eliminate the outliers we will see later.<br>
+      This reliability threshold excludes around 20 cities from our metric.<br><br>
+      Average Cappucino prices of these range from 3,30€ in Bergisch Gladbach to 4,85€ in Salzgitter.<br> Looking at the extracted coffee prices the Salzgitter price is based on a single coffee shop with rather expensive listings for cappucinos. The Bergisch Gladbach price is more representative with three coffee shops on of them offering a small cappucino at just 2,80€.
     </p>
 
     <div class="map-row">
@@ -66,7 +66,7 @@
       The two maps above show the economic metrics themselves: disposable income per person and overnight stays per
       inhabitant. Both come from the official statistics, so every city with a published value is included.<br>
       Here we see a spread of 35467€ disposable income in Munich compared to Gelsenkirchen at just 18522€.<br>
-      Our tourism metric measured in overnight stays per 100.000 inhabitants is lead by the finance and travel hub Frankfurt at 14,8 stays while our Neighbor, Herne, comes in at just 0,5 stays.
+      Our tourism metric measured in overnight stays per 100.000 inhabitants is lead by the finance and travel hub Frankfurt at 14,8 stays while our neighbor, Herne, comes in at just 0,5 stays.
     </p>
     <h3>CoffeeIndex Correlation</h3>
 
@@ -83,8 +83,8 @@
 
     <p>
       Next up we will have a look at the correlation between the extracted average coffee prices and our economic metrics.
-      The scatter plots above show that there is no clear correlation between cappuccino prices and disposable income or
-      tourism.
+      The scatter plots above suggest that there is no clear correlation between cappuccino prices and disposable income or
+      tourism, which we will examine closer later on.
     </p>
 
     <div class="map-row">
@@ -118,7 +118,7 @@
             <figcaption>CoffeeIndex for cities above 500.000 inhabitants plotted against disposable income. With Munich and Dresden removed as outliers. The red line shows a linear fit on the distribution.</figcaption>
     </figure>
 
-    When trimming the clear outliers, Dresden and Munich, while showing a higher correlation coefficient of 0.39 it still lies in the 95 percent confidence interval of -0.20 to 0.78 and we get a p-value of around p-value = 0.18. This is due to the small sample size, wide range of values and thus large confidence interval. Thus we can not definitively state that our data shows a clear correlation between the coffee prices and the disposable income.
+    When trimming the clear outliers, Dresden and Munich, while showing a higher correlation coefficient of 0.39 it still lies in the 95 percent confidence interval of -0.20 to 0.78 and we get a p-value of around 0.18. This is due to the small sample size, wide range of values and thus large confidence interval.<br>Thus we can not definitively state that our data shows a clear correlation between the coffee prices and the disposable income.
     </p>
 
     <h3>Monthly Cappucino Rate</h3>
@@ -131,18 +131,18 @@
       This map divides the monthly disposable income per person by the local cappuccino price, so each city shows how
       many cappuccinos an average inhabitant could buy from one month of disposable income. <br> It combines both effects:
       a city is dark either because coffee is cheap or because incomes are high. Cities with unreliable price data are
-      shown in a dimmed color. For example munich with the maximum of 9047 coffees per month is largely swayed by the exceptionally high average income. Where as Bergisch Gladbach in turn with 8930 coffees per month is dependant on the overall lowest coffee price.
+      shown in a dimmed color. For example Munich with the maximum of 9047 coffees per month is largely swayed by the exceptionally high average income. Where as Bergisch Gladbach in turn with 8930 coffees per month is dependant on the overall lowest coffee price.
     </p>
 
     <!-- Hendrik -->
     <h2>Conclusion</h2>
     <h3>RQ1: Can a representative CoffeeIndex be created based on publically available information?</h3>
         The success in constructing the CoffeeIndex is rather limited. Mainly constrained by data sources to the webpresences of the coffee shops themselves and barred from using commercial and data rich ressources like Google maps we only achieved around 5% percent coverage of coffeeshops. <br>
-        For big cities like berlin with 88 extracted cappucino prices, this may be a statistically significant subset resilient to outliers and extraction errors. Cities like Bochum, where our data set dwindled down to 3 extracted cappucino prices, allow for little dependable results. A single cafes peculiar pricing decision or extraction error is bound to sway the results beyond reliability. As discussed in <a href="future-work"> Further Work</a> this could be remedied in principle by commercial data sources.
+        For big cities like berlin with 88 extracted cappucino prices, this may be a statistically significant subset resilient to outliers and extraction errors. Cities like Bochum, where our data set dwindled down to 3 extracted cappucino prices, allow for little dependable results. A single cafes peculiar pricing decision or extraction error is bound to sway the results beyond reliability. As discussed in <a href="future-work"> Further Work</a> this could be remedied in principle by data sources like Google Maps.
 
     <h3>Sidegoal: Where can we find the cheapest coffee in a city of our choosing?</h3>
 
-        Our (secondary) research question regarding a useful overview of coffee pricing within a singe city is similarily impaired by the legal restraints described above. <br>While the generated maps in the city map tab, may point one to a neat new coffee shop with a handy map, for an extended coworking session with many a cheap coffee, it is likely to not be the cheapest.
+        Our (secondary) research question regarding a useful overview of coffee pricing within a single city is similarily impaired by the legal restraints described above. <br>While the generated maps in the city map tab, may point one to a neat new coffee shop with a handy map, for an extended coworking session with many a cheap coffee, it is likely to not be the cheapest.
 
 
     <h3>RQ2: How reliable is the CoffeeIndex as a proxy for economic metrics?</h3>

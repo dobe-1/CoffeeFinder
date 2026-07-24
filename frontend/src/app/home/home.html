@@ -4,20 +4,20 @@
         <h2>or Creating a CoffeeIndex for Germany</h2>
         <p>
             Be it from dubious instagram info posts or from actual academic discussion, most of us are familiar with the so called <a href="https://www.economist.com/interactive/big-mac-index"> BigMac Index</a>.<br>
-            Introduced by The Economist in 1986, it compares the prices of BigMacs converted to US dollars in different countries. As McDonalds is operating in numerous countries around the globe with a fairly consistent menu, especially for brand staples like the BigMac, it servers as a convinient point of comparison. The difference in BigMac prices is meant to highlight differences in purchasing power parity (ppp) of the countries currencies.<br>
-            Purchasing power parity is a metric to determine the valuation of currencies compared to one another in exchange rates.
+            Introduced by The Economist in 1986, it compares the prices of BigMacs converted to US dollars in different countries. As McDonalds is operating in numerous countries around the globe with a fairly consistent menu, especially for brand staples like the BigMac, it serves as a convinient point of comparison. The difference in BigMac prices is meant to highlight differences in <a href="https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/purchasing-power-parity-ppp">power parity (ppp)</a> of the countries currencies.<br>
+            Purchasing power parity is a metric to determine the valuation of currencies compared to one another in exchange rates. <br>
 
             <br>
-            The considered prices are those in the capital city of their respective country. For this the data is sourced from McDonalds official website as well as some delivery apps. This results in a fairly straightforward data acquisition process.<br>
-            Where a simple median wage converted to US dollars often tells little about how that relates to cost of living, the BigMac as a single, widely ditributed and consumed product serves as a feasible proxy for ppp.<br>
+            In constructing the BigMac Index, the considered prices are those in the capital city of their respective country. For this the data is sourced from McDonalds official website as well as some delivery apps. This results in a fairly straightforward data acquisition process.<br>
+            Where a simple median wage converted to US dollars often tells little about how that relates to cost of living, the BigMac as a single, widely distributed and consumed product serves as an intuitive proxy for ppp.<br>
             It is impacted in accuracy by the fact that it is based on a single companies (or it's franchisees) marketing decisions. A particular supply chain difficulty or marketing push may sway the result one way or the other.<br>
-            Other approaches to the idea of a price index have similarily looked at singular branded items like a <a href="https://bigmacindex.com/redbull">250ml can of redbull</a> or the iconic IKEA Billy shelf.
+            Other approaches to the idea of a price index have similarily looked at singular branded items like a <a href="https://bigmacindex.com/redbull">250ml can of redbull</a> or the iconic <a href="https://bigmacindex.com/data/billy"> IKEA Billy shelf</a>.
             <figure>
             <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/McDonalds-Big-Mac-Price-World-Map-2022.png" alt ="World map of the BigMac Index in 2022." style="width:80%">
             <figcaption>Worldmap of the BigMac Index in 2022. <br><a href="https://commons.wikimedia.org/w/index.php?curid=130289780">CashNetUsa, CC BY-SA 4.0</a></figcaption>
             </figure>
-            What if, instead we used another seemingly universal culinary item, the humble Coffee? Can we create a comprehensive and representative overview of coffee pricing across different regions?<br>
-            And instead of focusing on the ppp of different countries we use it as a proxy for cost of living in different german regions? <br> While the single coffee may vary in size and quality, across many different coffeeshops we might have a meaningful proxy for cost of living at our hand.
+            What if, instead we used another seemingly universal culinary item, the humble coffee? Can we create a comprehensive and representative overview of coffee pricing across different regions?<br>
+            And instead of focusing on the ppp of different countries we use it as a proxy for cost of living in different german regions? Or as an intuitive metric of how tourism impacts local consumer pricing?<br> While the single coffee may vary in size and quality, across many different coffeeshops we might have a meaningful proxy at our hand.
         </p>
 
         <!-- Hendrik -->
@@ -36,7 +36,7 @@
             With renewed energy we may turn to the next step of our investigation: </p>
 
         <h2 id="research-question">RQ2: How reliable is the CoffeeIndex as a proxy for economic metrics?</h2>  
-        <p>Such an Index could provide an <strong>intuitive gage for cost of living</strong> relative to median wage. Where the median citizen from Munich may have 35,467€ in expendable income compared to the 23,952 € of the median Berliner, what does that actually mean in everyday life for them?<br>
+        <p>Such a CoffeeIndex could provide an intuitive gage for cost of living relative to median wage. Where the median citizen from Munich may have 35,467€ in expendable income compared to the 23,952 € of the median Berliner, what does that actually mean in everyday life for them?<br>
             For example, how many coffees are in the monthly wage of the ordinary citizen of Berlin compared to one from Munich? Such a metric would be less easily swayed by a single corporations business decisions and proxy the cost of living via the joint business decision of dozens of coffee shop owners. <br>
             Is there a significant correlation between the coffee prices and economic metrics meassuring income? Can we aggregate enough coffee prices per city to distinguish the dwindling post boom town from the affluent technological hubs?</p>  
         <!-- Hendrik -->
@@ -53,11 +53,11 @@
         <p >
             Our Economic data is sourced from the german federal and regional statistical bureaus.<br>
             Via their <a href="https://regionalatlas.statistikportal.de/">Regional Atlas</a> portal they provide access to a variety of different data sets sourced from the different regional statistical agencies. <br>
-            The demographic data is offered down to a municipal level through their OpenData portal as CSVs. Municipalities are uniquely identified by their bureaucratic <a href="https://www.dcat-ap.de/def/politicalGeocoding/regionalKey/">regional keys</a> used for accurately mapping them between data sets. For the large cities (above 100.000 Inhabitants) these municipalities correlate well to the actual cities they are named after and thus the once used for querying the coffee shops.<br>
-            The list of cities above 100.00 Inhabitants was sourced from the Data of the <a href="https://www.regionalstatistik.de/genesis//online?operation=table&code=12211-Z-03&bypass=true&levelindex=0&levelid=1784889768355#abreadcrumb"> 2022 Mikrozensus</a> yielding 80 such cities.
+            The demographic data is offered down to a municipal level through their OpenData portal as CSVs. Municipalities are uniquely identified by their bureaucratic <a href="https://www.dcat-ap.de/def/politicalGeocoding/regionalKey/">regional keys</a> used for accurately mapping them between data sets. For the large cities (above 100.000 Inhabitants) we investigated these municipalities correlate well to the actual cities they are named after and thus the ones used for querying the coffee shops.<br>
+            The list of cities above 100.00 Inhabitants was sourced from the data of the <a href="https://www.regionalstatistik.de/genesis//online?operation=table&code=12211-Z-03&bypass=true&levelindex=0&levelid=1784889768355#abreadcrumb"> 2022 Mikrozensus</a> yielding 80 such cities.
             We will look in particular at the following metrics:
             <ul>
-                <li><a  href="https://www.regionalstatistik.de/genesis//online?operation=table&code=82000-07-01-4&bypass=true&levelindex=1&levelid=1784889140477#abreadcrumb"><strong>Disposable Income per capita:</strong></a> Expressed in Euros this metric is a good representation of the money available monthly to people of that city after taxes. It does not consider factors such as rent which we considered to be part of the cost of living overall we want to proxy via the coffee prices. The latest available statistic is from 2023. </li>
+                <li><a  href="https://www.regionalstatistik.de/genesis//online?operation=table&code=82000-07-01-4&bypass=true&levelindex=1&levelid=1784889140477#abreadcrumb"><strong>Disposable Income per capita:</strong></a> Expressed in Euros this metric is a good representation of the money available monthly to people of that city after taxes. It does not consider factors such as rent which we considered to be part of the cost of living, we want to proxy via the coffee prices. The latest available statistic is from 2023. </li>
                 <li><a  href="https://www.regionalstatistik.de/genesis//online?operation=table&code=45412-01-03-4&bypass=true&levelindex=0&levelid=1784889573928#abreadcrumb"><strong>Tourism in monthly overnight stays per 100.000 inhabitants:</strong></a> This metric is an indicator of a regions touristic appeal. It is based on hotels and hostels of nine or more beds. While this excludes stays a relatives, friends or single day trips it serves as a good predictor of overall tourism. Though it can not distinguish between touristic trips and stays related to business or other non tourism purposes. The used statistic is from 2024. </li>
             </ul>
             For both of these data sets little further processing was needed as they are complete for our examined cities and can simply be truncated to exclude the smaller municipalities. The data is already in a uniform integer/float format for further usage.
