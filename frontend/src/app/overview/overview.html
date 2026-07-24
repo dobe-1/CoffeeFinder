@@ -46,9 +46,9 @@
 
     <p>
       The map above visualizes the average cappuccino prices in different cities across Germany. Cities with unreliable
-      price data are shown in a dimmed color. <br><strong>Unreliable cities</strong> are those with a lower ratio of extracted coffee shops than berlin, our largest single city data set at 88 extracted prices of 2546 cafes. We used the same proportional threshold for later visualizations, to retain a workable data set. A lower cap on extractable coffee shops may have helped eliminate the outliers we will see later.<br>
-      This reliability threshold excludes around 20 cities from our metric.<br><br>
-      Average Cappucino prices of these range from 3,30€ in Bergisch Gladbach to 4,85€ in Salzgitter.<br> Looking at the extracted coffee prices the Salzgitter price is based on a single coffee shop with rather expensive listings for cappucinos. The Bergisch Gladbach price is more representative with three coffee shops on of them offering a small cappucino at just 2,80€.
+      price data are shown in a dimmed color.<br>For <strong>Unreliable cities</strong> we used two thresholds: Firstly the ratio of extracted coffee shops in Berlin, our largest single city data set at 88 extracted prices of 2546 cafes. If a city has less than 0.7 of that ratio, so 2,4% extractable prices, we consider that city to be particularily hard to scrape and eliminate it as an outlier. The second threshold requires atleast 3 coffee shops to have an extractable coffee price. This eliminates many of the smaller cities where the one or two extractable coffee prices could hardly be considered a statistically significant representation of average coffee prices.<br>
+      This reliability threshold excludes around 23 cities from our metric.<br><br>
+      Average Cappucino prices of these range from 3,41€ in Krefeld to 4,69€ in Dresden. The capital Berlin with an average of 3,69€ falls towards the lower end.<br>
     </p>
 
     <div class="map-row">
@@ -83,7 +83,7 @@
 
     <p>
       Next up we will have a look at the correlation between the extracted average coffee prices and our economic metrics.
-      The scatter plots above suggest that there is no clear correlation between cappuccino prices and disposable income or
+      A first look at the scatter plots above suggest that there is no clear correlation between cappuccino prices and disposable income or
       tourism, which we will examine closer later on.
     </p>
 
@@ -101,7 +101,7 @@
     <p>
       The above maps show how far each city's cappuccino price lies above (red) or below (blue) the price predicted by a
       linear fit on disposable income and on overnight stays. Only cities with a reliable sample size are included.
-      The strongest outlier is Salzgitter at 86 cents and 92 cents respectively above the trend.
+      The strongest outlier is Dresden at 73 cents and 65 cents respectively above the trend and Potsdam with -56 cents below the tourism trend and Krefeld the same amount below the income trend.
     </p>
     <h3>Statistical Subset Analysis</h3>
     <p>To evaluate the bestcase for the CoffeeIndex we looked only at the 15 cities with 500.000 or more inhabitants and conducted statistical analysis of these prices in correlation to average disposable income in R.<br>
@@ -158,11 +158,12 @@
 
     <!-- Jonas -->
     <p>
-    Given our results and their limitations, the question arises of what future work can be done to improve this work and further improve the answer to our research question. 
+    Given our results and their limitations, the question arises of what future work can be done to enhace our CoffeeIndex and get closer to a satisfying answer,especially of our second research question. 
     </p>
     <h3>LLM based price extraction</h3>
     <p>
-    One idea would be to improve the price extraction through the usage of large language models. As seen in our evaluation, a better extraction of the coffee prices could further improve our data, and with our current pipeline, we see no easy way to greatly improve it. Given the improvements of large language models in recent years, this could be a possible way to significantly improve the price extraction. However, also new issues would arise with this idea. For example, hallucinations are still a problem with large language models. While we could evaluate the rate of failure with a test set, there would still be an uncertainty that the given price for a specific cafe was just guessed by the large language model and is incorrect. Additionally, in our current pipeline, we are having thousands of cafes with websites, where on each website, our web scraper potentially finds multiple links to possible menus. This quickly adds up to a lot of tokens and thus money needed for processing, especially if we were to try to use a larger model that might give better results for our first problem. Furthermore, ethical questions need to be noticed when sending the data to a model provider, depending on their data policy. 
+    One idea would be to improve the price extraction through the usage of large language models. As seen in our evaluation, a better extraction of the coffee prices could further improve our data, and with our current pipeline, we see no easy way to greatly enhance it.<br> Given the improvements of large language models in recent years, this could be a possible way to significantly improve the price extraction. As with natural language processing LLMs can be a suitable tool in handling a complex and diverse dataset, such as the different formatting of menus. <br>
+    However, new issues would arise with this idea. For example, hallucinations are still a problem with large language models. While we could evaluate the rate of failure with a test set, there would still be an uncertainty that the given price for a specific cafe was just guessed by the large language model and is incorrect. Additionally, in our current pipeline, we are having thousands of cafes with websites, where on each website, our web scraper potentially finds multiple links to possible menus. This quickly adds up to a lot of tokens and thus ressources needed for processing, especially if we were to try to use a larger model that might give better results for our first problem. <br>Furthermore, ethical questions need to be considered when sending the data to a proprietary model provider, depending on their data policy. 
     </p>
     
     <h3>Alternative data source</h3>
