@@ -103,7 +103,25 @@
       linear fit on disposable income and on overnight stays. Only cities with a reliable sample size are included.
       The strongest outlier is Salzgitter at 86 cents and 92 cents respectively above the trend.
     </p>
+    <h3>Statistical Subset Analysis</h3>
+    <p>To evaluate the bestcase for the CoffeeIndex we looked only at the 15 cities with 500.000 or more inhabitants and conducted statistical analysis of these prices in correlation to average disposable income in R.<br>
+    
+    <figure id="PearsonCoeff1">
+            <img src="images/PearsonCorr_untrimmed.png"/>
+            <figcaption>CoffeeIndex for cities above 500.000 inhabitants plotted against disposable income. The red line shows a linear fit on the distribution.</figcaption>
+    </figure>
+    As we can see the result is heavily impacted by the outliers with Dresden of an average coffee price of 4,96 € and Munichs average income of 35467€. <br>
+    The calculated Pearson coefficient of -0.0034, is close to zero and within the 95 percent confidence interval of -0.51 to 0.51, showing no correlation. The p-value is at 0.99.
 
+    <figure id="PearsonCoeff2">
+            <img src="images/PearsonCorr_trimmed.png"/>
+            <figcaption>CoffeeIndex for cities above 500.000 inhabitants plotted against disposable income. With Munich and Dresden removed as outliers. The red line shows a linear fit on the distribution.</figcaption>
+    </figure>
+
+    When trimming the clear outliers, Dresden and Munich, while showing a higher correlation coefficient of 0.39 it still lies in the 95 percent confidence interval of -0.20 to 0.78 and we get a p-value of around p-value = 0.18. This is due to the small sample size, wide range of values and thus large confidence interval. Thus we can not definitively state that our data shows a clear correlation between the coffee prices and the disposable income.
+    </p>
+
+    <h3>Monthly Cappucino Rate</h3>
     <div class="map-chart">
       <app-geomap [geoJson]="germanyGeoJson()" [mapName]="germanyMapName" [points]="affordabilityPoints()"
         valueName="cappuccinos" chartTitle="Cappuccinos affordable per year by city" />
@@ -130,7 +148,7 @@
     <h3>RQ2: How reliable is the CoffeeIndex as a proxy for economic metrics?</h3>
 
       In answering our last research question we are aided by the fact, that we can reduce our analysis to those cities that had enough coffee shops with an extractable price and look for a correlation among these.
-      Even for these cities we can not see a clear correlation between cappucino prices and metrics like average disposable income or the tourism metric. A more high quality data set might be able to tease out the subtle differences between german cities. Our results are for the most part to noisy to make any definitive statements on the expressivity of the CoffeeIndex.
+      Even for the 15 largest cities with removed outliers, we can not see a clear correlation between cappucino prices and metrics like average disposable income or the tourism metric. A more high quality data set might be able to tease out the subtle differences between german cities. Our results are for the most part to noisy to make any definitive statements on the expressivity of the CoffeeIndex.
 
     <!-- Answer RQ -->
 
