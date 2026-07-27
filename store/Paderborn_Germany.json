@@ -1,0 +1,1584 @@
+[
+  {
+    "name": "Mertens",
+    "coordinates": [
+      51.7646575,
+      8.7233085
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-mertens.de/",
+      "extracted_at": "2026-07-11T21:58:45.161064Z",
+      "last_checked": "2026-07-11T21:58:49.321645Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-mertens.de/dl/Mertens_Menuekarte_Detmolder_250923_end_mon.pdf",
+      "menu_url_last_checked": "2026-07-11T21:58:51.307761Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-11T21:58:51.307753Z",
+      "items": [
+        {
+          "name": "ICE CAPPUCCINO",
+          "price": 3.9
+        }
+      ]
+    }
+  },
+  {
+    "name": "Café Röhren",
+    "coordinates": [
+      51.7208294,
+      8.7534952
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": "https://www.cafe-roehren.com/unser-gastronomisches-angebot.html",
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lange",
+    "coordinates": [
+      51.7132995,
+      8.7946227
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-lange.de/de/filialen/standorte/paderborn-auf-der-lieth.php",
+      "extracted_at": "2026-07-11T21:58:45.161303Z",
+      "last_checked": "2026-07-11T21:58:54.750792Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-lange.de/de/aktuelles/lange-kundenkarte.php",
+      "menu_url_last_checked": "2026-07-11T21:58:55.184918Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Bistro-Café Ostermann am Museum",
+    "coordinates": [
+      51.7184353,
+      8.7553199
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.cafe-ostermann.de/cafe-ostermann-am-museum.php",
+      "extracted_at": "2026-07-11T21:58:45.161402Z",
+      "last_checked": "2026-07-11T21:58:57.399547Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "http://www.cafe-ostermann.de/files/cafe-ostermann-karte-am-museum.pdf",
+      "menu_url_last_checked": "2026-07-11T21:58:57.692394Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Artusa",
+    "coordinates": [
+      51.7170696,
+      8.7513967
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.artusa.de/",
+      "extracted_at": "2026-07-11T21:58:45.161497Z",
+      "last_checked": "2026-07-11T21:58:59.784843Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lange",
+    "coordinates": [
+      51.7348106,
+      8.6817088
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-lange.de/de/filialen/standorte/paderborn-elsen.php",
+      "extracted_at": "2026-07-11T21:58:45.161590Z",
+      "last_checked": "2026-07-11T21:59:03.183006Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-lange.de/de/aktuelles/lange-kundenkarte.php",
+      "menu_url_last_checked": "2026-07-11T21:59:03.377540Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Loser Coffee",
+    "coordinates": [
+      51.7144748,
+      8.7518423
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://loser-coffee.de/",
+      "extracted_at": "2026-07-11T21:58:45.161690Z",
+      "last_checked": "2026-07-11T21:59:33.641406Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Goeken backen",
+    "coordinates": [
+      51.7156289,
+      8.7292467
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.goeken-backen.de/",
+      "extracted_at": "2026-07-11T21:58:45.161779Z",
+      "last_checked": "2026-07-11T21:59:42.107088Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.goeken-backen.de/fruehstueck/",
+      "menu_url_last_checked": "2026-07-11T21:59:42.840071Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lange",
+    "coordinates": [
+      51.7343914,
+      8.7883289
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-lange.de/de/filialen/standorte/paderborn-senefelderstrasse.php",
+      "extracted_at": "2026-07-11T21:58:45.161868Z",
+      "last_checked": "2026-07-11T21:59:46.267229Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-lange.de/de/aktuelles/lange-kundenkarte.php",
+      "menu_url_last_checked": "2026-07-11T21:59:46.446853Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lange",
+    "coordinates": [
+      51.7123743,
+      8.7464366
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-lange.de/de/filialen/standorte/paderborn-borchener-strasse.php",
+      "extracted_at": "2026-07-11T21:58:45.162003Z",
+      "last_checked": "2026-07-11T21:59:49.598946Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-lange.de/de/aktuelles/lange-kundenkarte.php",
+      "menu_url_last_checked": "2026-07-11T21:59:49.773637Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lange",
+    "coordinates": [
+      51.727864,
+      8.7574761
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-lange.de/de/filialen/standorte/paderborn-rolandsweg.php",
+      "extracted_at": "2026-07-11T21:58:45.162090Z",
+      "last_checked": "2026-07-11T21:59:52.843312Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-lange.de/de/aktuelles/lange-kundenkarte.php",
+      "menu_url_last_checked": "2026-07-11T21:59:53.024063Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Bistro akTiV",
+    "coordinates": [
+      51.716119,
+      8.8013737
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Salat Bar Chrissis",
+    "coordinates": [
+      51.7030163,
+      8.7690892
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Mertens",
+    "coordinates": [
+      51.7221482,
+      8.7563312
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-mertens.de/",
+      "extracted_at": "2026-07-11T21:58:45.162349Z",
+      "last_checked": "2026-07-11T21:59:56.750934Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-mertens.de/dl/Mertens_Menuekarte_Detmolder_250923_end_mon.pdf",
+      "menu_url_last_checked": "2026-07-11T21:59:58.633962Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-11T21:59:58.633953Z",
+      "items": [
+        {
+          "name": "ICE CAPPUCCINO",
+          "price": 3.9
+        }
+      ]
+    }
+  },
+  {
+    "name": "Eiscafé il gusto",
+    "coordinates": [
+      51.745976,
+      8.7143625
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Factory",
+    "coordinates": [
+      51.7158562,
+      8.74608
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Teeamo",
+    "coordinates": [
+      51.7155041,
+      8.7519595
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://teeamo-paderborn.eatbu.com/",
+      "extracted_at": "2026-07-11T21:58:45.162628Z",
+      "last_checked": "2026-07-11T22:00:07.962527Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.google.com/maps/search/?api=1&query=Rosenstraße 18, 33098 Paderborn",
+      "menu_url_last_checked": "2026-07-11T22:02:24.233505Z",
+      "menu_url_accessible": false,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Paderglück",
+    "coordinates": [
+      51.7232186,
+      8.7450608
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.johannisstift.de/stiftscafe/",
+      "extracted_at": "2026-07-11T21:58:45.162717Z",
+      "last_checked": "2026-07-11T22:02:28.176189Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.johannisstift.de/wp-content/uploads/2026/04/Speisekarten-PADERGLUeCK.pdf",
+      "menu_url_last_checked": "2026-07-11T22:02:34.828178Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Heinrichs",
+    "coordinates": [
+      51.7189679,
+      8.7546112
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://heinrichs.kitchen/",
+      "extracted_at": "2026-07-11T21:58:45.162803Z",
+      "last_checked": "2026-07-11T22:02:59.285639Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Goeken backen",
+    "coordinates": [
+      51.7481953,
+      8.7168413
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.goeken-backen.de/",
+      "extracted_at": "2026-07-11T21:58:45.162892Z",
+      "last_checked": "2026-07-11T22:03:08.250767Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.goeken-backen.de/fruehstueck/",
+      "menu_url_last_checked": "2026-07-11T22:03:08.962520Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé mulino",
+    "coordinates": [
+      51.7205628,
+      8.7530263
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Cortina",
+    "coordinates": [
+      51.7443385,
+      8.713331
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Bub-Cha Bubble Tea Café",
+    "coordinates": [
+      51.7439005,
+      8.7137717
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lange",
+    "coordinates": [
+      51.7177396,
+      8.7547847
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-lange.de/de/filialen/standorte/paderborn-schildern.php",
+      "extracted_at": "2026-07-11T21:58:45.163237Z",
+      "last_checked": "2026-07-11T22:03:12.544122Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-lange.de/de/aktuelles/lange-kundenkarte.php",
+      "menu_url_last_checked": "2026-07-11T22:03:12.738835Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Halab Tor",
+    "coordinates": [
+      51.7168363,
+      8.7436959
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafeteria in der Schwimmoper",
+    "coordinates": [
+      51.724345,
+      8.7527189
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.schwimmoper.de",
+      "extracted_at": "2026-07-11T21:58:45.163408Z",
+      "last_checked": "2026-07-11T22:03:14.630559Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Salento",
+    "coordinates": [
+      51.7618752,
+      8.6577935
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Ritschy's Eiscafé",
+    "coordinates": [
+      51.7360623,
+      8.6789907
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.ritschys.de",
+      "extracted_at": "2026-07-11T21:58:45.163628Z",
+      "last_checked": "2026-07-11T22:03:45.024745Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Deppe & Co",
+    "coordinates": [
+      51.7170465,
+      8.7545766
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.deppeundco.de/",
+      "extracted_at": "2026-07-11T21:58:45.163729Z",
+      "last_checked": "2026-07-11T22:03:51.338814Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.deppeundco.de/blogs/news/neue-bonuskarte",
+      "menu_url_last_checked": "2026-07-11T22:04:07.596704Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Star Bites",
+    "coordinates": [
+      51.7233394,
+      8.760339
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Markt 5 Café",
+    "coordinates": [
+      51.7180206,
+      8.7550035
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.markt5.cafe/",
+      "extracted_at": "2026-07-11T21:58:45.163910Z",
+      "last_checked": "2026-07-11T22:04:15.744774Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "http://www.markt5.cafe/speisekarte",
+      "menu_url_last_checked": "2026-07-11T22:04:18.916142Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "In Via Gartencafé",
+    "coordinates": [
+      51.7302459,
+      8.7537805
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://invia-stlioba.de",
+      "extracted_at": "2026-07-11T21:58:45.163999Z",
+      "last_checked": "2026-07-11T22:05:31.205757Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://invia-stlioba.de/in-via-st-lioba-gewinnt-preis-fur-innovative-berufsbildung/",
+      "menu_url_last_checked": "2026-07-11T22:05:35.012176Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Goeken backen",
+    "coordinates": [
+      51.7329905,
+      8.6918643
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.goeken-backen.de/",
+      "extracted_at": "2026-07-11T21:58:45.164088Z",
+      "last_checked": "2026-07-11T22:05:43.430599Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.goeken-backen.de/fruehstueck/",
+      "menu_url_last_checked": "2026-07-11T22:05:44.118687Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Südstadt Bäckerei Hermisch",
+    "coordinates": [
+      51.704907,
+      8.7558599
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-hermisch.de/",
+      "extracted_at": "2026-07-11T21:58:45.164174Z",
+      "last_checked": "2026-07-11T22:05:47.853631Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-hermisch.de/",
+      "menu_url_last_checked": "2026-07-11T22:05:49.528675Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "9. Yuli",
+    "coordinates": [
+      51.7155389,
+      8.7493864
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lange",
+    "coordinates": [
+      51.7105293,
+      8.7604987
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-lange.de/de/filialen/standorte/paderborn-im-medico-bruederkrankenhaus.php",
+      "extracted_at": "2026-07-11T21:58:45.164347Z",
+      "last_checked": "2026-07-11T22:05:52.908659Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-lange.de/de/aktuelles/lange-kundenkarte.php",
+      "menu_url_last_checked": "2026-07-11T22:05:53.082921Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Fachwerk Café",
+    "coordinates": [
+      51.744385,
+      8.7119918
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://fachwerk-cafe.de/",
+      "extracted_at": "2026-07-11T21:58:45.164433Z",
+      "last_checked": "2026-07-11T22:05:57.813648Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lange",
+    "coordinates": [
+      51.7469139,
+      8.7147026
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-lange.de/de/filialen/standorte/paderborn-schloss-neuhaus.php",
+      "extracted_at": "2026-07-11T21:58:45.164521Z",
+      "last_checked": "2026-07-11T22:06:01.086787Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-lange.de/de/aktuelles/lange-kundenkarte.php",
+      "menu_url_last_checked": "2026-07-11T22:06:01.271307Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "C'est la vie",
+    "coordinates": [
+      51.717753,
+      8.7501453
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Picknick",
+    "coordinates": [
+      51.7084113,
+      8.7716746
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.studierendenwerk-pb.de/gastronomie/speiseplaene/picknick/",
+      "extracted_at": "2026-07-11T21:58:45.164702Z",
+      "last_checked": "2026-07-11T22:06:05.689795Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://stwpb.de/gastronomie/standorte/#grillcafe",
+      "menu_url_last_checked": "2026-07-11T22:06:08.767913Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Restaurant im Westphalenhof",
+    "coordinates": [
+      51.7199287,
+      8.7587924
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.westphalenhof.com/Gastronomie-Veranstaltungen/",
+      "extracted_at": "2026-07-11T21:58:45.164788Z",
+      "last_checked": "2026-07-11T22:06:12.340822Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.westphalenhof.com/Gastronomie-Veranstaltungen/#mobilemenu",
+      "menu_url_last_checked": "2026-07-11T22:06:13.399547Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Arte",
+    "coordinates": [
+      51.7344816,
+      8.6901432
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.cafe-arte-elsen.de",
+      "extracted_at": "2026-07-11T21:58:45.164874Z",
+      "last_checked": "2026-07-11T22:06:45.109975Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lange",
+    "coordinates": [
+      51.7153366,
+      8.73042
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-lange.de/de/filialen/standorte/paderborn-kloecknerstrasse.php",
+      "extracted_at": "2026-07-11T21:58:45.164960Z",
+      "last_checked": "2026-07-11T22:06:48.604965Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-lange.de/de/aktuelles/lange-kundenkarte.php",
+      "menu_url_last_checked": "2026-07-11T22:06:48.782160Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Goeken backen",
+    "coordinates": [
+      51.7577443,
+      8.6609367
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.goeken-backen.de/",
+      "extracted_at": "2026-07-11T21:58:45.165045Z",
+      "last_checked": "2026-07-11T22:06:51.636964Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.goeken-backen.de/fruehstueck/",
+      "menu_url_last_checked": "2026-07-11T22:06:52.347649Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Minigolf auf der Lieth",
+    "coordinates": [
+      51.7140689,
+      8.7911508
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Moechtee Paderborn",
+    "coordinates": [
+      51.7173974,
+      8.7494756
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lokma",
+    "coordinates": [
+      51.7172886,
+      8.7492218
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Piccoli",
+    "coordinates": [
+      51.7159248,
+      8.7480296
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "label coffee",
+    "coordinates": [
+      51.7160908,
+      8.7479156
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lange",
+    "coordinates": [
+      51.7163398,
+      8.7494895
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-lange.de/de/filialen/standorte/paderborn-westernstrasse.php",
+      "extracted_at": "2026-07-11T21:58:45.165556Z",
+      "last_checked": "2026-07-11T22:06:55.960515Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-lange.de/de/aktuelles/lange-kundenkarte.php",
+      "menu_url_last_checked": "2026-07-11T22:06:56.140536Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Schloss Café",
+    "coordinates": [
+      51.7478404,
+      8.7151459
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café la fleur",
+    "coordinates": [
+      51.727539,
+      8.7882259
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.blumen-risse.de/standorte/gartencenter/6300-paderborn-kernstadt-karl-schurz-strasse",
+      "extracted_at": "2026-07-11T21:58:45.165880Z",
+      "last_checked": "2026-07-11T22:07:00.204612Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.blumen-risse.de/medien/Service/GARTENCAFE/Speisekarten/Speisekarte_Gartencafe_A5-Einzelseiten-2026.pdf",
+      "menu_url_last_checked": "2026-07-11T22:07:00.884098Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-11T22:07:00.884091Z",
+      "items": [
+        {
+          "name": "5. Cappuccino",
+          "price": 3.3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Altes Forsthaus",
+    "coordinates": [
+      51.7563385,
+      8.7165409
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.cafe-altes-forsthaus.de",
+      "extracted_at": "2026-07-11T21:58:45.165975Z",
+      "last_checked": "2026-07-11T22:07:32.580594Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Batcha",
+    "coordinates": [
+      51.7175888,
+      8.7511502
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://batcha.de/",
+      "extracted_at": "2026-07-11T21:58:45.166064Z",
+      "last_checked": "2026-07-11T22:07:39.506422Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Marstall Art",
+    "coordinates": [
+      51.7450215,
+      8.7102243
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eisklang Bistro am See",
+    "coordinates": [
+      51.7612003,
+      8.6828128
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://eisklang.de",
+      "extracted_at": "2026-07-11T21:58:45.166241Z",
+      "last_checked": "2026-07-11T22:07:56.548054Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Mühlencafé",
+    "coordinates": [
+      51.7219177,
+      8.7507897
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.muehlencafe.info/",
+      "extracted_at": "2026-07-11T21:58:45.166327Z",
+      "last_checked": "2026-07-11T22:07:59.915304Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.muehlencafe.info/",
+      "menu_url_last_checked": "2026-07-11T22:08:00.351332Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Caféteria im Vincenz-Krankenhaus",
+    "coordinates": [
+      51.7185261,
+      8.7589735
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.vinzenzkrankenhaus.de/patienten/cafeteria",
+      "extracted_at": "2026-07-11T21:58:45.166414Z",
+      "last_checked": "2026-07-11T22:09:36.440293Z",
+      "accessible": false
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "B2 Kontakt-Café",
+    "coordinates": [
+      51.7164152,
+      8.7610321
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://kim-paderborn.de/",
+      "extracted_at": "2026-07-11T21:58:45.166501Z",
+      "last_checked": "2026-07-11T22:10:30.482906Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Locker flockig - unverpacktes & café",
+    "coordinates": [
+      51.7145503,
+      8.7522961
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://lockerflockig-pb.de/",
+      "extracted_at": "2026-07-11T21:58:45.166586Z",
+      "last_checked": "2026-07-11T22:11:00.801989Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafeteria",
+    "coordinates": [
+      51.7250735,
+      8.7542112
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "F7",
+    "coordinates": [
+      51.7313758,
+      8.7361197
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.hnf.de/besuch/shop-imbiss/gastronomie.html",
+      "extracted_at": "2026-07-11T21:58:45.166765Z",
+      "last_checked": "2026-07-11T22:11:05.404809Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.hnf.de/fileadmin/content/pictures/HNF/Besuch/Gastronomie/F7_Speisekarte_2025_digital.pdf",
+      "menu_url_last_checked": "2026-07-11T22:11:05.694441Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-11T22:11:05.694433Z",
+      "items": [
+        {
+          "name": "Melitta Cappuccino",
+          "price": 2.8
+        }
+      ]
+    }
+  },
+  {
+    "name": "Coffee Family",
+    "coordinates": [
+      51.7154543,
+      8.7519659
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://coffee.family/",
+      "extracted_at": "2026-07-11T21:58:45.166851Z",
+      "last_checked": "2026-07-11T22:11:09.781552Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://coffee.family/neue-sommerkarte/",
+      "menu_url_last_checked": "2026-07-11T22:11:14.434739Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lange",
+    "coordinates": [
+      51.7032475,
+      8.7690532
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-lange.de/de/filialen/standorte/paderborn-im-bahnhof-Kopie.php",
+      "extracted_at": "2026-07-11T21:58:45.166935Z",
+      "last_checked": "2026-07-11T22:11:17.604239Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-lange.de/de/aktuelles/lange-kundenkarte.php",
+      "menu_url_last_checked": "2026-07-11T22:11:17.777645Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Klostercafé",
+    "coordinates": [
+      51.7464157,
+      8.8537627
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.missionshausneuenbeken.de/bereiche-/-angebote/klostercafe",
+      "extracted_at": "2026-07-11T21:58:45.167021Z",
+      "last_checked": "2026-07-11T22:11:36.690644Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.missionshausneuenbeken.de/bereiche-/-angebote/klostercafe#mm-0",
+      "menu_url_last_checked": "2026-07-11T22:12:53.232247Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Abdinghof",
+    "coordinates": [
+      51.7187545,
+      8.7537995
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Bistro Wedde",
+    "coordinates": [
+      51.7273405,
+      8.7593678
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://wedde.bio/page/54/bistro-paderborn",
+      "extracted_at": "2026-07-11T21:58:45.167192Z",
+      "last_checked": "2026-07-11T22:13:05.332528Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://wedde.bio/page/54/bistro-paderborn#default-mobilproducts-getraenke-list",
+      "menu_url_last_checked": "2026-07-11T22:13:13.513630Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "studio coco",
+    "coordinates": [
+      51.7057967,
+      8.7588521
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://studiococo-paderborn.de/",
+      "extracted_at": "2026-07-11T21:58:45.167278Z",
+      "last_checked": "2026-07-11T22:13:17.791131Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://stockholm114.qodeinteractive.com/menu/",
+      "menu_url_last_checked": "2026-07-11T22:13:20.729277Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Am Waldsee",
+    "coordinates": [
+      51.766116022365,
+      8.748228537088737
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Pader-Café",
+    "coordinates": [
+      51.73542789114792,
+      8.728869578736271
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.pader.cafe",
+      "extracted_at": "2026-07-11T21:58:45.167462Z",
+      "last_checked": "2026-07-11T22:13:25.039156Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.pader.cafe/\\speisekarte",
+      "menu_url_last_checked": "2026-07-11T22:13:26.822323Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Lange",
+    "coordinates": [
+      51.73860619085785,
+      8.769807817183512
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-lange.de/de/filialen/standorte/paderborn-detmolder-strasse.php",
+      "extracted_at": "2026-07-11T21:58:45.167550Z",
+      "last_checked": "2026-07-11T22:13:30.022697Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.baeckerei-lange.de/de/aktuelles/lange-kundenkarte.php",
+      "menu_url_last_checked": "2026-07-11T22:13:30.197246Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  }
+]

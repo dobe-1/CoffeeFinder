@@ -3,6 +3,34 @@ html,
 body {
     margin: 0;
     padding: 0;
-    height: 100%;
-    overflow: hidden;
+    min-height: 100%;
+}
+
+/* Prism styling */
+.token.comment {
+    color: #57595B;
+    font-style: italic;
+}
+
+.token.property {
+    color: #6f4e37;
+    font-weight: 500;
+}
+
+.token.string {
+    color: #2f6b4f;
+}
+
+.token.number {
+    color: #9a4b1e;
+}
+
+.token.boolean,
+.token.null {
+    color: #2b5fa8;
+}
+
+.token.punctuation,
+.token.operator {
+    color: #57595B;
 }

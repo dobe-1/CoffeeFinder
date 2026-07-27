@@ -47,6 +47,22 @@
       "document_fixture": "dummy2.webp",
       "content_type": "image/webp",
       "expected_fixture": "dummy2_expected.json"
+    },
+    {
+      "id": "dummy3",
+      "cafe": {
+        "name": "Dummy Café Two",
+        "coordinates": [
+          51.51,
+          7.21
+        ],
+        "category": "Cafe",
+        "website_url": "https://dummy.local/two",
+        "menu_url": null
+      },
+      "document_fixture": "dummy3.png",
+      "content_type": "image/png",
+      "expected_fixture": "dummy2_expected.json"
     }
   ]
 }

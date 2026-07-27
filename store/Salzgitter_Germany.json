@@ -1,0 +1,543 @@
+[
+  {
+    "name": "Osterlinder Landcafe",
+    "coordinates": [
+      52.1276702,
+      10.2514578
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.osterlinder-landcafe.de/",
+      "extracted_at": "2026-07-11T23:38:41.980359Z",
+      "last_checked": "2026-07-11T23:39:41.718228Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Mannamia",
+    "coordinates": [
+      52.0459509,
+      10.3719881
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Steinecke",
+    "coordinates": [
+      52.0500039,
+      10.3753896
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe La Vida",
+    "coordinates": [
+      52.0495802,
+      10.3746507
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Mirella",
+    "coordinates": [
+      52.1531253,
+      10.3319143
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Sevens Cafe Lounge",
+    "coordinates": [
+      52.1486762,
+      10.3250567
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafe Perenissima",
+    "coordinates": [
+      52.0472442,
+      10.3718388
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Coco",
+    "coordinates": [
+      52.1525655,
+      10.3252144
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "News Cafe",
+    "coordinates": [
+      52.1576724,
+      10.3200173
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Rialto",
+    "coordinates": [
+      52.048808,
+      10.3733123
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Gastro Kanne Café",
+    "coordinates": [
+      52.1540305,
+      10.3196974
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.gastrokanne.de/",
+      "extracted_at": "2026-07-11T23:38:41.981432Z",
+      "last_checked": "2026-07-11T23:39:48.632956Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafeteria Hauptverwaltung",
+    "coordinates": [
+      52.1610525,
+      10.4324423
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eisdiele",
+    "coordinates": [
+      52.0493111,
+      10.3738512
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Peerd Hus, Hofcafé Lesse",
+    "coordinates": [
+      52.162281,
+      10.2547449
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "www.hofcafe-lesse.de",
+      "extracted_at": "2026-07-11T23:38:41.981730Z",
+      "last_checked": "2026-07-11T23:39:50.298389Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafeteria",
+    "coordinates": [
+      52.0406979,
+      10.322825
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "bennos feine KOST",
+    "coordinates": [
+      52.0484628,
+      10.3717534
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://bennos-feine-kost.de/",
+      "extracted_at": "2026-07-11T23:38:41.981922Z",
+      "last_checked": "2026-07-11T23:39:52.908672Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "cafe CARREE",
+    "coordinates": [
+      52.1551495,
+      10.3302806
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Anke Café Haus am See",
+    "coordinates": [
+      52.1535637,
+      10.3163792
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://de.cafe.kuryenet.co/cafe-haus-am-see/",
+      "extracted_at": "2026-07-11T23:38:41.982112Z",
+      "last_checked": "2026-07-11T23:40:12.661609Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Jhonny's",
+    "coordinates": [
+      52.0376684,
+      10.3812453
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "rock-café",
+    "coordinates": [
+      52.1464166,
+      10.3328893
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://rockcafe-salzgitter.de/",
+      "extracted_at": "2026-07-11T23:38:41.982301Z",
+      "last_checked": "2026-07-11T23:40:14.558811Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Biscotti",
+    "coordinates": [
+      52.1071612,
+      10.3503004
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café del Lago",
+    "coordinates": [
+      52.16539674999999,
+      10.3074476
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.cafedellago.de/",
+      "extracted_at": "2026-07-11T23:38:41.982499Z",
+      "last_checked": "2026-07-11T23:40:19.017666Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.cafedellago.de/getraenke/",
+      "menu_url_last_checked": "2026-07-11T23:40:25.600224Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-11T23:40:25.600215Z",
+      "items": [
+        {
+          "name": "CAPPUCCINO",
+          "price": 3.9
+        },
+        {
+          "name": "GROSSER CAPPUCCINO",
+          "price": 5.8
+        },
+        {
+          "name": "CAPPUCCINO SPEZIAL",
+          "price": 6.9
+        }
+      ]
+    }
+  },
+  {
+    "name": "Eiscafe Cinzano",
+    "coordinates": [
+      52.0596427,
+      10.37463955
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Engelke, Hildesheimer Stadtbäckerei",
+    "coordinates": [
+      52.17198755634424,
+      10.351307162228155
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.cafe-engelke.de/",
+      "extracted_at": "2026-07-11T23:38:41.982703Z",
+      "last_checked": "2026-07-11T23:40:30.620356Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://cafe-engelke.de/bonuskarte/",
+      "menu_url_last_checked": "2026-07-11T23:40:31.747229Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  }
+]

@@ -1,20 +1,63 @@
-<div class="map-container">
-    <div id="map"></div>
+<div class="map-page">
+    <div class="map-container">
+        <mat-accordion class="city-metadata">
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title> Cafés found </mat-panel-title>
+                    <mat-panel-description>
+                        {{ coffeeShops().length }} (with extracted prices: {{ shopsWithMenu().length }})
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <mat-slide-toggle [checked]="showWithoutPrices()" (change)="showWithoutPrices.set($event.checked)">
+                    Show coffee shops without prices
+                </mat-slide-toggle>
+
+                @if (hasAggregate()) {
+                <app-sankey-chart [nodes]="sankeyNodes()" [links]="sankeyLinks()"
+                    chartTitle="Price extraction funnel" />
+                } @else {
+                <p class="sankey-empty">No aggregate data available for this city.</p>
+                }
+            </mat-expansion-panel>
+        </mat-accordion>
+
+        <div class="map-wrapper">
+            <div id="map"></div>
+        </div>
+    </div>
     <div class="coffee-shop-list">
-        <span class="shop-count">{{ coffeeShops().length }} Cafés found</span>
-        @for (shop of coffeeShops(); track $index) {
-        <mat-card appearance="outlined" class="shop-card"
-                  [id]="'shop-card-' + $index"
-                  [class.selected]="selectedIndex() === $index"
-                  (click)="selectShop($index)">
+
+        @for (entry of shopsWithMenu(); track entry.index) {
+        <mat-card appearance="outlined" class="shop-card" [id]="'shop-card-' + entry.index"
+            [class.selected]="selectedIndex() === entry.index"
+            [class.cheapest]="cheapestIndex() === entry.index" (click)="selectShop(entry.index)">
             <mat-card-header>
-                <mat-card-title> {{ shop.name }} </mat-card-title>
+                <mat-card-title> {{ entry.shop.name }} </mat-card-title>
             </mat-card-header>
+            @if (cappuccinoPrice(entry.shop); as price) {
+            <mat-card-content>
+                <span class="shop-price">Cappuccino: {{ price.toFixed(2) }} €</span>
+            </mat-card-content>
+            }
             <mat-card-actions>
-                <button matButton [disabled]="!shop.website.url" (click)="openUrl(shop.website.url)">Website</button>
-                <button matButton [disabled]="!shop.menu.menu_url" (click)="openUrl(shop.menu.menu_url)">Menu</button>
+                <button matButton [disabled]="!entry.shop.website.url"
+                    (click)="openUrl(entry.shop.website.url)">Website</button>
+                <button matButton [disabled]="!entry.shop.menu.menu_url"
+                    (click)="openUrl(entry.shop.menu.menu_url)">Menu</button>
             </mat-card-actions>
         </mat-card>
+        }
+
+        @if (showWithoutPrices() && shopsWithoutMenu().length) {
+        <span class="shop-section-label">Ohne Preise</span>
+        @for (entry of shopsWithoutMenu(); track entry.index) {
+        <mat-card appearance="outlined" class="shop-card shop-card-no-prices" [id]="'shop-card-' + entry.index"
+            [class.selected]="selectedIndex() === entry.index" (click)="selectShop(entry.index)">
+            <mat-card-header>
+                <mat-card-title> {{ entry.shop.name }} </mat-card-title>
+            </mat-card-header>
+        </mat-card>
+        }
         }
     </div>
 

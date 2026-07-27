@@ -1,0 +1,354 @@
+[
+  {
+    "name": "Café Frieda",
+    "coordinates": [
+      51.4165985,
+      6.6156712
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.cafe-frieda-moers.de/Cafe-Frieda/",
+      "extracted_at": "2026-07-11T17:05:37.742709Z",
+      "last_checked": "2026-07-11T17:05:39.421660Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Bolten",
+    "coordinates": [
+      51.4203985,
+      6.6544142
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.baeckerei-bolten.de/filialen/duesseldorfer-strasse-moers",
+      "extracted_at": "2026-07-11T17:05:37.742853Z",
+      "last_checked": "2026-07-11T17:05:51.289921Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://baeckerei-bolten.de/produkte/kaffee/",
+      "menu_url_last_checked": "2026-07-11T17:07:23.652735Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café des Arts",
+    "coordinates": [
+      51.4518754,
+      6.627597
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiskaffee",
+    "coordinates": [
+      51.480928,
+      6.63072
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafe Adria",
+    "coordinates": [
+      51.4507,
+      6.6285477
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Mundo & Eine Welt Laden",
+    "coordinates": [
+      51.4544965,
+      6.6285719
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Pilatus",
+    "coordinates": [
+      51.4529815,
+      6.6318211
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "heimelie",
+    "coordinates": [
+      51.4506909,
+      6.6269897
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Lyzeum",
+    "coordinates": [
+      51.4493377,
+      6.6294143
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.sci-moers.de/stadtteilarbeit/volksschule/",
+      "extracted_at": "2026-07-11T17:05:37.743716Z",
+      "last_checked": "2026-07-11T17:07:33.538303Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.sci-moers.de/stadtteilarbeit/volksschule/#menu",
+      "menu_url_last_checked": "2026-07-11T17:08:03.308613Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Mehrhoff",
+    "coordinates": [
+      51.4523304,
+      6.6220526
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Perfetto",
+    "coordinates": [
+      51.4514272,
+      6.6261976
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Hofcafé Apfelparadies",
+    "coordinates": [
+      51.3995112,
+      6.6025737
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.apfelparadies.com/",
+      "extracted_at": "2026-07-11T17:05:37.744006Z",
+      "last_checked": "2026-07-11T17:08:36.919804Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Antonius Café",
+    "coordinates": [
+      51.4900267,
+      6.6065193
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Schloßcafé",
+    "coordinates": [
+      51.4126867,
+      6.6611769
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Extrablatt",
+    "coordinates": [
+      51.4518696,
+      6.6263752
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cafe-extrablatt.de/standorte/details/cafe-extrablatt-moers",
+      "extracted_at": "2026-07-11T17:05:37.744298Z",
+      "last_checked": "2026-07-11T17:08:39.984826Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://cafe-extrablatt.de/extras/fruehstuecksbuffet",
+      "menu_url_last_checked": "2026-07-11T17:09:46.567462Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eis Café Reggio",
+    "coordinates": [
+      51.4543926,
+      6.6688011
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  }
+]

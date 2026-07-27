@@ -7,8 +7,8 @@ export interface CoffeeShop {
     };
     menu: {
         menu_url: string | null;
+        items: MenuItem[];
     };
-    menuItems: MenuItem[];
 }
 
 export interface MenuItem {

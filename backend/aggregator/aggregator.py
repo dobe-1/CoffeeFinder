@@ -3,6 +3,7 @@ from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 from backend.models import CoffeeShop
+from backend.models.aggregation import AggregationResult
 from backend.scraper.overpassAPI import get_coffee_shops_in_city
 from backend.scraper.web_scraper import (
     extract_menu_url_from_coffee_shop,
@@ -58,9 +59,50 @@ def get_menu_for_url(url: str) -> list:
     return get_menu_urls_from_website(url)
 
 
+def extract_menu_for_shop(city: str, website_url: str) -> CoffeeShop:
+    """Trigger menu-url extraction for a single cached coffee shop.
+
+    The shop is identified by its (unique) website url within the city's cache.
+    The extracted result is written back to the cache so it stays persistent.
+    """
+    cache_file = Path(f"store/{city.replace(', ', '_')}.json")
+    if not cache_file.exists():
+        raise FileNotFoundError(f"No cached coffee shops found for {city}.")
+
+    with cache_file.open() as f:
+        coffee_shops = [CoffeeShop.model_validate(shop) for shop in json.load(f)]
+
+    target = next((shop for shop in coffee_shops if shop.website.url == website_url), None)
+    if target is None:
+        raise ValueError(f"No coffee shop with website {website_url} found in {city}.")
+
+    extract_menu_url_from_coffee_shop(target)
+
+    data = json.dumps(
+        [shop.model_dump(mode="json") for shop in coffee_shops],
+        indent=2,
+        ensure_ascii=False,
+    )
+    cache_file.parent.mkdir(exist_ok=True)
+    with cache_file.open("w") as f:
+        f.write(data)
+
+    return target
+
+
+def get_available_cities() -> list[str]:
+    # List cities for which we have cached coffee shops in the store directory
+    store_dir = Path("store")
+    if not store_dir.exists():
+        return []
+
+    cities = [path.stem.replace("_", ", ") for path in store_dir.glob("*.json")]
+    return sorted(cities)
+
+
 def get_coffee_shops(city: str) -> list[CoffeeShop]:
     # Check if we have a cached version of the coffee shops for the city
-    cache_file = Path(f"cache/{city.replace(', ', '_')}.json")
+    cache_file = Path(f"store/{city.replace(', ', '_')}.json")
     if not cache_file.exists():
         # If we don't have a valid cache, fetch the coffee shops from the API
         coffee_shops = get_coffee_shops_in_city(city)
@@ -69,8 +111,25 @@ def get_coffee_shops(city: str) -> list[CoffeeShop]:
         with cache_file.open() as f:
             coffee_shops = [CoffeeShop.model_validate(coffee_shop) for coffee_shop in json.load(f)]
 
+        return coffee_shops
+
     # Extract menu for shops that have a website and were not recently cached
+    start_time = datetime.now(tz=UTC)
+    with_website = len([shop for shop in coffee_shops if shop.website.url])
+    print(f"Extracting menu for {with_website}/{len(coffee_shops)} coffee shops with a website.")
+    i = 0
     for coffee_shop in coffee_shops:
+        if (i + 1) % 10 == 0:
+            print("------------------------------------------------")
+            print(f"{i + 1}/{len(coffee_shops)} coffee shops processed.")
+            time_in_progress = datetime.now(tz=UTC) - start_time
+            print(f"Time in progress: {time_in_progress}")
+            print(f"Average time per coffee shop: {time_in_progress / (i + 1)}")
+            print(
+                f"Estimated time remaining: {(time_in_progress * (len(coffee_shops) - i - 1)) / (i + 1)}"
+            )
+            print("------------------------------------------------")
+
         if (
             coffee_shop.website.url
             and coffee_shop.website.accessible is not False
@@ -79,6 +138,7 @@ def get_coffee_shops(city: str) -> list[CoffeeShop]:
                 or coffee_shop.menu.extracted_at <= datetime.now(tz=UTC) - timedelta(days=30)
             )
         ):
+            i += 1
             extract_menu_url_from_coffee_shop(coffee_shop)
 
     data = json.dumps(
@@ -91,3 +151,17 @@ def get_coffee_shops(city: str) -> list[CoffeeShop]:
     with cache_file.open("w") as f:
         f.write(data)
     return coffee_shops
+
+
+def get_aggregates() -> dict[str, AggregationResult]:
+    """Get the aggregated cappuccino prices for all cities."""
+    aggregates_file = Path("store/aggregates.json")
+    if not aggregates_file.exists():
+        raise FileNotFoundError("No aggregates found. Please run the aggregation script first.")
+
+    with aggregates_file.open() as f:
+        aggregates = json.load(f)
+
+    for city, data in aggregates.items():
+        aggregates[city] = AggregationResult.model_validate(data)
+    return aggregates

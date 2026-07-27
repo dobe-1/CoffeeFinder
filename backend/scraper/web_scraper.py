@@ -1,12 +1,41 @@
 import re
+import time
 from datetime import UTC, datetime
 from urllib.parse import urljoin, urlparse
+from urllib.robotparser import RobotFileParser
 
 import requests
 from playwright.sync_api import sync_playwright
 
 from backend.analysis.analyzer import Analyzer
 from backend.models import CoffeeShop
+
+USER_AGENT = "CoffeeFinderBot"
+
+
+_robots_cache: dict[str, RobotFileParser] = {}
+
+
+def get_robots_parser(url: str) -> RobotFileParser:
+    parsed = urlparse(url)
+    domain = parsed.netloc
+    if domain in _robots_cache:
+        return _robots_cache[domain]
+
+    rp = RobotFileParser()
+    rp.set_url(f"{parsed.scheme}://{domain}/robots.txt")
+    try:
+        rp.read()
+    except Exception as e:
+        print(f"Could not read robots.txt for {domain}: {e}")
+        rp.allow_all = True
+    _robots_cache[domain] = rp
+    return rp
+
+
+def can_fetch(url: str) -> bool:
+    return get_robots_parser(url).can_fetch(USER_AGENT, url)
+
 
 MENU_PATTERN = re.compile(
     r"([a-z]*karte[n]?|[a-z]*men(?:ü|ue|u|%C3%BC)[s]?|essen|food|drink[s]|speisen|mittagstisch|fr(?:ü|ue|u|%C3%BC)hst(?:ü|ue|u|%C3%BC)ck|getr(?:ä|ae|a|%C3%A4)nke|drinks?|food)",
@@ -61,9 +90,12 @@ def is_crawlable_page(url: str) -> bool:
     return not any(path.endswith(ext) for ext in ignored_extensions)
 
 
-def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
+def get_menu_urls_from_website(url, max_depth=2, max_calls=20) -> list:
 
     base_domain = urlparse(url).netloc
+
+    robots = get_robots_parser(url)
+    crawl_delay = robots.crawl_delay(USER_AGENT)
 
     visited_urls = set()
     menu_urls = []
@@ -79,6 +111,7 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
             "locale": "de-DE",  # emulate us english language settings
             "screen": {"width": 1920, "height": 1080},  # emulate full hd screen
             "viewport": {"width": 1920, "height": 1080},  # emulate full hd viewport
+            "user_agent": USER_AGENT,
             "headless": True,  # set true to not show browser window (invisible); set false to show browser window (visible)
         }
         browser = p.chromium
@@ -96,23 +129,29 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
             # print(f"search with depth {current_depth}")
             while queue and call_count < max_calls:
                 current_url = queue.pop()
-                # times.sleep(3) #maybe do this to not ddos the page
                 # check for duplicates
-
                 if current_url in visited_urls:
+                    continue
+
+                if not robots.can_fetch(USER_AGENT, current_url):
+                    print(f"Skipping (disallowed by robots.txt): {current_url}")
+                    visited_urls.add(current_url)
                     continue
 
                 visited_urls.add(current_url)
                 call_count += 1
 
+                time.sleep(crawl_delay if crawl_delay else 1)
+
                 try:
+                    print(f"Navigating to {current_url} (depth {current_depth})")
                     page.goto(current_url, timeout=15000)
                 except Exception as e:
                     print(f"Error navigating to {current_url}: {e}")
                     continue
                 frame = page.frames[0]
                 locators = frame.locator("a")
-
+                print(f"Found {locators.count()} links on {current_url}")
                 for i in range(locators.count()):
                     locator = locators.nth(i)
                     href = locator.get_attribute("href")
@@ -133,14 +172,19 @@ def get_menu_urls_from_website(url, max_depth=3, max_calls=20) -> list:
                             )
                     else:
                         # append to queue (for next depth) if it is from same domain
-                        if urlparse(validated_url).netloc == base_domain and is_crawlable_page(
-                            validated_url
+                        # and allowed by robots.txt
+                        if (
+                            urlparse(validated_url).netloc == base_domain
+                            and is_crawlable_page(validated_url)
+                            and robots.can_fetch(USER_AGENT, validated_url)
                         ):
                             queue_next.add(validated_url)
 
             if menu_urls:
                 break
             else:
+                print(f"No menu URLs found at depth {current_depth}. Moving to next depth.")
+                print(f"Queue for next depth: {queue_next}")
                 current_depth += 1
                 queue = queue_next
                 queue_next = set()
@@ -156,10 +200,30 @@ def retrieve_menu_data(coffee_shop: CoffeeShop):
         print("No menu URL provided.")
         return
 
+    print("------------------------------------------------")
+    print(f"Retrieving menu data for coffee menu URL: {coffee_shop.menu.menu_url}")
+
+    if not can_fetch(coffee_shop.menu.menu_url):
+        print(f"Menu URL disallowed by robots.txt: {coffee_shop.menu.menu_url}")
+        coffee_shop.menu.menu_url_accessible = False
+        coffee_shop.menu.menu_url_last_checked = datetime.now(tz=UTC)
+        return False
+
     try:
-        response = requests.get(coffee_shop.menu.menu_url)
+        response = requests.get(
+            coffee_shop.menu.menu_url,
+            headers={"User-Agent": USER_AGENT},
+            timeout=15,
+        )
+        response.raise_for_status()  # Raise an exception for HTTP errors
         # retrieve
-    except Exception:
+    except HTTPError as e:
+        print(f"HTTP error occurred while retrieving menu data: {e}")
+        coffee_shop.menu.menu_url_accessible = False
+        coffee_shop.menu.menu_url_last_checked = datetime.now(tz=UTC)
+        return False
+    except Exception as e:
+        print(f"Unexpected error occurred: {e}")
         coffee_shop.menu.menu_url_accessible = False
         coffee_shop.menu.menu_url_last_checked = datetime.now(tz=UTC)
         return False
@@ -172,18 +236,22 @@ def retrieve_menu_data(coffee_shop: CoffeeShop):
     match content_type:
         # images
         case _ if content_type.startswith("image/"):
+            print(f"Image content type detected: {content_type}.")
             result = Analyzer().analyze(
                 coffee_shop, data=response.content, content_type=content_type
             )
         # pdf
         case "application/pdf":
+            print(f"PDF content type detected: {content_type}.")
             result = Analyzer().analyze(
                 coffee_shop, data=response.content, content_type=content_type
             )
+            print(result.menu.items)
 
         # html TODO maybe just one case for everyhting not pdf images?
         # what to do with (complex html) - url?
         case "text/html" | "application/xhtml+xml":
+            print(f"HTML content type detected: {content_type}.")
             result = Analyzer().analyze(
                 coffee_shop, data=response.content, content_type=content_type
             )
@@ -194,9 +262,9 @@ def retrieve_menu_data(coffee_shop: CoffeeShop):
             coffee_shop.menu.menu_url_accessible = False
             coffee_shop.menu.menu_url_last_checked = datetime.now(tz=UTC)
             return False
-    # This implies that the last menu url analyzed will remain in the app later on. 
-    # Otherwise we could unset it entirely, 
-    # but still linking to the website seems to be better choice.  
+    # This implies that the last menu url analyzed will remain in the app later on.
+    # Otherwise we could unset it entirely,
+    # but still linking to the website seems to be better choice.
     coffee_shop.menu.menu_url_accessible = True
     coffee_shop.menu.menu_url_last_checked = datetime.now(tz=UTC)
     return result.menu.extracted_at is not None
@@ -239,28 +307,38 @@ def retrieve_menu_data(coffee_shop: CoffeeShop):
 
 
 def extract_menu_url_from_coffee_shop(coffee_shop: CoffeeShop):
+    print("------------------------------------------------")
+    print(f"Extracting menu URL for coffee shop: {coffee_shop.name}")
     if coffee_shop.website.url:
-        if not coffee_shop.menu.menu_url:
-            try:
-                menu_urls = get_menu_urls_from_website(coffee_shop.website.url)
-                coffee_shop.website.accessible = True
-                coffee_shop.website.last_checked = datetime.now(tz=UTC)
-            except Exception as e:
-                coffee_shop.website.accessible = False
-                coffee_shop.website.last_checked = datetime.now(tz=UTC)
-                print(f"Error accessing website for {coffee_shop.name}: {e}")
-                return
-        else:
-            menu_urls = [coffee_shop.menu.menu_url]
+        print(f"Website URL: {coffee_shop.website.url}")
+        print("------------------------------------------------")
+        if "instagram" in coffee_shop.website.url or "facebook" in coffee_shop.website.url:
+            print(f"Skipping Instagram URL for {coffee_shop.name}: {coffee_shop.website.url}")
+            coffee_shop.website.url = None
+            return
+        try:
+            menu_urls = get_menu_urls_from_website(coffee_shop.website.url)
+            coffee_shop.website.accessible = True
+            coffee_shop.website.last_checked = datetime.now(tz=UTC)
+        except Exception as e:
+            coffee_shop.website.accessible = False
+            coffee_shop.website.last_checked = datetime.now(tz=UTC)
+            print(f"Error accessing website for {coffee_shop.name}: {e}")
+            return
 
         if menu_urls:
+            print(f"Found {len(menu_urls)} menu URLs for {coffee_shop.name}")
             # loop through menu urls till valid one found
             i = 0
             urls_l = len(menu_urls)
             while i < urls_l:
                 coffee_shop.menu.menu_url = menu_urls[i]
                 if retrieve_menu_data(coffee_shop):
+                    print(
+                        f"Successfully retrieved menu data for {coffee_shop.name} from {menu_urls[i]}"
+                    )
                     break
+
                 i += 1
 
 

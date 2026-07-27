@@ -1,0 +1,1897 @@
+[
+  {
+    "name": "ruch",
+    "coordinates": [
+      51.5123495,
+      9.9559523
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://baeckerei-ruch.com/filialen/?pl=gottingen",
+      "extracted_at": "2026-07-10T10:20:29.147267Z",
+      "last_checked": "2026-07-10T10:20:33.373626Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://baeckerei-ruch.com/filialen/?pl=gottingen",
+      "menu_url_last_checked": "2026-07-10T10:20:36.299885Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Kadenz",
+    "coordinates": [
+      51.5339974,
+      9.9367881
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://hafenbar-kadenz.de/",
+      "extracted_at": "2026-07-10T10:20:29.147405Z",
+      "last_checked": "2026-07-10T10:20:38.400584Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Rosa / Tortenzauber",
+    "coordinates": [
+      51.527027,
+      9.9439311
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Birds",
+    "coordinates": [
+      51.5309015,
+      9.9345795
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "mannamia",
+    "coordinates": [
+      51.5318955,
+      9.9340897
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://baeckerei-ruch.com/filialen/?pl=gottingen",
+      "extracted_at": "2026-07-10T10:20:29.147711Z",
+      "last_checked": "2026-07-10T10:20:42.248503Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://baeckerei-ruch.com/filialen/?pl=gottingen",
+      "menu_url_last_checked": "2026-07-10T10:20:45.172524Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "ruch",
+    "coordinates": [
+      51.5303876,
+      9.9382211
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://baeckerei-ruch.com/filialen/?pl=gottingen",
+      "extracted_at": "2026-07-10T10:20:29.147806Z",
+      "last_checked": "2026-07-10T10:20:49.721844Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://baeckerei-ruch.com/filialen/?pl=gottingen",
+      "menu_url_last_checked": "2026-07-10T10:20:52.710978Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Weltladencafe",
+    "coordinates": [
+      51.5310768,
+      9.9345883
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://weltladencafe.de/",
+      "extracted_at": "2026-07-10T10:20:29.147900Z",
+      "last_checked": "2026-07-10T10:21:00.085906Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Autonomicum",
+    "coordinates": [
+      51.5421395,
+      9.9356569
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.goest.de/autonomicum.htm",
+      "extracted_at": "2026-07-10T10:20:29.147991Z",
+      "last_checked": "2026-07-10T10:21:13.735455Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "http://www.goest.de/tierschutz.htm#bienenblumen",
+      "menu_url_last_checked": "2026-07-10T10:21:16.868324Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Valentin",
+    "coordinates": [
+      51.5707105,
+      9.9368518
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Thiele",
+    "coordinates": [
+      51.5597846,
+      9.934123
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://thiele.info/",
+      "extracted_at": "2026-07-10T10:20:29.148170Z",
+      "last_checked": "2026-07-10T10:21:28.264208Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Mathe-Caféte",
+    "coordinates": [
+      51.5284366,
+      9.9325788
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.cafeten-kollektiv.de/",
+      "extracted_at": "2026-07-10T10:20:29.148259Z",
+      "last_checked": "2026-07-10T10:21:32.894675Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "http://www.cafeten-kollektiv.de/smf/index.php?PHPSESSID=dmssd5jte824vumdt3qbt826g6&action=reminder",
+      "menu_url_last_checked": "2026-07-10T10:21:33.096465Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Gartenlaube",
+    "coordinates": [
+      51.5325121,
+      9.934774
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.cafe-gartenlaube.de/",
+      "extracted_at": "2026-07-10T10:20:29.148348Z",
+      "last_checked": "2026-07-10T10:21:36.363197Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Alfredo Espressobar",
+    "coordinates": [
+      51.5335125,
+      9.9351348
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Diva Lounge",
+    "coordinates": [
+      51.5307329,
+      9.9382168
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.divalounge-goettingen.de",
+      "extracted_at": "2026-07-10T10:20:29.148525Z",
+      "last_checked": "2026-07-10T10:21:37.564411Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "http://www.divalounge-goettingen.de/pdf/getraenkekarte.pdf",
+      "menu_url_last_checked": "2026-07-10T10:21:45.621178Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-10T10:21:45.621170Z",
+      "items": [
+        {
+          "name": "Cappuccino(3)",
+          "price": 2.2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hànôi Càpḣê",
+    "coordinates": [
+      51.5346718,
+      9.9388228
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.facebook.com/vietalvillage/",
+      "extracted_at": "2026-07-10T10:20:29.148614Z",
+      "last_checked": "2026-07-10T10:21:49.041829Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.facebook.com/recover/initiate?ars=royal_blue_bar",
+      "menu_url_last_checked": "2026-07-10T10:21:55.935165Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Freihafen",
+    "coordinates": [
+      51.5302067,
+      9.9347216
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kaffeezeit",
+    "coordinates": [
+      51.5344551,
+      9.9356134
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Hermann",
+    "coordinates": [
+      51.5293438,
+      9.8809141
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://baeckereihermann.de/filialen/goettingen-im-kauf-park/",
+      "extracted_at": "2026-07-10T10:20:29.148883Z",
+      "last_checked": "2026-07-10T10:21:58.267444Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://baeckereihermann.de/cafe-lange-speisekarte/",
+      "menu_url_last_checked": "2026-07-10T10:21:59.043581Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé da Claudio",
+    "coordinates": [
+      51.5289658,
+      9.8811033
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://kauf-park.de/gesch%C3%A4fte/eiscafe-da-claudio-nord/",
+      "extracted_at": "2026-07-10T10:20:29.148971Z",
+      "last_checked": "2026-07-10T10:22:24.888915Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé da Claudio",
+    "coordinates": [
+      51.5269279,
+      9.8809379
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://kauf-park.de/gesch%C3%A4fte/eiscafe-da-claudio-sued/",
+      "extracted_at": "2026-07-10T10:20:29.149059Z",
+      "last_checked": "2026-07-10T10:22:49.149306Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Bar Colosseum",
+    "coordinates": [
+      51.5330906,
+      9.935182
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Plaza Cafe",
+    "coordinates": [
+      51.5390318,
+      9.9327801
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Thiele",
+    "coordinates": [
+      51.5493372,
+      9.8999768
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://thiele.info/",
+      "extracted_at": "2026-07-10T10:20:29.149318Z",
+      "last_checked": "2026-07-10T10:23:00.167612Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Snacks & Kaffee",
+    "coordinates": [
+      51.5355006,
+      9.9350961
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kaffeehus",
+    "coordinates": [
+      51.5374421,
+      9.9341168
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kaffeehusgoettingen.de/",
+      "extracted_at": "2026-07-10T10:20:29.149491Z",
+      "last_checked": "2026-07-10T10:23:02.365584Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.kaffeehusgoettingen.de/speisekarte",
+      "menu_url_last_checked": "2026-07-10T10:23:04.855004Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Küster",
+    "coordinates": [
+      51.5347392,
+      9.9312898
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kuester.de/filialen/innenstadt/goethe-allee/",
+      "extracted_at": "2026-07-10T10:20:29.149580Z",
+      "last_checked": "2026-07-10T10:23:40.311450Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.kuester.de/filialen/cafés/",
+      "menu_url_last_checked": "2026-07-10T10:24:05.058299Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "OFEN[genuss]",
+    "coordinates": [
+      51.551331,
+      9.94263
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://umg-gastronomie.de/umgg-campus/",
+      "extracted_at": "2026-07-10T10:20:29.149676Z",
+      "last_checked": "2026-07-10T10:24:07.190459Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://umg-gastronomie.de/pdf/verpflegung_care.pdf",
+      "menu_url_last_checked": "2026-07-10T10:24:07.650357Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "HOCH[genuss]",
+    "coordinates": [
+      51.5511918,
+      9.9429621
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://umg-gastronomie.de/umgg-campus/",
+      "extracted_at": "2026-07-10T10:20:29.149767Z",
+      "last_checked": "2026-07-10T10:24:09.694227Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://umg-gastronomie.de/pdf/verpflegung_care.pdf",
+      "menu_url_last_checked": "2026-07-10T10:24:10.231200Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "mannamia",
+    "coordinates": [
+      51.5418433,
+      9.9439669
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://baeckerei-ruch.com/filialen/?pl=gottingen",
+      "extracted_at": "2026-07-10T10:20:29.149857Z",
+      "last_checked": "2026-07-10T10:24:14.340113Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://baeckerei-ruch.com/filialen/?pl=gottingen",
+      "menu_url_last_checked": "2026-07-10T10:24:17.357941Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "SB-Cafe Thalia.de",
+    "coordinates": [
+      51.5336145,
+      9.9361786
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cello Coffee Bar",
+    "coordinates": [
+      51.5344792,
+      9.9343499
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.cello-coffee-bar.de/",
+      "extracted_at": "2026-07-10T10:20:29.150080Z",
+      "last_checked": "2026-07-10T10:24:19.343874Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Barista",
+    "coordinates": [
+      51.5315653,
+      9.9354208
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cron & Lanz",
+    "coordinates": [
+      51.534143,
+      9.9351279
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.cronundlanz.de/",
+      "extracted_at": "2026-07-10T10:20:29.150256Z",
+      "last_checked": "2026-07-10T10:24:22.138330Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.cronundlanz.de/kaffeehaus_konditorei/#fruehstueck-a-la-carte",
+      "menu_url_last_checked": "2026-07-10T10:24:22.328740Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cielo",
+    "coordinates": [
+      51.5334084,
+      9.931565
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.instagram.com/cielo_cafe_bar/",
+      "extracted_at": "2026-07-10T10:20:29.150343Z",
+      "last_checked": "2026-07-10T10:24:25.072730Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.instagram.com/accounts/password/reset/?next=https%3A%2F%2Fwww.instagram.com%2Fcielo_cafe_bar%2F",
+      "menu_url_last_checked": "2026-07-10T10:24:53.815791Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Waffle Land",
+    "coordinates": [
+      51.5334791,
+      9.9365298
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Conditorei Café Cortés",
+    "coordinates": [
+      51.53142,
+      9.9377779
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.cafe-cortes.de/",
+      "extracted_at": "2026-07-10T10:20:29.150519Z",
+      "last_checked": "2026-07-10T10:24:56.360173Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.cafe-cortes.de/tafel-schokolade-vollmilch-mit-haselnuessen-100g-c.html",
+      "menu_url_last_checked": "2026-07-10T10:24:56.607986Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "ruch",
+    "coordinates": [
+      51.5396279,
+      9.9425677
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://baeckerei-ruch.com/filialen/?pl=gottingen",
+      "extracted_at": "2026-07-10T10:20:29.150608Z",
+      "last_checked": "2026-07-10T10:25:00.285891Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://baeckerei-ruch.com/filialen/?pl=gottingen",
+      "menu_url_last_checked": "2026-07-10T10:25:03.321350Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kleiner Laden",
+    "coordinates": [
+      51.5239788,
+      9.9465018
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Küster",
+    "coordinates": [
+      51.523362,
+      9.9321385
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kuester.de/filialen/s%C3%BCdstadt/eiswiese-kiessee-windausweg/",
+      "extracted_at": "2026-07-10T10:20:29.150790Z",
+      "last_checked": "2026-07-10T10:25:10.667886Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.kuester.de/filialen/cafés/",
+      "menu_url_last_checked": "2026-07-10T10:25:10.892738Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Wanderfish",
+    "coordinates": [
+      51.53289,
+      9.9323411
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.wanderfish.de/",
+      "extracted_at": "2026-07-10T10:20:29.150878Z",
+      "last_checked": "2026-07-10T10:25:11.693295Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Hermann",
+    "coordinates": [
+      51.5609949,
+      9.9046761
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://baeckereihermann.de/holtenser-berg",
+      "extracted_at": "2026-07-10T10:20:29.150967Z",
+      "last_checked": "2026-07-10T10:25:14.369084Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://baeckereihermann.de/cafe-lange-speisekarte/",
+      "menu_url_last_checked": "2026-07-10T10:25:14.780602Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Hermann",
+    "coordinates": [
+      51.5723978,
+      9.9352758
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://baeckereihermann.de/filialen/weende-nahkauf-l-prandtl-strasse/",
+      "extracted_at": "2026-07-10T10:20:29.151056Z",
+      "last_checked": "2026-07-10T10:25:16.940566Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://baeckereihermann.de/cafe-lange-speisekarte/",
+      "menu_url_last_checked": "2026-07-10T10:25:17.307890Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Küster",
+    "coordinates": [
+      51.5375448,
+      9.9343745
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kuester.de/filialen/innenstadt/am-wall/",
+      "extracted_at": "2026-07-10T10:20:29.151144Z",
+      "last_checked": "2026-07-10T10:25:24.778797Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.kuester.de/filialen/cafés/",
+      "menu_url_last_checked": "2026-07-10T10:25:25.004154Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café-Restaurant Panorama",
+    "coordinates": [
+      51.5120435,
+      9.972134
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Roringer Bergcafé",
+    "coordinates": [
+      51.560218,
+      10.0039983
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.roringen.net/unser-laden/cafe/",
+      "extracted_at": "2026-07-10T10:20:29.151320Z",
+      "last_checked": "2026-07-10T10:25:25.624366Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "mannamia",
+    "coordinates": [
+      51.5342293,
+      9.9068197
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://baeckerei-ruch.com/filialen/?pl=gottingen",
+      "extracted_at": "2026-07-10T10:20:29.151410Z",
+      "last_checked": "2026-07-10T10:25:29.333063Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://baeckerei-ruch.com/filialen/?pl=gottingen",
+      "menu_url_last_checked": "2026-07-10T10:25:32.441712Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Primatenzentrum",
+    "coordinates": [
+      51.5617419,
+      9.9541377
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Espressobar",
+    "coordinates": [
+      51.5610224,
+      9.9667539
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "House of Hope",
+    "coordinates": [
+      51.5352846,
+      9.9125263
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Paris Café & Bar",
+    "coordinates": [
+      51.5355376,
+      9.9363395
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Il Piccolo Fellini",
+    "coordinates": [
+      51.5325139,
+      9.9310445
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://fellini-goettingen.de/",
+      "extracted_at": "2026-07-10T10:20:29.151850Z",
+      "last_checked": "2026-07-10T10:25:40.690358Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://fellini-goettingen.de/#speisekarte",
+      "menu_url_last_checked": "2026-07-10T10:26:10.399614Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Drogenberatungszentrum",
+    "coordinates": [
+      51.5330128,
+      9.9299309
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://suchtberatung-goettingen.wir-e.de/",
+      "extracted_at": "2026-07-10T10:20:29.151937Z",
+      "last_checked": "2026-07-10T10:26:25.736117Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Mauerblümchen",
+    "coordinates": [
+      51.5328793,
+      9.9392473
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café ZÄM",
+    "coordinates": [
+      51.537505,
+      9.8958606
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Küster",
+    "coordinates": [
+      51.566441,
+      9.9317203
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kuester.de/filialen/weende/",
+      "extracted_at": "2026-07-10T10:20:29.152329Z",
+      "last_checked": "2026-07-10T10:26:59.045563Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.kuester.de/filialen/cafés/",
+      "menu_url_last_checked": "2026-07-10T10:27:24.013725Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Bike Inn \"Hafenblick\"",
+    "coordinates": [
+      51.5430448,
+      9.9068134
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Thiele",
+    "coordinates": [
+      51.5446326,
+      9.9262243
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://thiele.info/",
+      "extracted_at": "2026-07-10T10:20:29.152505Z",
+      "last_checked": "2026-07-10T10:27:34.849573Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Küster",
+    "coordinates": [
+      51.5227868,
+      9.9622248
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kuester.de/filialen/geismar-1/alfred-delp-weg/",
+      "extracted_at": "2026-07-10T10:20:29.152593Z",
+      "last_checked": "2026-07-10T10:27:42.528889Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.kuester.de/filialen/cafés/",
+      "menu_url_last_checked": "2026-07-10T10:27:42.746522Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "An's Tea House",
+    "coordinates": [
+      51.5345319,
+      9.9352951
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://ansteahouse.de/",
+      "extracted_at": "2026-07-10T10:20:29.152689Z",
+      "last_checked": "2026-07-10T10:27:50.501293Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Stil",
+    "coordinates": [
+      51.5302975,
+      9.9346464
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Gartenhaus",
+    "coordinates": [
+      51.5340676,
+      9.9390706
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Liesels",
+    "coordinates": [
+      51.5331212,
+      9.9350059
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kredo Seegarten",
+    "coordinates": [
+      51.5199634,
+      9.9201927
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.restaurant-kredo.de/de/seegarten/",
+      "extracted_at": "2026-07-10T10:20:29.153084Z",
+      "last_checked": "2026-07-10T10:27:52.174511Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.restaurant-kredo.de/de/menue/getraenkekarte/",
+      "menu_url_last_checked": "2026-07-10T10:27:52.602882Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-10T10:27:52.602868Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 4.0
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hope",
+    "coordinates": [
+      51.5325145,
+      9.9304532
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.haus-der-hoffnung-e-v.de/haus-der-hoffnung-g%C3%B6ttingen",
+      "extracted_at": "2026-07-10T10:20:29.153173Z",
+      "last_checked": "2026-07-10T10:27:53.515903Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "P-Café",
+    "coordinates": [
+      51.5313422,
+      9.9335302
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.p-cafe.de",
+      "extracted_at": "2026-07-10T10:20:29.153261Z",
+      "last_checked": "2026-07-10T10:27:59.851385Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://en.p-cafe.de/karte",
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Teehaus Kluntje",
+    "coordinates": [
+      51.5317538,
+      9.9364988
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.teehaus-kluntje.de",
+      "extracted_at": "2026-07-10T10:20:29.153350Z",
+      "last_checked": "2026-07-10T10:28:16.340377Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Liesels",
+    "coordinates": [
+      51.5345055,
+      9.9263684
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://liesels.de/",
+      "extracted_at": "2026-07-10T10:20:29.153438Z",
+      "last_checked": "2026-07-10T10:28:19.440773Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://liesels.de/wp-content/uploads/2026/04/HFI_Liesels_SPK_Speisekarte_Sommer2026_.pdf",
+      "menu_url_last_checked": "2026-07-10T10:28:21.551330Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-10T10:28:21.551319Z",
+      "items": [
+        {
+          "name": "Cappuccino g,9",
+          "price": 4.5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Amici",
+    "coordinates": [
+      51.5530016,
+      9.891272
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Ordi",
+    "coordinates": [
+      51.5345416,
+      9.9309366
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "1768",
+    "coordinates": [
+      51.5479813,
+      9.9321515
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Hermann",
+    "coordinates": [
+      51.5218816,
+      9.8683432
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://baeckereihermann.de/filialen/gross-ellershausen",
+      "extracted_at": "2026-07-10T10:20:29.153790Z",
+      "last_checked": "2026-07-10T10:28:24.398148Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://baeckereihermann.de/cafe-lange-speisekarte/",
+      "menu_url_last_checked": "2026-07-10T10:28:24.746496Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Espresso House",
+    "coordinates": [
+      51.5321728,
+      9.9354974
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Boccadoro Gelato",
+    "coordinates": [
+      51.5336612,
+      9.9415367
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://boccadoro-restaurant.de/eis-ape/",
+      "extracted_at": "2026-07-10T10:20:29.153961Z",
+      "last_checked": "2026-07-10T10:29:04.975592Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "purpur",
+    "coordinates": [
+      51.5330659,
+      9.9387652
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Sundays",
+    "coordinates": [
+      51.53466,
+      9.9368732
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.sundays-coffee.de",
+      "extracted_at": "2026-07-10T10:20:29.154135Z",
+      "last_checked": "2026-07-10T10:29:05.876633Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Matcha Glow",
+    "coordinates": [
+      51.5309329,
+      9.9343805
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Sundara",
+    "coordinates": [
+      51.5325083,
+      9.9345249
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Küster",
+    "coordinates": [
+      51.51715668000821,
+      9.971152703311892
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kuester.de/filialen/geismar-1/sch%C3%B6neberger-stra%C3%9Fe/",
+      "extracted_at": "2026-07-10T10:20:29.154407Z",
+      "last_checked": "2026-07-10T10:29:08.629275Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.kuester.de/filialen/cafés/",
+      "menu_url_last_checked": "2026-07-10T10:29:08.856421Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Leinebäckerei, Leinecafe",
+    "coordinates": [
+      51.52715942966239,
+      9.915892158862812
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "café krawall",
+    "coordinates": [
+      51.527648704695274,
+      9.944003728029543
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cafe-krawall.de",
+      "extracted_at": "2026-07-10T10:20:29.154586Z",
+      "last_checked": "2026-07-10T10:29:10.779149Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://cafe-krawall.de/wp-content/uploads/2024/06/Karte-2024.06-web.pdf",
+      "menu_url_last_checked": "2026-07-10T10:29:14.237497Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-10T10:29:14.237490Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 3.2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Esprit",
+    "coordinates": [
+      51.53217380967623,
+      9.93827213170106
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cafe-bar-esprit.de/",
+      "extracted_at": "2026-07-10T10:20:29.154687Z",
+      "last_checked": "2026-07-10T10:29:19.256081Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://esprit-cafe.de/wp-content/uploads/2026/05/260310_ESP_MENU_19.5.pdf",
+      "menu_url_last_checked": "2026-07-10T10:29:20.553079Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Espresso House",
+    "coordinates": [
+      51.53644511625347,
+      9.926824120658331
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café INTI",
+    "coordinates": [
+      51.53418126492756,
+      9.938641922469841
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Küster",
+    "coordinates": [
+      51.52544531885136,
+      9.939229097217172
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kuester.de/filialen/s%C3%BCdstadt/reinh%C3%A4user-landstr/",
+      "extracted_at": "2026-07-10T10:20:29.154952Z",
+      "last_checked": "2026-07-10T10:29:54.111717Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.kuester.de/filialen/cafés/",
+      "menu_url_last_checked": "2026-07-10T10:30:19.024664Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Botanik",
+    "coordinates": [
+      51.537856204383374,
+      9.93757516394636
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.alibaba-goettingen.de/",
+      "extracted_at": "2026-07-10T10:20:29.155042Z",
+      "last_checked": "2026-07-10T10:30:21.859054Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.alibaba-goettingen.de/assets/karten/karte_botanik.pdf",
+      "menu_url_last_checked": "2026-07-10T10:30:22.904487Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-10T10:30:22.904479Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 3.5
+        }
+      ]
+    }
+  }
+]

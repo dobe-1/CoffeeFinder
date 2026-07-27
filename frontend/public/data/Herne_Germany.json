@@ -1,0 +1,588 @@
+[
+  {
+    "name": "Cafe Fritzchen",
+    "coordinates": [
+      51.5432773,
+      7.1436039
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.fritzchen-das-gleiscafe.de/",
+      "extracted_at": "2026-07-10T23:03:45.669683Z",
+      "last_checked": "2026-07-10T23:03:49.524894Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.facebook.com/recover/initiate?ars=royal_blue_bar",
+      "menu_url_last_checked": "2026-07-10T23:03:58.960000Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafe Gianni",
+    "coordinates": [
+      51.5141083,
+      7.1791095
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafe Dolomiti",
+    "coordinates": [
+      51.5141909,
+      7.1800716
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Alt Herner Treff",
+    "coordinates": [
+      51.5315795,
+      7.2250378
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "KostBar",
+    "coordinates": [
+      51.5390474,
+      7.2230254
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://kostbar.cool/",
+      "extracted_at": "2026-07-10T23:03:45.670247Z",
+      "last_checked": "2026-07-10T23:04:00.672276Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://kostbar.cool/files/speisekarte.pdf",
+      "menu_url_last_checked": "2026-07-10T23:04:01.986879Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-10T23:04:01.986868Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 3.9
+        }
+      ]
+    }
+  },
+  {
+    "name": "Brinker",
+    "coordinates": [
+      51.5413396,
+      7.2213104
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.brinker.de/",
+      "extracted_at": "2026-07-10T23:03:45.670328Z",
+      "last_checked": "2026-07-10T23:04:06.870709Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Brinker",
+    "coordinates": [
+      51.5248714,
+      7.2239952
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "San Remo",
+    "coordinates": [
+      51.5390166,
+      7.256764
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Messner",
+    "coordinates": [
+      51.5147032,
+      7.1789907
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://messner.de.tl/Caf-e2-s.htm",
+      "extracted_at": "2026-07-10T23:03:45.670589Z",
+      "last_checked": "2026-07-10T23:04:08.554916Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://messner.de.tl/Mittagstisch.htm",
+      "menu_url_last_checked": "2026-07-10T23:04:08.819182Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Dolce Vita",
+    "coordinates": [
+      51.5383808,
+      7.2248387
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Ambiente Bar",
+    "coordinates": [
+      51.5434897,
+      7.2598913
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://ambiente-cafe-und-mehr.eatbu.com/",
+      "extracted_at": "2026-07-10T23:03:45.670751Z",
+      "last_checked": "2026-07-10T23:04:10.925448Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.google.com/maps/search/?api=1&query=Kirchstraße.68, 44627 Herne",
+      "menu_url_last_checked": "2026-07-10T23:07:21.014726Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Il Gelato",
+    "coordinates": [
+      51.5486428,
+      7.2803975
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Desaster",
+    "coordinates": [
+      51.5383557,
+      7.2298927
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cafe-desaster.de/",
+      "extracted_at": "2026-07-10T23:03:45.670910Z",
+      "last_checked": "2026-07-10T23:07:24.837222Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://foodsharing.de/region/Herne",
+      "menu_url_last_checked": "2026-07-10T23:25:47.868493Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafe Abruzzo",
+    "coordinates": [
+      51.542492,
+      7.2209833
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Konditorei Messner",
+    "coordinates": [
+      51.5388628,
+      7.2239669
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://messner.de.tl/",
+      "extracted_at": "2026-07-10T23:03:45.671084Z",
+      "last_checked": "2026-07-10T23:25:49.357339Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://messner.de.tl/Mittagstisch.htm",
+      "menu_url_last_checked": "2026-07-10T23:25:49.608771Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Extrablatt",
+    "coordinates": [
+      51.5414385,
+      7.2219713
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://cafe-extrablatt.de/standorte/details/cafe-extrablatt-herne",
+      "extracted_at": "2026-07-10T23:03:45.671162Z",
+      "last_checked": "2026-07-10T23:25:51.576278Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://cafe-extrablatt.de/extras/fruehstuecksbuffet",
+      "menu_url_last_checked": "2026-07-10T23:26:44.310394Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Das kleine Cafe Klatsch",
+    "coordinates": [
+      51.5323987,
+      7.1561276
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://das-kleine-cafe-klatsch-cafe.eatbu.com/?lang=de",
+      "extracted_at": "2026-07-10T23:03:45.671238Z",
+      "last_checked": "2026-07-10T23:26:47.390704Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.google.com/maps/search/?api=1&query=Wilhelmstr. 15, 44649 Herne",
+      "menu_url_last_checked": "2026-07-10T23:29:58.122122Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Malzers",
+    "coordinates": [
+      51.5389652,
+      7.2561224
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://malzers.de/filialen/herne/216-malzers-backstube-im-freestander-44627-herne",
+      "extracted_at": "2026-07-10T23:03:45.671315Z",
+      "last_checked": "2026-07-10T23:30:01.139819Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://kundenkarte.malzers.de/",
+      "menu_url_last_checked": "2026-07-10T23:30:02.341039Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Frutaria",
+    "coordinates": [
+      51.5367266,
+      7.2259038
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Teig & Tatli",
+    "coordinates": [
+      51.5371942,
+      7.2259779
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "BoBoQ",
+    "coordinates": [
+      51.5303897,
+      7.159121
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Bäckerei Büsch",
+    "coordinates": [
+      51.5538478,
+      7.202257
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "zwodrei",
+    "coordinates": [
+      51.5392167,
+      7.2229912
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://zwodrei-herne.de/",
+      "extracted_at": "2026-07-10T23:03:45.671730Z",
+      "last_checked": "2026-07-10T23:30:04.834763Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://zwodrei-herne.de/images/Speisekarten/abends.pdf",
+      "menu_url_last_checked": "2026-07-10T23:30:06.398586Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-10T23:30:06.398576Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 3.8
+        },
+        {
+          "name": "Fredo Cappuccino",
+          "price": 4.4
+        }
+      ]
+    }
+  },
+  {
+    "name": "Sportwetten Cafe by Civan",
+    "coordinates": [
+      51.5486593,
+      7.2804962
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafe Joe",
+    "coordinates": [
+      51.5430378,
+      7.2200153
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Capri",
+    "coordinates": [
+      51.53730415955403,
+      7.2251804473914145
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  }
+]

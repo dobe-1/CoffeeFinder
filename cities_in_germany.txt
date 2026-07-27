@@ -1,80 +1,80 @@
-Aachen, Germany
-Augsburg, Germany
-Bad Bramstedt, Germany
-Bergisch Gladbach, Germany
-Berlin, Germany
-Bielefeld, Germany
-Bochum, Germany
-Bonn, Germany
-Bottrop, Germany
-Braunschweig, Germany
-Bremen, Germany
-Bremerhaven, Germany
-Chemnitz, Germany
-Darmstadt, Germany
-Dortmund, Germany
-Dresden, Germany
-Duisburg, Germany
-Düsseldorf, Germany
-Erfurt, Germany
-Erlangen, Germany
-Essen, Germany
-Frankfurt am Main, Germany
-Freiburg im Breisgau, Germany
-Fürth, Germany
-Gelsenkirchen, Germany
-Göttingen, Germany
-Gütersloh, Germany
-Hagen, Germany
-Halle (Saale), Germany
-Hamburg, Germany
-Hamm, Germany
-Hanau, Germany
-Hannover, Germany
-Heidelberg, Germany
-Heilbronn, Germany
-Herne, Germany
-Ingolstadt, Germany
-Jena, Germany
-Karlsruhe, Germany
-Kassel, Germany
-Kiel, Germany
-Koblenz, Germany
-Krefeld, Germany
-Köln, Germany
-Leipzig, Germany
-Leverkusen, Germany
-Ludwigshafen am Rhein, Germany
-Lübeck, Germany
-Magdeburg, Germany
-Mainz, Germany
-Mannheim, Germany
-Moers, Germany
-Mönchengladbach, Germany
-Mülheim an der Ruhr, Germany
-München, Germany
-Münster, Germany
-Neuss, Germany
-Nürnberg, Germany
-Oberhausen, Germany
-Offenbach am Main, Germany
-Oldenburg, Germany
-Osnabrück, Germany
-Paderborn, Germany
-Pforzheim, Germany
-Potsdam, Germany
-Recklinghausen, Germany
-Regensburg, Germany
-Remscheid, Germany
-Reutlingen, Germany
-Rostock, Germany
-Saarbrücken, Germany
-Salzgitter, Germany
-Solingen, Germany
-Stuttgart, Germany
-Trier, Germany
-Ulm, Germany
-Wiesbaden, Germany
-Wolfsburg, Germany
-Wuppertal, Germany
-Würzburg, Germany
+Aachen, Germany, 50.7753, 6.0839
+Augsburg, Germany, 48.3705, 10.8978
+Bad Bramstedt, Germany, 53.9183, 9.8844
+Bergisch Gladbach, Germany, 50.9923, 7.1277
+Berlin, Germany, 52.5200, 13.4050
+Bielefeld, Germany, 52.0302, 8.5325
+Bochum, Germany, 51.4818, 7.2162
+Bonn, Germany, 50.7374, 7.0982
+Bottrop, Germany, 51.5291, 6.9447
+Braunschweig, Germany, 52.2689, 10.5268
+Bremen, Germany, 53.0793, 8.8017
+Bremerhaven, Germany, 53.5396, 8.5809
+Chemnitz, Germany, 50.8278, 12.9214
+Darmstadt, Germany, 49.8728, 8.6512
+Dortmund, Germany, 51.5136, 7.4653
+Dresden, Germany, 51.0504, 13.7373
+Duisburg, Germany, 51.4344, 6.7623
+Düsseldorf, Germany, 51.2277, 6.7735
+Erfurt, Germany, 50.9848, 11.0299
+Erlangen, Germany, 49.5897, 11.0119
+Essen, Germany, 51.4556, 7.0116
+Frankfurt am Main, Germany, 50.1109, 8.6821
+Freiburg im Breisgau, Germany, 47.9990, 7.8421
+Fürth, Germany, 49.4771, 10.9887
+Gelsenkirchen, Germany, 51.5177, 7.0857
+Göttingen, Germany, 51.5413, 9.9158
+Gütersloh, Germany, 51.9032, 8.3858
+Hagen, Germany, 51.3671, 7.4633
+Halle (Saale), Germany, 51.4825, 11.9705
+Hamburg, Germany, 53.5511, 9.9937
+Hamm, Germany, 51.6739, 7.8150
+Hanau, Germany, 50.1264, 8.9283
+Hannover, Germany, 52.3759, 9.7320
+Heidelberg, Germany, 49.3988, 8.6724
+Heilbronn, Germany, 49.1427, 9.2109
+Herne, Germany, 51.5369, 7.2009
+Ingolstadt, Germany, 48.7665, 11.4258
+Jena, Germany, 50.9271, 11.5892
+Karlsruhe, Germany, 49.0069, 8.4037
+Kassel, Germany, 51.3127, 9.4797
+Kiel, Germany, 54.3233, 10.1228
+Koblenz, Germany, 50.3569, 7.5890
+Krefeld, Germany, 51.3388, 6.5853
+Köln, Germany, 50.9375, 6.9603
+Leipzig, Germany, 51.3397, 12.3731
+Leverkusen, Germany, 51.0459, 7.0192
+Ludwigshafen am Rhein, Germany, 49.4774, 8.4452
+Lübeck, Germany, 53.8655, 10.6866
+Magdeburg, Germany, 52.1205, 11.6276
+Mainz, Germany, 49.9929, 8.2473
+Mannheim, Germany, 49.4875, 8.4660
+Moers, Germany, 51.4516, 6.6408
+Mönchengladbach, Germany, 51.1805, 6.4428
+Mülheim an der Ruhr, Germany, 51.4186, 6.8845
+München, Germany, 48.1351, 11.5820
+Münster, Germany, 51.9607, 7.6261
+Neuss, Germany, 51.2042, 6.6879
+Nürnberg, Germany, 49.4521, 11.0767
+Oberhausen, Germany, 51.4963, 6.8638
+Offenbach am Main, Germany, 50.0956, 8.7761
+Oldenburg, Germany, 53.1435, 8.2146
+Osnabrück, Germany, 52.2799, 8.0472
+Paderborn, Germany, 51.7189, 8.7575
+Pforzheim, Germany, 48.8922, 8.6946
+Potsdam, Germany, 52.3906, 13.0645
+Recklinghausen, Germany, 51.6141, 7.1979
+Regensburg, Germany, 49.0134, 12.1016
+Remscheid, Germany, 51.1787, 7.1897
+Reutlingen, Germany, 48.5069, 9.2038
+Rostock, Germany, 54.0924, 12.0991
+Saarbrücken, Germany, 49.2402, 6.9969
+Salzgitter, Germany, 52.1379, 10.3899
+Solingen, Germany, 51.1652, 7.0671
+Stuttgart, Germany, 48.7758, 9.1829
+Trier, Germany, 49.7499, 6.6371
+Ulm, Germany, 48.4011, 9.9876
+Wiesbaden, Germany, 50.0782, 8.2398
+Wolfsburg, Germany, 52.4227, 10.7865
+Wuppertal, Germany, 51.2562, 7.1508
+Würzburg, Germany, 49.7913, 9.9534

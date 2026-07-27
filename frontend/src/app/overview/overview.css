@@ -1,0 +1,129 @@
+.overview-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 240px;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    align-items: start;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+}
+
+.overview h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #412D15;
+    text-align: center;
+}
+
+.overview h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #412D15;
+    align-self: flex-start;
+    scroll-margin-top: 76px;
+}
+
+.overview h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #412D15;
+    align-self: flex-start;
+    margin: 0.5rem 0 0;
+    scroll-margin-top: 76px;
+}
+
+.overview p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #666;
+    text-align: justify;
+}
+
+.overview a {
+    color: #6f4e37;
+}
+
+.overview-chart {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.map-chart {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.scatter-row,
+.map-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.scatter-cell,
+.map-cell {
+    flex: 1 1 320px;
+    min-width: 0;
+}
+
+/* Custom element hosts are inline by default; make them fill their container. */
+.overview-chart app-sankey-chart,
+.scatter-cell app-scatterplot,
+.map-chart app-geomap,
+.map-cell app-geomap {
+    display: block;
+    width: 100%;
+}
+
+.table-of-contents {
+    position: sticky;
+    top: 76px;
+    background: #eee;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.table-of-contents nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.table-of-contents a {
+    color: #412D15;
+    text-decoration: none;
+}
+
+.table-of-contents a:hover {
+    text-decoration: underline;
+}
+
+.table-of-contents a.toc-sub {
+    padding-left: 0.85rem;
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+
+@media (max-width: 900px) {
+    .overview-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .table-of-contents {
+        position: static;
+        order: -1;
+    }
+}

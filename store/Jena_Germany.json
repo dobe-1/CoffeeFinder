@@ -1,0 +1,1041 @@
+[
+  {
+    "name": "kabuff",
+    "coordinates": [
+      50.9302515,
+      11.581411
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://kabuff-jena.de",
+      "extracted_at": "2026-07-10T23:31:41.693775Z",
+      "last_checked": "2026-07-10T23:31:42.796037Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Kaffeehaus Gräfe",
+    "coordinates": [
+      50.9293829,
+      11.5834339
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kaffeehausgraefe.de/filialen/jena",
+      "extracted_at": "2026-07-10T23:31:41.693908Z",
+      "last_checked": "2026-07-10T23:31:45.766692Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.kaffeehausgraefe.de/filialen/jena#navPanel",
+      "menu_url_last_checked": "2026-07-10T23:31:46.141369Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Black Bean",
+    "coordinates": [
+      50.926761,
+      11.5855853
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Central",
+    "coordinates": [
+      50.9277276,
+      11.5875899
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Herr Rossi",
+    "coordinates": [
+      50.929203,
+      11.5826767
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Bäckerei Schäfers",
+    "coordinates": [
+      50.9272066,
+      11.5845572
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.schaefers-brot.de",
+      "extracted_at": "2026-07-10T23:31:41.694218Z",
+      "last_checked": "2026-07-10T23:31:47.480742Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Eiscafé Stresa",
+    "coordinates": [
+      50.9275006,
+      11.5826147
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Milchmix",
+    "coordinates": [
+      50.9292942,
+      11.5852561
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://milchmix-eiscafe.de/",
+      "extracted_at": "2026-07-10T23:31:41.694372Z",
+      "last_checked": "2026-07-10T23:31:49.595215Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://milchmix-eiscafe.de/",
+      "menu_url_last_checked": "2026-07-10T23:31:53.619570Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Philisterium",
+    "coordinates": [
+      50.928524,
+      11.5881999
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Vosch:Deli",
+    "coordinates": [
+      50.9318303,
+      11.587631
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.vosch-deli.de/",
+      "extracted_at": "2026-07-10T23:31:41.694520Z",
+      "last_checked": "2026-07-10T23:31:55.386449Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.vosch-deli.de/wp-content/uploads/sites/12050/2026/06/VoschDeli_FINAL_COMPLETE_v22.pdf",
+      "menu_url_last_checked": "2026-07-10T23:31:55.755902Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Bistro \"Strammer Max\"",
+    "coordinates": [
+      50.9276968,
+      11.589412
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.hoennger.com/filialen/jena/speisepl%C3%A4ne",
+      "extracted_at": "2026-07-10T23:31:41.694597Z",
+      "last_checked": "2026-07-10T23:32:19.442728Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.hoennger.com/products/fruhstucksfleisch-im-glas",
+      "menu_url_last_checked": "2026-07-10T23:32:20.263027Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Lenz",
+    "coordinates": [
+      50.9306518,
+      11.6007149
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.lecker-lenz.de",
+      "extracted_at": "2026-07-10T23:31:41.694671Z",
+      "last_checked": "2026-07-10T23:32:33.811827Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.lecker-lenz.de/de/password/reset?next=%2Fopenid%2Fauthorize%3Fresponse_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fcms.e.jimdo.com%252Fapp%252Foidc%252Fauthenticate%252Ffinish%26client_id%3Dcms%26nonce%3D4f69118eb0a48002f2f793f837989b7a%26state%3DeyJ3ZWJzaXRlSWQiOiJzYTA4MTE0NGE1MmUxM2JlMiIsImp1bXBUbyI6bnVsbCwic2FmZU1vZGUiOm51bGx9%26scope%3Dopenid",
+      "menu_url_last_checked": "2026-07-10T23:32:33.980474Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Leutra Bistro",
+    "coordinates": [
+      50.932308,
+      11.5722417
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Schillerhof",
+    "coordinates": [
+      50.9311897,
+      11.5989174
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://schillerhof-jena.de",
+      "extracted_at": "2026-07-10T23:31:41.694825Z",
+      "last_checked": "2026-07-10T23:32:34.990972Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Begegnungsstätte Café 13",
+    "coordinates": [
+      50.9252199,
+      11.5846704
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.do-diakonie.de/sozialpsychiatrische-angebote-begegnungsstaette-caf-13.html",
+      "extracted_at": "2026-07-10T23:31:41.694897Z",
+      "last_checked": "2026-07-10T23:32:47.922094Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.diakonie-th.de/aktuelles/presse/#infokarte",
+      "menu_url_last_checked": "2026-07-10T23:32:50.884634Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafébar FEZI",
+    "coordinates": [
+      50.9193427,
+      11.5822137
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Grünowski",
+    "coordinates": [
+      50.9244455,
+      11.5827687
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.gruenowski.de/",
+      "extracted_at": "2026-07-10T23:31:41.695047Z",
+      "last_checked": "2026-07-10T23:32:53.773450Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "http://www.gruenowski.de/",
+      "menu_url_last_checked": "2026-07-10T23:33:02.416722Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Sidi Baich - sinnenReich",
+    "coordinates": [
+      50.9301907,
+      11.590033
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://sinnenreich.tk",
+      "extracted_at": "2026-07-10T23:31:41.695122Z",
+      "last_checked": "2026-07-10T23:33:18.200105Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Aquamarin",
+    "coordinates": [
+      50.9298107,
+      11.5844502
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "brandmarken",
+    "coordinates": [
+      50.9286427,
+      11.5892953
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://brandmarken-jena.de/",
+      "extracted_at": "2026-07-10T23:31:41.695332Z",
+      "last_checked": "2026-07-10T23:33:20.712047Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://brandmarken-jena.de/English-menu/",
+      "menu_url_last_checked": "2026-07-10T23:33:21.927620Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Tillis Spielecafè",
+    "coordinates": [
+      50.9264152,
+      11.5854861
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://tillis-jena.de/",
+      "extracted_at": "2026-07-10T23:31:41.695409Z",
+      "last_checked": "2026-07-10T23:33:24.104746Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://tillis-jena.de/getraenkekarte/",
+      "menu_url_last_checked": "2026-07-10T23:33:28.381316Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Meisterbäcker Scherf",
+    "coordinates": [
+      50.9260478,
+      11.5872045
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Koriat Kuchenmanufaktur",
+    "coordinates": [
+      50.928215,
+      11.5892574
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "holz & hygge",
+    "coordinates": [
+      50.9280503,
+      11.589885
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.holzundhygge.de/",
+      "extracted_at": "2026-07-10T23:31:41.695631Z",
+      "last_checked": "2026-07-10T23:33:46.543382Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.holzundhygge.de/wp-login.php?action=lostpassword",
+      "menu_url_last_checked": "2026-07-10T23:33:46.777498Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Weihnachts Café",
+    "coordinates": [
+      50.9307194,
+      11.5895281
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Imbiss im Campingplatz",
+    "coordinates": [
+      50.9366915,
+      11.6074056
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Teeamo",
+    "coordinates": [
+      50.9295961,
+      11.5858984
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://mrsbao.net",
+      "extracted_at": "2026-07-10T23:31:41.695917Z",
+      "last_checked": "2026-07-10T23:33:52.467297Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "KaffeeSalon",
+    "coordinates": [
+      50.93748,
+      11.593814
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kaffeesalon-jena.de",
+      "extracted_at": "2026-07-10T23:31:41.695992Z",
+      "last_checked": "2026-07-10T23:33:57.594086Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Harmøny",
+    "coordinates": [
+      50.9249001,
+      11.5845663
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Pici",
+    "coordinates": [
+      50.9251502,
+      11.5807552
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "MARIEs BISTRO & CAFÉ",
+    "coordinates": [
+      50.883438,
+      11.6168244
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://maries-bistro.de",
+      "extracted_at": "2026-07-10T23:31:41.696210Z",
+      "last_checked": "2026-07-10T23:34:00.142746Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.maries-bistro.de/menu",
+      "menu_url_last_checked": "2026-07-10T23:34:03.949376Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "HiBREEZE 风和日丽",
+    "coordinates": [
+      50.9294165,
+      11.5813478
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Sweet Mitte",
+    "coordinates": [
+      50.9267838,
+      11.583591
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://sweetmitte-jena.de/",
+      "extracted_at": "2026-07-10T23:31:41.696388Z",
+      "last_checked": "2026-07-10T23:34:06.218488Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://sweetmitte-jena.de/unsere-menu",
+      "menu_url_last_checked": "2026-07-10T23:34:07.759376Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": "2026-07-10T23:34:07.759366Z",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": 3.5
+        }
+      ]
+    }
+  },
+  {
+    "name": "401 Waffeln",
+    "coordinates": [
+      50.9292244,
+      11.5863345
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://401-jena.de/",
+      "extracted_at": "2026-07-10T23:31:41.696516Z",
+      "last_checked": "2026-07-10T23:34:10.083720Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://401-jena.de/English-menu/",
+      "menu_url_last_checked": "2026-07-10T23:34:10.796866Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Cafè am Markt",
+    "coordinates": [
+      50.9278637,
+      11.5884843
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Zeitreise",
+    "coordinates": [
+      50.9279159,
+      11.5884833
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.cafe-zeitreise.de/",
+      "extracted_at": "2026-07-10T23:31:41.696746Z",
+      "last_checked": "2026-07-10T23:34:21.576365Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Backstube Germar",
+    "coordinates": [
+      50.9509139,
+      11.6120333
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "viertel.",
+    "coordinates": [
+      50.9359009,
+      11.5887573
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Limette und Minze",
+    "coordinates": [
+      50.9284849,
+      11.5884485
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Milano Café",
+    "coordinates": [
+      50.9277221,
+      11.5874184
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Kniestchen",
+    "coordinates": [
+      50.9243449,
+      11.5734805
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.kniestchen-jena.de/",
+      "extracted_at": "2026-07-10T23:31:41.697150Z",
+      "last_checked": "2026-07-10T23:34:24.489710Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.kniestchen-jena.de/#mobile-fullscreen-menu",
+      "menu_url_last_checked": "2026-07-10T23:34:26.300984Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Plan B",
+    "coordinates": [
+      50.9208197,
+      11.5722482
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://planb-jena.de",
+      "extracted_at": "2026-07-10T23:31:41.697223Z",
+      "last_checked": "2026-07-10T23:34:44.772860Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Koriat Kuchenmanufaktur",
+    "coordinates": [
+      50.9282118,
+      11.5892641
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "https://www.koriat.de/",
+      "extracted_at": "2026-07-10T23:31:41.697302Z",
+      "last_checked": "2026-07-10T23:34:47.656397Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": "https://www.koriat.de/non-food",
+      "menu_url_last_checked": "2026-07-10T23:34:54.957681Z",
+      "menu_url_accessible": true,
+      "currency": "EUR",
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Poppys",
+    "coordinates": [
+      50.9260984,
+      11.5884104
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": "2026-07-10T23:31:41.697384Z",
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Petite",
+    "coordinates": [
+      50.9288397,
+      11.5885437
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Café Wagner",
+    "coordinates": [
+      50.9312117,
+      11.5802027
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": "http://www.wagnerverein-jena.de",
+      "extracted_at": "2026-07-10T23:31:41.697569Z",
+      "last_checked": "2026-07-10T23:35:07.095429Z",
+      "accessible": true
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  },
+  {
+    "name": "Paradies-Café",
+    "coordinates": [
+      50.92211856315643,
+      11.58482363917917
+    ],
+    "category": "Cafe",
+    "website": {
+      "url": null,
+      "extracted_at": null,
+      "last_checked": null,
+      "accessible": null
+    },
+    "menu": {
+      "menu_url": null,
+      "menu_url_last_checked": null,
+      "menu_url_accessible": null,
+      "currency": null,
+      "extracted_at": null,
+      "items": []
+    }
+  }
+]

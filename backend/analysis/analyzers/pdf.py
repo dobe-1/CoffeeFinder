@@ -1,5 +1,7 @@
 import io
+
 import pdfplumber
+
 from backend.analysis.extractors import deduplicate_menu_items, extract_menu_items_from_text
 from backend.analysis.models import DocumentAnalysis
 from backend.models.menu import Menu
@@ -21,7 +23,7 @@ class PdfAnalyzer(BaseAnalyzer):
                 extracted_pages = []
 
                 for page in pdf.pages:
-                    page_text = page.extract_text()
+                    page_text = page.extract_text(layout=True)
                     if page_text:
                         extracted_pages.append(page_text)
 
